@@ -1,0 +1,119 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: aa.aux
+The style file: aa.bst
+Database file #1: MyLibrary.bib
+You're missing a field name---line 902 of file MyLibrary.bib
+ :   
+ :   %number = {1}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2000 of file MyLibrary.bib
+ :   
+ :   %month = {sep},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2300 of file MyLibrary.bib
+ :   
+ :   %number = {1},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2900 of file MyLibrary.bib
+ : @article{1992ApJS...78..565H
+ :                             ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3256 of file MyLibrary.bib
+ :   
+ :   %month = {mar},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3793 of file MyLibrary.bib
+ :   
+ :   %number = {1},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 4153 of file MyLibrary.bib
+ :   
+ :   %pages = {77355B--77355B}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 4833 of file MyLibrary.bib
+ :   
+ :   %number = {1},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 5361 of file MyLibrary.bib
+ :   
+ :   %number = {825},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 5458 of file MyLibrary.bib
+ :   
+ :   %issn = {00046280, 15383873},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 7331 of file MyLibrary.bib
+ :   
+ :   %number = {5987},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 7765 of file MyLibrary.bib
+ :   
+ :   %doi = {10.1051/0004-6361/201424204},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 8887 of file MyLibrary.bib
+ :   
+ :   %number = {A13},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 8975 of file MyLibrary.bib
+ :   
+ :   %number = {1},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "luger_everest_2016"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in lightkurve
+You've used 94 entries,
+            3039 wiz_defined-function locations,
+            1204 strings with 40309 characters,
+and the built_in function-call counts, 86145 in all, are:
+= -- 6389
+> -- 11286
+< -- 23
++ -- 3783
+- -- 3672
+* -- 8219
+:= -- 16216
+add.period$ -- 94
+call.type$ -- 94
+change.case$ -- 1603
+chr.to.int$ -- 97
+cite$ -- 95
+duplicate$ -- 1736
+empty$ -- 2494
+format.name$ -- 3909
+if$ -- 16731
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 91
+newline$ -- 286
+num.names$ -- 376
+pop$ -- 1584
+preamble$ -- 1
+purify$ -- 1600
+quote$ -- 0
+skip$ -- 1529
+stack$ -- 0
+substring$ -- 2061
+swap$ -- 18
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 843
+warning$ -- 1
+while$ -- 373
+width$ -- 0
+write$ -- 936
+(There were 14 error messages)
