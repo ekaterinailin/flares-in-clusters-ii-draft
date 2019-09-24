@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.6.8)  20 SEP 2019 16:20
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.6.8)  24 SEP 2019 12:42
  restricted system commands enabled.
 **aa.tex
 (./aa.tex
@@ -704,16 +704,13 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframesep=\dimen151
 \bframebox=\box40
 LaTeX Info: Redefining \\ on input line 3056.
-) (./aa.aux
-
-LaTeX Warning: Label `agemass_FR_flarefrac_erg' multiply defined.
-
-)
+) (./aa.aux)
 \openout1 = aa.aux
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 48.
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 48.
@@ -972,176 +969,136 @@ File: pics/clusters/praesepe_ngc6774_ngc2682.pdf Graphic file (type pdf)
 Package luatex.def Info: pics/clusters/praesepe_ngc6774_ngc2682.pdf  used on inp
 ut line 211.
 (luatex.def)             Requested size: 1992.98831pt x 1297.84387pt.
+<pics/clusters/teff_R.pdf, id=25, 1237.62375pt x 1436.36736pt>
+File: pics/clusters/teff_R.pdf Graphic file (type pdf)
+<use pics/clusters/teff_R.pdf>
+Package luatex.def Info: pics/clusters/teff_R.pdf  used on input line 226.
+(luatex.def)             Requested size: 523.5307pt x 607.60977pt.
 
-Underfull \hbox (badness 1005) in paragraph at lines 220--223
+Underfull \hbox (badness 1005) in paragraph at lines 236--239
 \T1/txr/m/n/10 We de-ter-mined ef-fec-tive tem-per-a-tures $\OML/txmi/m/it/10 T
 []$ \T1/txr/m/n/10 us-ing broad-band
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 220--223
+Underfull \hbox (badness 1292) in paragraph at lines 236--239
 \T1/txr/m/n/10 and PanSTARRS pho-tom-e-try in M35, M67, and Ruprecht
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--223
+Underfull \hbox (badness 10000) in paragraph at lines 236--239
 
  []
 
 
-LaTeX Warning: Reference `data_clusters' on page 3 undefined on input line 229.
+LaTeX Warning: Reference `data_clusters' on page 3 undefined on input line 245.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 271--286
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--304
 \T1/txr/m/n/10 While so-lar flares are rel-a-tively cool, with
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 271--286
-\T1/txr/m/n/10 pho-tom-e-try, ex-tinc-tion cor-rec-tion, and em-pir-i-cal color
-$\OMS/txsy/m/n/10  \OML/txmi/m/it/10 T[]$
+Underfull \hbox (badness 10000) in paragraph at lines 289--304
+
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 [][][]$\T1/txtt/m/n/9 https://github.com/ekaterinailin/
  []
 
-[5]
-<pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png, id=35, 794.97pt
- x 252.945pt>
-File: pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png Graphic fil
-e (type png)
-<use pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png>
-Package luatex.def Info: pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22
-_15.png  used on input line 324.
-(luatex.def)             Requested size: 523.5307pt x 166.5814pt.
-<pics/age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_15.png, id=36, 754.4988pt
- x 282.0939pt>
-File: pics/age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_15.png Graphic file 
-(type png)
-<use pics/age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_15.png>
-Package luatex.def Info: pics/age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_1
-5.png  used on input line 334.
-(luatex.def)             Requested size: 523.5307pt x 195.75122pt.
-File: pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png Graphic fil
-e (type png)
-<use pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png>
-Package luatex.def Info: pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22
-_15.png  used on input line 343.
-(luatex.def)             Requested size: 523.5307pt x 166.5814pt.
-<pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15.png, id=37, 794.97pt x 2
-52.945pt>
-File: pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15.png Graphic file (t
-ype png)
-<use pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15.png>
-Package luatex.def Info: pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15.
-png  used on input line 351.
-(luatex.def)             Requested size: 523.5307pt x 166.5814pt.
-
-
-LaTeX Warning: Reference `agemass_Ethresh' on page 6 undefined on input line 352
-.
-
-<pics/Teffbin_age_mass_AM/FA_Lflare_energy_2019_03_22_15.png, id=38, 794.97pt x 
-252.945pt>
-File: pics/Teffbin_age_mass_AM/FA_Lflare_energy_2019_03_22_15.png Graphic file (
-type png)
-<use pics/Teffbin_age_mass_AM/FA_Lflare_energy_2019_03_22_15.png>
-Package luatex.def Info: pics/Teffbin_age_mass_AM/FA_Lflare_energy_2019_03_22_15
-.png  used on input line 361.
-(luatex.def)             Requested size: 523.5307pt x 166.5814pt.
-<pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png, id=39, 505.89pt x 939.51pt>
+<pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png, id=33, 505.89pt x 939.51pt>
 
 File: pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png Graphic file (type png)
 
 <use pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png>
 Package luatex.def Info: pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png  use
-d on input line 371.
+d on input line 364.
 (luatex.def)             Requested size: 369.88582pt x 686.94046pt.
 
-LaTeX Warning: Float too large for page by 8.88896pt on input line 374.
+LaTeX Warning: Float too large for page by 8.88896pt on input line 367.
 
-<pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png, id=40, 505.89pt x 939.51p
+<pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png, id=34, 505.89pt x 939.51p
 t>
 File: pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png Graphic file (type pn
 g)
 <use pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png>
 Package luatex.def Info: pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png  u
-sed on input line 380.
+sed on input line 373.
 (luatex.def)             Requested size: 369.88582pt x 686.94046pt.
-<pics/FFDs/powerlawfits_s_2019_03_22_15.png, id=41, 505.89pt x 939.51pt>
+<pics/FFDs/powerlawfits_s_2019_03_22_15.png, id=35, 505.89pt x 939.51pt>
 File: pics/FFDs/powerlawfits_s_2019_03_22_15.png Graphic file (type png)
 <use pics/FFDs/powerlawfits_s_2019_03_22_15.png>
 Package luatex.def Info: pics/FFDs/powerlawfits_s_2019_03_22_15.png  used on inp
-ut line 389.
+ut line 382.
 (luatex.def)             Requested size: 369.88582pt x 686.94046pt.
 
-LaTeX Warning: Float too large for page by 8.88896pt on input line 392.
+LaTeX Warning: Float too large for page by 8.88896pt on input line 385.
 
-<pics/FFDs/powerlawfits_erg_2019_03_22_15.png, id=42, 505.89pt x 939.51pt>
+<pics/FFDs/powerlawfits_erg_2019_03_22_15.png, id=36, 505.89pt x 939.51pt>
 File: pics/FFDs/powerlawfits_erg_2019_03_22_15.png Graphic file (type png)
 <use pics/FFDs/powerlawfits_erg_2019_03_22_15.png>
 Package luatex.def Info: pics/FFDs/powerlawfits_erg_2019_03_22_15.png  used on i
-nput line 398.
+nput line 391.
 (luatex.def)             Requested size: 369.88582pt x 686.94046pt.
-<pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_03_22_15.png, id=43, 739.563pt x 2
-82.0939pt>
-File: pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_03_22_15.png Graphic file (ty
-pe png)
-<use pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_03_22_15.png>
-Package luatex.def Info: pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_03_22_15.p
-ng  used on input line 406.
-(luatex.def)             Requested size: 523.5307pt x 199.70697pt.
-<pics/age_mass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png, id=44, 739.563pt x 281.6
-121pt>
-File: pics/age_mass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png Graphic file (type p
-ng)
-<use pics/age_mass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png>
-Package luatex.def Info: pics/age_mass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png  
-used on input line 415.
-(luatex.def)             Requested size: 523.5307pt x 199.36589pt.
 
-Underfull \vbox (badness 1292) has occurred while \output is active []
+LaTeX Warning: Reference `agemass_thresh' on page 5 undefined on input line 402.
 
+
+
+LaTeX Warning: Reference `recprob_edcor' on page 5 undefined on input line 402.
+
+[5]
+
+LaTeX Warning: Reference `agemass_FR_flarefrac_erg' on page 6 undefined on input
+ line 413.
+
+
+LaTeX Warning: Reference `agemass_FR_flarefrac_s' on page 6 undefined on input l
+ine 413.
+
+
+LaTeX Warning: Reference `agemass_FA_Lflare' on page 6 undefined on input line 4
+16.
+
+
+LaTeX Warning: Reference `agemass_alphabeta_s' on page 6 undefined on input line
+ 430.
+
+
+LaTeX Warning: Reference `agemass_alphabeta_erg' on page 6 undefined on input li
+ne 430.
 
 (./tables/all_results_erg.tex)
-Overfull \hbox (47.71078pt too wide) in paragraph at lines 1--465
+Overfull \hbox (47.71078pt too wide) in paragraph at lines 1--446
  [][] 
  []
 
-(./tables/all_results_s.tex) [6] [7] [8]
-Underfull \hbox (badness 1616) in paragraph at lines 491--502
+(./tables/all_results_s.tex)
+Underfull \hbox (badness 1616) in paragraph at lines 474--485
 \T1/txr/m/n/10 Assuming a typ-i-cal bi-nary frac-tion for early and mid M
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 503--509
+[6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 486--492
 \T1/txr/m/n/10 Metallicity is con-trolled for ([Fe/H](Prae-sepe)$\OT1/txr/m/n/1
 0 = 0\OML/txmi/m/it/10 :\OT1/txr/m/n/10 16$\T1/txr/m/n/10 ,
  []
 
-
-Underfull \vbox (badness 5105) has occurred while \output is active []
-
- [9]
 (./aa.bbl
 Underfull \hbox (badness 3657) in paragraph at lines 44--46
 []\T1/txr/m/n/8 Bar-entsen, G., Hedges, C., Saun-ders, N., et al. 2018, arXiv e
 -prints,
  []
 
-
+[9]
 Underfull \hbox (badness 1701) in paragraph at lines 354--356
 []\T1/txr/m/n/8 Howard, W. S., Cor-bett, H., Law, N. M., et al. 2019b, arXiv e-
 prints,
@@ -1159,31 +1116,25 @@ Underfull \hbox (badness 5519) in paragraph at lines 504--508
 SA
  []
 
-[10]) [11
-
-] [12<./pics/clusters/pleiades_m35_hyades.pdf>] [13<./pics/clusters/praesepe_ngc
-6774_ngc2682.pdf>] [14<./pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22
-_15.png><./pics/age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_15.png>] [15<./
-pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15.png><./pics/Teffbin_age_m
-ass_AM/FA_Lflare_energy_2019_03_22_15.png>] [16<./pics/FFDs/FFDs_Teff_aggregated
-_s_2019_03_22_15.png>] [17<./pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.pn
-g>] [18<./pics/FFDs/powerlawfits_s_2019_03_22_15.png>] [19<./pics/FFDs/powerlawf
-its_erg_2019_03_22_15.png>] [20<./pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_0
-3_22_15.png><./pics/age_mass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png>]
-Underfull \hbox (badness 2809) in paragraph at lines 552--556
+) [10] [11<./pics/clusters/pleiades_m35_hyades.pdf>] [12<./pics/clusters/praesep
+e_ngc6774_ngc2682.pdf>] [13<./pics/clusters/teff_R.pdf>] [14<./pics/FFDs/FFDs_Te
+ff_aggregated_s_2019_03_22_15.png>] [15<./pics/FFDs/FFDs_Teff_aggregated_erg_201
+9_03_22_15.png>] [16<./pics/FFDs/powerlawfits_s_2019_03_22_15.png>] [17<./pics/F
+FDs/powerlawfits_erg_2019_03_22_15.png>]
+Underfull \hbox (badness 2809) in paragraph at lines 535--539
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--579
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 [][][]$\T1/txtt/m/n/9 https://github.com/ekaterinailin/
  []
 
-<pics/appendix/membership_histograms.png, id=130, 1142.8296pt x 1270.7475pt>
+<pics/appendix/membership_histograms.png, id=124, 1142.8296pt x 1270.7475pt>
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package luatex.def Info: pics/appendix/membership_histograms.png  used on input 
-line 616.
+line 599.
 (luatex.def)             Requested size: 523.5307pt x 582.1272pt.
 (./tables/clusterparameters_appendix.tex
 
@@ -1198,45 +1149,41 @@ l.19 \bottomrule
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-) [21
-
+) [18
 
 ]
-Overfull \hbox (23.2089pt too wide) in alignment at lines 689--693
+Overfull \hbox (23.2089pt too wide) in alignment at lines 672--676
 [][][] []
  []
 
 
 Package natbib Warning: There were undefined citations.
 
-[22
+[19
 
-] [23] [24<./pics/appendix/membership_histograms.png>] [25]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 703.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 703.
+] [20] [21<./pics/appendix/membership_histograms.png>] [22]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 686.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 686.
  (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 703.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 703.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 686.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 686.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 )
 
 Here is how much of LuaTeX's memory you used:
- 10668 strings out of 494480
- 195336,383344 words of node,token memory allocated
- 4292 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 21 glue, 434 kern, 316 attribute, 110 glue_spec, 31
-6 attribute_list, 3 write nodes
-   avail lists: 2:4078,3:1094,4:41,5:855,6:12245,7:6080,8:225,9:1494,10:30,11:70
-0
- 13975 multiletter control sequences out of 65536+600000
+ 10612 strings out of 494480
+ 156258,383344 words of node,token memory allocated
+ 3906 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 14 glue, 397 kern, 278 attribute, 110 glue_spec, 27
+8 attribute_list, 3 write nodes
+   avail lists: 2:3792,3:882,4:40,5:638,6:11356,7:5882,8:225,9:1494,10:30,11:626
+
+ 13955 multiletter control sequences out of 65536+600000
  235 fonts using 14944751 bytes
- 39i,14n,45p,5564b,736s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 39i,14n,45p,5564b,552s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
@@ -1248,10 +1195,10 @@ st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (25 pages, 6917010 bytes).
+Output written on aa.pdf (22 pages, 6471833 bytes).
 
-PDF statistics: 193 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
+PDF statistics: 187 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -194,7 +194,7 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 %---------------------------------------------------------------
 
 %---------------------------------------------------------------
-% Teff - R
+% CTRs
 %---------------------------------------------------------------
 
    \begin{figure*}
@@ -213,6 +213,22 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
       \caption{Color-temperature relations for Praesepe, Ruprecht 147, and M67. Description as in Fig. \ref{pleiades_m35_hyades}.}
          \label{praesepe_ngc6774_ngc2682}
    \end{figure*}   
+%---------------------------------------------------------------
+%---------------------------------------------------------------
+
+%---------------------------------------------------------------
+% Teff - R
+%---------------------------------------------------------------
+
+
+   \begin{figure*}
+		\centering
+           \includegraphics[width=\hsize]{pics/clusters/teff_R.pdf}
+
+      \caption{$T_\mathrm{eff}-R_*$ relation for all clusters in this study.}
+         \label{teff_R}
+   \end{figure*}   
+
 %---------------------------------------------------------------
 %---------------------------------------------------------------
 
@@ -235,38 +251,40 @@ Gaia DR2 published effective temperatures for over 160 million sources~\citep{ga
 Empirical CTRs suffer from systematic errors that stem both from the different methods applied, and from sample selection biases. We used as many empirical relations as possible in their appropriate ranges to obtain multiple $T_\mathrm{eff}$ estimates from which we then drew a more reliable median value. Targets that were lacking sufficient photometric data to derive $T_\mathrm{eff}$, or were too hot to be expected to have a convective envelope ($T_\mathrm{eff} \geq 7000$;K), were flagged accordingly, and removed from the sample. We dropped all targets where the uncertainty on the weighted mean $T_\mathrm{eff}$ was greater than 10\%. Only targets that were assigned a $T_\mathrm{eff}$ were searched for flares. 
 %what are the distributions of uncertainties on Teff
 \subsubsection{Stellar radii}
-We used a catalog of empirically characterised stars~\citep{yee_specmatch_2017} to derive $R_*$ from $T_\mathrm{eff}$. \citet{yee_specmatch_2017} collected 404 stars with high-resolution spectra from the literature, and own observations of mid to late K-dwarfs, spanning low mass stars from 7000\;K down to 3000\;K. For these stars, the resulting catalog is accurate to 100\;K in
+We used a catalog of empirically characterised stars~\citep{yee_specmatch_2017} to derive $R_*$ from $T_\mathrm{eff}$ (Fig.~\ref{teff_R}). \citet{yee_specmatch_2017} collected 404 stars with high-resolution spectra from the literature, and own observations of mid to late K-dwarfs, spanning low mass stars from 7000\;K down to 3000\;K. For these stars, the resulting catalog is accurate to 100\;K in
 $T_\mathrm{eff}$, 15\;\% in $R_*$, and 0.09\;dex in [Fe/H]. We interpolated between stars from the catalog to our derived $T_\mathrm{eff}$,  and propagated the resulting scatter to the uncertainty in $R_*$ if $T_\mathrm{eff}>3500$ K. For stars with $T_\mathrm{eff}< 3500$ K we used $T_\mathrm{eff}-R_*$ relations derived by~\citep{mann_how_2015,mann_erratum_2016}.
 \subsubsection{Spectra}
 We assigned spectra to our targets from the SpecMatchEmp~\citet{yee_specmatch_2017} and the FlareSpecPhot libraries~\citep{Schmidt2014b,Kirkpatrick2010, Burgasser2007,Burgasser2008,Burgasser2010, Burgasser2004,Cruz2004, Burgasser2006, Rayner2009, Doi2010, Filippazzo2015, Cruz2003, West2011, Bochanski2010,  Bochanski2007, Schmidt2010, Schmidt2015, Schmidt2014a, mann_how_2015}. When a specturm was available for the derived spectral type in FlareSpecPhot, we preferred it over SpecMatchEmp, which was the case for all stars cooler than M0, where we mapped spectral type to effective temperature as appears in~\citet{pecaut_intrinsic_2013}. We then combined stellar radii $R_*$, $T_\mathrm{eff}$, and spectra to projected bolometric luminosities $L_{\mathrm{bol,*}}$, and projected luminosities in the Kepler band $L_{\mathrm{Kp,*}}$~\citep{shibayama_superflares_2013,ilin_flares_2019}. Uncertainties on $L_{\mathrm{Kp,*}}$ ranged from 9\;\% to 52\;\% with a median value of 17\;\%.
 %uncertainties on derived luminosities
 %\citet{rabus_discontinuity_2019} found a discontinuity in the Teff-R relation to occur around 0.23 $M_{\odot}$, and a corresponding bimodal distribution of stellar radii from $T_\mathrm{eff}$ between 3200 and 3340 K. Estimates of bolometric luminosity based on $R$ derived from $T_\mathrm{eff}$, even using empirical relations, can then be off by factors of 2 to 6. While estimates of $M_*$ can help lift this degeneracy they are not provided independently in our sample. We would then have to acknowledge the increased uncertainty in the luminosities for the stars that fall in this regime. However, the observed transition is consistent with very low mass stellar models, where it is not a break but a smooth transition in the Teff-R relation caused by the non-linear increase in the core electron degeneracy parameters with decreasing stellar mass~\citep{cassisi_nodiscontinuity_2019}. %can we account for it
 \section{Methods}
-We detected and validated flare candidates automatically. We assigned recovery probabilities and corrected for sampling effects using injection/recovery tests for different flare morphologies. Most of the candidates are expected to have a complex shape that deviates from the classical flare template. The validation yielded an estimate on the uncertainty on the flare energy released in the Kepler band. The frequency distributions of these flare energies are believed to follow a power law that spans multiple orders of magnitude. We adopted this model, and used two different Maximum Likelihood estimators to obtain the power law exponents. We tested the best fit parameters with the Kolmogorov-Smirnov test, and probed possible truncation of the power law relation with an exceedance test.
+We detected flare candidates automatically, and validated them by eye. We attempted to assign recovery probabilities and corrected for sampling effects using injection/recovery tests but the procedure was not scalable due to computational costs. We performed injection recovery on a handful of example light curves to see that de-trending and intrinsic light curve properties smear out the $ED$ recovery with varying distributions that add an uncertainty of about 30\%. Most of the candidates are expected to have a complex shape that deviates from the classical flare template. The validation yielded an estimate on the uncertainty on the flare energy released in the Kepler band. The frequency distributions of these flare energies are believed to follow a power law that spans multiple orders of magnitude. We adopted this model, and used two different Maximum Likelihood estimators to obtain the power law exponents. We tested the best fit parameters with the Kolmogorov-Smirnov test, and probed possible truncation of the power law relation with an exceedance test.
 \subsection{Flare finding}
-We used the open source software \texttt{AltaiPony}\footnote{\url{https://github.com/ekaterinailin/AltaiPony}} to automatically detect and characterize flares in our sample. The code base relies on \texttt{K2SC}\footnote{\url{https://github.com/OxES/k2sc}}~\citep{aigrain_k2sc_2016} to remove instrumental and astrophysical variablity from K2 light curves. We did not use the pre-detrended light curves available on MAST, but used \texttt{K2SC} to derive our own, because we clipped outliers at $3\sigma$, as compared to the original work, where outliers were clipped at $5\sigma$~\citep{aigrain_k2sc_2016}.
+We used the open source software \texttt{AltaiPony}\footnote{\url{https://github.com/ekaterinailin/AltaiPony}} to automatically detect and characterize flares in our sample. The code base relies on \texttt{K2SC}\footnote{\url{https://github.com/OxES/k2sc}}~\citep{aigrain_k2sc_2016} to remove instrumental and astrophysical variablity from K2 light curves. We did not use the pre-detrended light curves available on MAST, but used \texttt{K2SC} to derive our own, because we clipped outliers at $3\sigma$ iteratively, as compared to the original work, where outliers were clipped at $5\sigma$~\citep{aigrain_k2sc_2016}.
 \\
-After de-trending, the flare finder algorithm looked for continuous observing periods, defined as being longer than 10 data points at a minimum cadence of 2\;h. All further routines were run on these observing periods. The finder iteratively clipped excursions from the median value at $3\sigma$ rolling window noise above median plus uncertainty given from \texttt{K2SC} de-trending. After each iteration, outliers were cut down to the current median value. Either after convergence, or 50 iterations, the resulting median value was adopted. With this median, flare candidates were identified with the same procedure as during the median value calculation, but now we additionally required at least three consecutive data points to fullfil the $\sigma$-criterion. Flare candidates were merged into single candidate events if they were no more than three data points apart. For each of these candidates, the amplitude and equivalent duration ($ED$) was returned.
+After de-trending, the flare finder algorithm looked for continuous observing periods, defined as being longer than 10 data points at a minimum cadence of 2\;h. All further routines were run on these observing periods. The finder iteratively clipped excursions from the median value at $3\sigma$ rolling window noise above median plus uncertainty given from \texttt{K2SC} de-trending. After each iteration, outliers were cut down to the current median value. Either after convergence, or 50 iterations, the resulting median value was adopted. With this median as quiescent flux, flare candidates were identified with the same procedure as during the median value calculation, but now we additionally required at least three consecutive data points to fullfil the $\sigma$-criterion. Flare candidates were merged into single candidate events if they were no more than three data points apart. For each of these candidates occurrence time, amplitude and equivalent duration ($ED$) was returned.
 \\
-The Kepler flare sample has shown to be difficult to treat in a fully automated way. Without manual vetting, the event samples remain significantly contaminated~\citep{yang_keplerflares_2019}. We reduce the number of potential false positives using SkyBoT
+The Kepler flare sample has shown to be difficult to treat in a fully automated way. Without manual vetting, the event samples remain significantly contaminated~\citep{yang_keplerflares_2019}. 
 \\
 $ED$ is the area between the LC and the quiescent flux, that is, the integrated flare flux divided by the median quiescent flux $F_0$ of the star, integrated over the flare duration~\citep{hunt-walker_most_2012}:
 \begin{equation}
 \label{05_ED}
 ED=\displaystyle \int \mathrm dt\, \frac{F_{flare}(t)}{F_0}.
 \end{equation}
-$ED$ is a quantity independent of calibration and distance that is suited to compare flaring activity on stars where these properties are uncertain. It describes the time during which a star releases as much energy as the flare itself. This time can be short or longer than the actual flare duration.
-\subsection{Recovery probability and $ED$ correction}
-\label{recprob_edcor}
-To further validate the flare events, every candidates was re-injected to its light curve of origin several times with varying amplitude and duration using a classical flare template~\citep{davenport_kepler_2014}. This returned a recovery probability of similar flare morphologies on a given light curve. We accepted a candidate if the recovery probability was above 80\;\%. From the difference between injected and recovered values we calculated individual correction factors for all candidates that typically increased the $ED$ because the 30\;min time sampling systematically underestimates the $ED$~\citep{yang_flaresampling_2018} as compared to short cadence observations. Corrected flare $ED$s from injection-recovery validated candidates were then converted to $E_\mathrm{Kp, flare}$ and passed on to further analysis.
+$ED$ is a quantity independent of calibration and distance that is suited to compare flaring activity on stars where these properties are uncertain. It describes the time during which a star releases as much energy as the flare itself. This time can be shorter or longer than the actual flare duration. 
 \\
-How is recovery affected by GP Regression? \\
-Can we isolate sampling effects?\\
-Can we do a simpler correction by showing that most of the ED under-estimate comes from the under-sampling at 30 min cadence?
+The uncertainty in $ED$ depends on the light curve noise properties, time sampling, and other intrinsic characteristics. Moreover, K2SC de-trending and the flare finding procedure introduce additional uncertainty that dominates the photometric noise. Carrying out injection and recovery that takes into account the effect of GP regression that underlies K2SC. We only performed injection-recovery on a small number of light curves with flares to estimate the .  
+%\subsection{Recovery probability and $ED$ correction}
+%\label{recprob_edcor}
+%To further validate the flare events, every candidates was re-injected to its light curve of origin several times with varying amplitude and duration using a classical flare template~\citep{davenport_kepler_2014}. This returned a recovery probability of similar flare morphologies on a given light curve. We accepted a candidate if the recovery probability was above 80\;\%. From the difference between injected and recovered values we calculated individual correction factors for all candidates that typically increased the $ED$ because the 30\;min time sampling systematically underestimates the $ED$~\citep{yang_flaresampling_2018} as compared to short cadence observations. Corrected flare $ED$s from injection-recovery validated candidates were then converted to $E_\mathrm{Kp, flare}$ and passed on to further analysis.
+%\\
+%How is recovery affected by GP Regression? \\
+%Can we isolate sampling effects?\\
+%Can we do a simpler correction by showing that most of the ED under-estimate comes from the under-sampling at 30 min cadence?
 
-\subsection{Complex Flares}
-Complex flares are flaring events that do not follow the classical time evolution~\citep{davenport_kepler_2014}. In many cases, observed flares can be described by superimposing multiple single events. We call these flares complex. Some flares cannot be described in this way. We call these flares atypical.
-\citet{davenport_kepler_2014} found $60-80\,\%$ of flares with duration of more 50 min to have multiple peaks, and successfully fitted them a superposition of multiple classical events to them on active M dwarf GJ 1243. However, $1.3\,\%$ of all flare detections were atypical. In the long cadence data present here, flare durations were at least 1.5\,h, and thus likely most of our candidates have a complex morphology. The time resolution, however, bars us from reconstructing the individual morphologies directly... \textit{How complex was complex (2 flares overlap, or rather 10? Does this depend on energy?}
+%\subsection{Complex Flares}
+%Complex flares are flaring events that do not follow the classical time evolution~\citep{davenport_kepler_2014}. In many cases, observed flares can be described by superimposing multiple single events. We call these flares complex. Some flares cannot be described in this way. We call these flares atypical.
+%\citet{davenport_kepler_2014} found $60-80\,\%$ of flares with duration of more 50 min to have multiple peaks, and successfully fitted them a superposition of multiple classical events to them on active M dwarf GJ 1243. However, $1.3\,\%$ of all flare detections were atypical. In the long cadence data present here, flare durations were at least 1.5\,h, and thus likely most of our candidates have a complex morphology. The time resolution, however, bars us from reconstructing the individual morphologies directly, and the flare finding algorithm is ignorant about the decay phase light curve shape.
 \subsection{Kepler flare energies}
 (see \citetalias{ilin_flares_2019} for details).
 \\
@@ -279,9 +297,9 @@ A dependence of flare temperature on stellar age, or mass, or both, will enter o
 \\
 We propagated the uncertainties $\sigma_{ED}$ and $\sigma_L$ (on $L_{*,Kp}$) in quadrature to $E_\mathrm{Kp,flare}$.
 \\
-We derived $\sigma_{ED}$ empirically from the injection and recovery of synthetic flares. It is determined from the standard deviation in correction factors $f_{ir}$ between injected and recovered $ED$. $f_{ir}$ is a function of flare amplitude and duration. Uncetrainties on amplitude and duration are also derived empirically from injection and recovery of synthetic flares.
-\\
-We propagated the uncertainties on $\sigma_L$ from uncertainties on photometry, extinction correction, and empirical color$-T_\mathrm{eff}$ relations~\citep{mann_erratum_2016} for which the photometry was used. Uncertainties on the stellar radius were obtained from $T_\mathrm{eff} - R_*$ relations~\citep{mann_erratum_2016}. Both, color$-T_\mathrm{eff}$ and $T_\mathrm{eff} - R_*$ relations, included the uncertainties on [Fe/H] that we collected from the literature.
+%We derived $\sigma_{ED}$ empirically from the injection and recovery of synthetic flares. It is determined from the standard deviation in correction factors $f_{ir}$ between injected and recovered $ED$. $f_{ir}$ is a function of flare amplitude and duration. Uncetrainties on amplitude and duration are also derived empirically from injection and recovery of synthetic flares.
+%\\
+%We propagated the uncertainties on $\sigma_L$ from uncertainties on photometry, extinction correction, and empirical color$-T_\mathrm{eff}$ relations~\citep{mann_erratum_2016} for which the photometry was used. Uncertainties on the stellar radius were obtained from $T_\mathrm{eff} - R_*$ relations~\citep{mann_erratum_2016}. Both, color$-T_\mathrm{eff}$ and $T_\mathrm{eff} - R_*$ relations, included the uncertainties on [Fe/H] that we collected from the literature.
 %HOW ARE THEY DISTRIBUTED?
 \subsection{Power law fits}
 \label{powerlawfits}
@@ -320,48 +338,23 @@ As recommended by \citet{maschberger_powerlaw_2009}, we applied the stabilized K
 %-------------------------------------------
 %--BAYESIAN ANALYSIS
 %-------------------------------------------
-    \begin{figure*}
-            \includegraphics[width=\hsize]{pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png}
-       \caption{Flaring activity in energy distributions. Left panel: Flaring fraction $n_\mathrm{flaring}/n_*$. Right panel: Flaring rate $FR$. See Fig. \ref{agemass_thresh} for details on the overall figure layout.}
-       \label{agemass_FR_flarefrac_erg}
-   \end{figure*}
 
 
 %-------------------------------------------
 %--ENERGY AND ED CUTOFFS
 %-------------------------------------------
-     \begin{figure*}
-            \includegraphics[width=\hsize]{pics/age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_15.png}
-         \caption{$E_\mathrm{flare}$ and $ED$ detection thresholds as a function of stellar age and $T_\mathrm{eff}$. The rectangles' widths on the age axis reflect the uncertainty on the cluster ages found in the literature. The rectangles' widths on the $T_\mathrm{eff}$ axis encompass the temperature bins over which the thresholds were averaged.}
-         \label{agemass_thresh}
-   \end{figure*}
 
 %-------------------------------------------
 %-- FR AND FLAREFRAC IN ERG
 %-------------------------------------------
-    \begin{figure*}
-            \includegraphics[width=\hsize]{pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png}
-       \caption{Flaring activity in energy distributions. Left panel: Flaring fraction $n_\mathrm{flaring}/n_*$. Right panel: Flaring rate $FR$. See Fig. \ref{agemass_thresh} for details on the overall figure layout.}
-       \label{agemass_FR_flarefrac_erg}
-   \end{figure*}
+
 %-------------------------------------------
 %-- FR AND FLAREFRAC IN S
 %-------------------------------------------
-   \begin{figure*}
-            \includegraphics[width=\hsize]{pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15.png}
-         \caption{Flaring activity in $ED$ distributions. Left panel: Flaring fraction $n_\mathrm{flaring}/n_*$. Right panel: Flaring rate $FR$. See Fig. \ref{agemass_Ethresh} for details on the overall figure layout.}
-          \label{agemass_FR_flarefrac_s}
-   \end{figure*}
 
 %-------------------------------------------
 %-- FA AND L_FLARE
 %-------------------------------------------
-
-   \begin{figure*}
-            \includegraphics[width=\hsize]{pics/Teffbin_age_mass_AM/FA_Lflare_energy_2019_03_22_15.png}
-              \caption{Energy released in flares. Left panel: Energy released in flares relative to quiescent stellar luminosity $FA$. Right panel: Average flaring luminosity released in the Kepler band $L_\mathrm{Kp,flare}$.}
-               \label{agemass_FA_Lflare}
-   \end{figure*}
 
 %-------------------------------------------
 % -- ALL FFDS IN S
@@ -402,21 +395,9 @@ As recommended by \citet{maschberger_powerlaw_2009}, we applied the stabilized K
 %-------------------------------------------
 % BETA AND ALPHA IN ERG
 %-------------------------------------------
-   \begin{figure*}
-            \includegraphics[width=\hsize]{pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_03_22_15.png}
-         \caption{Power law fit parameters in energy distributions. Left panel: Power law intercept $\beta_2$. Right panel: Power law exponent $\alpha_\mathrm{MK}$, fitting procedure follows Mascherger and Kroupa (2009). See Fig. \ref{agemass_thresh} for details on the overall figure layout.}
-          \label{agemass_alphabeta_erg}
-         % X panel: Power law exponent $\alpha_\mathrm{MK}$, fitting procedure follows Bauke (2007).
-   \end{figure*}
 %-------------------------------------------
 %BETA AND ALPHA IN S
 %-------------------------------------------
-   \begin{figure*}
-            \includegraphics[width=\hsize]{pics/age_mass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png}
-          \caption{Power law fit parameters in $ED$ distributions. Left panel: Power law intercept $\beta_2$. Right panel: Power law exponent $\alpha_\mathrm{MK}$, fitting procedure follows Mascherger and Kroupa (2009). See Fig. \ref{agemass_thresh} for details on the overall figure layout.}
-          \label{agemass_alphabeta_s}
-          %X panel: Power law exponent $\alpha_\mathrm{MK}$, fitting procedure follows Bauke (2007).
-   \end{figure*}
 
 Fig. \ref{agemass_thresh} shows the $E_\mathrm{Kp,flare}$ and $ED$ detection thresholds, as defined by the recovery probability~(see Sec. \ref{recprob_edcor}). The thresholds in $ED$ reflect the noise level in the light curves.
 %-------------------------------------------
@@ -481,6 +462,8 @@ Howard+18, Loyd+18, Tilley+19 show that flares can erode exoplanetary atmosphere
 % Kouwenhoven et al. (2009):  $30-40\,\%$ of M dwarfs are members of a binary system. For late M dwarfs and brown dwarfs this drops to $10 - 30\,\%$.
 %ChangQing Luo+19 inspect an interacting M dwarf (M1+M3.5, BX Tri) eclipsing binary that exhibits superflares and strong hydrogen emission (semi-detached system, references to other observations of BX Tri)
 \section{Discussion}
+\subsection{Consistency with other studies}
+EvryFlare, mass-dependence,
 \subsection{Flaring and rotation}
 More energetic flares can be expected from faster rotating stars~\citep{candelaresi_superflare_2014, doorsselaere_stellar_2017, yang_flaring_2017}. Findings that flares with intermediate Rossby number appear to flare more than fast and slow rotators~\citep{mondrik_flarerotation_2019} could not be reproduced here or in the EvryFlare survey~\citep{howard_evryflare2arxiv_2019}. If enhanced flaring can be interpreted as an increase in the stellar angular momentum loss rate flaring activity can be used to inform the cause of variation in the spin-down efficiency. An example of such variations is the apparent temporary stalling of spin-down seen in K dwarfs in NGC 6811~(Curtis+2019). The authors favored a scenario in which the stellar core transfers momentum onto the envelope but did not rule out the possibility of a decreased magnetic braking efficiency. In the latter scenario, these stars should flare less. %What do Cecilia's models say about the change in MF regime in these stars?
 \\
@@ -500,7 +483,7 @@ A truncation of the power law that reflects the maximum $ED$ an active region ca
 \\
 Assuming a typical binary fraction for early and mid M dwarfs~\citep{fischer_multiplicity_1992}, we can expect some of the flares on stars at $T_\mathrm{eff}>3000$ K to belong to unresolved binary companions with $T_\mathrm{eff}<3000$ K. A misattributed flare on an early M dwarf then will be assigned a too small $ED$, but still a correct $E_\mathrm{Kp, flare}$ because the count ratios are equal to the $L_\mathrm{Kp}$ ratios.
 \subsection{Consistency of Hyades' and Praesepe's results}
-HRDs constructed in \citet{gaia_dr2_2018_hrd} indicate very similar ages for Hyades and Praesepe. We expect our results to reflect this similarity.
+HRDs constructed in \citet{gaia_dr2_2018_hrd} indicate only slightly older ages for Hyades and Praesepe. We expect our results to reflect this similarity.
 \\
 \textit{Are the samples comparable? Membership determination may differ.
 Can we frame this as a statistical test, i.e. answer the question: What is the probability that the activity distributions for both clusters were drawn from the same underlying distribution for a given age and mass bin?}
@@ -518,7 +501,7 @@ How well does the model fit if we have isochronal and not rotational ages for ou
 \\
 \citet{davenport_flaresevolve_2019} note a sample bias towards more active stars. Their models overpredicts the superflaring rate of the average Sun-like sample from~\citet{shibayama_2013} and more resembles the rate for their most active sub-sample. \textit{Do we see the same effect in our OC sample? We should not. Or cluster memberships depend on activity.}
 \subsection{Universality of $\alpha$}
-Takin into account uncertainties and systematic errors resulting power law fitting methods, the power law exponent $\alpha\sim 2$ appears to be constant for all studies on flare statistics so far, irrespective of spectral type. A noteable exception are A stars in Kepler that follow a power law with $\alpha\sim 1$ that may indicate a different physical process~\citep{yang_keplerflares_2019}.
+Takin into account uncertainties and systematic errors resulting power law fitting methods, the power law exponent $\alpha\sim 2$ appears to be the same for all studies on flare statistics so far, irrespective of spectral type. A noteable exception are A stars in Kepler that follow a power law with $\alpha\sim 1$ that may indicate a different physical process~\citep{yang_keplerflares_2019}.
 \subsection{Deviations from single power law}
 Spots can survive on the stellar surface from a few days to nearly a year~
 \citep{namekata_solarstellarwlf_2017, davenport_flaresandspots_2015}. \citet{namekata_solarstellarwlf_2017} find conceivable that spots evolve on timescale shorter than the estimated lifetimes. Complex spot geometry is correlated with the stongest X-class flares on the Sun~\citep{toriumi_flaresspotssun_2017, sammis_deltaspotsflares_2000}. This support the idea that flares are associated with the presence of certain types of starspots, or more generally, certain types of active regions. Since we can reasonable expect that there is a maximum flare energy a spot can produce, the underlying power law relation must break a some $ED_\mathrm{max}$. We tested a possible truncation of our FFDs, but find no conclusive evidence for it in any FFD with $>50$ data points. As we stack multiple targets, each potentially with multiple, evolving spots of various sizes on their surfaces, into one FFD at a time, we might observe a deviation but no truncation. A different explanation is simply that we do not sample the maximum energies, as extremely high relative fluxes have been observed in the past~\citep{paudel_monsterucdflare_2018, jackman_superflareucd_2019, schmidt_superflareasassn_2016}.
