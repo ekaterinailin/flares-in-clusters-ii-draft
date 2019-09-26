@@ -19,6 +19,13 @@ Aigrain, S., Parviainen, H., \& Pope, B. J.~S. 2016, \mnras, 459, 2408
 Alvarado-G{\'o}mez, J.~D., Drake, J.~J., Cohen, O., Moschou, S.~P., \&
   Garraffo, C. 2018, \apj, 862, 93
 
+\bibitem[{{Anders} {et~al.}(2019){Anders}, {Khalatyan}, {Chiappini}, {Queiroz},
+  {Santiago}, {Jordi}, {Girardi}, {Brown}, {Matijevi{\v{c}}}, {Monari},
+  {Cantat-Gaudin}, {Weiler}, {Khan}, {Miglio}, {Carrillo}, {Romero-G{\'o}mez},
+  {Minchev}, {de Jong}, {Antoja}, {Ramos}, {Steinmetz}, \&
+  {Enke}}]{anders_starhorse_2019}
+{Anders}, F., {Khalatyan}, A., {Chiappini}, C., {et~al.} 2019, \aap, 628, A94
+
 \bibitem[{{Andrae} {et~al.}(2018){Andrae}, {Fouesneau}, {Creevey}, {Ordenovic},
   {Mary}, {Burlacu}, {Chaoul}, {Jean-Antoine-Piccolo}, {Kordopatis}, {Korn},
   {Lebreton}, {Panem}, {Pichon}, {Th{\'e}venin}, {Walmsley}, \&
@@ -640,10 +647,6 @@ Walkowicz, L.~M., Basri, G., Batalha, N., {et~al.} 2011, \aj, 141, 50
 \bibitem[{Yang {et~al.}(2017)Yang, Liu, Gao, Fang, Guo, Zhang, Hou, Wang, \&
   Cao}]{yang_flaring_2017}
 Yang, H., Liu, J., Gao, Q., {et~al.} 2017, \apj, 849, 36
-
-\bibitem[{{Yang} {et~al.}(2018){Yang}, {Liu}, {Qiao}, {Zhang}, {Gao}, {Cui}, \&
-  {Han}}]{yang_flaresampling_2018}
-{Yang}, H., {Liu}, J., {Qiao}, E., {et~al.} 2018, \apj, 859, 87
 
 \bibitem[{Yee {et~al.}(2017)Yee, Petigura, \& {von Braun}}]{yee_specmatch_2017}
 Yee, S.~W., Petigura, E.~A., \& {von Braun}, K. 2017, \apj, 836, 77
