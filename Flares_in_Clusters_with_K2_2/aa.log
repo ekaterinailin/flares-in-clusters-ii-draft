@@ -1,11 +1,41 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.12.13)  13 SEP 2019 13:13
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.6.8)  26 SEP 2019 09:07
+ restricted system commands enabled.
 **aa.tex
 (./aa.tex
-LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(using write cache: /home/ekaterina/.texlive2017/texmf-var/luatex-cache
+/generic)(using read cache: /var/lib/texmf/luatex-cache/generic /home/ekaterina/
+.texlive2017/texmf-var/luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/ekaterina/.texlive2017/texmf-v
+ar/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/ekaterina/.texlive2017/texmf-v
+ar/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.082 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./aa.cls
 Document Class: aa 2016/09/01{} v9.1{} Class for AA journal
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -22,7 +52,9 @@ Already applied: [0000/00/00] Make \] robust on input line 83.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
+luaotfload | db : Font names database loaded from /home/ekaterina/.texlive2017/t
+exmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home/ekateri
+na/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc))
 \c@part=\count79
 \c@section=\count80
 \c@subsection=\count81
@@ -37,8 +69,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \aa@fullwidth=\skip43
 \aa@fullheight=\skip44
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count87
 \calc@Bcount=\count88
@@ -56,331 +87,28 @@ Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
 \et@xins=\count90
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/02/22 v2.0g Standard LaTeX package
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/02/22 v2.0g Standard LaTeX file
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
-)
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
 )
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+\pdfoutput=\count91
+ (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
@@ -388,7 +116,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -397,9 +125,9 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count91
-\Gm@cntv=\count92
-\c@Gm@tempcnt=\count93
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
 \Gm@bindingoffset=\dimen106
 \Gm@wd@mp=\dimen107
 \Gm@odd@mp=\dimen108
@@ -414,16 +142,17 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip48
-\f@ncyO@elh=\skip49
-\f@ncyO@erh=\skip50
-\f@ncyO@olh=\skip51
-\f@ncyO@orh=\skip52
-\f@ncyO@elf=\skip53
-\f@ncyO@erf=\skip54
-\f@ncyO@olf=\skip55
-\f@ncyO@orf=\skip56
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
 )
 (/usr/share/texlive/texmf-dist/tex/latex/sttools/cuted.sty
 Package: cuted 2012/10/04 v1.5 Mixing onecolumn and twocolumn modes
@@ -436,12 +165,12 @@ Package: cuted 2012/10/04 v1.5 Mixing onecolumn and twocolumn modes
 \lastbox@a=\box28
 \stripsep=\skip60
 \@viper=\box29
-\viper@penalty=\count94
+\viper@penalty=\count95
 \hold@viper=\box30
 \ht@viper=\dimen114
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
@@ -460,13 +189,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count95
+\inf@bad=\count96
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count96
-\leftroot@=\count97
+\uproot@=\count97
+\leftroot@=\count98
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count98
-\DOTSCASE@=\count99
+\classnum@=\count99
+\DOTSCASE@=\count100
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -475,15 +204,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen117
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
 \dotsspace@=\muskip10
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
 \tag@help=\toks20
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
 \andhelp@=\toks21
 \eqnshift@=\dimen118
 \alignsep@=\dimen119
@@ -522,38 +251,128 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip65
 \LTpre=\skip66
 \LTpost=\skip67
-\LTchunksize=\count107
+\LTchunksize=\count108
 \LTcapwidth=\dimen124
 \LT@head=\box33
 \LT@firsthead=\box34
 \LT@foot=\box35
 \LT@lastfoot=\box36
-\LT@cols=\count108
-\LT@rows=\count109
-\c@LT@tables=\count110
-\c@LT@chunks=\count111
+\LT@cols=\count109
+\LT@rows=\count110
+\c@LT@tables=\count111
+\c@LT@chunks=\count112
 \LT@p@ftn=\toks25
 ) (./natbib.sty
 Package: natbib 2006/03/22 7.3 (PWD)
 \bibhang=\skip68
 \bibsep=\skip69
 LaTeX Info: Redefining \cite on input line 541.
-\c@NAT@ctr=\count112
+\c@NAT@ctr=\count113
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/04/23 3.9r The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 113.
+\l@nohyphenation=\language3
+\l@liturgicallatin=\language4
+\l@ancientgreek=\language5
+\l@tamil=\language6
+\l@hindi=\language7
+\l@turkmen=\language8
+\l@basque=\language9
+\l@serbianc=\language10
+\l@friulan=\language11
+\l@georgian=\language12
+\l@estonian=\language13
+\l@interlingua=\language14
+\l@portuguese=\language15
+\l@croatian=\language16
+\l@piedmontese=\language17
+\l@kurmanji=\language18
+\l@german-x-2017-03-31=\language19
+\l@arabic=\language20
+\l@ethiopic=\language21
+\l@classiclatin=\language22
+\l@usenglishmax=\language23
+\l@catalan=\language24
+\l@galician=\language25
+\l@swissgerman=\language26
+\l@oriya=\language27
+\l@nynorsk=\language28
+\l@pinyin=\language29
+\l@german=\language30
+\l@coptic=\language31
+\l@latvian=\language32
+\l@occitan=\language33
+\l@latin=\language34
+\l@bengali=\language35
+\l@turkish=\language36
+\l@monogreek=\language37
+\l@kannada=\language38
+\l@bokmal=\language39
+\l@danish=\language40
+\l@spanish=\language41
+\l@churchslavonic=\language42
+\l@welsh=\language43
+\l@czech=\language44
+\l@icelandic=\language45
+\l@bulgarian=\language46
+\l@armenian=\language47
+\l@french=\language48
+\l@slovak=\language49
+\l@irish=\language50
+\l@afrikaans=\language51
+\l@esperanto=\language52
+\l@telugu=\language53
+\l@romanian=\language54
+\l@russian=\language55
+\l@romansh=\language56
+\l@panjabi=\language57
+\l@assamese=\language58
+\l@mongolianlmc=\language59
+\l@mongolian=\language60
+\l@finnish=\language61
+\l@italian=\language62
+\l@uppersorbian=\language63
+\l@indonesian=\language64
+\l@swedish=\language65
+\l@hungarian=\language66
+\l@ngerman-x-2017-03-31=\language67
+\l@ukrainian=\language68
+\l@ibycus=\language69
+\l@ngerman=\language70
+\l@dutch=\language71
+\l@gujarati=\language72
+\l@ukenglish=\language73
+\l@malayalam=\language74
+\l@lithuanian=\language75
+\l@serbian=\language76
+\l@marathi=\language77
+\l@polish=\language78
+\l@greek=\language79
+\l@belarusian=\language80
+\l@slovenian=\language81
+\l@sanskrit=\language82
+\l@thai=\language83
+\l@farsi=\language84
+)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
+Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count113
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count114
 \U@D=\dimen125
-)
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def))
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -562,10 +381,10 @@ File: babel.def 2016/04/23 3.9r Babel common definitions
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -573,18 +392,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: luatex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count114
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 ))
 \Gin@req@height=\dimen126
 \Gin@req@width=\dimen127
@@ -775,38 +586,36 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 LaTeX Info: Redefining \not on input line 1043.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+Package ifluatex Info: LuaTeX detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
+Package: luatex-loader 2016/05/16 v0.6 Lua module loader (HO)
+
+(/usr/share/texlive/texmf-dist/scripts/oberdiek/oberdiek.luatex.lua)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks30
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -830,61 +639,58 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count130
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count131
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `draft' set `true' on input line 4362.
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Option `draft' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count132
-LaTeX Info: Redefining \url on input line 5088.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen144
 \Fld@menulength=\count133
 \Field@Width=\dimen145
 \Fld@charsize=\dimen146
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring OFF on input line 6362.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count134
 \c@Item=\count135
 \c@Hfootnote=\count136
 )
+Package hyperref Info: Driver (autodetected): hluatex.
 
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2018/02/06 v6.86b Hyperref driver for luaTeX
 \Fld@listcount=\count137
 \c@bookmark@seq@number=\count138
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
+2.
 )
 \Hy@SectionHShift=\skip123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count139
-\output=\toks30
+\output=\toks31
 \linenoprevgraf=\count140
 \linenumbersep=\dimen147
 \linenumberwidth=\dimen148
@@ -898,17 +704,13 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframesep=\dimen151
 \bframebox=\box40
 LaTeX Info: Redefining \\ on input line 3056.
-) (./aa.aux
-
-LaTeX Warning: Label `agemass_FR_flarefrac_erg' multiply defined.
-
-)
-\openout1 = `aa.aux'.
+) (./aa.aux)
+\openout1 = aa.aux
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 48.
 
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 48.
@@ -919,14 +721,14 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 48.
 LaTeX Font Info:    Try loading font information for OMS+txsy on input line 48.
 
-
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 48.
 LaTeX Font Info:    Try loading font information for OMX+txex on input line 48.
-
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
@@ -946,9 +748,9 @@ LaTeX Font Info:    Try loading font information for T1+txr on input line 48.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -986,28 +788,28 @@ File: t1txr.fd 2000/12/15 v3.1
 \scratchbox=\box41
 \nofMPsegments=\count147
 \nofMParguments=\count148
-\everyMPshowfont=\toks31
+\everyMPshowfont=\toks32
 \MPscratchCnt=\count149
 \MPscratchDim=\dimen153
 \MPnumerator=\count150
 \makeMPintoPDFobject=\count151
-\everyMPtoPDFconversion=\toks32
+\everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
 ))
 \AtBeginShipoutBox=\box42
 
@@ -1089,9 +891,9 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 
 IMPORTANT
 
-Class aa Warning: The running head built automatically from \author and \titlee
-xceeds the pagewidth, please supply a shorter form with \authorrunning and/or \
-titlerunning prior to \maketitle on input line 98.
+Class aa Warning: The running head built automatically from \author and \titleex
+ceeds the pagewidth, please supply a shorter form with \authorrunning and/or \ti
+tlerunning prior to \maketitle on input line 98.
 
 IMPORTANT 
 
@@ -1101,137 +903,26 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 10.40245pt on input line 99.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 7.59998pt on input line 99.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.104 ...d other stars are the same\~citep{karoff_
-                                                  observational_2016}, solar...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.104 ...he same\~citep{karoff_observational_2016}
-                                                  , solar and stellar flares...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-LaTeX Warning: Command \' invalid in math mode on input line 104.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.110 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no � in font txr!
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--110
-\T1/txr/m/n/10 With the ev-i-dence that the ori-gins of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--110
-\T1/txr/m/n/10 flares on the Sun and other stars are the
- []
-
-
-Overfull \hbox (1492.10533pt too wide) in paragraph at lines 101--110
-\T1/txr/m/n/10 same[]citepkaroff$[]\OML/txmi/m/it/10 bservational[]\OT1/txr/m/n
-/10 016\OML/txmi/m/it/10 ; solarandstellarflarescaninformeachother \OT1/txr/m/n
-/10 ([][] 2013)\OML/txmi/m/it/10 :Inconsistenciesinextrapolationsfromsolartoste
-llarconditions \OT1/txr/m/n/10 ([][] 2011[];  [] 2012[];  [] 2013)\OML/txmi/m/i
-t/10 providevaluablecluestothedifferencesinmagneticpropertiesbetweenSunandMdwar
-fs; too \OT1/txr/m/n/10 ([][] 2018)\OML/txmi/m/it/10 :LargesurveyslikeKeplerand
-TESSenablestatisticalflarestudiesofstarsthatwerenotpre \OMS/txsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (1864.79028pt too wide) in paragraph at lines 101--110
-\OML/txmi/m/it/10 selectedfortheiractivity citep[]Statisticalstudiesofstellarfl
-aringactivitycanhelpusunderstandtheunderlyingphysicalprocesses \OT1/txr/m/n/10 
-()\OML/txmi/m/it/10 stellarsurfacemagneticfields; starspots \OT1/txr/m/n/10 ([]
-[] 2015[];  [] 2019\OML/txmi/m/it/10 b\OT1/txr/m/n/10 )\OML/txmi/m/it/10 ; howf
-laresrelatetostellarangularmomentumevolution \OT1/txr/m/n/10 ([][] 2019[];  [] 
-2019\OML/txmi/m/it/10 b\OT1/txr/m/n/10 )\OML/txmi/m/it/10 ; howtheyaffecttheatm
-ospheresofexoplanets \OT1/txr/m/n/10 ([][] 2012[];  [] 2018[];  [] 2019[];  [] 
-2019\OML/txmi/m/it/10 a\OT1/txr/m/n/10 )\OML/txmi/m/it/10 ; andinformgalacticar
-chaeology \OT1/txr/m/n/10 ([][] 2019\OML/txmi/m/it/10 a\OT1/txr/m/n/10 )\OML/tx
-mi/m/it/10 :[] 
- []
-
-
-Overfull \hbox (314.79819pt too wide) in paragraph at lines 101--110
-\OML/txmi/m/it/10 Basicparametersthataffectflaringbehaviouronstarsaretheirmasse
-s; andages:Agescanbecontrolledforincoevalgroupsofstars; andflaring \OMS/txsy/m/
-n/10 ^^@
- []
-
-
-Overfull \hbox (507.50148pt too wide) in paragraph at lines 101--110
-\OML/txmi/m/it/10 agestudiesinbinariesshowedconsistencyinactivityforbothcompone
-ntsinthemajorityoftargets \OT1/txr/m/n/10 ([][] 2015[];  [] 2018)\OML/txmi/m/it
-/10 :Openclusterspresentothercoevalgroupsofstarswithwell \OMS/txsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (106.885pt too wide) in paragraph at lines 101--110
-\OML/txmi/m/it/10 determinedages:[][] \OT1/txr/m/n/10 (2019) (\OML/txmi/m/it/10
- hereafter[]PaperI\OT1/txr/m/n/10 )\OML/txmi/m/it/10 investigatedtheflaringacti
-vityoflate \OMS/txsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (1542.06073pt too wide) in paragraph at lines 101--110
-\OML/txmi/m/it/10 Ktomid \OMS/txsy/m/n/10 ^^@ \OML/txmi/m/it/10 Mdwarfsinthreeo
-penclusters\OT1/txr/m/n/10 (\OML/txmi/m/it/10 OCs\OT1/txr/m/n/10 )\OML/txmi/m/i
-t/10 ; thePleiades; Praesepe; andM\OT1/txr/m/n/10 67\OML/txmi/m/it/10 ; usingK\
-OT1/txr/m/n/10 2\OML/txmi/m/it/10 timedomainphotometry:Theyanalysedtheflarefreq
-uencydistributions\OT1/txr/m/n/10 (\OML/txmi/m/it/10 FFDs\OT1/txr/m/n/10 )\OML/
-txmi/m/it/10 ; withrespecttodifferentmassesandclusterages:Fortheclustermembers;
- thelightcurvesrevealedthattheirflaringactivitydeclinesbothwithageandmass:Thede
-clineisfasterforhighermassstars:Recently; [][] \OT1/txr/m/n/10 (2019)\OML/txmi/
-m/it/10 putforwardanempiricalparametrizationofthisflaring \OMS/txsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (2686.4445pt too wide) in paragraph at lines 101--110
-\OML/txmi/m/it/10 Thepresentstudyaimstoextendtheresultsin[]PaperItotheageofRupr
-echt\OT1/txr/m/n/10 147(2\OML/txmi/m/it/10 :\OT1/txr/m/n/10 5\OML/txmi/m/it/10 
-Gyr\OT1/txr/m/n/10 )\OML/txmi/m/it/10 ; andbothhigherandlowermassesthaninthepre
-viousstudy:WealsotestthepreviousresultsfromthePleiadesonM\OT1/txr/m/n/10 35\OML
-/txmi/m/it/10 ; andtheresultsfromPraesepeontheHyades; asbothOCpairshaveapproxim
-atelythesameages:BecausetheKeplersatelliteretiredinfall\OT1/txr/m/n/10 2018\OML
-/txmi/m/it/10 ; wecannowusethecompleteK\OT1/txr/m/n/10 2\OML/txmi/m/it/10 datas
-et; andsupplementallthreeOCsin []PaperIwithadditionallightcurves:Additionaly; w
-eusehighqualityK\OT1/txr/m/n/10 2\OML/txmi/m/it/10 lightcurvesavailableforM\OT1
-/txr/m/n/10 67 ([][] 2016)\OML/txmi/m/it/10 andM\OT1/txr/m/n/10 35 ([][] 2017)\
-OML/txmi/m/it/10 :Wediscussourresultswithrespecttopotentialbreaksinthepowerlawd
-istributionathighenergies:Finally; weusetheresultstotesttheparametrizationin []
-[] \OT1/txr/m/n/10 (2019)\OML/txmi/m/it/10 :$ 
- []
-
-
-LaTeX Warning: Reference `data_clusters' on page 1 undefined on input line 119.
-
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-<pics/clusters/openclusters_logage_vs_distance.png, id=1, 578.16pt x 433.62pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+
+LaTeX Warning: Reference `data_clusters' on page 2 undefined on input line 119.
+
+<pics/clusters/openclusters_logage_vs_distance.png, id=16, 578.16pt x 433.62pt>
 File: pics/clusters/openclusters_logage_vs_distance.png Graphic file (type png)
-
-
 <use pics/clusters/openclusters_logage_vs_distance.png>
-Package pdftex.def Info: pics/clusters/openclusters_logage_vs_distance.png used
+Package luatex.def Info: pics/clusters/openclusters_logage_vs_distance.png  used
  on input line 125.
-(pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
+(luatex.def)             Requested size: 256.0748pt x 192.05052pt.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 130.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
@@ -1239,9 +930,8 @@ LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 130.
 
-
-Package natbib Warning: Citation `luger_everest_2016' on page 1 undefined on in
-put line 133.
+Package natbib Warning: Citation `luger_everest_2016' on page 2 undefined on inp
+ut line 133.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 131--136
@@ -1249,12 +939,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--136
  []
 
 
-Underfull \vbox (badness 1043) has occurred while \output is active []
-
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
 Underfull \hbox (badness 1762) in paragraph at lines 137--142
 \T1/txr/m/n/10 Col-lab-o-ra-tion et al. 2018a), or qual-i-ta-tive clas-si-fiers
  were
@@ -1271,284 +955,208 @@ LaTeX Warning: Reference `app0' on page 2 undefined on input line 145.
 
 LaTeX Warning: Reference `app0_hists' on page 2 undefined on input line 145.
 
-<pics/clusters/pleiades_m35_hyades.png, id=20, 2388.0417pt x 1198.4775pt>
-File: pics/clusters/pleiades_m35_hyades.png Graphic file (type png)
-
-<use pics/clusters/pleiades_m35_hyades.png>
-Package pdftex.def Info: pics/clusters/pleiades_m35_hyades.png used on input li
+[2<./pics/clusters/openclusters_logage_vs_distance.png>]
+<pics/clusters/pleiades_m35_hyades.pdf, id=23, 1992.99316pt x 1297.84703pt>
+File: pics/clusters/pleiades_m35_hyades.pdf Graphic file (type pdf)
+<use pics/clusters/pleiades_m35_hyades.pdf>
+Package luatex.def Info: pics/clusters/pleiades_m35_hyades.pdf  used on input li
 ne 202.
-(pdftex.def)             Requested size: 2388.0359pt x 1198.47458pt.
+(luatex.def)             Requested size: 1992.98831pt x 1297.84387pt.
+<pics/clusters/praesepe_ngc6774_ngc2682.pdf, id=24, 1992.99316pt x 1297.84703pt>
 
+File: pics/clusters/praesepe_ngc6774_ngc2682.pdf Graphic file (type pdf)
+<use pics/clusters/praesepe_ngc6774_ngc2682.pdf>
+Package luatex.def Info: pics/clusters/praesepe_ngc6774_ngc2682.pdf  used on inp
+ut line 211.
+(luatex.def)             Requested size: 1992.98831pt x 1297.84387pt.
+<pics/clusters/teff_R.pdf, id=25, 1237.62375pt x 1436.36736pt>
+File: pics/clusters/teff_R.pdf Graphic file (type pdf)
+<use pics/clusters/teff_R.pdf>
+Package luatex.def Info: pics/clusters/teff_R.pdf  used on input line 226.
+(luatex.def)             Requested size: 523.5307pt x 607.60977pt.
 
-LaTeX Warning: Float too large for page by 144.35582pt on input line 206.
-
-
-LaTeX Warning: Reference `data_clusters' on page 2 undefined on input line 221.
-
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 211--235
+Underfull \hbox (badness 1005) in paragraph at lines 236--239
 \T1/txr/m/n/10 We de-ter-mined ef-fec-tive tem-per-a-tures $\OML/txmi/m/it/10 T
 []$ \T1/txr/m/n/10 us-ing broad-band
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 211--235
-\T1/txr/m/n/10 Boyajian et al. (2013) de-ter-mined CTRs from a range of
+Underfull \hbox (badness 1292) in paragraph at lines 236--239
+\T1/txr/m/n/10 and PanSTARRS pho-tom-e-try in M35, M67, and Ruprecht
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 211--235
-\T1/txr/m/n/10 We used a cat-a-log of em-pir-i-cally char-ac-terised stars (Yee
+Underfull \hbox (badness 10000) in paragraph at lines 236--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--235
+LaTeX Warning: Reference `data_clusters' on page 3 undefined on input line 245.
 
- []
+
+Package natbib Warning: Citation `anders_starhorse_2019' on page 3 undefined on 
+input line 247.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2 <./pics/clusters/openclusters_logage_vs_distance.png>] [3 <./pics/clusters/
-pleiades_m35_hyades.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 262--277
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 289--304
 \T1/txr/m/n/10 While so-lar flares are rel-a-tively cool, with
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 262--277
-\T1/txr/m/n/10 pho-tom-e-try, ex-tinc-tion cor-rec-tion, and em-pir-i-cal color
-$\OMS/txsy/m/n/10 ^^@\OML/txmi/m/it/10 T[]$
+Underfull \hbox (badness 10000) in paragraph at lines 289--304
+
  []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[][][]$\T1/txtt/m/n/9 https://github.com/ekaterinailin/
+ []
+
+<pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png, id=33, 505.89pt x 939.51pt>
+
+File: pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png Graphic file (type png)
+
+<use pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png>
+Package luatex.def Info: pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png  use
+d on input line 364.
+(luatex.def)             Requested size: 369.88582pt x 686.94046pt.
+
+LaTeX Warning: Float too large for page by 8.88896pt on input line 367.
+
+<pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png, id=34, 505.89pt x 939.51p
+t>
+File: pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png Graphic file (type pn
+g)
+<use pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png>
+Package luatex.def Info: pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png  u
+sed on input line 373.
+(luatex.def)             Requested size: 369.88582pt x 686.94046pt.
+<pics/FFDs/powerlawfits_s_2019_03_22_15.png, id=35, 505.89pt x 939.51pt>
+File: pics/FFDs/powerlawfits_s_2019_03_22_15.png Graphic file (type png)
+<use pics/FFDs/powerlawfits_s_2019_03_22_15.png>
+Package luatex.def Info: pics/FFDs/powerlawfits_s_2019_03_22_15.png  used on inp
+ut line 382.
+(luatex.def)             Requested size: 369.88582pt x 686.94046pt.
+
+LaTeX Warning: Float too large for page by 8.88896pt on input line 385.
+
+<pics/FFDs/powerlawfits_erg_2019_03_22_15.png, id=36, 505.89pt x 939.51pt>
+File: pics/FFDs/powerlawfits_erg_2019_03_22_15.png Graphic file (type png)
+<use pics/FFDs/powerlawfits_erg_2019_03_22_15.png>
+Package luatex.def Info: pics/FFDs/powerlawfits_erg_2019_03_22_15.png  used on i
+nput line 391.
+(luatex.def)             Requested size: 369.88582pt x 686.94046pt.
+
+LaTeX Warning: Reference `agemass_thresh' on page 5 undefined on input line 402.
+
+
+
+LaTeX Warning: Reference `recprob_edcor' on page 5 undefined on input line 402.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
-[][][]$\T1/txtt/m/n/9 https : / / github . com / ekaterinailin /
- []
+
+LaTeX Warning: Reference `agemass_FR_flarefrac_erg' on page 6 undefined on input
+ line 413.
 
 
-<pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png, id=36, 794.97p
-t x 252.945pt>
-File: pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png Graphic fi
-le (type png)
-
-<use pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png>
-Package pdftex.def Info: pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_2
-2_15.png used on input line 315.
-(pdftex.def)             Requested size: 523.5307pt x 166.5814pt.
-
-<pics/age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_15.png, id=37, 754.4988p
-t x 282.0939pt>
-File: pics/age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_15.png Graphic file
- (type png)
-
-<use pics/age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_15.png>
-Package pdftex.def Info: pics/age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_
-15.png used on input line 325.
-(pdftex.def)             Requested size: 523.5307pt x 195.75122pt.
-File: pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png Graphic fi
-le (type png)
-
-<use pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png>
-Package pdftex.def Info: pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_2
-2_15.png used on input line 334.
-(pdftex.def)             Requested size: 523.5307pt x 166.5814pt.
-
-<pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15.png, id=38, 794.97pt x 
-252.945pt>
-File: pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15.png Graphic file (
-type png)
- <use pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15.png>
-Package pdftex.def Info: pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15
-.png used on input line 342.
-(pdftex.def)             Requested size: 523.5307pt x 166.5814pt.
+LaTeX Warning: Reference `agemass_FR_flarefrac_s' on page 6 undefined on input l
+ine 413.
 
 
-LaTeX Warning: Reference `agemass_Ethresh' on page 6 undefined on input line 34
-3.
+LaTeX Warning: Reference `agemass_FA_Lflare' on page 6 undefined on input line 4
+16.
 
 
-<pics/Teffbin_age_mass_AM/FA_Lflare_energy_2019_03_22_15.png, id=39, 794.97pt x
- 252.945pt>
-File: pics/Teffbin_age_mass_AM/FA_Lflare_energy_2019_03_22_15.png Graphic file 
-(type png)
- <use pics/Teffbin_age_mass_AM/FA_Lflare_energy_2019_03_22_15.png>
-Package pdftex.def Info: pics/Teffbin_age_mass_AM/FA_Lflare_energy_2019_03_22_1
-5.png used on input line 352.
-(pdftex.def)             Requested size: 523.5307pt x 166.5814pt.
-
-<pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png, id=40, 505.89pt x 939.51pt
->
-File: pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png Graphic file (type png
-)
- <use pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png>
-Package pdftex.def Info: pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png use
-d on input line 362.
-(pdftex.def)             Requested size: 369.88582pt x 686.94046pt.
+LaTeX Warning: Reference `agemass_alphabeta_s' on page 6 undefined on input line
+ 430.
 
 
-LaTeX Warning: Float too large for page by 8.88896pt on input line 365.
+LaTeX Warning: Reference `agemass_alphabeta_erg' on page 6 undefined on input li
+ne 430.
 
-
-<pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png, id=41, 505.89pt x 939.51
-pt>
-File: pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png Graphic file (type p
-ng)
- <use pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png>
-Package pdftex.def Info: pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png u
-sed on input line 371.
-(pdftex.def)             Requested size: 369.88582pt x 686.94046pt.
-
-<pics/FFDs/powerlawfits_s_2019_03_22_15.png, id=42, 505.89pt x 939.51pt>
-File: pics/FFDs/powerlawfits_s_2019_03_22_15.png Graphic file (type png)
-
-<use pics/FFDs/powerlawfits_s_2019_03_22_15.png>
-Package pdftex.def Info: pics/FFDs/powerlawfits_s_2019_03_22_15.png used on inp
-ut line 380.
-(pdftex.def)             Requested size: 369.88582pt x 686.94046pt.
-
-
-LaTeX Warning: Float too large for page by 8.88896pt on input line 383.
-
-<pics/FFDs/powerlawfits_erg_2019_03_22_15.png, id=43, 505.89pt x 939.51pt>
-File: pics/FFDs/powerlawfits_erg_2019_03_22_15.png Graphic file (type png)
-
-<use pics/FFDs/powerlawfits_erg_2019_03_22_15.png>
-Package pdftex.def Info: pics/FFDs/powerlawfits_erg_2019_03_22_15.png used on i
-nput line 389.
-(pdftex.def)             Requested size: 369.88582pt x 686.94046pt.
-
-<pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_03_22_15.png, id=44, 739.563pt x 
-282.0939pt>
-File: pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_03_22_15.png Graphic file (t
-ype png)
- <use pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_03_22_15.png>
-Package pdftex.def Info: pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_03_22_15.
-png used on input line 397.
-(pdftex.def)             Requested size: 523.5307pt x 199.70697pt.
-
-<pics/age_mass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png, id=45, 739.563pt x 281.
-6121pt>
-File: pics/age_mass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png Graphic file (type 
-png)
- <use pics/age_mass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png>
-Package pdftex.def Info: pics/age_mass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png 
-used on input line 406.
-(pdftex.def)             Requested size: 523.5307pt x 199.36589pt.
-
-Underfull \vbox (badness 1292) has occurred while \output is active []
-
- [6]
 (./tables/all_results_erg.tex)
-Overfull \hbox (47.71078pt too wide) in paragraph at lines 1--456
+Overfull \hbox (47.71078pt too wide) in paragraph at lines 1--446
  [][] 
  []
 
 (./tables/all_results_s.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./pics/Teffbin_age_mass_AM/FR_flarefrac_energy_2019_03_22_15.png> <./pics/
-age_mass_AM/cutoff_MK_cutoff_MK_s_erg_2019_03_22_15.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8 <./pics/Teffbin_age_mass_AM/FR_flarefrac_ED_2019_03_22_15.png> <./pics/Teff
-bin_age_mass_AM/FA_Lflare_energy_2019_03_22_15.png>] [9 <./pics/FFDs/FFDs_Teff_
-aggregated_s_2019_03_22_15.png>] [10 <./pics/FFDs/FFDs_Teff_aggregated_erg_2019
-_03_22_15.png>] [11 <./pics/FFDs/powerlawfits_s_2019_03_22_15.png>] [12 <./pics
-/FFDs/powerlawfits_erg_2019_03_22_15.png>] [13] [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 482--493
+Underfull \hbox (badness 1616) in paragraph at lines 474--485
 \T1/txr/m/n/10 Assuming a typ-i-cal bi-nary frac-tion for early and mid M
  []
 
-[15 <./pics/age_mass_AM/beta2_alpha_MK_erg_erg_2019_03_22_15.png> <./pics/age_m
-ass_AM/beta2_alpha_MK_s_s_2019_03_22_15.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 494--500
-\T1/txr/m/n/10 Metallicity is con-trolled for ([Fe/H](Praesepe)$\OT1/txr/m/n/10
- = 0\OML/txmi/m/it/10 :\OT1/txr/m/n/10 16$\T1/txr/m/n/10 ,
+[6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 486--492
+\T1/txr/m/n/10 Metallicity is con-trolled for ([Fe/H](Prae-sepe)$\OT1/txr/m/n/1
+0 = 0\OML/txmi/m/it/10 :\OT1/txr/m/n/10 16$\T1/txr/m/n/10 ,
  []
 
-(./aa.bbl
-Underfull \hbox (badness 3657) in paragraph at lines 31--33
-[]\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saun-ders, N., et al. 2018, arXiv e-
-prints,
+
+Underfull \vbox (badness 4673) has occurred while \output is active []
+
+ (./aa.bbl
+Underfull \hbox (badness 3657) in paragraph at lines 51--53
+[]\T1/txr/m/n/8 Bar-entsen, G., Hedges, C., Saun-ders, N., et al. 2018, arXiv e
+-prints,
  []
 
-[16]
-Underfull \hbox (badness 1629) in paragraph at lines 288--290
+[9]
+Underfull \hbox (badness 1701) in paragraph at lines 361--363
 []\T1/txr/m/n/8 Howard, W. S., Cor-bett, H., Law, N. M., et al. 2019b, arXiv e-
 prints,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--423
-[]\T1/txr/m/n/8 Rebull, L., Stauf-fer, J., Bou-vier, J., et al. 2016a, As-tro-n
-om-
+Underfull \hbox (badness 10000) in paragraph at lines 511--515
+\T1/txr/m/n/8 bib-tex: 2016AJ....152..113R bib-tex[eid=113;adsurl=https://ui.ad
+sabs.har-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--423
-\T1/txr/m/n/8 i-cal Jour-nal, 152, 113, bib-tex: 2016AJ....152..113R bib-
+Underfull \hbox (badness 5519) in paragraph at lines 511--515
+\T1/txr/m/n/8 vard.edu/abs/2016AJ....152..113R;ad-snote=Pro-vided by the SAO/NA
+SA
  []
 
-
-Overfull \hbox (53.23471pt too wide) in paragraph at lines 419--423
-\T1/txr/m/n/8 tex[eid=113;adsurl=https://ui.adsabs.harvard.edu/abs/2016AJ....15
-2..113R;adsnote=Provided
- []
-
-)
-! Undefined control sequence.
-l.538 \Online
-             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[17]
-Underfull \hbox (badness 2809) in paragraph at lines 543--547
+) [10] [11<./pics/clusters/pleiades_m35_hyades.pdf>] [12<./pics/clusters/praesep
+e_ngc6774_ngc2682.pdf>] [13<./pics/clusters/teff_R.pdf>] [14<./pics/FFDs/FFDs_Te
+ff_aggregated_s_2019_03_22_15.png>] [15<./pics/FFDs/FFDs_Teff_aggregated_erg_201
+9_03_22_15.png>] [16<./pics/FFDs/powerlawfits_s_2019_03_22_15.png>] [17<./pics/F
+FDs/powerlawfits_erg_2019_03_22_15.png>]
+Underfull \hbox (badness 2809) in paragraph at lines 535--539
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--570
-[][][]$\T1/txtt/m/n/9 https : / / github . com / ekaterinailin /
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
+[][][]$\T1/txtt/m/n/9 https://github.com/ekaterinailin/
  []
 
-<pics/appendix/membership_histograms.png, id=95, 1142.8296pt x 1270.7475pt>
+<pics/appendix/membership_histograms.png, id=124, 1142.8296pt x 1270.7475pt>
 File: pics/appendix/membership_histograms.png Graphic file (type png)
-
 <use pics/appendix/membership_histograms.png>
-Package pdftex.def Info: pics/appendix/membership_histograms.png used on input 
-line 607.
-(pdftex.def)             Requested size: 523.5307pt x 582.1272pt.
-
+Package luatex.def Info: pics/appendix/membership_histograms.png  used on input 
+line 599.
+(luatex.def)             Requested size: 523.5307pt x 582.1272pt.
 (./tables/clusterparameters_appendix.tex
 
-LaTeX Warning: Float too large for page by 46.80649pt on input line 78.
+LaTeX Warning: Float too large for page by 46.81108pt on input line 78.
 
 ) (./tables/powerlaw_literature.tex
 ! Misplaced \noalign.
 <recently read> \noalign 
-                         
+         
 l.19 \bottomrule
-                
+              
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ) [18
 
 ]
-Overfull \hbox (23.2089pt too wide) in alignment at lines 680--684
+Overfull \hbox (23.2089pt too wide) in alignment at lines 672--676
 [][][] []
  []
 
@@ -1557,50 +1165,49 @@ Package natbib Warning: There were undefined citations.
 
 [19
 
-] [20] [21 <./pics/appendix/membership_histograms.png>] [22]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 694.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 694.
- (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 694.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 694.
+] [20] [21<./pics/appendix/membership_histograms.png>] [22]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 686.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 686.
+ (./aa.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 686.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 686.
 
 
 LaTeX Warning: There were undefined references.
 
+)
 
-LaTeX Warning: There were multiply-defined labels.
+Here is how much of LuaTeX's memory you used:
+ 10613 strings out of 494480
+ 156264,383344 words of node,token memory allocated
+ 3892 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 14 glue, 395 kern, 277 attribute, 110 glue_spec, 27
+7 attribute_list, 3 write nodes
+   avail lists: 2:3798,3:856,4:40,5:622,6:11292,7:5858,8:225,9:1494,10:30,11:623
 
- )
-(\end occurred inside a group at level 1)
+ 13956 multiletter control sequences out of 65536+600000
+ 235 fonts using 14944751 bytes
+ 39i,14n,45p,5564b,559s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts
+/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on aa.pdf (22 pages, 6471741 bytes).
 
-### simple group (level 1) entered at line 104 ({)
-### bottom level 
-Here is how much of TeX's memory you used:
- 9980 strings out of 493013
- 140087 string characters out of 6135681
- 317244 words of memory out of 5000000
- 13248 multiletter control sequences out of 15000+600000
- 124052 words of font info for 203 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,14n,47p,5585b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1x
-tt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (22 pages, 7470862 bytes).
-PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 187 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

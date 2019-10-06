@@ -1,73 +1,73 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: aa.aux
 The style file: aa.bst
 Database file #1: MyLibrary.bib
-You're missing a field name---line 902 of file MyLibrary.bib
+You're missing a field name---line 990 of file MyLibrary.bib
  :   
  :   %number = {1}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2000 of file MyLibrary.bib
+You're missing a field name---line 2088 of file MyLibrary.bib
  :   
  :   %month = {sep},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2300 of file MyLibrary.bib
+You're missing a field name---line 2388 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2900 of file MyLibrary.bib
+Repeated entry---line 2988 of file MyLibrary.bib
  : @article{1992ApJS...78..565H
  :                             ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3256 of file MyLibrary.bib
+You're missing a field name---line 3344 of file MyLibrary.bib
  :   
  :   %month = {mar},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3793 of file MyLibrary.bib
+You're missing a field name---line 3881 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4153 of file MyLibrary.bib
+You're missing a field name---line 4241 of file MyLibrary.bib
  :   
  :   %pages = {77355B--77355B}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4833 of file MyLibrary.bib
+You're missing a field name---line 4921 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5361 of file MyLibrary.bib
+You're missing a field name---line 5449 of file MyLibrary.bib
  :   
  :   %number = {825},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5458 of file MyLibrary.bib
+You're missing a field name---line 5546 of file MyLibrary.bib
  :   
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7331 of file MyLibrary.bib
+You're missing a field name---line 7419 of file MyLibrary.bib
  :   
  :   %number = {5987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7765 of file MyLibrary.bib
+You're missing a field name---line 7853 of file MyLibrary.bib
  :   
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 8887 of file MyLibrary.bib
+You're missing a field name---line 8975 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 8975 of file MyLibrary.bib
+You're missing a field name---line 9063 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
@@ -75,45 +75,45 @@ I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "luger_everest_2016"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in lightkurve
-You've used 94 entries,
+You've used 116 entries,
             3039 wiz_defined-function locations,
-            1204 strings with 40309 characters,
-and the built_in function-call counts, 86145 in all, are:
-= -- 6389
-> -- 11286
-< -- 23
-+ -- 3783
-- -- 3672
-* -- 8219
-:= -- 16216
-add.period$ -- 94
-call.type$ -- 94
-change.case$ -- 1603
-chr.to.int$ -- 97
-cite$ -- 95
-duplicate$ -- 1736
-empty$ -- 2494
-format.name$ -- 3909
-if$ -- 16731
+            1350 strings with 47439 characters,
+and the built_in function-call counts, 102746 in all, are:
+= -- 7657
+> -- 13247
+< -- 26
++ -- 4438
+- -- 4305
+* -- 9773
+:= -- 19334
+add.period$ -- 116
+call.type$ -- 116
+change.case$ -- 1902
+chr.to.int$ -- 119
+cite$ -- 117
+duplicate$ -- 2139
+empty$ -- 3075
+format.name$ -- 4595
+if$ -- 19964
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 91
-newline$ -- 286
-num.names$ -- 376
-pop$ -- 1584
+missing$ -- 113
+newline$ -- 352
+num.names$ -- 464
+pop$ -- 1884
 preamble$ -- 1
-purify$ -- 1600
+purify$ -- 1899
 quote$ -- 0
-skip$ -- 1529
+skip$ -- 1878
 stack$ -- 0
-substring$ -- 2061
+substring$ -- 2550
 swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 843
+type$ -- 1041
 warning$ -- 1
-while$ -- 373
+while$ -- 461
 width$ -- 0
-write$ -- 936
+write$ -- 1156
 (There were 14 error messages)
