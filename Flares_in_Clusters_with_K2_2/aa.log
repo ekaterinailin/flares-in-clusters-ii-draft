@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.6.8)  26 SEP 2019 09:07
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2019.6.8)  1 OCT 2019 07:37
  restricted system commands enabled.
 **aa.tex
 (./aa.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.082 seconds
+luaotfload | main : initialization completed in 0.083 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (./aa.cls
 Document Class: aa 2016/09/01{} v9.1{} Class for AA journal
@@ -994,10 +994,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--239
 LaTeX Warning: Reference `data_clusters' on page 3 undefined on input line 245.
 
 
-Package natbib Warning: Citation `anders_starhorse_2019' on page 3 undefined on 
-input line 247.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
@@ -1011,8 +1007,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--304
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
 [][][]$\T1/txtt/m/n/9 https://github.com/ekaterinailin/
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 306--311
+\T1/txr/m/n/10 The first method was a max-i-mum like-li-hood es-ti-ma-tor
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 306--311
+\T1/txr/m/n/10 (MLE)  (Maschberger & Kroupa 2009). As rec-om-mended
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--334
+
  []
 
 <pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png, id=33, 505.89pt x 939.51pt>
@@ -1056,47 +1067,48 @@ LaTeX Warning: Reference `agemass_thresh' on page 5 undefined on input line 402.
 
 LaTeX Warning: Reference `recprob_edcor' on page 5 undefined on input line 402.
 
+
+Package natbib Warning: Citation `heinzel_flareloops_2018' on page 5 undefined o
+n input line 407.
+
 [5]
 
 LaTeX Warning: Reference `agemass_FR_flarefrac_erg' on page 6 undefined on input
- line 413.
+ line 415.
 
 
 LaTeX Warning: Reference `agemass_FR_flarefrac_s' on page 6 undefined on input l
-ine 413.
+ine 415.
 
 
 LaTeX Warning: Reference `agemass_FA_Lflare' on page 6 undefined on input line 4
-16.
+18.
 
 
 LaTeX Warning: Reference `agemass_alphabeta_s' on page 6 undefined on input line
- 430.
+ 432.
 
 
 LaTeX Warning: Reference `agemass_alphabeta_erg' on page 6 undefined on input li
-ne 430.
+ne 432.
 
 (./tables/all_results_erg.tex)
-Overfull \hbox (47.71078pt too wide) in paragraph at lines 1--446
+Overfull \hbox (47.71078pt too wide) in paragraph at lines 1--448
  [][] 
  []
 
 (./tables/all_results_s.tex)
-Underfull \hbox (badness 1616) in paragraph at lines 474--485
+Underfull \hbox (badness 1616) in paragraph at lines 476--487
 \T1/txr/m/n/10 Assuming a typ-i-cal bi-nary frac-tion for early and mid M
  []
 
 [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 486--492
+Underfull \hbox (badness 10000) in paragraph at lines 488--494
 \T1/txr/m/n/10 Metallicity is con-trolled for ([Fe/H](Prae-sepe)$\OT1/txr/m/n/1
 0 = 0\OML/txmi/m/it/10 :\OT1/txr/m/n/10 16$\T1/txr/m/n/10 ,
  []
 
-
-Underfull \vbox (badness 4673) has occurred while \output is active []
-
- (./aa.bbl
+(./aa.bbl
 Underfull \hbox (badness 3657) in paragraph at lines 51--53
 []\T1/txr/m/n/8 Bar-entsen, G., Hedges, C., Saun-ders, N., et al. 2018, arXiv e
 -prints,
@@ -1125,12 +1137,12 @@ e_ngc6774_ngc2682.pdf>] [13<./pics/clusters/teff_R.pdf>] [14<./pics/FFDs/FFDs_Te
 ff_aggregated_s_2019_03_22_15.png>] [15<./pics/FFDs/FFDs_Teff_aggregated_erg_201
 9_03_22_15.png>] [16<./pics/FFDs/powerlawfits_s_2019_03_22_15.png>] [17<./pics/F
 FDs/powerlawfits_erg_2019_03_22_15.png>]
-Underfull \hbox (badness 2809) in paragraph at lines 535--539
+Underfull \hbox (badness 2809) in paragraph at lines 537--541
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--562
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 [][][]$\T1/txtt/m/n/9 https://github.com/ekaterinailin/
  []
 
@@ -1138,25 +1150,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--562
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package luatex.def Info: pics/appendix/membership_histograms.png  used on input 
-line 599.
+line 601.
 (luatex.def)             Requested size: 523.5307pt x 582.1272pt.
 (./tables/clusterparameters_appendix.tex
 
 LaTeX Warning: Float too large for page by 46.81108pt on input line 78.
 
-) (./tables/powerlaw_literature.tex
-! Misplaced \noalign.
-<recently read> \noalign 
-         
-l.19 \bottomrule
-              
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+) (./tables/powerlaw_literature.tex)
+Overfull \hbox (26.53687pt too wide) in paragraph at lines 2--632
+ [][] 
+ []
 
-) [18
+[18
 
 ]
-Overfull \hbox (23.2089pt too wide) in alignment at lines 672--676
+Overfull \hbox (23.2089pt too wide) in alignment at lines 674--678
 [][][] []
  []
 
@@ -1166,16 +1174,11 @@ Package natbib Warning: There were undefined citations.
 [19
 
 ] [20] [21<./pics/appendix/membership_histograms.png>] [22]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 686.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 686.
- (./aa.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 686.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 686.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 688.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 688.
+ (./aa.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 688.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 688.
 
 
 LaTeX Warning: There were undefined references.
@@ -1185,14 +1188,14 @@ LaTeX Warning: There were undefined references.
 Here is how much of LuaTeX's memory you used:
  10613 strings out of 494480
  156264,383344 words of node,token memory allocated
- 3892 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 14 glue, 395 kern, 277 attribute, 110 glue_spec, 27
-7 attribute_list, 3 write nodes
-   avail lists: 2:3798,3:856,4:40,5:622,6:11292,7:5858,8:225,9:1494,10:30,11:623
+ 3797 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 10 glue, 388 kern, 269 attribute, 110 glue_spec, 26
+9 attribute_list, 3 write nodes
+   avail lists: 2:3776,3:774,4:41,5:559,6:10763,7:5724,8:232,9:1510,10:30,11:584
 
  13956 multiletter control sequences out of 65536+600000
  235 fonts using 14944751 bytes
- 39i,14n,45p,5564b,559s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 39i,14n,45p,5564b,582s stack positions out of 5000i,500n,10000p,200000b,100000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
@@ -1204,7 +1207,7 @@ st/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (22 pages, 6471741 bytes).
+Output written on aa.pdf (22 pages, 6470960 bytes).
 
 PDF statistics: 187 PDF objects out of 1000 (max. 8388607)
  118 compressed objects within 2 object streams
