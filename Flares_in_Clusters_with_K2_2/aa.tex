@@ -339,63 +339,36 @@ We also used a Gaussian fit to $\alpha$ obtained from the posterior distribution
 
 
 \section{Results}
-%-------------------------------------------
-%--BAYESIAN ANALYSIS
-%-------------------------------------------
+%         \caption{Cumulative flare frequency distributions (FFDs) of equivalent durations ($ED$). In each panel, every distribution belongs to one cluster, The panels are binned by $T_\mathrm{eff}$.}
+
+%         \caption{Same as Fig. \ref{ffds_teff_s}, but of Kepler flare energies $E_\mathrm{Kp,flare}$.}
 
 
-%-------------------------------------------
-%--ENERGY AND ED CUTOFFS
-%-------------------------------------------
+\begin{figure*}
+    \centering
+    \includegraphics[width=0.49\hsize]{pics/FFDs/08_04_2020_16_56_full_sample_ffd_ED.png}
+    \hspace{.01cm}
+    \includegraphics[width=0.49\hsize]{pics/FFDs/08_04_2020_16_56_full_sample_ffd_energy.png}
+    \caption{FFD (scatter) in $ED$ (left panel) and energy (right panel) and respective power law fit (black line) to the full sample of flare candidates.}          	
+    \label{powerlawfit_full}
+\end{figure*}
 
-%-------------------------------------------
-%-- FR AND FLAREFRAC IN ERG
-%-------------------------------------------
+\begin{figure*}
+    \centering
+    \includegraphics[width=16cm]{pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_ED.png}
+    \caption{FFDs (scatter) in $ED$ and respective power law fits with $\alpha=XXX$ (black lines).}          	\label{powerlawfits_s}
+\end{figure*}
 
-%-------------------------------------------
-%-- FR AND FLAREFRAC IN S
-%-------------------------------------------
-
-%-------------------------------------------
-%-- FA AND L_FLARE
-%-------------------------------------------
-
-%-------------------------------------------
-% -- ALL FFDS IN S
-%-------------------------------------------
-     \begin{figure*}
-      \centering
-            \includegraphics[width=13cm]{pics/FFDs/FFDs_Teff_aggregated_s_2019_03_22_15.png}
-         \caption{Cumulative flare frequency distributions (FFDs) of equivalent durations ($ED$). In each panel, every distribution belongs to one cluster, The panels are binned by $T_\mathrm{eff}$.}
-          \label{ffds_teff_s}
-   \end{figure*}
-%-------------------------------------------
-% -- ALL FFDS IN ERG
-%-------------------------------------------
-         \begin{figure*}
-         \centering
-            \includegraphics[width=13cm]{pics/FFDs/FFDs_Teff_aggregated_erg_2019_03_22_15.png}
-         \caption{Same as Fig. \ref{ffds_teff_s}, but of Kepler flare energies $E_\mathrm{Kp,flare}$.}
-          \label{ffds_teff_erg}
-   \end{figure*}
-%-------------------------------------------
-% -- ALL POWERLAWS IN S
-%-------------------------------------------
-         \begin{figure*}
-         \centering
-            \includegraphics[width=13cm]{pics/FFDs/powerlawfits_s_2019_03_22_15.png}
-         \caption{Power law fits to the FFDs of $ED$ in Fig. \ref{ffds_teff_s}. Bold line: a power law with $\alpha=2$. Dashed line: best fit parameters were determined following~\citet{maschberger_powerlaw_2009}~(see Sec. XX). Dotted line: best fit parameters were determined following~\citet{bauke_powerlaw_2007}~(see Sec. XX)}
-          \label{powerlawfits_s}
-   \end{figure*}
+\begin{figure*}
+    \centering
+    \includegraphics[width=16cm]{pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_energy.png}
+    \caption{FFDs (scatter) in energy and respective power law fits with $\alpha=XXX$ (black lines).}          	\label{powerlawfits_s}
+\end{figure*}
 %-------------------------------------------
 % -- ALL POWERLAWS IN ERG
 %-------------------------------------------
-    \begin{figure*}
-    \centering
-            \includegraphics[width=13cm]{pics/FFDs/powerlawfits_erg_2019_03_22_15.png}
-         \caption{Power law fits to the FFDs of $E_\mathrm{Kp,flare}$ in Fig. \ref{ffds_teff_s}. See Fig. \ref{powerlawfits_s} for details.}
-         \label{powerlawfits_erg}
-   \end{figure*}
+
+%         \caption{Power law fits to the FFDs of $E_\mathrm{Kp,flare}$ in Fig. \ref{ffds_teff_s}. See Fig. \ref{powerlawfits_s} for details.}
 %-------------------------------------------
 % BETA AND ALPHA IN ERG
 %-------------------------------------------
@@ -410,8 +383,21 @@ Flaring activity decays with age. Flaring fraction was observed to decline with 
 \\
 What creates the strong emission in white light? Extended flare loops, maybe~\citep{heinzel_flareloops_2018}
 %-------------------------------------------
-\subsection{M67}
-We found one very likely flare candidate in the PSF-detrended light curves~\citep{nardiello_m67psf_2016}. After having searched the entire sample we identified about 250 candidates. We excluded those candidates that clustered spatio-temporally in different light curves as systematics. After vetting the remaining ~25 by eye, we excluded false positives judging by their morphology, leaving a mere ten light curves with flare-like shape. One target appeared to be an echo from one of the other light curves. Five targets were foreground stars, two are more likely background stars, one target is probably a giant and does not appear in Gaia photometry (IR source). Only one target (Gaia DR2 604922435422864512)appears to reside at M67 distance and is a $p=0.997$ member according to~\citet{gao_mlm67members_2018}. Our estimates indicate that it is a M2V. If  the spectral class is correct, the flare releases about $6.1\cdot 10^{33}$ erg ($ED=1391\pm548$ s) in the Kepler band.
+\subsection{M67 and Rup 147}
+\begin{table}
+\caption{Mass budget of flaring stars in M67 and Rup 147 within uncertainties on radius.}
+\begin{tabular}{lcc}
+\hline
+ EPIC & median SpT &     binary \\
+\hline
+ 211434440 &         K1 &    K2 + M5.5 \\
+ 219601739 &         G8 &      K1 + M6 \\
+ 219610232 &       K0.5 &    K2 + M5.5 \\
+ 219591752 &         M3 &  M3.5 + M3.5 \\
+\hline
+\end{tabular}
+\end{table}
+We found several flare candidates in stars that are members of M67 and Rup 147. However, all but the events that occurred on four stars were false postives (SSOs), or the stars were not single members. Flare candidates in these old clusters appeared on RS CVn binaries, cataclysmic binaries, Algol type binaries, spectroscopic and eclipsing bianries, and red giant stars. Excluding all these, we were left with one flare in M67 on a K1 dwarf. In Rup 147, we narrowed down the list to a flare on a G8 star in Rup 147, and four flares each on a K0.5 and an M3 star. For these stars, the multiplicity status is unknown. We found that the mass range of these stars as calculated from the uncertainties on their radii~\citep{eker2018} is large enough that the stars could in principle be binary stars with undetected mid-M dwarf companions.  
 %-------------------------------------------
 \subsection{Flaring Activity Indicators}
 %-------------------------------------------
@@ -444,18 +430,18 @@ Howard et al (2019) monitored superflares on cool stars with bolometric energies
 Howard+18, Loyd+18, Tilley+19 show that flares can erode exoplanetary atmospheres. If a flare is assumed to deposit its UV energy in an instant a single superflare can completely remove the ozone layer at the substellar point Loyd+18. Associated protons are safer way to ozone destruction if they are associated with reoccurring large flares Tilley+19
 %-------------------------------------------
 %-------------------------------------------
-\begin{sidewaystable*}
-\caption{Summary of activity parameters of all clusters and $T_\mathrm{eff}$ bins in energy distributions.}\label{ergtable}
+\begin{table*}
+\caption{Summary of flaring $\beta$ of all clusters and $T_\mathrm{eff}$ bins in energy and $ED$ distributions.}\label{powerlawtable}
 \centering
 \tiny
-\input{tables/all_results_erg.tex}
-\end{sidewaystable*}
-\begin{sidewaystable*}
-\caption{Summary of activity parameters of all clusters and $T_\mathrm{eff}$ bins in equivalent duration distributions.}\label{stable}
-\centering
-\tiny
-\input{tables/all_results_s.tex}
-\end{sidewaystable*}
+\input{tables/powerlaw_SpT.tex}
+\end{table*}
+%\begin{sidewaystable*}
+%\caption{Summary of activity parameters of all clusters and $T_\mathrm{eff}$ bins in equivalent duration distributions.}\label{stable}
+%\centering
+%\tiny
+%\input{tables/all_results_s.tex}
+%\end{sidewaystable*}
 %-------------------------------------------
 %-------------------------------------------
 % \subsection{Trends with Multiplicity}
@@ -521,8 +507,6 @@ Ultimately, flaring activity depends on how efficiently the star converts its en
 A magnetic dynamo, driven by rotation and convection, introduces magnetic field to the system that causes stellar wind that in turn removes angular momentum from the star, decreasing its rotation rate. Over time, the wind takes away more and more angular momentum, and the global magnetic field weakens. This is reflected in observations of chromospheric indicators (ZDI???). The decline is famously known as the Skumanich law, and gave rise to the rotational age-dating technique called gyrochronology. However, recent studies noted deviations from this rule, a stalling of the spin-down, and offered multiple competing explanations. It is not clear how these effects reflect on the small scale surface magnetic field. Chromospheric activity on solar type stars seems to continue to decline regardless of these rotational effects. 
 \\
 What about X-ray?
-\\
-
 \\
 Observationally, not much can be directly said about the small scale topology of stellar magnetic fields beyond extrapolations from the solar case. On the Sun, chromospheric activity indicates line emission in excess of radiative equilibrium that is caused by magnetic fields. Likewise, magnetic field effects heat the corona
 \begin{acknowledgements}
