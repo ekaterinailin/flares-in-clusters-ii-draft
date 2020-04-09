@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.16)  9 APR 2020 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.16)  9 APR 2020 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1350,27 +1350,32 @@ LaTeX Warning: Reference `agemass_alphabeta_erg' on page 9 undefined on input l
 ine 410.
 
 (./tables/powerlaw_SpT.tex) (./tables/powerlaw_fullsample.tex)
+<pics/FFDs/beta_T_age_ED.png, id=54, 722.7pt x 361.35pt>
+File: pics/FFDs/beta_T_age_ED.png Graphic file (type png)
+<use pics/FFDs/beta_T_age_ED.png>
+Package pdftex.def Info: pics/FFDs/beta_T_age_ED.png  used on input line 434.
+(pdftex.def)             Requested size: 523.5307pt x 261.76527pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./pics/FFDs/full_sample_ffd_ED.png> <./pics/FFDs/full_sample_ffd_energy.pn
 g>]
 [10 <./pics/FFDs/SpT_wise_sample_ffd_ED.png>] [11 <./pics/FFDs/SpT_wise_sample_
 ffd_energy.png>]
-Underfull \hbox (badness 1616) in paragraph at lines 458--469
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./pics/FFDs/beta_T_age_ED.png>]
+Underfull \hbox (badness 1616) in paragraph at lines 461--472
 \T1/txr/m/n/10 Assuming a typ-i-cal bi-nary frac-tion for early and mid M
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 470--476
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--479
 \T1/txr/m/n/10 Metallicity is con-trolled for ([Fe/H](Praesepe)$\OT1/txr/m/n/10
  = 0\OML/txmi/m/it/10 :\OT1/txr/m/n/10 16$\T1/txr/m/n/10 ,
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13]
-(./aa.bbl
+[13] (./aa.bbl
 Underfull \hbox (badness 3657) in paragraph at lines 51--53
 []\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saun-ders, N., et al. 2018, arXiv e-
 prints,
@@ -1382,7 +1387,7 @@ Underfull \hbox (badness 1629) in paragraph at lines 361--363
 prints,
  []
 
-
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 511--515
 []\T1/txr/m/n/8 Rebull, L., Stauf-fer, J., Bou-vier, J., et al. 2016a, As-tro-n
 om-
@@ -1399,37 +1404,33 @@ Overfull \hbox (53.23471pt too wide) in paragraph at lines 511--515
 2..113R;adsnote=Provided
  []
 
-[14]) [15
+) [15
 
 ]
-Underfull \hbox (badness 2809) in paragraph at lines 529--533
+Underfull \hbox (badness 2809) in paragraph at lines 532--536
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--556
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
 [][][]$\T1/txtt/m/n/9 https : / / github . com / ekaterinailin /
  []
 
-<pics/appendix/membership_histograms.png, id=81, 1156.32pt x 1300.86pt>
+<pics/appendix/membership_histograms.png, id=83, 1156.32pt x 1300.86pt>
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
- line 593.
+ line 596.
 (pdftex.def)             Requested size: 523.5307pt x 588.97437pt.
-(./tables/clusterparameters_appendix.tex
-
-LaTeX Warning: Float too large for page by 46.80649pt on input line 78.
-
-) (./tables/powerlaw_literature.tex)
-Overfull \hbox (26.53687pt too wide) in paragraph at lines 2--624
+(./tables/clusterparameters_appendix.tex) (./tables/powerlaw_literature.tex)
+Overfull \hbox (26.53687pt too wide) in paragraph at lines 2--627
  [][] 
  []
 
 [16
 
 ]
-Overfull \hbox (23.2089pt too wide) in alignment at lines 666--670
+Overfull \hbox (23.2089pt too wide) in alignment at lines 669--673
 [][][] []
  []
 
@@ -1438,12 +1439,12 @@ Package natbib Warning: There were undefined citations.
 
 [17
 
-] [18] [19 <./pics/appendix/membership_histograms.png>] [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 680.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 680.
+] [18 <./pics/appendix/membership_histograms.png>] [19] [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 683.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 683.
  (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 680.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 680.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 683.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 683.
 
 
 LaTeX Warning: There were undefined references.
@@ -1453,13 +1454,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10026 strings out of 494880
- 139702 string characters out of 6179601
- 320331 words of memory out of 5000000
- 13079 multiletter control sequences out of 15000+600000
+ 10031 strings out of 494880
+ 139846 string characters out of 6179601
+ 319291 words of memory out of 5000000
+ 13083 multiletter control sequences out of 15000+600000
  123572 words of font info for 201 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,14n,45p,5585b,724s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,45p,5585b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/typ
@@ -1474,10 +1475,10 @@ urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (20 pages, 3495437 bytes).
+Output written on aa.pdf (20 pages, 3669193 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

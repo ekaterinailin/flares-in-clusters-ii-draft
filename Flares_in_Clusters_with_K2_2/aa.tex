@@ -428,12 +428,15 @@ Howard+18, Loyd+18, Tilley+19 show that flares can erode exoplanetary atmosphere
 \centering
 \input{tables/powerlaw_fullsample.tex}
 \end{table}
-%\begin{sidewaystable*}
-%\caption{Summary of activity parameters of all clusters and $T_\mathrm{eff}$ bins in equivalent duration distributions.}\label{stable}
-%\centering
-%\tiny
-%\input{tables/all_results_s.tex}
-%\end{sidewaystable*}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=\hsize]{pics/FFDs/beta_T_age_ED.png}
+    \caption{Flare $\beta_\mathrm{s}$ vs. age grouped by $T_\mathrm{eff}$.}          	
+    \label{powerlawfits_s}
+\end{figure*}
+
+
 %-------------------------------------------
 %-------------------------------------------
 % \subsection{Trends with Multiplicity}
@@ -568,15 +571,15 @@ Table \ref{table_app_memberships} gives an overview over different membership ca
 \hline
    \citet{curtis_ruprecht_2013} & classifier & Rup 147 & \\
    \citet{douglas_praesepe_hyades_2014} & probability & Hyades, Praesepe & meta study \\
-   \citet{bouy_messier_2015} & probability & M35 & DANCe\\
+  % \citet{bouy_messier_2015} & probability & M35 & DANCe\\
    \citet{gonzalez_m67mem_2016} & classifier & M67 & \\
    \citet{rebull_rotation_2016} & members list & Pleiades & meta study\\
    \citet{rebull_praesepe_2017} & classifier & Praesepe & meta study\\
    \citet{douglas_poking_2017} & members list & Praesepe & meta study\\
-   \citet{gaia_dr2_2018_hrd} & members list & Hyades, M35,  & Gaia DR2, (1)\\
+   \citet{gaia_dr2_2018_hrd} & members list & Hyades,   & Gaia DR2, (1)\\%M35,
    &&Rup 147, Pleiades, &\\
    &&Praesepe&\\
-   \citet{cantat_gaudin_2018} & probability & M35, Rup147, & Gaia DR2\\
+   \citet{cantat_gaudin_2018} & probability & Rup 147, & Gaia DR2\\%M35, 
    && Pleiades, Praesepe&\\
    \citet{gao_m67mem_2018} & probability & M67 & Gaia DR2\\
    \citet{reino_hyades_2018} & probability & Hyades & Gaia DR1, (1)\\
