@@ -147,19 +147,7 @@ We studied flaring activity in the low mass stars in six open clusters spanning 
 \caption{Open clusters.}
 \label{table_OCs}
 \centering
-\begin{tabular}{c c c c c c c c c }     % 7 columns
-\hline\hline
-                      % To combine 4 columns into a single one
-cluster & $n$ & LCs & SLCs & LLCs & PSF LCs & age[Myr] & distance[pc] & [Fe/H]\\
-\hline
-   Pleiades & 2033 & 944 & 33 & 911 &0&125 &&\\
-   M35 & 1614 & 5 & 0 & 5 & 158 &&&\\
-   Hyades &655 & 301 & 42 & 259 & 0&&&\\
-   Praesepe & 1281 & 2500 & 68 & 2432 & 0&&&\\
-   Rup 147 & 213 & 97 & 25 & 72 & 0&&& \\
-   M67 & 1344 & 1141 & 118 & 1023 &1019 &&&\\
-\hline
-\end{tabular}
+\input{tables/table_ocs.tex}
 \tablefoot{$n$ is the approximate number of members with $p>0.8$. LCs, SLCs, LLCs, and PSF LCs denote the number of available light curves, short cadence light curves, long cadence light curves, and PSF de-detrended light curves, respectively. The values for age, [Fe/H], and distance are approximate values from a comparison of existing literature, detailed in Appendix \ref{app_oc_parameters}.}
 \end{table*}
 %---------------------------------------------------------------
@@ -433,13 +421,11 @@ Howard+18, Loyd+18, Tilley+19 show that flares can erode exoplanetary atmosphere
 \begin{table*}
 \caption{Summary of flaring $\beta$ of all clusters and $T_\mathrm{eff}$ bins in $E_\mathrm{Kp}$ and $ED$ distributions.}\label{powerlawtable_spt}
 \centering
-\tiny
 \input{tables/powerlaw_SpT.tex}
 \end{table*}
 \begin{table}
 \caption{Summary of FFD parameters and power law fits to the full sample of all clusters in $E_\mathrm{Kp}$ and $ED$ space.}\label{powerlawtable_fullsample}
 \centering
-\tiny
 \input{tables/powerlaw_fullsample.tex}
 \end{table}
 %\begin{sidewaystable*}
