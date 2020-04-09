@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.16)  8 APR 2020 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.16)  9 APR 2020 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1154,24 +1154,30 @@ LaTeX Warning: Reference `app0' on page 2 undefined on input line 145.
 LaTeX Warning: Reference `app0_hists' on page 2 undefined on input line 145.
 
 [2 <./pics/clusters/openclusters_logage_vs_distance.png>]
-<pics/clusters/pleiades_m35_hyades.pdf, id=24, 1992.99316pt x 1297.84703pt>
-File: pics/clusters/pleiades_m35_hyades.pdf Graphic file (type pdf)
-<use pics/clusters/pleiades_m35_hyades.pdf>
-Package pdftex.def Info: pics/clusters/pleiades_m35_hyades.pdf  used on input l
-ine 202.
-(pdftex.def)             Requested size: 1992.98831pt x 1297.84387pt.
-<pics/clusters/praesepe_ngc6774_ngc2682.pdf, id=25, 1992.99316pt x 1297.84703pt
->
-File: pics/clusters/praesepe_ngc6774_ngc2682.pdf Graphic file (type pdf)
-<use pics/clusters/praesepe_ngc6774_ngc2682.pdf>
-Package pdftex.def Info: pics/clusters/praesepe_ngc6774_ngc2682.pdf  used on in
-put line 211.
-(pdftex.def)             Requested size: 1992.98831pt x 1297.84387pt.
-<pics/clusters/teff_R.pdf, id=26, 1237.62375pt x 1436.36736pt>
-File: pics/clusters/teff_R.pdf Graphic file (type pdf)
-<use pics/clusters/teff_R.pdf>
-Package pdftex.def Info: pics/clusters/teff_R.pdf  used on input line 226.
-(pdftex.def)             Requested size: 523.5307pt x 607.60977pt.
+<pics/clusters/Teff_spread_young.png, id=24, 2007.75093pt x 1206.00563pt>
+File: pics/clusters/Teff_spread_young.png Graphic file (type png)
+<use pics/clusters/Teff_spread_young.png>
+Package pdftex.def Info: pics/clusters/Teff_spread_young.png  used on input lin
+e 202.
+(pdftex.def)             Requested size: 2007.74606pt x 1206.00269pt.
+
+
+LaTeX Warning: Float too large for page by 9.18806pt on input line 206.
+
+<pics/clusters/Teff_spread_old.png, id=25, 2015.27907pt x 822.07124pt>
+File: pics/clusters/Teff_spread_old.png Graphic file (type png)
+<use pics/clusters/Teff_spread_old.png>
+Package pdftex.def Info: pics/clusters/Teff_spread_old.png  used on input line 
+211.
+(pdftex.def)             Requested size: 2015.27417pt x 822.06923pt.
+
+LaTeX Warning: Float too large for page by 30.65253pt on input line 215.
+
+<pics/clusters/teff_R.png, id=26, 1240.635pt x 1436.36626pt>
+File: pics/clusters/teff_R.png Graphic file (type png)
+<use pics/clusters/teff_R.png>
+Package pdftex.def Info: pics/clusters/teff_R.png  used on input line 226.
+(pdftex.def)             Requested size: 523.5307pt x 606.11896pt.
 
 Underfull \hbox (badness 1005) in paragraph at lines 236--239
 \T1/txr/m/n/10 We de-ter-mined ef-fec-tive tem-per-a-tures $\OML/txmi/m/it/10 T
@@ -1196,8 +1202,16 @@ LaTeX Warning: Reference `data_clusters' on page 3 undefined on input line 245.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
+[4 <./pics/clusters/Teff_spread_young.png>] [5 <./pics/clusters/Teff_spread_old
+.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package natbib Warning: Citation `davenport_multi-wavelength_2012' on page 4 un
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./pics/clusters/teff_R.png>]
+
+Package natbib Warning: Citation `davenport_multi-wavelength_2012' on page 7 un
 defined on input line 294.
 
 
@@ -1216,17 +1230,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--304
 
  []
 
-[4]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 308--308
 [][][]$\T1/txtt/m/n/9 https : / / github . com / ekaterinailin /
  []
 
 
-Package natbib Warning: Citation `aschwanden_powerlaws_2015' on page 5 undefine
+Package natbib Warning: Citation `aschwanden_powerlaws_2015' on page 8 undefine
 d on input line 308.
 
 
-Package natbib Warning: Citation `yang_flaresampling_2018' on page 5 undefined 
+Package natbib Warning: Citation `yang_flaresampling_2018' on page 8 undefined 
 on input line 308.
 
 
@@ -1240,15 +1254,15 @@ Underfull \hbox (badness 1205) in paragraph at lines 306--311
  []
 
 
-Package natbib Warning: Citation `lacy_uv_1976' on page 5 undefined on input li
+Package natbib Warning: Citation `lacy_uv_1976' on page 8 undefined on input li
 ne 330.
 
 
-Package natbib Warning: Citation `shakhovskaya_stellar_1989' on page 5 undefine
+Package natbib Warning: Citation `shakhovskaya_stellar_1989' on page 8 undefine
 d on input line 330.
 
 
-Package natbib Warning: Citation `gizis_k2_2017' on page 5 undefined on input l
+Package natbib Warning: Citation `gizis_k2_2017' on page 8 undefined on input l
 ine 330.
 
 
@@ -1256,125 +1270,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--338
 
  []
 
-<pics/FFDs/08_04_2020_16_56_full_sample_ffd_ED.png, id=34, 578.16pt x 433.62pt>
-
-File: pics/FFDs/08_04_2020_16_56_full_sample_ffd_ED.png Graphic file (type png)
-
-<use pics/FFDs/08_04_2020_16_56_full_sample_ffd_ED.png>
-Package pdftex.def Info: pics/FFDs/08_04_2020_16_56_full_sample_ffd_ED.png  use
-d on input line 349.
+<pics/FFDs/full_sample_ffd_ED.png, id=47, 578.16pt x 433.62pt>
+File: pics/FFDs/full_sample_ffd_ED.png Graphic file (type png)
+<use pics/FFDs/full_sample_ffd_ED.png>
+Package pdftex.def Info: pics/FFDs/full_sample_ffd_ED.png  used on input line 3
+49.
 (pdftex.def)             Requested size: 256.53291pt x 192.39458pt.
-<pics/FFDs/08_04_2020_16_56_full_sample_ffd_energy.png, id=35, 578.16pt x 433.6
-2pt>
-File: pics/FFDs/08_04_2020_16_56_full_sample_ffd_energy.png Graphic file (type 
-png)
-<use pics/FFDs/08_04_2020_16_56_full_sample_ffd_energy.png>
-Package pdftex.def Info: pics/FFDs/08_04_2020_16_56_full_sample_ffd_energy.png 
- used on input line 351.
+<pics/FFDs/full_sample_ffd_energy.png, id=48, 578.16pt x 433.62pt>
+File: pics/FFDs/full_sample_ffd_energy.png Graphic file (type png)
+<use pics/FFDs/full_sample_ffd_energy.png>
+Package pdftex.def Info: pics/FFDs/full_sample_ffd_energy.png  used on input li
+ne 351.
 (pdftex.def)             Requested size: 256.53291pt x 192.39458pt.
-<pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_ED.png, id=36, 903.375pt x 1336
-.995pt>
-File: pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_ED.png Graphic file (type 
-png)
-<use pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_ED.png>
-Package pdftex.def Info: pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_ED.png 
- used on input line 358.
+<pics/FFDs/SpT_wise_sample_ffd_ED.png, id=49, 903.375pt x 1336.995pt>
+File: pics/FFDs/SpT_wise_sample_ffd_ED.png Graphic file (type png)
+<use pics/FFDs/SpT_wise_sample_ffd_ED.png>
+Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_ED.png  used on input li
+ne 358.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
-<pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_energy.png, id=37, 903.375pt x 
-1336.995pt>
-File: pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_energy.png Graphic file (t
-ype png)
-<use pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_energy.png>
-Package pdftex.def Info: pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_energy.
-png  used on input line 364.
+<pics/FFDs/SpT_wise_sample_ffd_energy.png, id=50, 903.375pt x 1336.995pt>
+File: pics/FFDs/SpT_wise_sample_ffd_energy.png Graphic file (type png)
+<use pics/FFDs/SpT_wise_sample_ffd_energy.png>
+Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_energy.png  used on inpu
+t line 364.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
 
-LaTeX Warning: Reference `agemass_thresh' on page 5 undefined on input line 379
+LaTeX Warning: Reference `agemass_thresh' on page 8 undefined on input line 379
 .
 
 
-LaTeX Warning: Reference `recprob_edcor' on page 5 undefined on input line 379.
+LaTeX Warning: Reference `recprob_edcor' on page 8 undefined on input line 379.
 
 
-[5]
 
-Package natbib Warning: Citation `heinzel_flareloops_2018' on page 6 undefined 
+Package natbib Warning: Citation `heinzel_flareloops_2018' on page 8 undefined 
 on input line 384.
 
+[8]
 
-Package natbib Warning: Citation `eker2018' on page 6 undefined on input line 4
+Package natbib Warning: Citation `eker2018' on page 9 undefined on input line 4
 00.
 
 
-LaTeX Warning: Reference `agemass_FR_flarefrac_erg' on page 6 undefined on inpu
+LaTeX Warning: Reference `agemass_FR_flarefrac_erg' on page 9 undefined on inpu
 t line 405.
 
 
-LaTeX Warning: Reference `agemass_FR_flarefrac_s' on page 6 undefined on input 
+LaTeX Warning: Reference `agemass_FR_flarefrac_s' on page 9 undefined on input 
 line 405.
 
 
-LaTeX Warning: Reference `agemass_FA_Lflare' on page 6 undefined on input line 
+LaTeX Warning: Reference `agemass_FA_Lflare' on page 9 undefined on input line 
 408.
 
 
-LaTeX Warning: Reference `ffds_teff_s' on page 6 undefined on input line 420.
+LaTeX Warning: Reference `ffds_teff_s' on page 9 undefined on input line 420.
 
 
-LaTeX Warning: Reference `ffds_teff_erg' on page 6 undefined on input line 420.
+LaTeX Warning: Reference `ffds_teff_erg' on page 9 undefined on input line 420.
 
 
 
-LaTeX Warning: Reference `powerlawfits_erg' on page 6 undefined on input line 4
+LaTeX Warning: Reference `powerlawfits_erg' on page 9 undefined on input line 4
 22.
 
 
-LaTeX Warning: Reference `ergtable' on page 6 undefined on input line 422.
+LaTeX Warning: Reference `ergtable' on page 9 undefined on input line 422.
 
 
-LaTeX Warning: Reference `stable' on page 6 undefined on input line 422.
+LaTeX Warning: Reference `stable' on page 9 undefined on input line 422.
 
 
-LaTeX Warning: Reference `agemass_alphabeta_s' on page 6 undefined on input lin
+LaTeX Warning: Reference `agemass_alphabeta_s' on page 9 undefined on input lin
 e 422.
 
 
-LaTeX Warning: Reference `agemass_alphabeta_erg' on page 6 undefined on input l
+LaTeX Warning: Reference `agemass_alphabeta_erg' on page 9 undefined on input l
 ine 422.
 
-(./tables/powerlaw_SpT.tex
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 ...left(^{3e-05}_{3e-05}\right)\cdot 10^... &
-                                                                  1 &       ...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+(./tables/powerlaw_SpT.tex) (./tables/powerlaw_fullsample.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [6]
-Underfull \hbox (badness 1616) in paragraph at lines 466--477
+ [9 <./pics/FFDs/full_sample_ffd_ED.png> <./pics/FFDs/full_sample_ffd_energy.pn
+g>]
+[10 <./pics/FFDs/SpT_wise_sample_ffd_ED.png>] [11 <./pics/FFDs/SpT_wise_sample_
+ffd_energy.png>]
+Underfull \hbox (badness 1616) in paragraph at lines 472--483
 \T1/txr/m/n/10 Assuming a typ-i-cal bi-nary frac-tion for early and mid M
  []
 
-
-Underfull \vbox (badness 1067) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--484
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 484--490
 \T1/txr/m/n/10 Metallicity is con-trolled for ([Fe/H](Praesepe)$\OT1/txr/m/n/10
  = 0\OML/txmi/m/it/10 :\OT1/txr/m/n/10 16$\T1/txr/m/n/10 ,
  []
 
-[7] (./aa.bbl
+[13] (./aa.bbl
 Underfull \hbox (badness 3657) in paragraph at lines 51--53
 []\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saun-ders, N., et al. 2018, arXiv e-
 prints,
  []
 
-[8]
+
 Underfull \hbox (badness 1629) in paragraph at lines 361--363
 []\T1/txr/m/n/8 Howard, W. S., Cor-bett, H., Law, N. M., et al. 2019b, arXiv e-
 prints,
@@ -1397,53 +1394,49 @@ Overfull \hbox (53.23471pt too wide) in paragraph at lines 511--515
 2..113R;adsnote=Provided
  []
 
-) [9] [10 <./pics/clusters/pleiades_m35_hyades.pdf>] [11 <./pics/clusters/praes
-epe_ngc6774_ngc2682.pdf>] [12 <./pics/clusters/teff_R.pdf>] [13 <./pics/FFDs/08
-_04_2020_16_56_full_sample_ffd_ED.png> <./pics/FFDs/08_04_2020_16_56_full_sampl
-e_ffd_energy.png>] [14 <./pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_ED.png
->] [15 <./pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_energy.png>]
-Underfull \hbox (badness 2809) in paragraph at lines 537--541
+) [14]
+Underfull \hbox (badness 2809) in paragraph at lines 543--547
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 [][][]$\T1/txtt/m/n/9 https : / / github . com / ekaterinailin /
  []
 
-<pics/appendix/membership_histograms.png, id=120, 1142.8296pt x 1270.7475pt>
+<pics/appendix/membership_histograms.png, id=78, 1156.32pt x 1300.86pt>
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
- line 601.
-(pdftex.def)             Requested size: 523.5307pt x 582.1272pt.
+ line 607.
+(pdftex.def)             Requested size: 523.5307pt x 588.97437pt.
 (./tables/clusterparameters_appendix.tex
 
 LaTeX Warning: Float too large for page by 46.80649pt on input line 78.
 
 ) (./tables/powerlaw_literature.tex)
-Overfull \hbox (26.53687pt too wide) in paragraph at lines 2--632
+Overfull \hbox (26.53687pt too wide) in paragraph at lines 2--638
  [][] 
  []
 
-[16
+[15
 
 ]
-Overfull \hbox (23.2089pt too wide) in alignment at lines 674--678
+Overfull \hbox (23.2089pt too wide) in alignment at lines 680--684
 [][][] []
  []
 
 
 Package natbib Warning: There were undefined citations.
 
-[17
+[16
 
-] [18] [19 <./pics/appendix/membership_histograms.png>] [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 688.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 688.
+] [17] [18 <./pics/appendix/membership_histograms.png>] [19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 694.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 694.
  (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 688.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 688.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 694.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 694.
 
 
 LaTeX Warning: There were undefined references.
@@ -1453,13 +1446,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10021 strings out of 494880
- 140017 string characters out of 6179601
- 319363 words of memory out of 5000000
- 13078 multiletter control sequences out of 15000+600000
- 124052 words of font info for 203 fonts, out of 8000000 for 9000
+ 10024 strings out of 494880
+ 139656 string characters out of 6179601
+ 319261 words of memory out of 5000000
+ 13079 multiletter control sequences out of 15000+600000
+ 123812 words of font info for 202 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,14n,45p,5585b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,45p,5585b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/typ
@@ -1474,10 +1467,10 @@ urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (20 pages, 6994567 bytes).
+Output written on aa.pdf (19 pages, 3494390 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 146 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

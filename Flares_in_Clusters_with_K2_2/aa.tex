@@ -199,7 +199,7 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 
    \begin{figure*}
 		\centering
-           \includegraphics[angle=90, width=0.8\hsize]{pics/clusters/pleiades_m35_hyades.pdf}
+           \includegraphics[angle=90, width=0.8\hsize]{pics/clusters/Teff_spread_young.png}
 
       \caption{Color-temperature relations for Pleiades, M35, and Hyades.  }
          \label{pleiades_m35_hyades}
@@ -208,7 +208,7 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 
    \begin{figure*}
 		\centering
-           \includegraphics[angle=90, width=0.8\hsize]{pics/clusters/praesepe_ngc6774_ngc2682.pdf}
+           \includegraphics[angle=90, width=0.56\hsize]{pics/clusters/Teff_spread_old.png}
 
       \caption{Color-temperature relations for Praesepe, Ruprecht 147, and M67. Description as in Fig. \ref{pleiades_m35_hyades}.}
          \label{praesepe_ngc6774_ngc2682}
@@ -223,7 +223,7 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 
    \begin{figure*}
 		\centering
-           \includegraphics[width=\hsize]{pics/clusters/teff_R.pdf}
+           \includegraphics[width=\hsize]{pics/clusters/teff_R.png}
 
       \caption{$T_\mathrm{eff}-R_*$ relation for all clusters in this study.}
          \label{teff_R}
@@ -346,22 +346,22 @@ We also used a Gaussian fit to $\alpha$ obtained from the posterior distribution
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.49\hsize]{pics/FFDs/08_04_2020_16_56_full_sample_ffd_ED.png}
+    \includegraphics[width=0.49\hsize]{pics/FFDs/full_sample_ffd_ED.png}
     \hspace{.01cm}
-    \includegraphics[width=0.49\hsize]{pics/FFDs/08_04_2020_16_56_full_sample_ffd_energy.png}
+    \includegraphics[width=0.49\hsize]{pics/FFDs/full_sample_ffd_energy.png}
     \caption{FFD (scatter) in $ED$ (left panel) and energy (right panel) and respective power law fit (black line) to the full sample of flare candidates.}          	
     \label{powerlawfit_full}
 \end{figure*}
 
 \begin{figure*}
     \centering
-    \includegraphics[width=16cm]{pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_ED.png}
+    \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_ED.png}
     \caption{FFDs (scatter) in $ED$ and respective power law fits with $\alpha=XXX$ (black lines).}          	\label{powerlawfits_s}
 \end{figure*}
 
 \begin{figure*}
     \centering
-    \includegraphics[width=16cm]{pics/FFDs/08_04_2020_16_56_SpT_wise_sample_ffd_energy.png}
+    \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_energy.png}
     \caption{FFDs (scatter) in energy and respective power law fits with $\alpha=XXX$ (black lines).}          	\label{powerlawfits_s}
 \end{figure*}
 %-------------------------------------------
@@ -431,11 +431,17 @@ Howard+18, Loyd+18, Tilley+19 show that flares can erode exoplanetary atmosphere
 %-------------------------------------------
 %-------------------------------------------
 \begin{table*}
-\caption{Summary of flaring $\beta$ of all clusters and $T_\mathrm{eff}$ bins in energy and $ED$ distributions.}\label{powerlawtable}
+\caption{Summary of flaring $\beta$ of all clusters and $T_\mathrm{eff}$ bins in $E_\mathrm{Kp}$ and $ED$ distributions.}\label{powerlawtable_spt}
 \centering
 \tiny
 \input{tables/powerlaw_SpT.tex}
 \end{table*}
+\begin{table}
+\caption{Summary of FFD parameters and power law fits to the full sample of all clusters in $E_\mathrm{Kp}$ and $ED$ space.}\label{powerlawtable_fullsample}
+\centering
+\tiny
+\input{tables/powerlaw_fullsample.tex}
+\end{table}
 %\begin{sidewaystable*}
 %\caption{Summary of activity parameters of all clusters and $T_\mathrm{eff}$ bins in equivalent duration distributions.}\label{stable}
 %\centering
