@@ -389,19 +389,26 @@ We found several flare candidates in stars that are members of M67 and Rup 147. 
 %-------------------------------------------
 \subsection{Flaring Activity Indicators}
 %-------------------------------------------
-\paragraph{Flaring rates: $FR$ and flaring fraction}
-We define $FR$ as the flare rate above detection thresholds on $E_\mathrm{Kp,flare}$ and $ED$ in each $T_\mathrm{eff}$ bin, respectively~(Figs. \ref{agemass_FR_flarefrac_erg} and \ref{agemass_FR_flarefrac_s}).
+%\paragraph{Flaring rates: $FR$ and flaring fraction}
+%We define $FR$ as the flare rate above detection thresholds on $E_\mathrm{Kp,flare}$ and $ED$ in each $T_\mathrm{eff}$ bin, respectively~(Figs. \ref{agemass_FR_flarefrac_erg} and \ref{agemass_FR_flarefrac_s}).
 %-------------------------------------------
-\paragraph{Flaring energy: $FA$ and $L_\mathrm{Kp,flare}$}
+\paragraph{Flaring luminosity $FA$}
 The energy released in flares was inferred using our derived stellar luminosities. It declines with age for every $T_\mathrm{eff}$ bin considered for both the total luminosity and relative to the quiescent flux~(Fig. \ref{agemass_FA_Lflare}).
 \\
-$L_\mathrm{Kp,flare}$ is the luminosity in flares in the Kepler band. We can relate this to the quiescent bolometric luminosity of the star when we define the fractional flare luminosity $FA$ as in \citetalias{ilin_flares_2019}:
+$L_\mathrm{Kp,flare}$ is the luminosity in flares in the Kepler band. We can relate this to the quiescent bolometric luminosity of the star when we define the fractional flare luminosity $FA$ in analogy to \citetalias{ilin_flares_2019}:
 \begin{align}
 \label{FA}
-FA&=\dfrac{1}{N}\displaystyle\sum_{i}^{N} FA_i = \dfrac{1}{N} \displaystyle\sum_{i}^{N} \dfrac{E_{\mathrm{Kp,flare,tot,}i}}{t_i\cdot L_{\mathrm{bol,*,}i}}
+FA&=\dfrac{E_\mathrm{Kp,flare,tot,}}{t\cdot L_{\mathrm{bol,*,}}}
 \end{align}
-We determine $L_\mathrm{bol,*}$ from $R_*$ and $T_\mathrm{eff}$, as described in Sec.~\ref{TeffRL}. This is a meaningful measure of relative stellar activity as long as only the flux portion of the quiescent star in the Kepler band is roughly constant. It is therefore sensible to compare $FA$ values across ages, but not across $T_\mathrm{eff}$.
+We determined $L_\mathrm{bol,*}$ from $R_*$ and $T_\mathrm{eff}$, as described in Sec.~\ref{TeffRL}. In Fig. \ref{FA_E} we computed the median and standard deviation $FA$ for every $T_\mathrm{eff}$ bin. $FA$ is a meaningful measure of relative stellar activity as long as the flux portion of the quiescent star in the Kepler band is roughly constant. It is therefore more meaningful to compare $FA$ values across age than across $T_\mathrm{eff}$.
 %\\
+\begin{figure*}
+    \centering
+    \includegraphics[width=13.5cm]{pics/FA/FA_T_age_Ethresh.png}
+    \caption{$FA$ for flares above the shared energy threshold as determined for the full FFD in Fig. \ref{powerlawfit_full}.}          
+    \label{FA_E}
+\end{figure*}
+
 %\textit{We could test our results if we derived $FA$ from the bolometric correction suggested by \citet{davenport_flaresevolve_2019}. Would there be any difference?}
 %-------------------------------------------
 \paragraph{FFD}
@@ -431,7 +438,7 @@ Howard+18, Loyd+18, Tilley+19 show that flares can erode exoplanetary atmosphere
 
 \begin{figure*}
     \centering
-    \includegraphics[width=\hsize]{pics/FFDs/beta_T_age_ED.png}
+    \includegraphics[width=13.5cm]{pics/FFDs/beta_T_age_ED.png}
     \caption{Flare $\beta_\mathrm{s}$ vs. age grouped by $T_\mathrm{eff}$.}          	
     \label{powerlawfits_s}
 \end{figure*}
