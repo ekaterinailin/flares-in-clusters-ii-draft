@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.16)  14 APR 2020 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.16)  15 APR 2020 09:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1214,177 +1214,190 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./pics/clusters/teff_R.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 266--275
+
+ []
+
 
 Package natbib Warning: Citation `davenport_multi-wavelength_2012' on page 7 un
-defined on input line 282.
+defined on input line 285.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--292
+Underfull \hbox (badness 10000) in paragraph at lines 280--295
 \T1/txr/m/n/10 While so-lar flares are rel-a-tively cool, with
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 277--292
+Underfull \hbox (badness 2142) in paragraph at lines 280--295
 \T1/txr/m/n/10 flare reached $\OT1/txr/m/n/10 40 000$\T1/txr/m/n/10 K as seen i
 n FUV spec-tra (Fron-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--292
+Underfull \hbox (badness 10000) in paragraph at lines 280--295
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 296--296
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 [][][]$\T1/txtt/m/n/9 https : / / github . com / ekaterinailin /
  []
 
 
 Package natbib Warning: Citation `aschwanden_powerlaws_2015' on page 8 undefine
-d on input line 296.
+d on input line 299.
 
 
 Package natbib Warning: Citation `yang_flaresampling_2018' on page 8 undefined 
-on input line 296.
+on input line 299.
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 294--299
+Underfull \hbox (badness 5245) in paragraph at lines 297--302
 \T1/txr/m/n/10 The first method was a max-i-mum like-li-hood es-ti-ma-tor
  []
 
 
-Underfull \hbox (badness 1205) in paragraph at lines 294--299
+Underfull \hbox (badness 1205) in paragraph at lines 297--302
 \T1/txr/m/n/10 (MLE)  (Maschberger & Kroupa 2009). As rec-om-mended
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
 Package natbib Warning: Citation `lacy_uv_1976' on page 8 undefined on input li
-ne 318.
+ne 321.
 
 
 Package natbib Warning: Citation `shakhovskaya_stellar_1989' on page 8 undefine
-d on input line 318.
+d on input line 321.
 
 
 Package natbib Warning: Citation `gizis_k2_2017' on page 8 undefined on input l
-ine 318.
+ine 321.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--326
+Underfull \hbox (badness 10000) in paragraph at lines 311--329
 
  []
 
-<pics/FFDs/full_sample_ffd_ED.png, id=47, 578.16pt x 433.62pt>
+[8] (./tables/flares.tex)
+<pics/FFDs/full_sample_ffd_ED.png, id=50, 578.16pt x 433.62pt>
 File: pics/FFDs/full_sample_ffd_ED.png Graphic file (type png)
 <use pics/FFDs/full_sample_ffd_ED.png>
 Package pdftex.def Info: pics/FFDs/full_sample_ffd_ED.png  used on input line 3
-37.
+48.
 (pdftex.def)             Requested size: 256.53291pt x 192.39458pt.
-<pics/FFDs/full_sample_ffd_energy.png, id=48, 578.16pt x 433.62pt>
+<pics/FFDs/full_sample_ffd_energy.png, id=51, 578.16pt x 433.62pt>
 File: pics/FFDs/full_sample_ffd_energy.png Graphic file (type png)
 <use pics/FFDs/full_sample_ffd_energy.png>
 Package pdftex.def Info: pics/FFDs/full_sample_ffd_energy.png  used on input li
-ne 339.
+ne 350.
 (pdftex.def)             Requested size: 256.53291pt x 192.39458pt.
-<pics/FFDs/SpT_wise_sample_ffd_ED.png, id=49, 903.375pt x 1336.995pt>
+<pics/FFDs/SpT_wise_sample_ffd_ED.png, id=52, 903.375pt x 1336.995pt>
 File: pics/FFDs/SpT_wise_sample_ffd_ED.png Graphic file (type png)
 <use pics/FFDs/SpT_wise_sample_ffd_ED.png>
 Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_ED.png  used on input li
-ne 346.
+ne 357.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
-<pics/FFDs/SpT_wise_sample_ffd_energy.png, id=50, 903.375pt x 1336.995pt>
+<pics/FFDs/SpT_wise_sample_ffd_energy.png, id=53, 903.375pt x 1336.995pt>
 File: pics/FFDs/SpT_wise_sample_ffd_energy.png Graphic file (type png)
 <use pics/FFDs/SpT_wise_sample_ffd_energy.png>
 Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_energy.png  used on inpu
-t line 352.
+t line 363.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
 
-LaTeX Warning: Reference `agemass_thresh' on page 8 undefined on input line 367
+
+LaTeX Warning: Reference `agemass_thresh' on page 9 undefined on input line 378
 .
 
 
-LaTeX Warning: Reference `recprob_edcor' on page 8 undefined on input line 367.
+LaTeX Warning: Reference `recprob_edcor' on page 9 undefined on input line 378.
 
 
 
-Package natbib Warning: Citation `heinzel_flareloops_2018' on page 8 undefined 
-on input line 372.
+Package natbib Warning: Citation `heinzel_flareloops_2018' on page 9 undefined 
+on input line 383.
 
-[8]
 
 Package natbib Warning: Citation `eker2018' on page 9 undefined on input line 3
-88.
+99.
 
 
 LaTeX Warning: Reference `agemass_FA_Lflare' on page 9 undefined on input line 
-396.
-
-
-Underfull \vbox (badness 4441) has occurred while \output is active []
+407.
 
 <pics/FA/FA_T_age_Ethresh.png, id=54, 722.7pt x 361.35pt>
 File: pics/FA/FA_T_age_Ethresh.png Graphic file (type png)
 <use pics/FA/FA_T_age_Ethresh.png>
-Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 407.
+Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 418.
 (pdftex.def)             Requested size: 384.1122pt x 192.05493pt.
 
+LaTeX Warning: Reference `ffds_teff_s' on page 9 undefined on input line 426.
 
-LaTeX Warning: Reference `ffds_teff_s' on page 9 undefined on input line 415.
 
-
-LaTeX Warning: Reference `ffds_teff_erg' on page 9 undefined on input line 415.
+LaTeX Warning: Reference `ffds_teff_erg' on page 9 undefined on input line 426.
 
 
 
 LaTeX Warning: Reference `powerlawfits_erg' on page 9 undefined on input line 4
-17.
+28.
 
 
-LaTeX Warning: Reference `ergtable' on page 9 undefined on input line 417.
+LaTeX Warning: Reference `ergtable' on page 9 undefined on input line 428.
 
 
-LaTeX Warning: Reference `stable' on page 9 undefined on input line 417.
+LaTeX Warning: Reference `stable' on page 9 undefined on input line 428.
 
 
 LaTeX Warning: Reference `agemass_alphabeta_s' on page 9 undefined on input lin
-e 417.
+e 428.
 
 
 LaTeX Warning: Reference `agemass_alphabeta_erg' on page 9 undefined on input l
-ine 417.
+ine 428.
 
 (./tables/powerlaw_SpT.tex) (./tables/powerlaw_fullsample.tex)
 <pics/FFDs/beta_T_age_ED.png, id=55, 722.7pt x 361.35pt>
 File: pics/FFDs/beta_T_age_ED.png Graphic file (type png)
 <use pics/FFDs/beta_T_age_ED.png>
-Package pdftex.def Info: pics/FFDs/beta_T_age_ED.png  used on input line 441.
+Package pdftex.def Info: pics/FFDs/beta_T_age_ED.png  used on input line 452.
 (pdftex.def)             Requested size: 384.1122pt x 192.05493pt.
- [9 <./pics/FFDs/full_sample_ffd_ED.png> <./pics/FFDs/full_sample_ffd_energy.pn
-g>] [10 <./pics/FFDs/SpT_wise_sample_ffd_ED.png>] [11 <./pics/FFDs/SpT_wise_sam
-ple_ffd_energy.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [9]
 
- [12 <./pics/FA/FA_T_age_Ethresh.png>]
-Underfull \hbox (badness 1616) in paragraph at lines 468--479
+LaTeX Warning: Text page 10 contains only floats.
+
+
+Underfull \vbox (badness 2205) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 479--490
 \T1/txr/m/n/10 Assuming a typ-i-cal bi-nary frac-tion for early and mid M
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--486
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./pics/FFDs/full_sample_ffd_ED.png> <./pics/FFDs/full_sample_ffd_energy.p
+ng>]
+[11 <./pics/FFDs/SpT_wise_sample_ffd_ED.png>] [12 <./pics/FFDs/SpT_wise_sample_
+ffd_energy.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./pics/FA/FA_T_age_Ethresh.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 491--497
 \T1/txr/m/n/10 Metallicity is con-trolled for ([Fe/H](Praesepe)$\OT1/txr/m/n/10
  = 0\OML/txmi/m/it/10 :\OT1/txr/m/n/10 16$\T1/txr/m/n/10 ,
  []
 
-
-Underfull \vbox (badness 5908) has occurred while \output is active []
-
- [13 <./pics/FFDs/beta_T_age_ED.png>] (./aa.bbl
+[14 <./pics/FFDs/beta_T_age_ED.png>] (./aa.bbl
 Underfull \hbox (badness 3657) in paragraph at lines 51--53
 []\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saun-ders, N., et al. 2018, arXiv e-
 prints,
  []
 
-[14]
+
 Underfull \hbox (badness 1629) in paragraph at lines 361--363
 []\T1/txr/m/n/8 Howard, W. S., Cor-bett, H., Law, N. M., et al. 2019b, arXiv e-
 prints,
@@ -1407,45 +1420,47 @@ Overfull \hbox (53.23471pt too wide) in paragraph at lines 511--515
 2..113R;adsnote=Provided
  []
 
-) [15]
-Underfull \hbox (badness 2809) in paragraph at lines 539--543
+[15]) [16
+
+]
+Underfull \hbox (badness 2809) in paragraph at lines 550--554
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 566--566
+Underfull \hbox (badness 10000) in paragraph at lines 577--577
 [][][]$\T1/txtt/m/n/9 https : / / github . com / ekaterinailin /
  []
 
-<pics/appendix/membership_histograms.png, id=85, 1156.32pt x 1300.86pt>
+<pics/appendix/membership_histograms.png, id=88, 1156.32pt x 1300.86pt>
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
- line 603.
+ line 614.
 (pdftex.def)             Requested size: 523.5307pt x 588.97437pt.
 (./tables/clusterparameters_appendix.tex) (./tables/powerlaw_literature.tex)
-Overfull \hbox (26.53687pt too wide) in paragraph at lines 2--634
+Overfull \hbox (26.53687pt too wide) in paragraph at lines 2--645
  [][] 
  []
 
-[16
+[17
 
 ]
-Overfull \hbox (23.2089pt too wide) in alignment at lines 676--680
+Overfull \hbox (23.2089pt too wide) in alignment at lines 687--691
 [][][] []
  []
 
 
 Package natbib Warning: There were undefined citations.
 
-[17
+[18
 
-] [18 <./pics/appendix/membership_histograms.png>] [19] [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 690.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 690.
+] [19 <./pics/appendix/membership_histograms.png>] [20] [21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 701.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 701.
  (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 690.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 690.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 701.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 701.
 
 
 LaTeX Warning: There were undefined references.
@@ -1455,13 +1470,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10036 strings out of 494880
- 139961 string characters out of 6179601
- 313099 words of memory out of 5000000
- 13086 multiletter control sequences out of 15000+600000
- 123572 words of font info for 201 fonts, out of 8000000 for 9000
+ 10041 strings out of 494880
+ 140016 string characters out of 6179601
+ 325219 words of memory out of 5000000
+ 13087 multiletter control sequences out of 15000+600000
+ 123812 words of font info for 202 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,14n,45p,5585b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,45p,5585b,674s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/txfonts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/typ
@@ -1476,10 +1491,10 @@ urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (20 pages, 3698559 bytes).
+Output written on aa.pdf (21 pages, 3702126 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 156 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
