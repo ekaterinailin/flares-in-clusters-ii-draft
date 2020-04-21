@@ -85,11 +85,11 @@
   % aims heading (mandatory)
    {This study aims to quantify flaring activity on these stars as a function of mass and age.}
   % methods heading (mandatory)
-   {We searched the light curves of open cluster stars in K2 time-domain photometry for flares using the open-source software packages K2SC and AltaiPony. K2SC was used to remove instrumental and astrophysical variability from K2 light curves, and AltaiPony to search and characterize the flare candidates. With the full K2 archive we added stars with a larger variety of ages and spectral types to the analysis of the previous study~\citep{ilin_flares_2019} and manually confirmed a total of 2913 flares. We compared previous results from Prasepe to the flare frequency distributions (FFDs) in the Hyades, respectively. Ruprecht 147 filled in the age gap at 2.5 Gyr between the aforementioned young clusters and the 3.6 Gyr old M67.}
+   {We searched the light curves of open cluster stars in K2 time-domain photometry for flares using the open-source software packages K2SC and AltaiPony. K2SC was used to remove instrumental and astrophysical variability from K2 light curves, and AltaiPony to search and characterize the flare candidates. With the full K2 archive we added stars with a larger variety of ages and spectral types to the analysis of the previous study~\citep{ilin_flares_2019} and manually confirmed a total of \input{values/total_number_of_flares.txt} flares. We compared previous results from Prasepe to the flare frequency distributions (FFDs) in the Hyades, respectively. Ruprecht 147 filled in the age gap at 2.5 Gyr between the aforementioned young clusters and the 3.6 Gyr old M67.}
   % results heading (mandatory)
    {We find that the flare production mechanism is similar for the entire parameter space, following a power law relation with exponent $\alpha\approx 1.9$, but the flaring frequencies depend on both mass, and age. We discuss X and Y.}
   % conclusions heading (optional), leave it empty if necessary
-   {}
+   %{}
 
    \keywords{Methods: data analysis, Stars: activity, Stars: flare, Stars: low-mass
                }
@@ -106,7 +106,7 @@ With the evidence that the physical processes that cause flares on the Sun and o
 %Flare statistics common sense here ~\citep{lacy_uv_1976}
 Basic parameters that affect flaring behaviour on stars are their masses, and ages. Ages can be controlled for in coeval groups of stars, and flaring-age studies in binaries showed consistency in activity for both components in the majority of targets~\citep{lurie_kepler_2015, clarke_flare_2018}. Open clusters present other coeval groups of stars with well-determined ages. \citet{ilin_flares_2019}~(hereafter \citetalias{ilin_flares_2019}) investigated the flaring activity of late-K to mid-M dwarfs in three open clusters (OCs), the Pleiades, Praesepe, and M67, using K2 time domain photometry. They analysed the flare frequency distributions (FFDs), with respect to different masses and cluster ages. For the cluster members, the light curves revealed that their flaring activity declines both with age and mass. The decline is faster for higher mass stars. Recently, \citet{davenport_flaresevolve_2019} put forward an empirical parametrization of this flaring-mass-age relation based on FFDs.
 \\
-The present study aims to extend the results in \citetalias{ilin_flares_2019} to the age of Ruprecht 147 (2.5 Gyr), and both higher and lower masses than in the previous study. We also test the previous results from the Pleiades on M35, and the results from Praesepe on the Hyades, as both OC pairs have approximately the same ages. Because the Kepler satellite retired in fall 2018, we can now use the complete K2 data set, and supplement all three OCs in~\citetalias{ilin_flares_2019}  with additional light curves. Additionaly, we use high quality K2 light curves available for M67~\citep{nardiello_m67psf_2016} and M35~\citep{soares_furtado_m35_2017}. We discuss our results with respect to potential breaks in the power law distribution at high energies. Finally, we use the results to test the parametrization in~\citet{davenport_flaresevolve_2019}.
+The present study aims to extend the results in \citetalias{ilin_flares_2019} to the age of Ruprecht 147 (2.5 Gyr) and M67 (3.6 Gyr), and both higher and lower masses than in the previous study. Because the Kepler satellite retired in fall 2018, we could use the complete K2 data set, and supplement all three OCs in~\citetalias{ilin_flares_2019} with improved versions of already analysed light curves in campaigns 4 and 5, and with additional light curves from later campaigns. We discuss our results with respect to potential breaks in the power law distribution at high energies. Finally, we use the results to test the parametrization in~\citet{davenport_flaresevolve_2019}.
 
  %Guide the reader from a vivid image of a giant flare on a small star to the idea of a flaring clock and OCs as galactic time stamps (blurred by metallicity and other effects).
 %How would astronomy benefit from a well-constrained flaring-age-mass relation?
@@ -116,7 +116,7 @@ The present study aims to extend the results in \citetalias{ilin_flares_2019} to
 %\\
 
 \section{Data}
-Our main data are K2 target pixel files that were provided by the Kepler archives hosted at MAST, and light curves derived from them~\citep{aigrain_k2sc_2016, soares_furtado_m35_2017, lightkurve}. To assign $T_\mathrm{eff}$ to the targeted stars we used multiband photometry obtained from Tycho, UCAC4, 2MASS, Pan-STARRS, and Gaia catalogs. To assign ages to the targeted stars,  OC membership information was compiled from the literature. An overview over the cluster sample is presented in Table \ref{data_clusters} and illustrated in Figure \ref{OCs}.
+Our main data are K2 target pixel files that were provided by the Kepler archives hosted at MAST, and light curves derived from them. To assign $T_\mathrm{eff}$ to the targeted stars we used multiband photometry obtained from Tycho, UCAC4, 2MASS, Pan-STARRS, and Gaia catalogs. To assign ages to the targeted stars,  OC membership information was compiled from the literature. An overview over the cluster sample is presented in Table \ref{data_clusters} and illustrated in Figure \ref{OCs}.
 
 %-------------------------------------------
 %--OPEN CLUSTERS DISTANCE AND AGE
@@ -146,7 +146,7 @@ We studied flaring activity in the low mass stars in six open clusters spanning 
 \label{table_OCs}
 \centering
 \input{tables/table_ocs.tex}
-\tablefoot{$n$ is the approximate number of members with $p>0.8$. LCs, SLCs, LLCs, and PSF LCs denote the number of available light curves, short cadence light curves, long cadence light curves, and PSF de-detrended light curves, respectively. The values for age, [Fe/H], and distance are approximate values from a comparison of existing literature, detailed in Appendix \ref{app_oc_parameters}.}
+\tablefoot{The values for age, [Fe/H], and distance $d$ are approximate values arrived at by a comparison of existing literature, which is detailed in Appendix \ref{app_oc_parameters}. The uncertainties are noted in parentheses. "stars" denotes the approximate number of cluster members with membership probability $p>0.8$. "LCs" and "campaigns" is the number of available light curves and the K2 campaigns during which they were observed, respectively. "flares" is the number of confirmed flares found in each cluster.}
 \end{table*}
 %---------------------------------------------------------------
 \subsubsection{Pleiades}
@@ -172,8 +172,7 @@ Ruprecht 147 is a 2.5 Gyr old OC observed during Campaign 7 with K2. We used the
 %---------------------------------------------------------------
 \subsubsection{M67}
 %age distance citation?
-% how were the Nardiello LCs treated?
-M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members were observed during Campaign 5, and revisited in Campaigns 16 and 18. We did not find any flares in M67 in Campaign 5~\citepalias{ilin_flares_2019} observing the members identified by \citet{gonzalez_m67mem_2016}. The recent campaigns brought both additional observations, and entirely new targets to the sample. We merged the members from \citet{gonzalez_m67mem_2016} with a recent study based of Gaia DR2 data~\citep{gao_m67mem_2018}. Additionally, we obtained PSF-detrended light curves for Campaign 5 from~\citet{nardiello_m67psf_2016}.
+M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members were observed during Campaign 5, and revisited in Campaigns 16 and 18. We did not find any flares in M67 in Campaign 5~\citepalias{ilin_flares_2019} observing the members identified by \citet{gonzalez_m67mem_2016}. The recent campaigns brought both additional observations, and entirely new targets to the sample. We merged the members from \citet{gonzalez_m67mem_2016} with a recent study based of Gaia DR2 data~\citep{gao_m67mem_2018}.
 %---------------------------------------------------------------
 \subsection{Effective temperatures, stellar radii, and luminosities}
 \label{TeffRL}
@@ -187,8 +186,8 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 		\centering
            \includegraphics[angle=90, width=0.8\hsize]{pics/clusters/Teff_spread_young.png}
 
-      \caption{Color-temperature relations for Pleiades, M35, and Hyades.  }
-         \label{pleiades_m35_hyades}
+      \caption{Color-temperature relations for Pleiades, Hyades, and Praesepe.}
+         \label{fig:pleiades_hyades_praesepe}
    \end{figure*}
    
 
@@ -196,7 +195,7 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 		\centering
            \includegraphics[angle=90, width=0.56\hsize]{pics/clusters/Teff_spread_old.png}
 
-      \caption{Color-temperature relations for Praesepe, Ruprecht 147, and M67. Description as in Fig. \ref{pleiades_m35_hyades}.}
+      \caption{Color-temperature relations for Praesepe, Ruprecht 147, and M67. Description as in Fig. \ref{fig:pleiades_hyades_praesepe}.}
          \label{praesepe_ngc6774_ngc2682}
    \end{figure*}   
 %---------------------------------------------------------------
@@ -219,7 +218,7 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 %---------------------------------------------------------------
 
 \subsubsection{Photometry and extinction correction}
-We determined effective temperatures $T_\mathrm{eff}$ using broadband photometry the Two Micron All Sky Survey~(2MASS; \citealt{skrutskie_two_2006}), the Panoramic Survey Telescope and Rapid Response System \mbox{(Pan-STARRS)} Data Release 1~\citep{2016arXiv161205560C}, and Gaia DR2~\citep{gaia_dr2_release_2018}. We applied quality cuts to 2MASS, Pan-STARRS DR1, and GaiaDR2 data, as described in Appendix \ref{appendix_photometry}, and removed foreground stars using Gaia DR2 parallaxes. We corrected the 2MASS and PanSTARRS photometry in M35, M67, and Ruprecht 147 for extinction using the most recent version~\citep{green_bayestar_2019} of the \texttt{dustmaps} package that provides 3D dust maps derived from 2MASS and PanSTARRS photometry together with Gaia distances~\citep{green_dustmaps_2018}. If there was no Gaia parallax available we used the cluster median distance instead. If an extinction value was not available for a given star we used the average extinction value of the respective cluster. We accounted for extinction in Gaia BP and RP using the reddening $E(B_P-R_P)$ derived from Gaia photometry and parallax from Gaia DR2~\citep{andrae_gaiaapsis_2018}. We dropped targets that were too bright (Kepler magnitude $K_\mathrm{p} \leq 9$).
+We determined effective temperatures $T_\mathrm{eff}$ using broadband photometry the Two Micron All Sky Survey~(2MASS; \citealt{skrutskie_two_2006}), the Panoramic Survey Telescope and Rapid Response System \mbox{(Pan-STARRS)} Data Release 1~\citep{2016arXiv161205560C}, and Gaia DR2~\citep{gaia_dr2_release_2018}. We applied quality cuts to 2MASS, Pan-STARRS DR1, and GaiaDR2 data, as described in Appendix \ref{appendix_photometry}, and removed foreground stars using Gaia DR2 parallaxes. We corrected the 2MASS and PanSTARRS photometry in M67 and Ruprecht 147 for extinction using the most recent version~\citep{green_bayestar_2019} of the \texttt{dustmaps} package that provides 3D dust maps derived from 2MASS and PanSTARRS photometry together with Gaia distances~\citep{green_dustmaps_2018}. If there was no Gaia parallax available we used the cluster median distance instead. If an extinction value was not available for a given star we used the average extinction value of the respective cluster. We accounted for extinction in Gaia BP and RP using the reddening $E(B_P-R_P)$ derived from Gaia photometry and parallax from Gaia DR2~\citep{andrae_gaiaapsis_2018}. We dropped targets that were too bright (Kepler magnitude $K_\mathrm{p} \leq 9$).
 %The latter were obtained using TOPCAT~\citep{Taylor_TOPCAT_2005}\footnote{\url{http://www.star.bristol.ac.uk/~mbt/topcat/}}.
 \\
 
@@ -228,7 +227,7 @@ We applied several methods and color-temperature relations (CTRs) to determine r
 \\
 \citet{boyajian_stellar_2013} determined CTRs from a range of interferometrically characterized stars using $g-z$, $g-i$, $g-r$, $g-J$, $g-H$, and $g-K$ colors from SDSS and Johnson magnitudes for A to K stars. Their sample is centered on solar metallicity, so we constained the use of these CTRs to stars with $-0.25<$\,[Fe/H]$\,<0.25$. We transformed 2MASS JHK to $J-H$, $H-K$, and $J-K$ in the Johnson system  as the authors from 2MASS to the Bessell-Brett sytem~\citep{carpenter_color_2001}, and from Bessell-Brett to Johnson using the relations in~\citet{bessell_brett_1988}. 
 \\
-\citet{mann_how_2015} provide CTRs from absolutely calibrated spectra to which they fitted atmospheric models to obtain $T_\mathrm{eff}$. Alternatively, they determined $T_\mathrm{eff}$ from long-baseline optical interferometry measurements using the bolometric flux. Among others, they note transformations for SDSS/2MASS $r-z$ and $r-J$, or Gaia $BP-RP$ where extra information can be added from metallicity or 2MASS $J-H$. The relations in \citet{mann_how_2015} are only valid if metallicity is sufficiently close to solar, which is satisfied for all clusters in this paper~(see Table \ref{data_clusters}). M35 may be an exception to this rule.
+\citet{mann_how_2015} provide CTRs from absolutely calibrated spectra to which they fitted atmospheric models to obtain $T_\mathrm{eff}$. Alternatively, they determined $T_\mathrm{eff}$ from long-baseline optical interferometry measurements using the bolometric flux. Among others, they note transformations for SDSS/2MASS $r-z$ and $r-J$, or Gaia $BP-RP$ where extra information can be added from metallicity or 2MASS $J-H$. The relations in \citet{mann_how_2015} are only valid if metallicity is sufficiently close to solar, which is satisfied for all clusters in this paper~(see Table \ref{data_clusters}). 
 \\
 We supplemented our estimates with $T_\mathrm{eff}$ estimates from \citet{anders_starhorse_2019} who used the StarHorse pipeline~\citep{queiroz_starhorse_2018} on Gaia DR2.
 \\
@@ -337,7 +336,7 @@ Starting from a uniform prior for $\alpha$ and $\epsilon$, we found a Gaussian d
 \section{Results}
 
 \begin{table*}
-\caption{Selection of confirmed flare candidates detected in open clusters observed by Kepler/K2, sorted by amplitude $a$. The full table is available on CDS.}\label{flares}
+\caption{Selection of confirmed flare candidates detected in open clusters observed by Kepler/K2, sorted by amplitude $a$. The full table is available on CDS.  Uncertainties are noted in parentheses.}\label{flares}
 \centering
 \footnotesize
 \input{tables/flares.tex}
