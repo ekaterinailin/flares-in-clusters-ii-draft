@@ -297,21 +297,9 @@ Flare frequency distributions (FFDs) follow power law relations that cover sever
 f(>E) = \dfrac{\beta}{\alpha - 1}E^{-\alpha + 1}.
 \label{eqn:cumdist}
 \end{equation}
-We used and compared two approaches to fitting $\alpha$ and $\beta$ to the data. The first was a Modified Maximum Likelihood Estimator (MMLE) for power law distributions~\citep{maschberger_powerlaw_2009}. The second approach was more specifically tailored to flaring activity. We used the MCMC method to sample from the predictive distribution for a flare source that produced flares that followed a Poisson process in time, and are power law distributed in the ensemble \citep{wheatland_flaresbayes_2004}. While the MMLE was computationally efficient, only the predictive distribution allowed us to fit for $\alpha$ and $\beta$ simultaneously.
-\paragraph{Modified Maximum Likelihood Estimatator}
-We fitted power law functions to the FFDs in $ED$ and $E_\mathrm{Kp}$ space using a stabilized maximum likelihood estimator (MLE)~ \citep{maschberger_powerlaw_2009}. The logarithm of the likelihood function $\mathstt{L}$ that had to be maximized was given in Eqn. (8) of \citet{maschberger_powerlaw_2009}:
-\begin{equation}
-\log \mathstt{L} = n \log (1-\hat{\alpha})-n \log\left(x_\mathrm{max}^{1-\hat{\alpha}}-x_\mathrm{min}^{1-\hat{\alpha}}\right) - \hat{\alpha} \displaystyle\sum_{i=1}^{n}\log x_i
-\label{eqn:MLE}
-\end{equation}
-where $x_i$, $x_\mathrm{max}$, and $x_\mathrm{min}$ were the detected flare energies, and the upper and lower limits for detection, respectively. $n$ was the total number of flares. The estimate for $\alpha$ was be biased in practice because $x_\mathrm{max}$ was the maximum energy that was measured, and not the underlying upper limit. The stabilization transformation suggested by the authors was then applied to the solution for $\alpha$ to account for this bias:
-\begin{equation}
-\alpha = 1 + \dfrac{n}{n-2}(\hat{\alpha} - 1)
-\label{eqn:MLE_stabilize}
-\end{equation}
- %As recommended by \citet{maschberger_powerlaw_2009}, we applied the stabilized Kolmogorov-Smirnov (KS) test at $95\,\%$ significance level to all power law fits in the sample. If the test fails the power law model does not fit the data at the given significance level. If the test passes, this does not give any information whether the power law model is the correct assumption. The goodness of fit can be estimated from the visual inspection of percentile-percentile plots, given in the online material\footnote{\url{https://github.com/ekaterinailin/flares-in-clusters-with-k2-ii}}. 
-\paragraph{Predictive flaring model}
-In the second approach we adopted the model descibed in \citet{wheatland_flaresbayes_2004}. Following their derivation, we defined the joint posterior distribution for the probability $\epsilon$ that a flare with $ED$ or $E_\mathrm{Kp}$ above some value $S_2$ would occur within a time period $\Delta T$:
+We used and compared two approaches to fitting $\alpha$ and $\beta$ to the data. The first was a Modified Maximum Likelihood Estimator (MMLE) for power law distributions~\citep{maschberger_powerlaw_2009}. The second approach was more specifically tailored to flaring activity. We used the MCMC method to sample from the predictive distribution for a flare source that produced flares that followed a Poisson process in time, and are power law distributed in the ensemble \citep{wheatland_flaresbayes_2004}. While the MMLE was computationally efficient and is useful to obtain first results~(see Section \ref{MMLE} in the Appendix), only the predictive distribution allowed us to fit for $\alpha$ and $\beta$ simultaneously, and determine their uncertainties.
+\\
+We adopted the model described in \citet{wheatland_flaresbayes_2004}. Following their derivation, we defined the joint posterior distribution for the probability $\epsilon$ that a flare with $ED$ or $E_\mathrm{Kp}$ above some value $S_2$ would occur within a time period $\Delta T$:
 \begin{eqnarray}
 \label{joint_posterior}
 p(\epsilon, \alpha) &=& C \cdot\, (-\ln(1 - \epsilon)^{M})\nonumber\\
@@ -665,60 +653,19 @@ We compiled a exhaustive (?) table of previous work where power laws were fitted
 \centering
 \input{tables/powerlaw_literature.tex}
 \end{table*}
-
-\section{Expanding the likelihood}
-The rate $\lambda_2$ of flares with energies larger than $S_2$ is given in \citet{wheatland_flaresbayes_2004} as
+\section{Modified Maximum Likelihood Estimatator}
+\label{MMLE}
+As a means to arrive at results efficiently, and as consistency check to the method derived from~\citet{wheatland_flaresbayes_2004} we fitted $\alpha$ to the FFDs in $ED$ and $E_\mathrm{Kp}$ space using a Modified Maximum Likelihood Estimatator (MMLE,~ \citealt{maschberger_powerlaw_2009}). The logarithm of the likelihood function $\mathcal{L}$ that had to be maximized was given by the authors in Eq. (8) in their manuscript:
 \begin{equation}
-\label{eqn4}
-    \lambda_2 = \lambda_1 \cdot \left(\dfrac{S_1}{S_2}\right)^{\alpha-1}.
+\log \mathcal{L} = n \log (1-\hat{\alpha})-n \log\left(x_\mathrm{max}^{1-\hat{\alpha}}-x_\mathrm{min}^{1-\hat{\alpha}}\right) - \hat{\alpha} \displaystyle\sum_{i=1}^{n}\log x_i
+\label{eqn:MLE}
 \end{equation}
-$S_1$ denotes the energy above which all flares are detected. $\lambda_1$ is the corresponding rate. $\alpha$ remains the power law exponent of the flare frequency distribution.
-\\
-We are also given the posterior distribution for the rate $\lambda_2$ of flares above $S_2$ in Eq. (20) in \citet{wheatland_flaresbayes_2004}:
-\begin{eqnarray}
-\label{eqn20}
-P_2(\lambda_2) &=& \displaystyle \int_{1}^{\infty} \mathrm{d}\alpha \int_{0}^{\infty} \mathrm{d}\lambda_1 \delta\left(\lambda_2 - \lambda_1 \cdot \left( \dfrac{S_1}{S_2} \right)^{\alpha-1}\right)\nonumber \\
-&&\cdot P_1(\lambda_1) \cdot P_{\alpha}(\alpha)
-\end{eqnarray}
-As we have additional information in the form of uncertainties in our data $S=\{S_i,\lambda_i,\sigma_{S,i}\}$, we can expand Eq. \ref{eqn20} with this knowledge. Assuming that the observed flare energies $S_i$ with cumulative rates $\lambda_i$ are distributed around the real flare energies $S_{0,i}$ with Gaussian uncertainties $\sigma_{S,i}$, we can define:
-\begin{eqnarray}
-    \label{pSi}
-    p(S_i | \lambda_1, \alpha, \sigma_{S,i})
-    &=& \dfrac{1}{2\pi \sqrt{\sigma_{S,i}}} \mathrm{e}^{-\dfrac{\left(S_i - S_{0,i}\right)^2}{2\sigma_{S,i}^2}}\nonumber\\
-    &=& \dfrac{1}{2\pi \sqrt{\sigma_{S,i}}} \mathrm{e}^{-\dfrac{\left(S_i - S_1\left(\dfrac{\lambda_i}{\lambda_1}\right)^{-1/(\alpha-1)}\right)^2}{2\sigma_{S,i}^2}}
-\end{eqnarray}
-We assume in Eq. \ref{pSi} that uncertainties on $\lambda_1$ are negligible. Eq. \ref{eqn20} then reads:
-\begin{eqnarray}
-\label{eqn201}
-P_2(\lambda_2) &=& \displaystyle \int_{1}^{\infty} \mathrm{d}\alpha \int_{0}^{\infty} \mathrm{d}\lambda_1 \delta\left(\lambda_2 - \lambda_1 \cdot \left( \dfrac{S_1}{S_2} \right)^{\alpha-1}\right)\nonumber \\
-&&\cdot P_1(\lambda_1) \cdot P_{\alpha}(\alpha) \cdot P_S(S| \lambda_1, \alpha, \sigma_S)
-\end{eqnarray}
-with
+where $x_i$, $x_\mathrm{max}$, and $x_\mathrm{min}$ were the detected flare energies, and the upper and lower limits for detection, respectively. $n$ was the total number of flares. The estimate for $\alpha$ would be biased in practice because the value used for $x_\mathrm{max}$ would be the maximum energy that was measured, and not the underlying upper limit. The stabilization transformation suggested by the authors (Eq. (12) in \citealt{maschberger_powerlaw_2009}) was then applied to the solution for $\alpha$ to account for this bias:
 \begin{equation}
-    P_S(S | \lambda_1, \alpha, \sigma_S) = C\displaystyle \prod_{i=1}^M p(S_i | \lambda_1, \alpha, \sigma_{S,i}).
+\alpha = 1 + \dfrac{n}{n-2}(\hat{\alpha} - 1)
+\label{eqn:MLE_stabilize}
 \end{equation}
-$C$ absorbs the normalization, or evidence term.
-\\
-Following \citet{wheatland_flaresbayes_2004}, we marginalize over $\lambda_1$ using the $\delta$ function in \ref{eqn201} to obtain
-\begin{eqnarray}
-\label{eqn21}
-P_2(\lambda_2) &=& \displaystyle \int_{1}^{\infty} \mathrm{d}\alpha \cdot P_1\left(\lambda_2 \cdot\left(\dfrac{S_2}{S_1}\right)^{\alpha-1}\right) \cdot P_{\alpha}(\alpha)\nonumber\\
-&&\cdot P_S\left(S| \lambda_2 \cdot\left(\dfrac{S_2}{S_1}\right)^{\alpha-1}, \alpha, \sigma_S\right)
-\end{eqnarray}
-Transforming $P_S$ into a function of $\epsilon$ with $\lambda_1=-\ln(1-\epsilon)/\Delta T$ yields:
-\begin{eqnarray}
-    P_S(S | \epsilon, \alpha, \sigma_S) &=& C \displaystyle \prod_{i=1}^M p(S_i | \epsilon, \alpha, \sigma_{S,i})\nonumber\\
-    &=& \dfrac{C}{\Delta T(1-\epsilon)}\nonumber\\
-    &&\cdot \displaystyle \prod_{i=1}^M \left[\dfrac{1}{2\pi \sqrt{\sigma_{S,i}}}\mathrm{e}^{-\dfrac{\left(S_i - S_2\left(\dfrac{-\ln(1-\epsilon)}{\Delta T\lambda_i}\right)^{1/(\alpha-1)}\right)^2}{2\sigma_{S,i}^2}}\right]
-\end{eqnarray}
-Finally, $P_S$ enters the joint posterior distribution from Eq. \ref{joint_posterior}, that becomes
-\begin{eqnarray}
-\label{joint_posterior2}
-p(\epsilon, \alpha) &=& C \cdot\, (-\ln(1 - \epsilon)^{M})\nonumber\\
-                    && \cdot\, (\alpha-1)^M \cdot\, \Gamma(\alpha) \left[\dfrac{(S_2 / S_1)^{M+1}}{\pi} \right]^{\alpha}\nonumber\\
-                    && \cdot\, (1-\epsilon)^{(T / \Delta T) \,\cdot\, (S_2 /S_1)^{\alpha-1} -1 }\nonumber\\
-                    &&\cdot P_S(S | \epsilon, \alpha, \sigma_S).
-\end{eqnarray}
+ %As recommended by \citet{maschberger_powerlaw_2009}, we applied the stabilized Kolmogorov-Smirnov (KS) test at $95\,\%$ significance level to all power law fits in the sample. If the test fails the power law model does not fit the data at the given significance level. If the test passes, this does not give any information whether the power law model is the correct assumption. The goodness of fit can be estimated from the visual inspection of percentile-percentile plots, given in the online material\footnote{\url{https://github.com/ekaterinailin/flares-in-clusters-with-k2-ii}}. 
 \end{appendix}
 \end{document}
 
