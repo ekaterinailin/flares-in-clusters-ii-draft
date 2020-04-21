@@ -349,23 +349,23 @@ Starting from a uniform prior for $\alpha$ and $\epsilon$, we found a Gaussian d
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.49\hsize]{pics/FFDs/full_sample_ffd_ED.png}
+    \includegraphics[width=0.49\hsize]{pics/FFDs/full_sample_ffd_ED_wheatland.png}
     \hspace{.01cm}
-    \includegraphics[width=0.49\hsize]{pics/FFDs/full_sample_ffd_energy.png}
-    \caption{FFD (scatter) in $ED$ (left panel) and energy (right panel) and respective power law fit (black line) to the full sample of flare candidates.}          	
-    \label{powerlawfit_full}
+    \includegraphics[width=0.49\hsize]{pics/FFDs/full_sample_ffd_energy_wheatland.png}
+    \caption{FFD (scatter) in $ED$ (left panel) and energy (right panel) and respective power law fit (black line) to the full sample of flare candidates. The full FFD is shown in orange, the portion used for the fit is overplotted in grey. The red shade is a randomly drawn sample from the posterior distribution.}          	
+    \label{fig:powerlawfit_full}
 \end{figure*}
 
 \begin{figure*}
     \centering
-    \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_ED.png}
-    \caption{FFDs (scatter) in $ED$ and respective power law fits with $\alpha=XXX$ (black lines).}          	\label{powerlawfits_s}
+    \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png}
+    \caption{FFDs (scatter) in $ED$ and respective power law fits (black lines).}          	\label{powerlawfits_s}
 \end{figure*}
 
 \begin{figure*}
     \centering
-    \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_energy.png}
-    \caption{FFDs (scatter) in energy and respective power law fits with $\alpha=XXX$ (black lines).}          	\label{powerlawfits_s}
+    \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png}
+    \caption{FFDs (scatter) in $E_\mathrm{Kp}$ and respective power law fits.}          	\label{powerlawfits_s}
 \end{figure*}
 %-------------------------------------------
 % -- ALL POWERLAWS IN ERG
@@ -453,7 +453,7 @@ Howard+18, Loyd+18, Tilley+19 show that flares can erode exoplanetary atmosphere
 
 \begin{figure*}
     \centering
-    \includegraphics[width=13.5cm]{pics/FFDs/beta_T_age_ED.png}
+    \includegraphics[width=13.5cm]{pics/FFDs/beta_T_age_ED_wheatland.png}
     \caption{Flare $\beta_\mathrm{s}$ vs. age grouped by $T_\mathrm{eff}$.}          	
     \label{powerlawfits_s}
 \end{figure*}
@@ -662,6 +662,7 @@ where $x_i$, $x_\mathrm{max}$, and $x_\mathrm{min}$ were the detected flare ener
 \alpha = 1 + \dfrac{n}{n-2}(\hat{\alpha} - 1)
 \label{eqn:MLE_stabilize}
 \end{equation}
+Using the MMLE method on the full sample of flares in $E_\mathrm{Kp}$ and $ED$ space we obtained $alpha_\mathrm{erg}=$\input{values/MMLE_alpha_energy.txt} and $\alpha_\mathrm{s}=$\input{values/MMLE_alpha_ed.txt}, respectively, indicating a marginally flatter power law than the predictive model ($\alpha_\mathrm{erg}=$\input{values/MCMC_alpha_energy.txt}, $\alpha_\mathrm{s}=$\input{values/MCMC_alpha_ed.txt}).
  %As recommended by \citet{maschberger_powerlaw_2009}, we applied the stabilized Kolmogorov-Smirnov (KS) test at $95\,\%$ significance level to all power law fits in the sample. If the test fails the power law model does not fit the data at the given significance level. If the test passes, this does not give any information whether the power law model is the correct assumption. The goodness of fit can be estimated from the visual inspection of percentile-percentile plots, given in the online material\footnote{\url{https://github.com/ekaterinailin/flares-in-clusters-with-k2-ii}}. 
 \end{appendix}
 \end{document}
