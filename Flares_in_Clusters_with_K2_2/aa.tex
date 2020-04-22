@@ -367,24 +367,23 @@ Starting from a uniform prior for $\alpha$ and $\epsilon$, we found a Gaussian d
     \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png}
     \caption{FFDs (scatter) in $E_\mathrm{Kp}$ and respective power law fits.}          	\label{powerlawfits_s}
 \end{figure*}
-%-------------------------------------------
-% -- ALL POWERLAWS IN ERG
-%-------------------------------------------
 
-%         \caption{Power law fits to the FFDs of $E_\mathrm{Kp,flare}$ in Fig. \ref{ffds_teff_s}. See Fig. \ref{powerlawfits_s} for details.}
-%-------------------------------------------
-% BETA AND ALPHA IN ERG
-%-------------------------------------------
-%-------------------------------------------
-%BETA AND ALPHA IN S
-%-------------------------------------------
+ We found XXXX flares
 
-Fig. \ref{agemass_thresh} shows the $E_\mathrm{Kp,flare}$ and $ED$ detection thresholds, as defined by the recovery probability~(see Sec. \ref{recprob_edcor}). The thresholds in $ED$ reflect the noise level in the light curves.
+ Determined their energies
+
+ Fitted power laws to the data
+
+Activity declines with increasing age and mass
+ 
 %-------------------------------------------
 \subsection{Flaring activity as a function of a age and $T_\mathrm{eff}$}
 Flaring activity decays with age. Flaring fraction was observed to decline with galactic latitude for M dwarfs~\citep{hilton_dwarf_2010}Howard+2019. Short rotation periods and high magnetic activity measured in H$\alpha$ are strongly correlated~\citep{west_magneticrotationage_2015}. According to gyrochronology, fast rotation indicates young age~\citep{barnes_rotational_2003}, and slows down as the star ages. Here, we quantify how this decline unfolds for different spectral types. Except for the stars in our coolest temperature bin (M5.5-M8, 2\,500-3\,000 K), stellar flaring activity at a given age is always stronger for a cooler star. The exception is seen at cluster ages around 120 Myr.
 \\
 What creates the strong emission in white light? Extended flare loops, maybe~\citep{heinzel_flareloops_2018}
+%-------------------------------------------
+\subsection{Hyades and Praesepe}
+We expected the flaring activity in the Hyades and Praesepe to be very similar because they were nearly coeval clusters with ages around 700 Myr, and comparable metallicities ([Fe/H](Praesepe)\,$=0.16$, [Fe/H](Hyades)\,$=0.13$,~\citealt{netopil_metallicities_2016}). We found this reflected in all our FFDs, except for the $3500-3750$\,K temperature bin, where the Hyades appeared almost as active as the Pleiades (135 Myr). This discrepancy could be explained by the rotation period distributions of their samples. While in all other temperature bins the distributions of the Hyades and Praesepe were similar, and the Pleiades showed shorter periods on average, in the $3500-3750$\,K temperature bin, Hyades and Pleiades were more alike than Hyades and Praesepe (see Fig. \ref{fig:rotation_histogram} in the Appendix). In this temperature regime, the overwhelming majority of Praesepe stars had rotation periods above 10\,d, while in the Hyades and the Pleiades rotation periods were more evenly distibuted in the $0.3-30$\,d range.
 %-------------------------------------------
 \subsection{M67 and Rup 147}
 \begin{table}
@@ -491,13 +490,7 @@ A truncation of the power law that reflects the maximum $ED$ an active region ca
 \citet{west_magneticrotationage_2015} found that all M1-M4 dwarfs with rotation periods shorter than 26 days, and all M5-M8 dwarfs with periods shorter than 86 days show H$\alpha$ emission, indicating their magnetic activity.
 \\
 Assuming a typical binary fraction for early and mid M dwarfs~\citep{fischer_multiplicity_1992}, we can expect some of the flares on stars at $T_\mathrm{eff}>3000$ K to belong to unresolved binary companions with $T_\mathrm{eff}<3000$ K. A misattributed flare on an early M dwarf then will be assigned a too small $ED$, but still a correct $E_\mathrm{Kp, flare}$ because the count ratios are equal to the $L_\mathrm{Kp}$ ratios.
-\subsection{Consistency of Hyades' and Praesepe's results}
-HRDs constructed in \citet{gaia_dr2_2018_hrd} indicate only slightly older ages for Hyades and Praesepe. We expect our results to reflect this similarity.
-\\
-\textit{Are the samples comparable? Membership determination may differ.
-Can we frame this as a statistical test, i.e. answer the question: What is the probability that the activity distributions for both clusters were drawn from the same underlying distribution for a given age and mass bin?}
-\\
-Metallicity is controlled for ([Fe/H](Praesepe)\,$=0.16$, [Fe/H](Hyades)\,$=0.13$, Netopil et al. 2016).
+
 \subsection{Comparison to other work}
 \citet{davenport_flaresevolve_2019} note a sample bias towards more active stars. Their models overpredicts the superflaring rate of the average Sun-like sample from~\citet{shibayama_2013} and more resembles the rate for their most active sub-sample.
 \\
@@ -643,6 +636,19 @@ Resolve different levels of pixel saturation (>1, >10) and how they contribute t
 \section{Solar system objects}
 Solar system objects (SSOs) produce brightness excursions in K2 light curves that can closely resemble flare signatures. Often, they can be distinguished by their symmetric rise and decay shape as contrasted with the typical fast-rise gradual decay flare shape~\citep{davenport_kepler_2014}.
 M. H. Christiansen and colleagues developed a routine called \texttt{SkyBoT} that matches positions and times to passages of SSOs listed in YYY. RA, declination, start, stop, and mid epochs of flares in BKJD are the input parameters. We excluded all flare candidates that occurred within X minutes of a SSO passage at the star's position. This procedure removed ZZ\% of all flare candidates. In the case of high energy flares, we confirmed the passage by manually inspecting the pixel file with the \texttt{lightkurve} \texttt{interact} function for TargetPixelFiles.
+\section{Rotation and flaring}
+
+%--------------------------------------------------------------------
+
+   \begin{figure*}
+   \centering
+            \includegraphics[width=16cm]{pics/rotation/SpT_wise_rotation.png}
+         \caption{Rotation histograms for the cluster members that were searched for flares and had measured rotation periods $P_\mathrm{rot}$. Rotation periods were taken from~\citet{douglas2019} for the Hyades and Praesepe, and from~\citet{rebull_pleiadesrot_2016} for the Pleiades.}
+          \label{fig:rotation_histogram}
+         % X panel: Power law exponent $\alpha_\mathrm{MK}$, fitting procedure follows Bauke (2007).
+   \end{figure*}
+
+%--------------------------------------------------------------------
 \section{Universality of power law exponent $\alpha$}
 We compiled a exhaustive (?) table of previous work where power laws were fitted to FFDs using different methods. Table \ref{app_powerlaw_literature} lists the overview. While particular studies consistently find values above or below $\alpha\approx2$, the comparison of different studies points towards unresolved systematic errors in all these studies. \begin{table*}
 \caption{Literature overview over power law fitting approaches to FFDs.}
