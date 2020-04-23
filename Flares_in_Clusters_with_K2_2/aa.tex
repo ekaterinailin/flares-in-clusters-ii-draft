@@ -359,13 +359,13 @@ Starting from a uniform prior for $\alpha$ and $\epsilon$, we found a Gaussian d
 \begin{figure*}
     \centering
     \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png}
-    \caption{FFDs (scatter) in $ED$ and respective power law fits (black lines).}          	\label{powerlawfits_s}
+    \caption{FFDs (scatter) in $ED$ and respective power law fits (black lines).}          	\label{fig:powerlawfits_s}
 \end{figure*}
 
 \begin{figure*}
     \centering
     \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png}
-    \caption{FFDs (scatter) in $E_\mathrm{Kp}$ and respective power law fits.}          	\label{powerlawfits_s}
+    \caption{FFDs (scatter) in $E_\mathrm{Kp}$ and respective power law fits.}          	\label{fig:powerlawfits_erg}
 \end{figure*}
 
  We found XXXX flares
@@ -426,7 +426,9 @@ We determined $L_\mathrm{bol,*}$ from $R_*$ and $T_\mathrm{eff}$, as described i
 %\textit{We could test our results if we derived $FA$ from the bolometric correction suggested by \citet{davenport_flaresevolve_2019}. Would there be any difference?}
 %-------------------------------------------
 \paragraph{FFD}
-Power law fit parameters to the FFDs~(Figs. \ref{ffds_teff_s} and \ref{ffds_teff_erg}) are sensitive to the low-energy cutoff, where most observations reside. The goodness of fit strongly depends on the sample size.
+We fitted power law parameters for $\alpha$ and $\beta$ to the full sample FFDs in $E_\mathrm{Kp}$ and $ED$ space by sampling from the joint posterior distibution in Eq. \ref{joint_posterior}. We chose uninformative priors for both $\alpha$ and $\epsilon$. The detection threshold in any FFD is not a unique function of$E_\mathrm{Kp}$ or $ED$, but depends on the flares' amplitudes and durations. Since it was computationally not feasible to perform the injection of synthetic flares to determine the effect of K2SC de-trending, we must acknowledge the incompleteness of flare detection at the low energy end. To a first approximation to a detection threshold, we chose to use only the portion of the FFD for the fit, where all flaring stars contribute, that is where all contributing stars will have exceeded the detection threshold. This mitigated but did not solve the problem of a detection probability $<1$ that still affected the shape of the FFDs at the lower energy end. It was no solution, however, to exclude even more flares on the low-energy, because then the high-energy tail gains increasing weight. In the case of the full sample we expect that for some stars the high-energy threshold will be reached at some energy below the maximum detected energy in the sample. Consequently the high-energy tail of the FFD will also be incomplete. To arrive at consistency with a powerlaw at a 5\% significance level using a Kolmogorov-Smirnov as suggested by~\citet{wheatland_flaresbayes_2004} by choosing ever higher low-energy cutoffs, we would have had to exclude the majority of flares. The power law exponent in these cases would have approached $\alpha\sim 2.4$ (using only about 320 flares out of \input{values/total_number_of_flares.txt}). The absolute value of $\alpha$ in this work is therefore of limited significance. It remains useful as a relative anchor for the comparison within the sample because the FFDs for different age and $T_\mathrm{eff}$ bins suffer from the same incompletenesses. Making use of this, we fitted a Gaussian distribution to the posterior distribution for $\alpha$ from the full sample and took it as a prior for the power law fits to the FFDs in the individual bins. The values for the full sample FFDs in $E_\mathrm{Kp}$ and $ED$ space~(Fig. \ref{fig:powerlawfit_full}) are summarized in Table \ref{tab:powerlawtable_fullsample}. 
+\\
+The core part of this work was to investigate the effects of age on the flaring activity for low mass stars. We therefore split up the full sample into $T_\mathrm{eff}$ bins and constructed the FFDs cluster by cluster~(Figs. \ref{powerlawfits_s}, and \ref{powerlawtable_spt}). The power law fit parameters to these FFDs are summarized in Table \ref{tab:powerlawtable_spt}. To this end, the flaring activity was best described by the $\beta_s$, the power law fit intercept for the FFDs in $ED$ space. It accounted for the different energy budgets of stars, by looking at the relative flare energies as measured by $ED$ as opposed to $\beta_\mathrm{erg}$ which was based the Kepler band flare energy $E_\mathrm{Kp}$. We could therefore use $\beta_\mathrm{s}$ to compare across both $T_\mathrm{eff}$ and age. Overall, $\beta_\mathrm{s}$ declined with age in all investigated $T_\mathrm{eff}$ bins but the $2500-3000$ K bin, where it increased from ZAMS to Hyades age~(Fig. \ref{fig:beta_T_age}). 
 \\
 Power law fit parameters derived using MLEs, as described in Sec. \ref{powerlawfits}, are mostly consistent with each other but often deviate from $\alpha=2$. A smaller sample size tends to create a flatter distribution~(Figs. \ref{powerlawfits_s} and \ref{powerlawfits_erg}). Truncation was not detected for FFDs with more than 50 flares~(Tables \ref{ergtable} and \ref{stable}) For these results, extrapolations outside of the observed energy range are clearly off. If we assume $\alpha \equiv 2$,  different distributions can be compared. For fixed $\alpha$, in the $ED$ domain, $\beta_2$ is the flare frequency at $ED=1\,\mathrm{s}$, and shows a trend in both $T_\mathrm{eff}$, and age (see Fig. \ref{agemass_alphabeta_s}). In the energy domain, the picture is less clear~(Fig. \ref{agemass_alphabeta_erg}).
 \\
@@ -438,24 +440,31 @@ Howard et al (2019) monitored superflares on cool stars with bolometric energies
 \\
 Howard+18, Loyd+18, Tilley+19 show that flares can erode exoplanetary atmospheres. If a flare is assumed to deposit its UV energy in an instant a single superflare can completely remove the ozone layer at the substellar point Loyd+18. Associated protons are safer way to ozone destruction if they are associated with reoccurring large flares Tilley+19
 %-------------------------------------------
+
 %-------------------------------------------
 \begin{table*}
-\caption{Summary of flaring $\beta$ of all clusters and $T_\mathrm{eff}$ bins in $E_\mathrm{Kp}$ and $ED$ distributions.}\label{powerlawtable_spt}
+\caption{Summary of flaring $\beta$ of all clusters and $T_\mathrm{eff}$ bins in $E_\mathrm{Kp}$ and $ED$ distributions.}\label{tab:powerlawtable_spt}
 \centering
 \input{tables/powerlaw_SpT_wheatland.tex}
 \end{table*}
+%-------------------------------------------
+
+%-------------------------------------------
 \begin{table}
-\caption{Summary of FFD parameters and power law fits to the full sample of all clusters in $E_\mathrm{Kp}$ and $ED$ space.}\label{powerlawtable_fullsample}
+\caption{Summary of FFD parameters and power law fits to the full sample of all clusters in $E_\mathrm{Kp}$ and $ED$ space.}\label{tab:powerlawtable_fullsample}
 \centering
 \input{tables/powerlaw_fullsample_wheatland.tex}
 \end{table}
+%-------------------------------------------
 
+%-------------------------------------------
 \begin{figure*}
     \centering
     \includegraphics[width=13.5cm]{pics/FFDs/beta_T_age_ED_wheatland.png}
     \caption{Flare $\beta_\mathrm{s}$ vs. age grouped by $T_\mathrm{eff}$.}          	
-    \label{powerlawfits_s}
+    \label{fig:beta_T_age}
 \end{figure*}
+%-------------------------------------------
 
 
 %-------------------------------------------
