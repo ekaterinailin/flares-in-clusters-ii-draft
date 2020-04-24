@@ -1,4 +1,4 @@
-\begin{thebibliography}{116}
+\begin{thebibliography}{115}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarnio} {et~al.}(2012){Aarnio}, {Matt}, \&
@@ -32,6 +32,9 @@ Alvarado-G{\'o}mez, J.~D., Drake, J.~J., Cohen, O., Moschou, S.~P., \&
   {Bailer-Jones}}]{andrae_gaiaapsis_2018}
 {Andrae}, R., {Fouesneau}, M., {Creevey}, O., {et~al.} 2018, \aap, 616, A8
 
+\bibitem[{{Aschwanden}(2015)}]{aschwanden_powerlaws_2015}
+{Aschwanden}, M.~J. 2015, \apj, 814, 19
+
 \bibitem[{{Bailer-Jones} {et~al.}(2013){Bailer-Jones}, {Andrae}, {Arcay},
   {Astraatmadja}, {Bellas-Velidis}, {Berihuete}, {Bijaoui}, {Carri{\'o}n},
   {Dafonte}, {Damerdji}, {Dapergolas}, {de Laverny}, {Delchambre}, {Drazinos},
@@ -54,9 +57,6 @@ Alvarado-G{\'o}mez, J.~D., Drake, J.~J., Cohen, O., Moschou, S.~P., \&
 \bibitem[{Barnes(2003)}]{barnes_rotational_2003}
 Barnes, S.~A. 2003, \apj, 586, 464
 
-\bibitem[{{Bauke}(2007)}]{bauke_powerlaw_2007}
-{Bauke}, H. 2007, European Physical Journal B, 58, 167
-
 \bibitem[{{Bessell} \& {Brett}(1988)}]{bessell_brett_1988}
 {Bessell}, M.~S. \& {Brett}, J.~M. 1988, Publications of the Astronomical
   Society of the Pacific, 100, 1134
@@ -74,11 +74,6 @@ Barnes, S.~A. 2003, \apj, 586, 464
 \bibitem[{{Bokeh Development Team}(2019)}]{bokeh}
 {Bokeh Development Team}. 2019, Bokeh: Python library for interactive
   visualization
-
-\bibitem[{Bouy {et~al.}(2015)Bouy, Bertin, Barrado, Sarro, Olivares, Moraux,
-  Bouvier, Cuillandre, Ribas, \& Beletsky}]{bouy_messier_2015}
-Bouy, H., Bertin, E., Barrado, D., {et~al.} 2015, Astronomy and Astrophysics,
-  575, A120
 
 \bibitem[{Boyajian {et~al.}(2013)Boyajian, von Braun, van Belle, Farrington,
   Schaefer, Jones, White, McAlister, ten Brummelaar, Ridgway, Gies, Sturmann,
@@ -171,6 +166,11 @@ Curtis, J.~L., Wolfgang, A., Wright, J.~T., Brewer, J.~M., \& Johnson, J.~A.
 \bibitem[{{Davenport}(2015)}]{davenport_flaresandspots_2015}
 {Davenport}, J. 2015, PhD thesis, University of Washington
 
+\bibitem[{Davenport {et~al.}(2012)Davenport, Becker, Kowalski, Hawley, Schmidt,
+  Hilton, Sesar, \& Cutri}]{davenport_multi-wavelength_2012}
+Davenport, J. R.~A., Becker, A.~C., Kowalski, A.~F., {et~al.} 2012, \apj, 748,
+  58
+
 \bibitem[{{Davenport} {et~al.}(2019){Davenport}, {Covey}, {Clarke}, {Boeck},
   {Cornet}, \& {Hawley}}]{davenport_flaresevolve_2019}
 {Davenport}, J. R.~A., {Covey}, K.~R., {Clarke}, R.~W., {et~al.} 2019, \apj,
@@ -206,10 +206,21 @@ Doorsselaere, T.~V., Shariati, H., \& Debosscher, J. 2017, \apjs, 232, 26
 Douglas, S.~T., Ag{\"u}eros, M.~A., Covey, K.~R., \& Kraus, A. 2017, \apj, 842,
   83
 
+\bibitem[{{Douglas} {et~al.}(2019){Douglas}, {Curtis}, {Ag{\"u}eros},
+  {Cargile}, {Brewer}, {Meibom}, \& {Jansen}}]{douglas2019}
+{Douglas}, S.~T., {Curtis}, J.~L., {Ag{\"u}eros}, M.~A., {et~al.} 2019, \apj,
+  879, 100
+
 \bibitem[{{Drake} {et~al.}(2013){Drake}, {Cohen}, {Yashiro}, \&
   {Gopalswamy}}]{drake_cmemassloss_2013}
 {Drake}, J.~J., {Cohen}, O., {Yashiro}, S., \& {Gopalswamy}, N. 2013, \apj,
   764, 170
+
+\bibitem[{{Eker} {et~al.}(2018){Eker}, {Bak{\i}{\textcommabelow s}}, {Bilir},
+  {Soydugan}, {Steer}, {Soydugan}, {Bak{\i}{\textcommabelow s}},
+  {Ali{\c{c}}avu{\textcommabelow s}}, {Aslan}, \& {Alpsoy}}]{eker2018}
+{Eker}, Z., {Bak{\i}{\textcommabelow s}}, V., {Bilir}, S., {et~al.} 2018,
+  \mnras, 479, 5491
 
 \bibitem[{{Filippazzo} {et~al.}(2015){Filippazzo}, {Rice}, {Faherty}, {Cruz},
   {Van Gordon}, \& {Looper}}]{Filippazzo2015}
@@ -321,9 +332,6 @@ Fischer, D.~A. \& Marcy, G.~W. 1992, \apj, 396, 178
 \bibitem[{{Gao}(2018)}]{gao_m67mem_2018}
 {Gao}, X. 2018, \apj, 869, 9
 
-\bibitem[{Gao(2018)}]{gao_mlm67members_2018}
-Gao, X. 2018, The Astrophysical Journal, 869, 9
-
 \bibitem[{Gizis(2013)}]{gizis_kepler_2013}
 Gizis, J.~E. 2013, \apj, 779, 172
 
@@ -407,10 +415,6 @@ Karoff, C. 2016, Nature Communications, 7, 11058
   \& Wu}]{koch_kepler_2010}
 Koch, D.~G., Borucki, W.~J., Basri, G., {et~al.} 2010, \apj, 713, L79
 
-\bibitem[{{Kov{\'a}cs} {et~al.}(2005){Kov{\'a}cs}, {Bakos}, \&
-  {Noyes}}]{kovacs_tfa_algorithm_2005}
-{Kov{\'a}cs}, G., {Bakos}, G., \& {Noyes}, R.~W. 2005, \mnras, 356, 557
-
 \bibitem[{Kowalski {et~al.}(2013)Kowalski, Hawley, Wisniewski, Osten, Hilton,
   Holtzman, Schmidt, \& Davenport}]{kowalski_time-resolved_2013}
 Kowalski, A.~F., Hawley, S.~L., Wisniewski, J.~P., {et~al.} 2013, \apjs, 207,
@@ -468,11 +472,10 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
   {Shibata}}]{namekata_solarstellarwlf_2017}
 {Namekata}, K., {Sakaue}, T., {Watanabe}, K., {et~al.} 2017, \apj, 851, 91
 
-\bibitem[{{Nardiello} {et~al.}(2016){Nardiello}, {Libralato}, {Bedin},
-  {Piotto}, {Borsato}, {Granata}, {Malavolta}, \&
-  {Nascimbeni}}]{nardiello_m67psf_2016}
-{Nardiello}, D., {Libralato}, M., {Bedin}, L.~R., {et~al.} 2016, \mnras, 463,
-  1831
+\bibitem[{{Netopil} {et~al.}(2016){Netopil}, {Paunzen}, {Heiter}, \&
+  {Soubiran}}]{netopil_metallicities_2016}
+{Netopil}, M., {Paunzen}, E., {Heiter}, U., \& {Soubiran}, C. 2016, \aap, 585,
+  A150
 
 \bibitem[{{Olivares} {et~al.}(2019){Olivares}, {Bouy}, {Sarro}, {Miret-Roig},
   {Berihuete}, {Bertin}, {Barrado}, {Hu{\'e}lamo}, {Tamura}, {Allen},
@@ -583,11 +586,6 @@ Shibayama, T., Maehara, H., Notsu, S., {et~al.} 2013, \apjs, 209, 5
   Wheelock}]{skrutskie_two_2006}
 Skrutskie, M.~F., Cutri, R.~M., Stiening, R., {et~al.} 2006, \aj, 131, 1163
 
-\bibitem[{{Soares-Furtado} {et~al.}(2017){Soares-Furtado}, {Hartman}, {Bakos},
-  {Huang}, {Penev}, \& {Bhatti}}]{soares_furtado_m35_2017}
-{Soares-Furtado}, M., {Hartman}, J.~D., {Bakos}, G.~{\'A}., {et~al.} 2017,
-  Publications of the Astronomical Society of the Pacific, 129, 044501
-
 \bibitem[{{Tilley} {et~al.}(2019){Tilley}, {Segura}, {Meadows}, {Hawley}, \&
   {Davenport}}]{tilley_repeated_flare_2019}
 {Tilley}, M.~A., {Segura}, A., {Meadows}, V., {Hawley}, S., \& {Davenport}, J.
@@ -611,11 +609,6 @@ Van~Cleve, J.~E., Howell, S.~B., Smith, J.~C., {et~al.} 2016, \pasp, 128,
   {Gray}}]{astroML}
 {Vanderplas}, J., {Connolly}, A., {Ivezi{\'c}}, {\v Z}., \& {Gray}, A. 2012, in
   Conference on Intelligent Data Understanding (CIDU), 47 --54
-
-\bibitem[{Vin{\'\i}cius {et~al.}(2018)Vin{\'\i}cius, Barentsen, Hedges,
-  Gully-Santiago, \& Cody}]{lightkurve}
-Vin{\'\i}cius, Z., Barentsen, G., Hedges, C., Gully-Santiago, M., \& Cody,
-  A.~M. 2018
 
 \bibitem[{Walkowicz {et~al.}(2011)Walkowicz, Basri, Batalha, Gilliland,
   Jenkins, Borucki, Koch, Caldwell, Dupree, Latham, Meibom, Howell, Brown, \&
@@ -647,6 +640,10 @@ Walkowicz, L.~M., Basri, G., Batalha, N., {et~al.} 2011, \aj, 141, 50
 \bibitem[{Yang {et~al.}(2017)Yang, Liu, Gao, Fang, Guo, Zhang, Hou, Wang, \&
   Cao}]{yang_flaring_2017}
 Yang, H., Liu, J., Gao, Q., {et~al.} 2017, \apj, 849, 36
+
+\bibitem[{{Yang} {et~al.}(2018){Yang}, {Liu}, {Qiao}, {Zhang}, {Gao}, {Cui}, \&
+  {Han}}]{yang_flaresampling_2018}
+{Yang}, H., {Liu}, J., {Qiao}, E., {et~al.} 2018, \apj, 859, 87
 
 \bibitem[{Yee {et~al.}(2017)Yee, Petigura, \& {von Braun}}]{yee_specmatch_2017}
 Yee, S.~W., Petigura, E.~A., \& {von Braun}, K. 2017, \apj, 836, 77

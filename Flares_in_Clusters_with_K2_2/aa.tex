@@ -89,13 +89,10 @@
   % results heading (mandatory)
    {We find that the flare production mechanism is similar for the entire parameter space, following a power law relation with exponent $\alpha\approx 1.9$, but the flaring frequencies depend on both mass, and age. We discuss X and Y.}
   % conclusions heading (optional), leave it empty if necessary
-   %{}
-
+   {}
    \keywords{Methods: data analysis, Stars: activity, Stars: flare, Stars: low-mass
                }
-
    \maketitle
-
 \section{Introduction}
 %The impressive morphology of flares has incited our curiosity for decades. Yet the underlying physical processes are still not fully understood on the Sun, and even less so on other stars.
 Flares are explosions on stellar surfaces with a complex spatio-temporal and energetic phenomenology. We know that flares are magnetic re-connection events that lead to a change in field line topology and subsequent energy release~\citep{priest_magnetic_2002}. We can observe flares in nearly all electromagnetic bands, from radio %Vilhu et al. 1993, Gudel et al. 1995b,1998, Berger 2002
@@ -360,17 +357,19 @@ Starting from a uniform prior for $\alpha$ and $\epsilon$, we found a Gaussian d
 \begin{figure*}
     \centering
     \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png}
-    \caption{FFDs (scatter) in $ED$ and respective power law fits (black lines).}          	\label{fig:powerlawfits_s}
+    \caption{FFDs (scatter) in $ED$ and respective power law fits (black lines).}          	
+    \label{fig:powerlawfits_s}
 \end{figure*}
 %----------------------------------------
 %----------------------------------------
 \begin{figure*}
     \centering
     \includegraphics[width=16cm]{pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png}
-    \caption{FFDs (scatter) in $E_\mathrm{Kp}$ and respective power law fits.}          	\label{fig:powerlawfits_erg}
+    \caption{FFDs (scatter) in $E_\mathrm{Kp}$ and respective power law fits.}          	
+    \label{fig:powerlawfits_erg}
 \end{figure*}
 %----------------------------------------
-The core objective of this work was to quantify how the decline in flaring activity with age unfolds for different spectral types. To this end, we searched the long cadence light curves of stars across a broad range of spectral types in five different open clusters for flares, and measured their energies and occurrence rates. We found \input{•} We then fitted power law relations to the flare frequency distributions (FFD) of samples of stars split up by cluster, that is, age, and effective temperature bins, that is, spectral type. We found that flaring activity dropped significantly with increasing age from ZAMS to 3.6 Gyr, and from mid-M to G dwarfs. Except for the stars in the coolest temperature bin (M5.5-M8, 2\,500-3\,000 K), stellar flaring activity at a given age was higher for a cooler star.
+The core objective of this work was to quantify how the decline in flaring activity with age unfolds for different spectral types. To this end, we searched the long cadence light curves of stars across a broad range of spectral types in five different open clusters for flares, and measured their energies and occurrence rates. We found \input{values/total_number_of_flares.txt} flares. We then fitted power law relations to the flare frequency distributions (FFD) of samples of stars split up by cluster, that is, age, and effective temperature bins, that is, spectral type. We found that flaring activity dropped significantly with increasing age from ZAMS to 3.6 Gyr, and from mid-M to G dwarfs. Except for the stars in the coolest temperature bin (M5.5-M8, 2\,500-3\,000 K), stellar flaring activity at a given age was higher for a cooler star.
 %\\
 %What creates the strong emission in white light? Extended flare loops, maybe~\citep{heinzel_flareloops_2018}
 %-------------------------------------------
@@ -396,7 +395,7 @@ Howard+18, Loyd+18, Tilley+19 show that flares can erode exoplanetary atmosphere
 
 %-------------------------------------------
 \begin{table}
-\caption{Summary of FFD parameters and power law fits to the full sample of all clusters in $E_\mathrm{Kp}$ and $ED$ space.}\label{tab:powerlawtable_fullsample}
+\caption{Summary of FFD parameters and power law fits to the full sample of all clusters in $E_\mathrm{Kp}$ and $ED$ space. $n_\mathrm{tot}$: number of flares in the FFD. $n_\mathrm{fit}$: number of flare used to fit the power law.}\label{tab:powerlawtable_fullsample}
 \centering
 \input{tables/powerlaw_fullsample_wheatland.tex}
 \end{table}
@@ -430,12 +429,14 @@ We determined $L_\mathrm{bol,*}$ from $R_*$ and $T_\mathrm{eff}$, as described i
 %---------------------------------------------
 
 \subsection{Hyades and Praesepe}
-We expected the flaring activity in the Hyades and Praesepe to be very similar because they were nearly coeval clusters with ages around 700 Myr, and comparable metallicities ([Fe/H](Praesepe)\,$=0.16$, [Fe/H](Hyades)\,$=0.13$,~\citealt{netopil_metallicities_2016}). We found this reflected in all our FFDs, except for the $3500-3750$\,K temperature bin, where the Hyades appeared almost as active as the Pleiades (135 Myr). This discrepancy could be explained by the rotation period distributions of their samples. While in all other temperature bins the distributions of the Hyades and Praesepe were similar, and the Pleiades showed shorter periods on average, in the $3500-3750$\,K temperature bin, Hyades and Pleiades were more alike than Hyades and Praesepe (see Fig. \ref{fig:rotation_histogram} in the Appendix). In this temperature regime, the overwhelming majority of Praesepe stars had rotation periods above 10\,d, while in the Hyades and the Pleiades rotation periods were more evenly distibuted in the $0.3-30$\,d range.
+We expected the flaring activity in the Hyades and Praesepe to be very similar because they were nearly coeval clusters with ages around 700 Myr, and comparable metallicities ([Fe/H](Praesepe)\,$=0.16$, [Fe/H](Hyades)\,$=0.13$,~\citealt{netopil_metallicities_2016}). We found this reflected in all our FFDs, except for the $3500-3750$\,K temperature bin, where the Hyades appeared almost as active as the Pleiades (135 Myr). This discrepancy could be explained by the rotation period distributions of their samples. In all other temperature bins the rotation period distributions of the Hyades and Praesepe were similar, while the Pleiades showed shorter periods on average. In the $3500-3750$\,K temperature bin, the rotation periods found in the Hyades and the Pleiades were more alike than in the Hyades and Praesepe (see Fig. \ref{fig:rotation_histogram} in the Appendix). In this temperature regime, the overwhelming majority of Praesepe stars had rotation periods above 10\,d, while in the Hyades and the Pleiades rotation periods were more evenly distibuted in the $0.3-30$\,d range.
 %-------------------------------------------
 \subsection{M67 and Rup 147}
 %-------------------------------------------
 \begin{table}
-\caption{Mass budget of flaring stars in M67 and Rup 147 within uncertainties on radius.}
+\label{tab:m67_rup147_binaries}
+\caption{Mass budget of flaring stars in M67 and Rup 147 within uncertainties on radius. The hypothetic binary pairs were calculated assuming that the the primary mass was the smallest possible within $1\sigma$ of the uncertainty on their radii. Median SpT: The spectral type of the target if it was a single star. Binary: The hypothetic binary pair with the highest possible mass ratio.}
+\centering
 \begin{tabular}{lcc}
 \hline
  EPIC & median SpT &     binary \\
@@ -448,7 +449,7 @@ We expected the flaring activity in the Hyades and Praesepe to be very similar b
 \end{tabular}
 \end{table}
 %-------------------------------------------
-We found several flare candidates in stars that are members of M67 and Rup 147. However, all but the events that occurred on four stars were false postives (SSOs), or the stars were not single members. Flare candidates in these old clusters appeared on RS CVn binaries, cataclysmic binaries, Algol type binaries, spectroscopic and eclipsing bianries, and red giant stars. Excluding all these, we were left with one flare in M67 on a K1 dwarf. In Rup 147, we narrowed down the list to a flare on a G8 star in Rup 147, and four flares each on a K0.5 and an M3 star. For these stars, the multiplicity status is unknown. We found that the mass range of these stars as calculated from the uncertainties on their radii~\citep{eker2018} is large enough that the stars could in principle be binary stars with undetected mid-M dwarf companions.  
+We found several flare candidates in members of M67 and Rup 147. But upon close inspection all but the events that occurred on four stars either turned out to be false postives (SSOs), or the stars were multiples or evolved stars. Most flare candidates in these old clusters were detected on RS CVn binaries, cataclysmic binaries, Algol type binaries, spectroscopic and eclipsing bianries, and red giant stars. Excluding all these, we were left with one flare in M67 on a K1 dwarf. In Rup 147, we narrowed down the list to a flare on a G8 star in Rup 147, and four flares each on a K0.5 and an M3 star. For these stars, the multiplicity status was unknown. We found that the mass range of these stars as calculated from the uncertainties on their radii~\citep{eker2018} was large enough that the four stars in question could in principle be binary stars with undetected mid-M dwarf companions~(Table \ref{tab:m67_rup147_binaries}). While binaries and false positives were present in the younger clusters also, they were not the dominating source of flares. 
 %-------------------------------------------
 
 %------------------------------
@@ -472,10 +473,7 @@ We found several flare candidates in stars that are members of M67 and Rup 147. 
 EvryFlare, mass-dependence,
 %~($\beta_s$ is called  $R1s$ in \citet{davenport_flaresevolve_2019})
 %Maximum flare energy most likely determined by observation time as higher energies were observed before (cite Sarah and others, look up How big do flares get? in Loyd 2018)
-\subsection{Flaring and rotation}
-More energetic flares can be expected from faster rotating stars~\citep{candelaresi_superflare_2014, doorsselaere_stellar_2017, yang_flaring_2017}. Findings that flares with intermediate Rossby number appear to flare more than fast and slow rotators~\citep{mondrik_flarerotation_2019} could not be reproduced here or in the EvryFlare survey~\citep{howard_evryflare2arxiv_2019}. If enhanced flaring can be interpreted as an increase in the stellar angular momentum loss rate flaring activity can be used to inform the cause of variation in the spin-down efficiency. An example of such variations is the apparent temporary stalling of spin-down seen in K dwarfs in NGC 6811~(Curtis+2019). The authors favored a scenario in which the stellar core transfers momentum onto the envelope but did not rule out the possibility of a decreased magnetic braking efficiency. In the latter scenario, these stars should flare less. %What do Cecilia's models say about the change in MF regime in these stars?
-\\
-We used rotation periods derived from K2 light curves for the Pleiades~\citep{rebull_pleiadesrot_2016}, the Hyades~\citep{douglas_hyadesrot_2016}, and Praesepe~\citep{rebull_praesepe_2017}, to illuminate the rotation-flaring relation at fixed ages. In the Pleiades, most flaring stars are found on the fast rotator branch at or below one day, and flaring activity peaks in this regime. For Praesepe, flaring rates aappear t ..[...]. In the Hyades, all of the 11 stars with rotation periods that overlapped with our sample were found flaring, but the number were too low to provide statistical insight. For Rup 147 and M67, no rotation rates were available at the time.
+
  \subsection{M37}
 Comparing our results to a similar study of photometric flares in M37~\citep{chang_photometric_2015} we find the results somewhat discrepant. M37 is 300-600 Myr old and appears less active than Praesepe and Hyades in individual Teff bins, which are of coeval or older. We attribute the difference to the loose membership requirement of $pmem \geq 0.2$ in~\cite{chang_photometric_2015} as compared to our stricter cuts at 0.8. We expect the M37 to be contaminated with field stars that systematically reduce the flaring rates. Applying our own restriction the M37 sample~\citep{chang_photometric_2015_data} leaves very few flares that hamper a statistical description of their distributions.
 \subsection{Division at 3000 K}
@@ -640,7 +638,6 @@ M. H. Christiansen and colleagues developed a routine called \texttt{SkyBoT} tha
 \section{Rotation and flaring}
 
 %--------------------------------------------------------------------
-
    \begin{figure*}
    \centering
             \includegraphics[width=16cm]{pics/rotation/SpT_wise_rotation.png}
@@ -648,10 +645,12 @@ M. H. Christiansen and colleagues developed a routine called \texttt{SkyBoT} tha
           \label{fig:rotation_histogram}
          % X panel: Power law exponent $\alpha_\mathrm{MK}$, fitting procedure follows Bauke (2007).
    \end{figure*}
-
-%--------------------------------------------------------------------
+%-------------------------------------------------------------------
+More energetic flares can be expected from faster rotating stars~\citep{candelaresi_superflare_2014, doorsselaere_stellar_2017, yang_flaring_2017}. Findings that flares with intermediate Rossby number appear to flare more than fast and slow rotators~\citep{mondrik_flarerotation_2019} \textbf{could not be reproduced here} or in the EvryFlare survey~\citep{howard_evryflare2arxiv_2019}. If enhanced flaring can be interpreted as an increase in the stellar angular momentum loss rate flaring activity can be used to inform the cause of variation in the spin-down efficiency. An example of such variations is the apparent temporary stalling of spin-down seen in K dwarfs in NGC 6811~(Curtis+2019). The authors favored a scenario in which the stellar core transfers momentum onto the envelope but did not rule out the possibility of a decreased magnetic braking efficiency. In the latter scenario, these stars should flare less. %What do Cecilia's models say about the change in MF regime in these stars?
+\\
+We used rotation periods derived from K2 light curves for the Pleiades~\citep{rebull_pleiadesrot_2016}, the Hyades and Praesepe~\citep{douglas2019}, to \textbf{illuminate the rotation-flaring relation} at fixed ages. The distribution of rotation periods in the temperature bins is shown in Fig. \ref{fig:rotation_histogram}.
 \section{Universality of power law exponent $\alpha$}
-We compiled a exhaustive (?) table of previous work where power laws were fitted to FFDs using different methods. Table \ref{app_powerlaw_literature} lists the overview. While particular studies consistently find values above or below $\alpha\approx2$, the comparison of different studies points towards unresolved systematic errors in all these studies. \begin{table*}
+We compiled a table of previous work where power laws were fitted to FFDs using different methods. Table~\ref{app_powerlaw_literature} lists the overview. While particular studies consistently find values above or below $\alpha\approx2$, the comparison of different studies points towards unresolved systematic errors in all these studies. \begin{table*}
 \caption{Literature overview over power law fitting approaches to FFDs.}
 \label{app_powerlaw_literature}
 \centering
