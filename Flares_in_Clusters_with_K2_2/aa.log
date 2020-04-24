@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  24 APR 2020 09:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  24 APR 2020 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1334,25 +1334,25 @@ _energy_wheatland.png>] [10 <./pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>]
 File: pics/FFDs/beta_T_age_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/beta_T_age_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/beta_T_age_ED_wheatland.png  used on input l
-ine 407.
+ine 403.
 (pdftex.def)             Requested size: 384.1122pt x 230.46591pt.
 
 
 LaTeX Warning: Reference `agemass_FA_Lflare' on page 12 undefined on input line
- 413.
+ 409.
 
 
-LaTeX Warning: Reference `FA_E' on page 12 undefined on input line 420.
+LaTeX Warning: Reference `FA_E' on page 12 undefined on input line 416.
 
 <pics/FA/FA_T_age_Ethresh.png, id=68, 722.7pt x 361.35pt>
 File: pics/FA/FA_T_age_Ethresh.png Graphic file (type png)
 <use pics/FA/FA_T_age_Ethresh.png>
-Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 425.
+Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 421.
 (pdftex.def)             Requested size: 384.1122pt x 192.05493pt.
 ! Argument of \Hy@tempa has an extra }.
 <inserted text> 
                 \par 
-l.426 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
+l.422 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1366,21 +1366,25 @@ Runaway argument?
 ! Paragraph ended before \Hy@tempa was complete.
 <to be read again> 
                    \par 
-l.426 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
+l.422 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 (./values/FA_energy_thesh.txt)
-Underfull \hbox (badness 1264) in paragraph at lines 432--434
+Underfull \hbox (badness 1264) in paragraph at lines 428--430
 \T1/txr/m/n/10 We ex-pected the flar-ing ac-tiv-ity in the Hyades and Prae-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 480--491
+Underfull \hbox (badness 1616) in paragraph at lines 476--487
 \T1/txr/m/n/10 Assuming a typ-i-cal bi-nary frac-tion for early and mid M
  []
+
+
+Package natbib Warning: Citation `2020arXiv200311937R' on page 12 undefined on 
+input line 498.
 
 [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1419,12 +1423,12 @@ Overfull \hbox (53.23471pt too wide) in paragraph at lines 514--518
 ) [16
 
 ]
-Underfull \hbox (badness 2809) in paragraph at lines 549--553
+Underfull \hbox (badness 2809) in paragraph at lines 552--556
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--576
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 [][][]$\T1/txtt/m/n/9 https : / / github . com / ekaterinailin /
  []
 
@@ -1432,52 +1436,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 576--576
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
- line 613.
+ line 616.
 (pdftex.def)             Requested size: 523.5307pt x 588.97437pt.
 (./tables/clusterparameters_appendix.tex)
 <pics/rotation/SpT_wise_rotation.png, id=88, 903.375pt x 1336.995pt>
 File: pics/rotation/SpT_wise_rotation.png Graphic file (type png)
 <use pics/rotation/SpT_wise_rotation.png>
 Package pdftex.def Info: pics/rotation/SpT_wise_rotation.png  used on input lin
-e 643.
+e 644.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
  (./tables/powerlaw_literature.tex)
-Overfull \hbox (26.53687pt too wide) in paragraph at lines 2--658
+Overfull \hbox (26.53687pt too wide) in paragraph at lines 2--659
  [][] 
  []
 
-[17
-
-] (./values/MMLE_alpha_energy.txt) (./values/MMLE_alpha_ed.txt)
+(./values/MMLE_alpha_energy.txt) (./values/MMLE_alpha_ed.txt)
 (./values/MCMC_alpha_energy.txt) (./values/MCMC_alpha_ed.txt)
 
 Package natbib Warning: There were undefined citations.
 
-[18
+[17
+
+] [18
 
 ] [19 <./pics/appendix/membership_histograms.png>] [20] [21 <./pics/rotation/Sp
 T_wise_rotation.png>] [22]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 674.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 674.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 675.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 675.
  (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 674.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 674.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 675.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 675.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 10061 strings out of 494830
- 141030 string characters out of 6177367
- 315553 words of memory out of 5000000
- 13096 multiletter control sequences out of 15000+600000
+ 10062 strings out of 494830
+ 141051 string characters out of 6177367
+ 316707 words of memory out of 5000000
+ 13097 multiletter control sequences out of 15000+600000
  120685 words of font info for 199 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,14n,45p,5585b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,45p,5585b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/ty
@@ -1491,7 +1492,7 @@ urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (22 pages, 4191871 bytes).
+Output written on aa.pdf (22 pages, 4191356 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
