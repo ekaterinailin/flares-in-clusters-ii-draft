@@ -3,7 +3,7 @@ Hawley+2014,"1,95","2,01","min = binned, max=cumulative",,,,,,,,"LSq with Poisso
 Davenport2016,,,,,,,,,,,confidence intervals following Gehrels1986
 Gizis+2017,"1,6",2,,31,33,,M7,M7,1,22,"de-biased MLE (Arnold2015), weight each point with sqrt(N) in each bin (Clauset+2009)"
 Paudel+2018,,,,,,,,,,,"ML from a paper in 2010, used emcee (Foreman-Mackey2013)"
-Lacy1976,"1,43",2,,29,"32,5",,M0,M6,8,386,graphical linear Lsq
+Lacy+1976,"1,43",2,,29,"32,5",,M0,M6,8,386,graphical linear Lsq
 Davenport+2012*,"1,9","2,1",,29,31,flare luminosities instead of energies,M0,M6,51000,,"Fit
 log 10 Y = α + (β log 10 X)(10 − γ/(X + δ))"
 Lurie+2015,"1,92","2,03",,"30,2","33,2",Kepler band,M5,M5,2,,Bayesian MCMC based algorithm from Kelly 2007 for linear regression
@@ -11,6 +11,8 @@ Shakhovskaya+1989,"1,4","2,4",,29,36,,K0,M8,35,200,"linear representation, power
 Gershberg/Shakhovskaya1983"
 Yang+2017,"1,72","2,42",,32,35,,K8,M5.5,540,102187,binned FFDs
 Howard+2018,"1,84","2,34",,32,"35,5",bol,K5,M4,284,575,"fit cumulative power law, MCMC for uncertainties"
-Hilton2011,"1,63","1,83",,30,35,,M0,M8,39,239,linear fit  to log-log plot
+Hilton+2011,"1,63","1,83",,30,35,,M0,M8,39,239,linear fit  to log-log plot
 Shibayama+2013,2,"2,2","min = slow rotators, max=all stars","34,5",36,,F9,K2,279,1547,consistent with Maehara+2012
-Wu+2015,"1,87",,,,,,,,,,
+Wu+2015,"1,53","2,30",,"34,7",36,,G0,G9,77,4944,consistent with Maehara+2012
+Lin+2019 (M),"1,76","1,84",,33,35,,M0,M9,850,3589,powerlaw package (Alstott2014)
+Lin+2019 (K),"1,79","1,88",,34,"35,6",,K0,K9,3247,1647,powerlaw package (Alstott2014)

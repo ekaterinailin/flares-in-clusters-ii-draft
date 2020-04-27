@@ -324,7 +324,7 @@ and the cumulative power law function in Eq. \ref{eqn:cumdist}:
 %\\
 \textbf{With a uniform prior for $\alpha$ the results from the MLE and Markov Chain Monte Carlo (MCMC) sampling from the posterior distribution were consistent within uncertainties.} However, the MCMC method allowed us to fit for both $\epsilon$ and $\alpha$ simultaneously, and to use more informative priors. 
 \\
-The power law exponent determined for flare frequency distributions has consistently been found to be independent of age~\citep{davenport_flaresevolve_2019}, and spectral type for solar-type and low mass dwarfs \textbf{(see Table \ref{app_powerlaw_literature} in the Appendix)}. We chose our prior to reflect this result: 
+The power law exponent determined for flare frequency distributions has consistently been found to be independent of age~\citep{davenport_flaresevolve_2019}, and spectral type for solar-type and low mass dwarfs \textbf{(see Fig. \ref{fig:powerlaw_literature} in the Appendix)}. We chose our prior to reflect this result: 
 %The studies we took into account analysed flare frequency distributions of stellar flares in the optical regime, and focused mostly on K and M dwarfs~\citep{lurie_kepler_2015, howard_evryflare_2019, lacy_uv_1976, shakhovskaya_stellar_1989} or ultra-cool dwarfs~\citep{gizis_k2_2017} but also solar-type stars~\citep{shibayama_superflares_2013}. 
 Starting from a uniform prior for $\alpha$ and $\epsilon$, we found a Gaussian distribution to be an excellent fit to the posterior distribution for $\alpha$ for the full sample of flares in $E_\mathrm{Kp}$ and $ED$ space. We then used this Gaussian distribution as a prior for the FFDs in individual age and $T_\mathrm{eff}$ bins. 
 %The MLE from \citet{bauke_powerlaw_2007} breaks when the distribution is too flat. Then the log-Likelihood cannot be computed because it contains the Hurwitz-Ceta function, which is not defined for $\alpha \leq 1$. When both converge, the second and the third method give consistent results within uncertainties. THIS COULD BE SOLVED BY A NUMERICAL TRICK TO DEAL WITH BAD VALUES IN THE LOGLIKELIHOOD.
@@ -651,12 +651,17 @@ More energetic flares can be expected from faster rotating stars~\citep{candelar
 \\
 We used rotation periods derived from K2 light curves for the Pleiades~\citep{rebull_pleiadesrot_2016}, the Hyades and Praesepe~\citep{douglas2019}, to \textbf{illuminate the rotation-flaring relation} at fixed ages. The distribution of rotation periods in the temperature bins is shown in Fig. \ref{fig:rotation_histogram}.
 \section{Universality of power law exponent $\alpha$}
-We compiled a table of previous work where power laws were fitted to FFDs using different methods. Table~\ref{app_powerlaw_literature} lists the overview. While particular studies consistently find values above or below $\alpha\approx2$, the comparison of different studies points towards unresolved systematic errors in all these studies. \begin{table*}
-\caption{Literature overview over power law fitting approaches to FFDs.}
-\label{app_powerlaw_literature}
-\centering
-\input{tables/powerlaw_literature.tex}
-\end{table*}
+We searched the literature for studies work where power laws were fitted to FFDs of flares in the optical regime using different methods. Fig. ~\ref{fig:powerlaw_literature} lists the overview. While particular studies consistently find values somewhat above or below $\alpha\approx2$, the comparison of different studies points towards unresolved systematic errors in all these studies.
+
+%--------------------------------------------------------------------
+   \begin{figure}
+   \centering
+            \includegraphics[width=\hsize]{pics/appendix/overview_alpha_literature.png}
+         \caption{Literature overview over power law fitting approaches to FFDs. Red triangle indicate the energy range in which flares were detected, and the range of values determined for the power law exponent including quoted uncertainties and combining multiple FFDs if any. \citet{lacy_uv_1976} pioneered statistical flare studies using observations of eight UC Ceti stars. Hawley+2014 was based flares from M dwarfs in the original Kepler observations~\citep{hawley_kepler_2014}. A number of studies focused on solar-type and G dwarfs stars in Kepler~\citep{maehara_superflares_2012,wu2015,shibayama_2013}. \citet{hilton2011} derived $\alpha$ from ground-based observations of M dwarfs. \citet{lurie_kepler_2015} were based on Kepler short cadence light curves of two active M5 dwarfs in Kepler. \citet{gizis_k2_2017-1} constructed FFDs for 22 flares on one M7 dwarfs. \citet{lin2019} (M) and (K) were based on M and K dwarf flares in K2 long cadence light curves. }
+          \label{fig:powerlaw_literature}
+     
+   \end{figure}
+%-------------------------------------------------------------------
 \section{Modified Maximum Likelihood Estimatator}
 \label{MMLE}
 As a means to arrive at results efficiently, and as consistency check to the method derived from~\citet{wheatland_flaresbayes_2004} we fitted $\alpha$ to the FFDs in $ED$ and $E_\mathrm{Kp}$ space using a Modified Maximum Likelihood Estimatator (MMLE,~ \citealt{maschberger_powerlaw_2009}). The logarithm of the likelihood function $\mathcal{L}$ that had to be maximized was given by the authors in Eq. (8) in their manuscript:
