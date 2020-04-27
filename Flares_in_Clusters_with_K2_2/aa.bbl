@@ -1,4 +1,4 @@
-\begin{thebibliography}{115}
+\begin{thebibliography}{125}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarnio} {et~al.}(2012){Aarnio}, {Matt}, \&
@@ -166,6 +166,9 @@ Curtis, J.~L., Wolfgang, A., Wright, J.~T., Brewer, J.~M., \& Johnson, J.~A.
 \bibitem[{{Davenport}(2015)}]{davenport_flaresandspots_2015}
 {Davenport}, J. 2015, PhD thesis, University of Washington
 
+\bibitem[{Davenport(2016)}]{davenport_kepler_2016}
+Davenport, J. R.~A. 2016, \apj, 829, 23
+
 \bibitem[{Davenport {et~al.}(2012)Davenport, Becker, Kowalski, Hawley, Schmidt,
   Hilton, Sesar, \& Cutri}]{davenport_multi-wavelength_2012}
 Davenport, J. R.~A., Becker, A.~C., Kowalski, A.~F., {et~al.} 2012, \apj, 748,
@@ -195,11 +198,6 @@ Doorsselaere, T.~V., Shariati, H., \& Debosscher, J. 2017, \apjs, 232, 26
   {Kundert}}]{douglas_praesepe_hyades_2014}
 {Douglas}, S.~T., {Ag{\"u}eros}, M.~A., {Covey}, K.~R., {et~al.} 2014, \apj,
   795, 161
-
-\bibitem[{{Douglas} {et~al.}(2016){Douglas}, {Ag{\"u}eros}, {Covey}, {Cargile},
-  {Barclay}, {Cody}, {Howell}, \& {Kopytova}}]{douglas_hyadesrot_2016}
-{Douglas}, S.~T., {Ag{\"u}eros}, M.~A., {Covey}, K.~R., {et~al.} 2016, \apj,
-  822, 47
 
 \bibitem[{Douglas {et~al.}(2017)Douglas, Ag{\"u}eros, Covey, \&
   Kraus}]{douglas_poking_2017}
@@ -335,6 +333,9 @@ Fischer, D.~A. \& Marcy, G.~W. 1992, \apj, 396, 178
 \bibitem[{Gizis(2013)}]{gizis_kepler_2013}
 Gizis, J.~E. 2013, \apj, 779, 172
 
+\bibitem[{Gizis(2017)}]{gizis_k2_2017-1}
+Gizis, J.~E. 2017, \apj, 845, 33
+
 \bibitem[{Gonzalez(2016)}]{gonzalez_m67mem_2016}
 Gonzalez, G. 2016, \mnras, 459, 1060
 
@@ -349,8 +350,16 @@ Gonzalez, G. 2016, \mnras, 459, 1060
 {Green}, G.~M., {Schlafly}, E.~F., {Zucker}, C., {Speagle}, J.~S., \&
   {Finkbeiner}, D.~P. 2019, arXiv e-prints, arXiv:1905.02734
 
+\bibitem[{Hawley {et~al.}(2014)Hawley, Davenport, Kowalski, Wisniewski, Hebb,
+  Deitrick, \& Hilton}]{hawley_kepler_2014}
+Hawley, S.~L., Davenport, J. R.~A., Kowalski, A.~F., {et~al.} 2014, \apj, 797,
+  121
+
 \bibitem[{Hawley \& Fisher(1992)}]{1992ApJS...78..565H}
 Hawley, S.~L. \& Fisher, G.~H. 1992, \apjs, 78, 565
+
+\bibitem[{Hilton(2011)}]{hilton2011}
+Hilton, E.~J. 2011, PhD thesis, University of Washington
 
 \bibitem[{Hilton {et~al.}(2010)Hilton, West, Hawley, \&
   Kowalski}]{hilton_dwarf_2010}
@@ -423,11 +432,19 @@ Kowalski, A.~F., Hawley, S.~L., Wisniewski, J.~P., {et~al.} 2013, \apjs, 207,
 \bibitem[{Kretzschmar(2011)}]{kretzschmar_sun_2011}
 Kretzschmar, M. 2011, \aap, 530, A84
 
+\bibitem[{Lacy {et~al.}(1976)Lacy, Moffett, \& Evans}]{lacy_uv_1976}
+Lacy, C.~H., Moffett, T.~J., \& Evans, D.~S. 1976, \apjs, 30, 85
+
 \bibitem[{{Lecavelier des Etangs} {et~al.}(2012){Lecavelier des Etangs},
   {Bourrier}, {Wheatley}, {Dupuy}, {Ehrenreich}, {Vidal-Madjar}, {H{\'e}brard},
   {Ballester}, {D{\'e}sert}, {Ferlet}, \& {Sing}}]{lecavelier_flareescape_2012}
 {Lecavelier des Etangs}, A., {Bourrier}, V., {Wheatley}, P.~J., {et~al.} 2012,
   \aap, 543, L4
+
+\bibitem[{{Lin} {et~al.}(2019){Lin}, {Ip}, {Hou}, {Huang}, \&
+  {Chang}}]{lin2019}
+{Lin}, C.~L., {Ip}, W.~H., {Hou}, W.~C., {Huang}, L.~C., \& {Chang}, H.~Y.
+  2019, \apj, 873, 97
 
 \bibitem[{{Loyd} {et~al.}(2018){Loyd}, {France}, {Youngblood}, {Schneider},
   {Brown}, {Hu}, {Segura}, {Linsky}, {Redfield}, {Tian}, {Rugheimer}, {Miguel},
@@ -442,6 +459,10 @@ Kretzschmar, M. 2011, \aap, 530, A84
 \bibitem[{Lurie {et~al.}(2015)Lurie, Davenport, Hawley, Wilkinson, Wisniewski,
   Kowalski, \& Hebb}]{lurie_kepler_2015}
 Lurie, J.~C., Davenport, J. R.~A., Hawley, S.~L., {et~al.} 2015, \apj, 800, 95
+
+\bibitem[{Maehara {et~al.}(2012)Maehara, Shibayama, Notsu, Notsu, Nagao,
+  Kusaba, Honda, Nogami, \& Shibata}]{maehara_superflares_2012}
+Maehara, H., Shibayama, T., Notsu, S., {et~al.} 2012, \nat, 485, 478
 
 \bibitem[{Mann {et~al.}(2015)Mann, Feiden, Gaidos, Boyajian, \& von
   Braun}]{mann_how_2015}
@@ -491,6 +512,10 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
   {Burgasser}, {Williams}, \& {Berger}}]{paudel_monsterucdflare_2018}
 {Paudel}, R.~R., {Gizis}, J.~E., {Mullan}, D.~J., {et~al.} 2018, \apj, 861, 76
 
+\bibitem[{Paudel {et~al.}(2018)Paudel, Gizis, Mullan, Schmidt, Burgasser,
+  Williams, \& Berger}]{paudel2018}
+Paudel, R.~R., Gizis, J.~E., Mullan, D.~J., {et~al.} 2018, \apj, 858, 55
+
 \bibitem[{Pecaut \& Mamajek(2013)}]{pecaut_intrinsic_2013}
 Pecaut, M.~J. \& Mamajek, E.~E. 2013, \apjs, 208, 9
 
@@ -503,6 +528,11 @@ Priest, E. \& Forbes, T. 2002, \aapr, 10, 313
   {Zamora}}]{queiroz_starhorse_2018}
 {Queiroz}, A.~B.~A., {Anders}, F., {Santiago}, B.~X., {et~al.} 2018, \mnras,
   476, 2556
+
+\bibitem[{{Raetz} {et~al.}(2020){Raetz}, {Stelzer}, {Damasso}, \&
+  {Scholz}}]{2020arXiv200311937R}
+{Raetz}, S., {Stelzer}, B., {Damasso}, M., \& {Scholz}, A. 2020, arXiv
+  e-prints, arXiv:2003.11937
 
 \bibitem[{{Rayner} {et~al.}(2009){Rayner}, {Cushing}, \& {Vacca}}]{Rayner2009}
 {Rayner}, J.~T., {Cushing}, M.~C., \& {Vacca}, W.~D. 2009, \apjs, 185, 289
@@ -570,6 +600,9 @@ Reid, I.~N. \& Hawley, S.~L. 2005, New Light on Dark Stars: Red Dwarfs,
   {Petit}, {Waite}, \& {BCool Collaboration}}]{see_zdispindown_2017}
 {See}, V., {Jardine}, M., {Vidotto}, A.~A., {et~al.} 2017, \mnras, 466, 1542
 
+\bibitem[{Shakhovskaya(1989)}]{shakhovskaya_stellar_1989}
+Shakhovskaya, N. 1989, \solphys, 121, 375
+
 \bibitem[{{Shibayama} {et~al.}(2013){Shibayama}, {Maehara}, {Notsu}, {Notsu},
   {Nagao}, {Honda}, {Ishii}, {Nogami}, \& {Shibata}}]{shibayama_2013}
 {Shibayama}, T., {Maehara}, H., {Notsu}, S., {et~al.} 2013, The Astrophysical
@@ -633,6 +666,9 @@ Walkowicz, L.~M., Basri, G., Batalha, N., {et~al.} 2011, \aj, 141, 50
 
 \bibitem[{{Wheatland}(2004)}]{wheatland_flaresbayes_2004}
 {Wheatland}, M.~S. 2004, \apj, 609, 1134
+
+\bibitem[{{Wu} {et~al.}(2015){Wu}, {Ip}, \& {Huang}}]{wu2015}
+{Wu}, C.-J., {Ip}, W.-H., \& {Huang}, L.-C. 2015, \apj, 798, 92
 
 \bibitem[{{Yang} \& {Liu}(2019)}]{yang_keplerflares_2019}
 {Yang}, H. \& {Liu}, J. 2019, \apjs, 241, 29

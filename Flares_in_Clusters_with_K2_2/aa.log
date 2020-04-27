@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  27 APR 2020 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  27 APR 2020 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1382,10 +1382,6 @@ Underfull \hbox (badness 1616) in paragraph at lines 476--487
 \T1/txr/m/n/10 Assuming a typ-i-cal bi-nary frac-tion for early and mid M
  []
 
-
-Package natbib Warning: Citation `2020arXiv200311937R' on page 12 undefined on 
-input line 498.
-
 [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1398,24 +1394,30 @@ prints,
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 369--371
+Underfull \hbox (badness 1629) in paragraph at lines 378--380
 []\T1/txr/m/n/8 Howard, W. S., Cor-bett, H., Law, N. M., et al. 2019b, arXiv e-
 prints,
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 514--518
+Underfull \hbox (badness 1077) in paragraph at lines 534--536
+[]\T1/txr/m/n/8 Raetz, S., Stelzer, B., Damasso, M., & Scholz, A. 2020, arXiv e
+-prints,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--548
 []\T1/txr/m/n/8 Rebull, L., Stauf-fer, J., Bou-vier, J., et al. 2016a, As-tro-n
 om-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--518
+Underfull \hbox (badness 10000) in paragraph at lines 544--548
 \T1/txr/m/n/8 i-cal Jour-nal, 152, 113, bib-tex: 2016AJ....152..113R bib-
  []
 
 
-Overfull \hbox (53.23471pt too wide) in paragraph at lines 514--518
+Overfull \hbox (53.23471pt too wide) in paragraph at lines 544--548
 \T1/txr/m/n/8 tex[eid=113;adsurl=https://ui.adsabs.harvard.edu/abs/2016AJ....15
 2..113R;adsnote=Provided
  []
@@ -1451,37 +1453,9 @@ File: pics/appendix/overview_alpha_literature.png Graphic file (type png)
 Package pdftex.def Info: pics/appendix/overview_alpha_literature.png  used on i
 nput line 659.
 (pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
-
-
-Package natbib Warning: Citation `lacy_uv_1976' on page 17 undefined on input l
-ine 660.
-
-
-Package natbib Warning: Citation `hawley_kepler_2014' on page 17 undefined on i
-nput line 660.
-
-
-Package natbib Warning: Citation `maehara_superflares_2012' on page 17 undefine
-d on input line 660.
-
-
-Package natbib Warning: Citation `wu2015' on page 17 undefined on input line 66
-0.
-
-
-Package natbib Warning: Citation `hilton2011' on page 17 undefined on input lin
-e 660.
-
-
-Package natbib Warning: Citation `gizis_k2_2017-1' on page 17 undefined on inpu
-t line 660.
-
-
-Package natbib Warning: Citation `lin2019' on page 17 undefined on input line 6
-60.
-
-(./values/MMLE_alpha_energy.txt) (./values/MMLE_alpha_ed.txt)
-(./values/MCMC_alpha_energy.txt) (./values/MCMC_alpha_ed.txt)
+ (./values/MMLE_alpha_energy.txt)
+(./values/MMLE_alpha_ed.txt) (./values/MCMC_alpha_energy.txt)
+(./values/MCMC_alpha_ed.txt)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1503,15 +1477,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 680.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 10071 strings out of 494830
- 141296 string characters out of 6177367
- 312363 words of memory out of 5000000
- 13108 multiletter control sequences out of 15000+600000
+ 10073 strings out of 494830
+ 141334 string characters out of 6177367
+ 314469 words of memory out of 5000000
+ 13110 multiletter control sequences out of 15000+600000
  120685 words of font info for 199 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  39i,13n,45p,5585b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1528,7 +1499,7 @@ urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (22 pages, 4370055 bytes).
+Output written on aa.pdf (22 pages, 4367892 bytes).
 PDF statistics:
  159 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
