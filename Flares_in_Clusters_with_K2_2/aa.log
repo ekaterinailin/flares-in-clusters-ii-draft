@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  28 APR 2020 07:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  28 APR 2020 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,18 +1136,13 @@ File: pics/clusters/openclusters_logage_vs_distance.png Graphic file (type png)
 Package pdftex.def Info: pics/clusters/openclusters_logage_vs_distance.png  use
 d on input line 124.
 (pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
-
-
-LaTeX Warning: Reference `app_oc_parameters' on page 2 undefined on input line 
-125.
-
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 129.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
 (Font)              Font shape `T1/txss/m/sl' tried instead on input line 129.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 129.
-(./values/total_number_of_lcs.txt)
+ (./values/total_number_of_lcs.txt)
 
 Package natbib Warning: Citation `luger_everest_2016' on page 2 undefined on in
 put line 132.
@@ -1158,11 +1153,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--132
  []
 
 
+LaTeX Warning: Reference `fig:app:membership' on page 2 undefined on input line
+ 137.
+
+(./tables/table_ocs.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-(./tables/table_ocs.tex) [2 <./pics/clusters/openclusters_logage_vs_distance.pn
-g>]
+ [2 <./pics/clusters/openclusters_logage_vs_distance.png>]
 <pics/clusters/Teff_spread_young.png, id=24, 2007.75093pt x 1206.00563pt>
 File: pics/clusters/Teff_spread_young.png Graphic file (type png)
 <use pics/clusters/Teff_spread_young.png>
@@ -1180,6 +1177,10 @@ Package pdftex.def Info: pics/clusters/Teff_spread_old.png  used on input line
 190.
 (pdftex.def)             Requested size: 2015.27417pt x 822.06923pt.
 
+LaTeX Warning: Reference `fig:pleiades_hyades_praesepe' on page 3 undefined on 
+input line 192.
+
+
 LaTeX Warning: Float too large for page by 30.65253pt on input line 194.
 
 <pics/clusters/teff_R.png, id=26, 1240.635pt x 1436.36626pt>
@@ -1194,18 +1195,9 @@ Underfull \hbox (badness 1005) in paragraph at lines 215--218
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 215--218
-\T1/txr/m/n/10 Ga-iaDR2 data, as de-scribed in Ap-pendix C, and re-moved
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 215--218
 
  []
-
-
-LaTeX Warning: Reference `data_clusters' on page 3 undefined on input line 224.
-
 
 
 Underfull \vbox (badness 5817) has occurred while \output is active []
@@ -1219,67 +1211,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 4328) has occurred while \output is active []
 
  [6 <./pics/clusters/teff_R.png>]
-Underfull \hbox (badness 1655) in paragraph at lines 250--264
-\T1/txr/m/n/10 The un-cer-tainty in $\OML/txmi/m/it/10 ED$ \T1/txr/m/n/10 de-pe
-nds on the light curve noise
+Underfull \hbox (badness 1394) in paragraph at lines 271--276
+\T1/txr/m/n/10 Namekata et al. 2017), SEDs of stel-lar flares tend to be
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 250--264
-\T1/txr/m/n/10 noise. It was not fea-si-ble com-pu-ta-tion-ally to per-form the
+Underfull \vbox (badness 2042) has occurred while \output is active []
 
- []
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 250--264
-\T1/txr/m/n/10 ac-count the ef-fects of GP re-gres-sion that un-der-lies K2SC.
- []
-
-
-Underfull \hbox (badness 1325) in paragraph at lines 250--264
-\T1/txr/m/n/10 re-main sig-nif-i-cantly con-tam-i-nated (Yang & Liu 2019). As
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 250--264
-\T1/txr/m/n/10 search be-cause they sat-u-rated the de-tec-tor, or be-cause the
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--264
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--284
-\T1/txr/m/n/10 While so-lar flares are rel-a-tively cool, with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--284
-
- []
-
-[7] (./tables/flares.tex)
+ [7]
+(./tables/flares.tex)
 <pics/FFDs/full_sample_ffd_ED_wheatland.png, id=47, 578.16pt x 433.62pt>
 File: pics/FFDs/full_sample_ffd_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/full_sample_ffd_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/full_sample_ffd_ED_wheatland.png  used on in
-put line 344.
+put line 347.
 (pdftex.def)             Requested size: 256.53291pt x 192.39458pt.
 <pics/FFDs/full_sample_ffd_energy_wheatland.png, id=48, 578.16pt x 433.62pt>
 File: pics/FFDs/full_sample_ffd_energy_wheatland.png Graphic file (type png)
 <use pics/FFDs/full_sample_ffd_energy_wheatland.png>
 Package pdftex.def Info: pics/FFDs/full_sample_ffd_energy_wheatland.png  used o
-n input line 346.
+n input line 349.
 (pdftex.def)             Requested size: 256.53291pt x 192.39458pt.
 <pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png, id=49, 903.375pt x 1336.995pt>
 
 File: pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png  used o
-n input line 354.
+n input line 357.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
 <pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png, id=50, 903.375pt x 1336.99
 5pt>
@@ -1287,17 +1245,17 @@ File: pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png Graphic file (type png
 )
 <use pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png>
 Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png  us
-ed on input line 362.
+ed on input line 365.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
  (./values/total_number_of_flares.txt)
 (./values/total_number_of_flares.txt)
 
-LaTeX Warning: Reference `powerlawfits_s' on page 8 undefined on input line 375
+LaTeX Warning: Reference `powerlawfits_s' on page 8 undefined on input line 378
 .
 
 
 LaTeX Warning: Reference `powerlawtable_spt' on page 8 undefined on input line 
-375.
+378.
 
 [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1309,12 +1267,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: pics/FFDs/beta_T_age_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/beta_T_age_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/beta_T_age_ED_wheatland.png  used on input l
-ine 398.
+ine 401.
 (pdftex.def)             Requested size: 384.1122pt x 230.46591pt.
 
 
 LaTeX Warning: Reference `agemass_FA_Lflare' on page 9 undefined on input line 
-404.
+407.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1326,17 +1284,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./pics/FFDs/beta_T_age_ED_wheatland.png>]
 
-LaTeX Warning: Reference `FA_E' on page 13 undefined on input line 411.
+LaTeX Warning: Reference `FA_E' on page 13 undefined on input line 414.
 
 <pics/FA/FA_T_age_Ethresh.png, id=72, 722.7pt x 361.35pt>
 File: pics/FA/FA_T_age_Ethresh.png Graphic file (type png)
 <use pics/FA/FA_T_age_Ethresh.png>
-Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 416.
+Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 419.
 (pdftex.def)             Requested size: 384.1122pt x 192.05493pt.
 ! Argument of \Hy@tempa has an extra }.
 <inserted text> 
                 \par 
-l.417 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
+l.420 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1350,19 +1308,19 @@ Runaway argument?
 ! Paragraph ended before \Hy@tempa was complete.
 <to be read again> 
                    \par 
-l.417 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
+l.420 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 (./values/FA_energy_thesh.txt)
-Underfull \hbox (badness 1264) in paragraph at lines 423--425
+Underfull \hbox (badness 1264) in paragraph at lines 426--428
 \T1/txr/m/n/10 We ex-pected the flar-ing ac-tiv-ity in the Hyades and Prae-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 471--482
+Underfull \hbox (badness 1616) in paragraph at lines 475--486
 \T1/txr/m/n/10 Assuming a typ-i-cal bi-nary frac-tion for early and mid M
  []
 
@@ -1407,71 +1365,60 @@ Overfull \hbox (53.23471pt too wide) in paragraph at lines 544--548
 ) [16
 
 ]
-Underfull \hbox (badness 2809) in paragraph at lines 547--551
+Underfull \hbox (badness 2809) in paragraph at lines 551--555
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
- []
-
-
-LaTeX Warning: Reference `figure_app_memberships' on page 17 undefined on input
- line 574.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 574--574
-[][][]$\T1/txtt/m/n/9 https : / / github . com / ekaterinailin /
  []
 
 <pics/appendix/membership_histograms.png, id=87, 1156.32pt x 1300.86pt>
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
- line 611.
+ line 614.
 (pdftex.def)             Requested size: 523.5307pt x 588.97437pt.
-(./tables/clusterparameters_appendix.tex)
+(./tables/clusterparameters_appendix.tex) (./values/MMLE_alpha_energy.txt)
+(./values/MMLE_alpha_ed.txt) (./values/MCMC_alpha_energy.txt)
+(./values/MCMC_alpha_ed.txt)
 <pics/rotation/SpT_wise_rotation.png, id=88, 903.375pt x 1336.995pt>
 File: pics/rotation/SpT_wise_rotation.png Graphic file (type png)
 <use pics/rotation/SpT_wise_rotation.png>
 Package pdftex.def Info: pics/rotation/SpT_wise_rotation.png  used on input lin
-e 639.
+e 656.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
 <pics/appendix/overview_alpha_literature.png, id=89, 578.16pt x 433.62pt>
 File: pics/appendix/overview_alpha_literature.png Graphic file (type png)
 <use pics/appendix/overview_alpha_literature.png>
 Package pdftex.def Info: pics/appendix/overview_alpha_literature.png  used on i
-nput line 654.
+nput line 672.
 (pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
- (./values/MMLE_alpha_energy.txt)
-(./values/MMLE_alpha_ed.txt) (./values/MCMC_alpha_energy.txt)
-(./values/MCMC_alpha_ed.txt)
+
 
 Package natbib Warning: There were undefined citations.
 
 [17
 
-] [18
-
-] [19 <./pics/appendix/membership_histograms.png>] [20] [21 <./pics/rotation/Sp
-T_wise_rotation.png>] [22
+] [18] [19 <./pics/appendix/membership_histograms.png>] [20] [21 <./pics/rotati
+on/SpT_wise_rotation.png>] [22
 
 
  <./pics/appendix/overview_alpha_literature.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 675.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 675.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 678.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 678.
  (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 675.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 675.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 678.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 678.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10073 strings out of 494830
- 141371 string characters out of 6177367
- 314961 words of memory out of 5000000
- 13110 multiletter control sequences out of 15000+600000
+ 10075 strings out of 494830
+ 141454 string characters out of 6177367
+ 315131 words of memory out of 5000000
+ 13112 multiletter control sequences out of 15000+600000
  120685 words of font info for 199 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,13n,45p,5585b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,45p,5585b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/ty
@@ -1485,7 +1432,7 @@ urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (22 pages, 4369314 bytes).
+Output written on aa.pdf (22 pages, 4367086 bytes).
 PDF statistics:
  159 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
