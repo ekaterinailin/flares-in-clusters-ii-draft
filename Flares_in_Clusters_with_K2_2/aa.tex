@@ -115,7 +115,7 @@ The present study aims to extend the results in \citetalias{ilin_flares_2019} to
 %\\
 
 \section{Data}
-Our main data are K2 target pixel files that were provided by the Kepler archives hosted at MAST, and light curves derived from them. To assign $T_\mathrm{eff}$ to the targeted stars we used multiband photometry obtained from Tycho, UCAC4, 2MASS, Pan-STARRS, and Gaia catalogs. To assign ages to the targeted stars,  OC membership information was compiled from the literature. An overview over the cluster sample is presented in Table \ref{data_clusters} and illustrated in Figure \ref{OCs}.
+This is work is based on K2 30-minute cadence light curves that were provided by the Kepler archives hosted at MAST. To assign $T_\mathrm{eff}$ to the stars for which these observation had been obtained we used multiband photometry from Tycho, UCAC4, 2MASS, Pan-STARRS, and Gaia catalogs. To assign ages to the targeted stars, OC membership information was compiled from the literature. An overview over the cluster sample is presented in Table \ref{tab:data_clusters} and illustrated in Figure \ref{fig:OCs}.
 
 %-------------------------------------------
 %--OPEN CLUSTERS DISTANCE AND AGE
@@ -123,34 +123,29 @@ Our main data are K2 target pixel files that were provided by the Kepler archive
      \begin{figure}
             \includegraphics[width=\hsize]{pics/clusters/openclusters_logage_vs_distance.png}
          \caption{The values for age, metallicity, and distance are approximate values from a compilation of existing literature, see Appendix \ref{app_oc_parameters}.}
-         \label{OCs}
+         \label{fig:OCs}
    \end{figure}
 
 \subsection{K2 light curves}
 The Kepler~\citep{koch_kepler_2010} spacecraft finished its follow-up mission K2~\citep{howell_k2_2014} in September 2018, after having completed nearly 20 80-day observing campaigns. Although Kepler and K2 data were already used in more than 2\,400 publications in 2018, the public archive was still considered understudied~\citep{barentsen_retirement_opportunities_2018}. In this spirit we took up the analysis of a total of \input{values/total_number_of_lcs.txt}light curves where each light curve contained up to $80$ uninterrupted days of $30$ min cadence observations in white light~($4,200-9,000\,\mathring{A}$).
 \\
 As K2 was conducted on the two-wheeled Kepler satellite, it was subjected to substantial drift motion (spacecraft roll,~\citealt{van_cleve_thats_2016}) and had an overall reduced pointing accuracy. To mitigate these effects, various solutions were developed~\citep{vanderburg_k2sff_2014, aigrain_k2sc_2016, luger_everest_2016, luger_everst_2018}. We used a minimally modified version of the K2 Systematics Correction pipeline~\citep{aigrain_k2sc_2016}, and used it to de-trend the 36th data release of the K2 data products. It was considered the final data release, and included a uniform, global reprocessing of most K2 campaigns using an improved data reduction pipeline\footnote{\url{https://keplerscience.arc.nasa.gov/k2-uniform-global-reprocessing-underway.html}}.
-\subsection{Membership matching}
-We obtained membership information from multiple catalogs for each cluster. We cross-matched these catalogs on RA and declination within 3 arcsec. The resulting target lists were used to search the K2 archive.%, or were matched to the catalogs of extracted light curves from crowded fields in the case of M35~\citep{soares_furtado_m35_2017} and M67~\citep{nardiello_m67psf_2016}.
-%\\
-One part of the membership catalogs provided membership probabilities~\citep{douglas_praesepe_hyades_2014, cantat_gaudin_2018, olivares_pleiades_2018, reino_hyades_2018, gao_m67mem_2018, olivares_ngc6774_2019}. For the other part no probability was provided~\citep{rebull_rotation_2016, douglas_poking_2017, gaia_dr2_2018_hrd}, or qualitative classifiers were given~\citep{curtis_ruprecht_2013, gonzalez_m67mem_2016,rebull_praesepe_2017}. In the latter cases we assigned approximate probabilities anchored to the set threshold for inclusion into our final sample. Absence in a catalog did not decrease the likelihood of membership, as each catalog shows different selection biases which we did not address in this study. We set the threshold mean membership probability $p$ for a target in our sample to 0.8.
-\\
-%---------------------------------------------------------------
 \subsection{Open Clusters}
-%---------------------------------------------------------------
+We obtained membership information from multiple catalogs for each cluster. We cross-matched these catalogs on RA and declination within 3 arcsec. The resulting target lists were used to search the K2 archive. One part of the membership catalogs provided membership probabilities~\citep{douglas_praesepe_hyades_2014, cantat_gaudin_2018, olivares_pleiades_2018, reino_hyades_2018, gao_m67mem_2018, olivares_ngc6774_2019}. For the other part no probability was quoted~\citep{rebull_rotation_2016, douglas_poking_2017, gaia_dr2_2018_hrd}, or qualitative classifiers were given~\citep{curtis_ruprecht_2013, gonzalez_m67mem_2016,rebull_praesepe_2017}. In the latter cases we assigned approximate probabilities anchored to the set threshold for inclusion into our final sample. Absence in a catalog did not decrease the likelihood of membership, as each catalog shows different selection biases which we did not address in this study. We set the threshold mean membership probability $p$ for a target in our sample to 0.8.
+\\
 % For the more distant clusters, Ruprecht 147 and M35, we use the mean cluster distance. For the nearby Pleiades, Praesepe, and most importantly the Hyades, we match our targets with Gaia DR2~\citep{gaia_dr2_release_2018} distances, or use mean distances as fallback option. Ages and metallicities are taken from literature, adopting median values when multiple studies were considered, and excluding studies that appear outdated.
-We studied flaring activity in the low mass stars in six open clusters spanning from ZAMS to solar age. Table \ref{table_OCs} provides an overview over the final sample. The literature overview of age, distance, and metallicity determinations is given in Table \ref{app0} in the Appendix. Membership probability histograms of the final sample are displayed in Figure \ref{app0_hists}.
+We studied flaring activity in the low mass stars in five open clusters spanning from ZAMS to solar age. Table \ref{tab:data_clusters} provides an overview over the final sample. The literature overview of age, distance, and metallicity determinations is given in Table \ref{tab:app:oc_parameters} in the Appendix. Membership probability histograms of the final sample are displayed in Figure \ref{fig:app:membership}.
 \begin{table*}
 \caption{Open clusters.}
-\label{table_OCs}
+\label{tab:data_clusters}
 \centering
 \input{tables/table_ocs.tex}
-\tablefoot{The values for age, [Fe/H], and distance $d$ are approximate values arrived at by a comparison of existing literature, which is detailed in Appendix \ref{app_oc_parameters}. The uncertainties are noted in parentheses. "stars" denotes the approximate number of cluster members with membership probability $p>0.8$. "LCs" and "campaigns" is the number of available light curves and the K2 campaigns during which they were observed, respectively. "flares" is the number of confirmed flares found in each cluster.}
+\tablefoot{The values for age, [Fe/H], and distance $d$ are approximate values arrived at by a comparison of existing literature, which is detailed in Appendix \ref{tab:app:oc_parameters}. The uncertainties are noted in parentheses. "stars" denotes the approximate number of cluster members with membership probability $p>0.8$. "LCs" and "campaigns" is the number of available light curves and the K2 campaigns during which they were observed, respectively. "flares" is the number of confirmed flares found in each cluster.}
 \end{table*}
 %---------------------------------------------------------------
 \subsubsection{Pleiades}
 %age distance citation?
-The Pleiades, a nearby ZAMS cluster, were observed in Campaign 4, and were treated in \citetalias{ilin_flares_2019}. We include the cluster in this work for completeness and to illustrate improvements to~\citepalias{ilin_flares_2019}. We revisited the memberships from~\citet{rebull_rotation_2016}, which were your in the previous work, and merged them with lists of members determined by~\citet{olivares_pleiades_2018, gaia_dr2_2018_hrd}; and~\citet{cantat_gaudin_2018}.
+The Pleiades, a nearby ZAMS cluster, were observed in Campaign 4, and were treated in \citetalias{ilin_flares_2019}. We include the cluster in this work for completeness and to include improvements to~\citepalias{ilin_flares_2019}. We revisited the memberships from~\citet{rebull_rotation_2016}, which were your in the previous work, and merged them with lists of members determined by~\citet{olivares_pleiades_2018, gaia_dr2_2018_hrd}; and~\citet{cantat_gaudin_2018}.
 %---------------------------------------------------------------
 %\subsubsection{M35}
 %age distance citation?
@@ -159,11 +154,11 @@ The Pleiades, a nearby ZAMS cluster, were observed in Campaign 4, and were treat
 %---------------------------------------------------------------
 \subsubsection{Hyades}
 %age distance citation?
-The Hyades are a 0.6 Gyr old OC observed during Campaigns 4 and 13 with K2. It is about as old as Praesepe. We merged membership tables obtained from \citet{douglas_praesepe_hyades_2014, reino_hyades_2018}; and \citet{gaia_dr2_2018_hrd}.
+The Hyades are a 0.6 Gyr old OC that were observed during Campaigns 4 and 13 with K2. It is about as old as Praesepe. We merged membership tables obtained from \citet{douglas_praesepe_hyades_2014, reino_hyades_2018}; and \citet{gaia_dr2_2018_hrd}.
 %---------------------------------------------------------------
 \subsubsection{Praesepe}
 %age distance citation?
-Praesepe appeared in Campaign 5, and was previously treated in~\citetalias{ilin_flares_2019}. It was then observed again during Campaign 13. We revisited the memberships obtained by \citet{douglas_praesepe_hyades_2014}, and matched them to the members identified in \citet{douglas_poking_2017, rebull_praesepe_2017,cantat_gaudin_2018}; and ~\citet{gaia_dr2_2018_hrd}.
+Praesepe appeared in Campaign 5, and was also treated in~\citetalias{ilin_flares_2019}. It was then observed again during Campaigns 16, and 18. We revisited the memberships obtained by \citet{douglas_praesepe_hyades_2014}, and matched them to the members identified in \citet{douglas_poking_2017, rebull_praesepe_2017,cantat_gaudin_2018}; and ~\citet{gaia_dr2_2018_hrd}.
 %---------------------------------------------------------------
 \subsubsection{Ruprecht 147}
 %age distance citation?
@@ -171,7 +166,7 @@ Ruprecht 147 is a 2.5 Gyr old OC observed during Campaign 7 with K2. We used the
 %---------------------------------------------------------------
 \subsubsection{M67}
 %age distance citation?
-M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members were observed during Campaign 5, and revisited in Campaigns 16 and 18. We did not find any flares in M67 in Campaign 5~\citepalias{ilin_flares_2019} observing the members identified by \citet{gonzalez_m67mem_2016}. The recent campaigns brought both additional observations, and entirely new targets to the sample. We merged the members from \citet{gonzalez_m67mem_2016} with a recent study based of Gaia DR2 data~\citep{gao_m67mem_2018}.
+M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members were observed during Campaign 5, and revisited in Campaigns 16 and 18. We did not find any flares in M67 in Campaign 5~\citepalias{ilin_flares_2019} light curves of members identified by \citet{gonzalez_m67mem_2016}. Campaigns 16 and 18 delivered both additional observations, and new targets to the sample. We merged the members from \citet{gonzalez_m67mem_2016} with a recent study based of Gaia DR2 data~\citep{gao_m67mem_2018}.
 %---------------------------------------------------------------
 \subsection{Effective temperatures, stellar radii, and luminosities}
 \label{TeffRL}
@@ -614,8 +609,8 @@ Table \ref{table_app_memberships} gives an overview over different membership ca
 
    \begin{figure*}
             \includegraphics[width=\hsize]{pics/appendix/membership_histograms.png}
-         \caption{Membership histograms.}
-          \label{figure_app_memberships}
+         \caption{OC membership histograms and selected targets.}
+          \label{fig:app:membership}
          % X panel: Power law exponent $\alpha_\mathrm{MK}$, fitting procedure follows Bauke (2007).
    \end{figure*}
 
@@ -657,7 +652,7 @@ We searched the literature for studies work where power laws were fitted to FFDs
    \begin{figure}
    \centering
             \includegraphics[width=\hsize]{pics/appendix/overview_alpha_literature.png}
-         \caption{Literature overview over power law fitting approaches to FFDs. Red triangle indicate the energy range in which flares were detected, and the range of values determined for the power law exponent including quoted uncertainties and combining multiple FFDs if any. \citet{lacy_uv_1976} pioneered in statistical flare studies using observations of eight UC Ceti stars. \citet{shakhovskaya_stellar_1989} analyzed monitoring data from several doyzen active early K to late M dwarfs. \citet{hawley_kepler_2014} used flares from M dwarfs in the original Kepler observations for their FFDs. A number of studies focused on solar-type and G dwarfs stars in Kepler~\citep{maehara_superflares_2012,wu2015,shibayama_2013}. \citet{hilton2011} derived $\alpha$ from ground-based observations of M dwarfs. \citet{lurie_kepler_2015} were based on Kepler short cadence light curves of two active M5 dwarfs in Kepler. \citet{davenport_kepler_2016} searched the entire Kepler catalog for flares on low\citet{gizis_k2_2017-1} constructed an FFD for 22 flares on an M7 dwarf. \citet{yang_flaring_2017} followed up on \citet{davenport_kepler_2016} in searching the entire Kepler catalog for flares. \citet{paudel2018} studied M6-LO dwarfs in K2 short cadence data. \citet{howard_evryflare_2019} found over 500 superflares on 284 stars in the course of the Evryscope all-sky survey. \citet{lin2019} (M) and (K) were based on M and K dwarf flares in K2 long cadence light curves. }
+         \caption{Literature overview over power law fitting approaches to FFDs. Red triangle indicate the energy range in which flares were detected, and the range of values determined for the power law exponent including quoted uncertainties and combining multiple FFDs if any. \citet{lacy_uv_1976} pioneered in statistical flare studies using observations of eight UC Ceti stars. \citet{shakhovskaya_stellar_1989} analyzed monitoring data from several doyzen active early K to late M dwarfs. \citet{hawley_kepler_2014} used flares from M dwarfs in the original Kepler observations for their FFDs. A number of studies focused on solar-type and G dwarfs stars in Kepler~\citep{maehara_superflares_2012,wu2015,shibayama_2013}. \citet{hilton2011} derived $\alpha$ from ground-based observations of M dwarfs. \citet{lurie_kepler_2015} were based on Kepler short cadence light curves of two active M5 dwarfs in Kepler. \citet{davenport_kepler_2016} searched the entire Kepler catalog for flares on low\citet{gizis_k2_2017-1} constructed an FFD for 22 flares on an M7 dwarf. \citet{yang_flaring_2017} followed up on \citet{davenport_kepler_2016} in searching the entire Kepler catalog for flares. \citet{paudel2018} studied M6-L0 dwarfs in K2 short cadence data. \citet{howard_evryflare_2019} found over 500 superflares on 284 stars in the course of the Evryscope all-sky survey. \citet{lin2019} (M) and (K) were based on M and K dwarf flares in K2 long cadence light curves. }
           \label{fig:powerlaw_literature}
      
    \end{figure}
