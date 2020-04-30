@@ -1,4 +1,4 @@
-\begin{thebibliography}{125}
+\begin{thebibliography}{128}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarnio} {et~al.}(2012){Aarnio}, {Matt}, \&
@@ -367,8 +367,7 @@ Hilton, E.~J., West, A.~A., Hawley, S.~L., \& Kowalski, A.~F. 2010, \aj, 140,
   1402
 
 \bibitem[{{Howard} {et~al.}(2019{\natexlab{a}}){Howard}, {Corbett}, {Law},
-  {Ratzloff}, {Glazier}, {Fors}, {del Ser}, \&
-  {Haislip}}]{howard_evryflare_2019}
+  {Ratzloff}, {Glazier}, {Fors}, {del Ser}, \& {Haislip}}]{howard2019}
 {Howard}, W.~S., {Corbett}, H., {Law}, N.~M., {et~al.} 2019{\natexlab{a}},
   \apj, 881, 9
 
@@ -451,18 +450,25 @@ Lacy, C.~H., Moffett, T.~J., \& Evans, D.~S. 1976, \apjs, 30, 85
   \& {Froning}}]{loyd_mflaresplanetsfuv_2018}
 {Loyd}, R.~O.~P., {France}, K., {Youngblood}, A., {et~al.} 2018, \apj, 867, 71
 
+\bibitem[{Luger {et~al.}(2016)Luger, Agol, Kruse, Barnes, Becker,
+  Foreman-Mackey, \& Deming}]{luger_everest_2016}
+Luger, R., Agol, E., Kruse, E., {et~al.} 2016, \aj, 152, 100
+
 \bibitem[{{Luger} {et~al.}(2018){Luger}, {Kruse}, {Foreman-Mackey}, {Agol}, \&
   {Saunders}}]{luger_everst_2018}
 {Luger}, R., {Kruse}, E., {Foreman-Mackey}, D., {Agol}, E., \& {Saunders}, N.
   2018, \aj, 156, 99
 
 \bibitem[{Lurie {et~al.}(2015)Lurie, Davenport, Hawley, Wilkinson, Wisniewski,
-  Kowalski, \& Hebb}]{lurie_kepler_2015}
+  Kowalski, \& Hebb}]{lurie2015}
 Lurie, J.~C., Davenport, J. R.~A., Hawley, S.~L., {et~al.} 2015, \apj, 800, 95
 
 \bibitem[{Maehara {et~al.}(2012)Maehara, Shibayama, Notsu, Notsu, Nagao,
   Kusaba, Honda, Nogami, \& Shibata}]{maehara_superflares_2012}
 Maehara, H., Shibayama, T., Notsu, S., {et~al.} 2012, \nat, 485, 478
+
+\bibitem[{{Mamajek} \& {Hillenbrand}(2008)}]{mamajek2008}
+{Mamajek}, E.~E. \& {Hillenbrand}, L.~A. 2008, \apj, 687, 1264
 
 \bibitem[{Mann {et~al.}(2015)Mann, Feiden, Gaidos, Boyajian, \& von
   Braun}]{mann_how_2015}
@@ -476,6 +482,10 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
 
 \bibitem[{{Maschberger} \& {Kroupa}(2009)}]{maschberger_powerlaw_2009}
 {Maschberger}, T. \& {Kroupa}, P. 2009, \mnras, 395, 931
+
+\bibitem[{{McQuillan} {et~al.}(2014){McQuillan}, {Mazeh}, \&
+  {Aigrain}}]{mcquillan2014}
+{McQuillan}, A., {Mazeh}, T., \& {Aigrain}, S. 2014, \apjs, 211, 24
 
 \bibitem[{{Mondrik} {et~al.}(2019){Mondrik}, {Newton}, {Charbonneau}, \&
   {Irwin}}]{mondrik_flarerotation_2019}
