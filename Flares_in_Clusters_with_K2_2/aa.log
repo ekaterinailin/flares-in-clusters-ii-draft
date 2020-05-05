@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  5 MAY 2020 12:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  5 MAY 2020 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1244,7 +1244,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 268--273
  []
 
 
-Underfull \vbox (badness 5637) has occurred while \output is active []
+Underfull \vbox (badness 2042) has occurred while \output is active []
 
  [8]
 
@@ -1403,7 +1403,28 @@ t line 523.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16 <./pics/FFDs/discussion_FFDs.png>] (./aa.bbl
+
+
+Package natbib Warning: Citation `davenport2019' on page 16 undefined on input 
+line 532.
+
+
+Package natbib Warning: Citation `ricker2014' on page 16 undefined on input lin
+e 536.
+
+
+Package natbib Warning: Citation `doyle2020' on page 16 undefined on input line
+ 536.
+
+
+Package natbib Warning: Citation `guenther2020' on page 16 undefined on input l
+ine 536.
+
+
+Package natbib Warning: Citation `gizis2013' on page 16 undefined on input line
+ 536.
+
+[16 <./pics/FFDs/discussion_FFDs.png>] (./aa.bbl
 Underfull \hbox (badness 3657) in paragraph at lines 54--56
 []\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saun-ders, N., et al. 2018, arXiv e-
 prints,
@@ -1441,7 +1462,7 @@ Overfull \hbox (53.23471pt too wide) in paragraph at lines 548--552
 ) [18
 
 ]
-Underfull \hbox (badness 2809) in paragraph at lines 561--565
+Underfull \hbox (badness 2809) in paragraph at lines 571--575
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
@@ -1449,7 +1470,7 @@ Underfull \hbox (badness 2809) in paragraph at lines 561--565
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
- line 624.
+ line 634.
 (pdftex.def)             Requested size: 523.5307pt x 588.97437pt.
 (./tables/clusterparameters_appendix.tex) (./values/MMLE_alpha_energy.txt)
 (./values/MMLE_alpha_ed.txt) (./values/MCMC_alpha_energy.txt)
@@ -1458,26 +1479,26 @@ Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
 File: pics/rotation/SpT_wise_rotation.png Graphic file (type png)
 <use pics/rotation/SpT_wise_rotation.png>
 Package pdftex.def Info: pics/rotation/SpT_wise_rotation.png  used on input lin
-e 666.
+e 676.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
 
 
 Package natbib Warning: Citation `mondrik_flarerotation_2019' on page 19 undefi
-ned on input line 672.
+ned on input line 682.
 
 
 LaTeX Warning: Reference `fig:powerlaw_literature' on page 19 undefined on inpu
-t line 677.
+t line 687.
 
 <pics/appendix/overview_alpha_literature.png, id=98, 650.43pt x 505.89pt>
 File: pics/appendix/overview_alpha_literature.png Graphic file (type png)
 <use pics/appendix/overview_alpha_literature.png>
 Package pdftex.def Info: pics/appendix/overview_alpha_literature.png  used on i
-nput line 682.
+nput line 692.
 (pdftex.def)             Requested size: 256.0748pt x 199.17207pt.
 
 Package natbib Warning: Citation `lurie_kepler_2015' on page 19 undefined on in
-put line 683.
+put line 693.
 
 
 Package natbib Warning: There were undefined citations.
@@ -1489,24 +1510,24 @@ on/SpT_wise_rotation.png>] [24
 
 
  <./pics/appendix/overview_alpha_literature.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 688.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 688.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 698.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 698.
  (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 688.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 688.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 698.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 698.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10090 strings out of 494830
- 141722 string characters out of 6177367
- 316790 words of memory out of 5000000
- 13126 multiletter control sequences out of 15000+600000
+ 10095 strings out of 494830
+ 141785 string characters out of 6177367
+ 317447 words of memory out of 5000000
+ 13131 multiletter control sequences out of 15000+600000
  120685 words of font info for 199 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,14n,45p,5585b,660s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,45p,5585b,638s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/ty
@@ -1521,7 +1542,7 @@ c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (24 pages, 5092931 bytes).
+Output written on aa.pdf (24 pages, 5092979 bytes).
 PDF statistics:
  172 PDF objects out of 1000 (max. 8388607)
  101 compressed objects within 2 object streams
