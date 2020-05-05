@@ -1,4 +1,4 @@
-\begin{thebibliography}{128}
+\begin{thebibliography}{127}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aarnio} {et~al.}(2012){Aarnio}, {Matt}, \&
@@ -137,11 +137,6 @@ Chambers, K.~C., Magnier, E.~A., Metcalfe, N., {et~al.} 2016, ArXiv e-prints
 
 \bibitem[{Chang {et~al.}(2015)Chang, Byun, \& Hartman}]{chang_photometric_2015}
 Chang, S.-W., Byun, Y.-I., \& Hartman, J.~D. 2015, \apj, 814, 35
-
-\bibitem[{{Chang} {et~al.}(2016){Chang}, {Byun}, \&
-  {Hartman}}]{chang_photometric_2015_data}
-{Chang}, S.~W., {Byun}, Y.~I., \& {Hartman}, J.~D. 2016, VizieR Online Data
-  Catalog, J/ApJ/814/35
 
 \bibitem[{Clarke {et~al.}(2018)Clarke, Davenport, Covey, \&
   Baranec}]{clarke_flare_2018}
@@ -350,6 +345,11 @@ Gonzalez, G. 2016, \mnras, 459, 1060
 {Green}, G.~M., {Schlafly}, E.~F., {Zucker}, C., {Speagle}, J.~S., \&
   {Finkbeiner}, D.~P. 2019, arXiv e-prints, arXiv:1905.02734
 
+\bibitem[{{Hartman} {et~al.}(2008){Hartman}, {Gaudi}, {Holman}, {McLeod},
+  {Stanek}, {Barranco}, {Pinsonneault}, {Meibom}, \& {Kalirai}}]{hartman2008}
+{Hartman}, J.~D., {Gaudi}, B.~S., {Holman}, M.~J., {et~al.} 2008, \apj, 675,
+  1233
+
 \bibitem[{Hawley {et~al.}(2014)Hawley, Davenport, Kowalski, Wisniewski, Hebb,
   Deitrick, \& Hilton}]{hawley_kepler_2014}
 Hawley, S.~L., Davenport, J. R.~A., Kowalski, A.~F., {et~al.} 2014, \apj, 797,
@@ -361,8 +361,7 @@ Hawley, S.~L. \& Fisher, G.~H. 1992, \apjs, 78, 565
 \bibitem[{Hilton(2011)}]{hilton2011}
 Hilton, E.~J. 2011, PhD thesis, University of Washington
 
-\bibitem[{Hilton {et~al.}(2010)Hilton, West, Hawley, \&
-  Kowalski}]{hilton_dwarf_2010}
+\bibitem[{Hilton {et~al.}(2010)Hilton, West, Hawley, \& Kowalski}]{hilton2010}
 Hilton, E.~J., West, A.~A., Hawley, S.~L., \& Kowalski, A.~F. 2010, \aj, 140,
   1402
 
@@ -381,11 +380,6 @@ Hilton, E.~J., West, A.~A., Hawley, S.~L., \& Kowalski, A.~F. 2010, \aj, 140,
   Troeltzsch, Aigrain, Bryson, Caldwell, Chaplin, Cochran, Huber, Marcy,
   Miglio, Najita, Smith, Twicken, \& Fortney}]{howell_k2_2014}
 Howell, S.~B., Sobeck, C., Haas, M., {et~al.} 2014, \pasp, 126, 398
-
-\bibitem[{Hunt-Walker {et~al.}(2012)Hunt-Walker, Hilton, Kowalski, Hawley, \&
-  Matthews}]{hunt-walker_most_2012}
-Hunt-Walker, N.~M., Hilton, E.~J., Kowalski, A.~F., Hawley, S.~L., \& Matthews,
-  J.~M. 2012, \pasp, 124, 545
 
 \bibitem[{{Ilin} {et~al.}(2019){Ilin}, {Schmidt}, {Davenport}, \&
   {Strassmeier}}]{ilin_flares_2019}
@@ -488,7 +482,7 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
 {McQuillan}, A., {Mazeh}, T., \& {Aigrain}, S. 2014, \apjs, 211, 24
 
 \bibitem[{{Mondrik} {et~al.}(2019){Mondrik}, {Newton}, {Charbonneau}, \&
-  {Irwin}}]{mondrik_flarerotation_2019}
+  {Irwin}}]{mondrik2019}
 {Mondrik}, N., {Newton}, E., {Charbonneau}, D., \& {Irwin}, J. 2019, \apj, 870,
   10
 
@@ -655,7 +649,7 @@ Van~Cleve, J.~E., Howell, S.~B., Smith, J.~C., {et~al.} 2016, \pasp, 128,
 
 \bibitem[{Walkowicz {et~al.}(2011)Walkowicz, Basri, Batalha, Gilliland,
   Jenkins, Borucki, Koch, Caldwell, Dupree, Latham, Meibom, Howell, Brown, \&
-  Bryson}]{walkowicz_white-light_2011}
+  Bryson}]{walkowicz2011}
 Walkowicz, L.~M., Basri, G., Batalha, N., {et~al.} 2011, \aj, 141, 50
 
 \bibitem[{{Watanabe} {et~al.}(2013){Watanabe}, {Shimizu}, {Masuda}, {Ichimoto},
