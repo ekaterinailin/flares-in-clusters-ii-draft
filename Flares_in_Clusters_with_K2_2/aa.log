@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  30 APR 2020 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  5 MAY 2020 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1123,6 +1123,14 @@ Package natbib Warning: Citation `lurie_kepler_2015' on page 1 undefined on inp
 ut line 104.
 
 
+Package natbib Warning: Citation `hilton2010' on page 1 undefined on input line
+ 106.
+
+
+Package natbib Warning: Citation `walkowicz2011' on page 1 undefined on input l
+ine 106.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1210,14 +1218,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 4328) has occurred while \output is active []
 
  [6 <./pics/clusters/teff_R.png>]
+
+Package natbib Warning: Citation `gershberg1972' on page 7 undefined on input l
+ine 248.
+
+
 Underfull \hbox (badness 1394) in paragraph at lines 269--274
 \T1/txr/m/n/10 Namekata et al. 2017), SEDs of stel-lar flares tend to be
  []
 
 
-Underfull \vbox (badness 2042) has occurred while \output is active []
+Underfull \vbox (badness 5637) has occurred while \output is active []
 
  [7]
+
+Package natbib Warning: Citation `gershberg1972' on page 8 undefined on input l
+ine 292.
+
 (./tables/flares.tex)
 <pics/FFDs/full_sample_ffd_ED_wheatland.png, id=47, 578.16pt x 433.62pt>
 File: pics/FFDs/full_sample_ffd_ED_wheatland.png Graphic file (type png)
@@ -1278,21 +1295,9 @@ Package pdftex.def Info: pics/FFDs/beta_T_age_ED_wheatland.png  used on input l
 ine 403.
 (pdftex.def)             Requested size: 384.1122pt x 230.46591pt.
 
-! Undefined control sequence.
-l.409 ...ages using $\beta_\mathrm{s}$ ($R_\amthrm
-                                                  {1s}$ in \citealt{davenpor...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 LaTeX Warning: Reference `agemass_FA_Lflare' on page 12 undefined on input line
  414.
-
-
-LaTeX Warning: Reference `FA_E' on page 12 undefined on input line 421.
 
 <pics/FA/FA_T_age_Ethresh.png, id=68, 722.7pt x 361.35pt>
 File: pics/FA/FA_T_age_Ethresh.png Graphic file (type png)
@@ -1334,36 +1339,69 @@ Package pdftex.def Info: pics/FFDs/discussion_FFDs.png  used on input line 480.
 
 (pdftex.def)             Requested size: 384.1122pt x 345.69888pt.
 
+Package natbib Warning: Citation `raetz2020' on page 12 undefined on input line
+ 481.
+
+
+Package natbib Warning: Citation `hartman2008' on page 12 undefined on input li
+ne 491.
+
+
+Package natbib Warning: Citation `mondrik2019' on page 12 undefined on input li
+ne 491.
+
+
+Package natbib Warning: Citation `barnes2010' on page 12 undefined on input lin
+e 491.
+
+
+Package natbib Warning: Citation `raetz2020' on page 12 undefined on input line
+ 493.
+
+
+Package natbib Warning: Citation `raetz2020' on page 12 undefined on input line
+ 493.
+
+
+Package natbib Warning: Citation `raetz2020' on page 12 undefined on input line
+ 493.
+
+
 Package natbib Warning: Citation `lurie_kepler_2015' on page 12 undefined on in
-put line 491.
+put line 497.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 487--501
 
- [12]
+ []
+
+[12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <./pics/FFDs/beta_T_age_ED_wheatland.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./pics/FA/FA_T_age_Ethresh.png> <./pics/FFDs/discussion_FFDs.png>]
-Underfull \hbox (badness 1616) in paragraph at lines 501--512
+Underfull \hbox (badness 1616) in paragraph at lines 505--516
 \T1/txr/m/n/10 Assuming a typ-i-cal bi-nary frac-tion for early and mid M
  []
 
-[15] (./aa.bbl
+[14 <./pics/FA/FA_T_age_Ethresh.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./pics/FFDs/discussion_FFDs.png>] (./aa.bbl
 Underfull \hbox (badness 3657) in paragraph at lines 54--56
 []\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saun-ders, N., et al. 2018, arXiv e-
 prints,
  []
 
-
+[16]
 Underfull \hbox (badness 1629) in paragraph at lines 377--379
 []\T1/txr/m/n/8 Howard, W. S., Cor-bett, H., Law, N. M., et al. 2019b, arXiv e-
 prints,
  []
 
-[16]
+
 Underfull \hbox (badness 1077) in paragraph at lines 544--546
 []\T1/txr/m/n/8 Raetz, S., Stelzer, B., Damasso, M., & Scholz, A. 2020, arXiv e
 -prints,
@@ -1386,10 +1424,8 @@ Overfull \hbox (53.23471pt too wide) in paragraph at lines 554--558
 2..113R;adsnote=Provided
  []
 
-) [17
-
-]
-Underfull \hbox (badness 2809) in paragraph at lines 566--570
+) [17]
+Underfull \hbox (badness 2809) in paragraph at lines 570--574
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
@@ -1397,7 +1433,7 @@ Underfull \hbox (badness 2809) in paragraph at lines 566--570
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
- line 629.
+ line 633.
 (pdftex.def)             Requested size: 523.5307pt x 588.97437pt.
 (./tables/clusterparameters_appendix.tex) (./values/MMLE_alpha_energy.txt)
 (./values/MMLE_alpha_ed.txt) (./values/MCMC_alpha_energy.txt)
@@ -1406,18 +1442,22 @@ Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
 File: pics/rotation/SpT_wise_rotation.png Graphic file (type png)
 <use pics/rotation/SpT_wise_rotation.png>
 Package pdftex.def Info: pics/rotation/SpT_wise_rotation.png  used on input lin
-e 671.
+e 675.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
 <pics/appendix/overview_alpha_literature.png, id=94, 650.43pt x 505.89pt>
 File: pics/appendix/overview_alpha_literature.png Graphic file (type png)
 <use pics/appendix/overview_alpha_literature.png>
 Package pdftex.def Info: pics/appendix/overview_alpha_literature.png  used on i
-nput line 687.
+nput line 691.
 (pdftex.def)             Requested size: 256.0748pt x 199.17207pt.
 
 
 Package natbib Warning: Citation `lurie_kepler_2015' on page 18 undefined on in
-put line 688.
+put line 692.
+
+
+Package natbib Warning: Citation `hartman2008' on page 18 undefined on input li
+ne 692.
 
 
 Package natbib Warning: There were undefined citations.
@@ -1429,24 +1469,27 @@ on/SpT_wise_rotation.png>] [23
 
 
  <./pics/appendix/overview_alpha_literature.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 693.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 693.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 697.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 697.
  (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 693.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 693.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 697.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 697.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 10085 strings out of 494830
- 141662 string characters out of 6177367
- 312907 words of memory out of 5000000
- 13121 multiletter control sequences out of 15000+600000
+ 10090 strings out of 494830
+ 141736 string characters out of 6177367
+ 317727 words of memory out of 5000000
+ 13126 multiletter control sequences out of 15000+600000
  120685 words of font info for 199 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,14n,47p,5585b,658s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,14n,47p,5585b,594s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/ty
@@ -1460,7 +1503,7 @@ urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (23 pages, 5186162 bytes).
+Output written on aa.pdf (23 pages, 5093050 bytes).
 PDF statistics:
  164 PDF objects out of 1000 (max. 8388607)
  96 compressed objects within 1 object stream
