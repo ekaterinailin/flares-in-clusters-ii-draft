@@ -1,4 +1,4 @@
-\begin{thebibliography}{121}
+\begin{thebibliography}{124}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -138,6 +138,11 @@ Clarke, R.~W., Davenport, J. R.~A., Covey, K.~R., \& Baranec, C. 2018, \apj,
   {Lowrance}}]{Cruz2003}
 {Cruz}, K.~L., {Reid}, I.~N., {Liebert}, J., {Kirkpatrick}, J.~D., \&
   {Lowrance}, P.~J. 2003, \aj, 126, 2421
+
+\bibitem[{{Curtis} {et~al.}(2019){Curtis}, {Ag{\"u}eros}, {Douglas}, \&
+  {Meibom}}]{curtis2019}
+{Curtis}, J.~L., {Ag{\"u}eros}, M.~A., {Douglas}, S.~T., \& {Meibom}, S. 2019,
+  \apj, 879, 49
 
 \bibitem[{Curtis {et~al.}(2013)Curtis, Wolfgang, Wright, Brewer, \&
   Johnson}]{curtis_ruprecht_2013}
@@ -447,6 +452,10 @@ Luger, R., Agol, E., Kruse, E., {et~al.} 2016, \aj, 152, 100
   Kowalski, \& Hebb}]{lurie2015}
 Lurie, J.~C., Davenport, J. R.~A., Hawley, S.~L., {et~al.} 2015, \apj, 800, 95
 
+\bibitem[{Maehara {et~al.}(2012)Maehara, Shibayama, Notsu, Notsu, Nagao,
+  Kusaba, Honda, Nogami, \& Shibata}]{maehara2012}
+Maehara, H., Shibayama, T., Notsu, S., {et~al.} 2012, \nat, 485, 478
+
 \bibitem[{{Mamajek} \& {Hillenbrand}(2008)}]{mamajek2008}
 {Mamajek}, E.~E. \& {Hillenbrand}, L.~A. 2008, \apj, 687, 1264
 
@@ -598,6 +607,9 @@ Shibayama, T., Maehara, H., Notsu, S., {et~al.} 2013, \apjs, 209, 5
   Fowler, Fullmer, Hurt, Light, Kopan, Marsh, McCallon, Tam, Van~Dyk, \&
   Wheelock}]{skrutskie_two_2006}
 Skrutskie, M.~F., Cutri, R.~M., Stiening, R., {et~al.} 2006, \aj, 131, 1163
+
+\bibitem[{Skumanich(1972)}]{skumanich1972}
+Skumanich, A. 1972, \apj, 171, 565
 
 \bibitem[{{Tilley} {et~al.}(2019){Tilley}, {Segura}, {Meadows}, {Hawley}, \&
   {Davenport}}]{tilley_repeated_flare_2019}

@@ -52,76 +52,75 @@ You're missing a field name---line 6050 of file MyLibrary.bib
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7923 of file MyLibrary.bib
+Unbalanced braces---line 7734 of file MyLibrary.bib
+ :         epoch lasts longer for lower-mass stars.
+ :                                                 }",
+I'm skipping whatever remains of this entry
+You're missing a field name---line 7980 of file MyLibrary.bib
  :   
  :   %number = {5987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 8357 of file MyLibrary.bib
+You're missing a field name---line 8414 of file MyLibrary.bib
  :   
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9479 of file MyLibrary.bib
+You're missing a field name---line 9536 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9567 of file MyLibrary.bib
+You're missing a field name---line 9624 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "shibayama_superflares_2013"
 Warning--I didn't find a database entry for "gershberg1972"
 Warning--I didn't find a database entry for "raghavan_multiplicity_2010"
 Warning--I didn't find a database entry for "duchene_multiplicity_2013"
 Warning--I didn't find a database entry for "PaperI"
-Warning--I didn't find a database entry for "shibayama_2013"
-Warning--I didn't find a database entry for "chang_photometric_2015"
 Warning--I didn't find a database entry for "maschberher2009"
-Warning--I didn't find a database entry for "mondrik_flarerotation_2019"
-Warning--I didn't find a database entry for "maehara_superflares_2012"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 121 entries,
+You've used 124 entries,
             3039 wiz_defined-function locations,
-            1374 strings with 49473 characters,
-and the built_in function-call counts, 107863 in all, are:
-= -- 8040
-> -- 13964
-< -- 25
-+ -- 4682
-- -- 4542
-* -- 10259
-:= -- 20319
-add.period$ -- 121
-call.type$ -- 121
-change.case$ -- 1999
-chr.to.int$ -- 118
-cite$ -- 121
-duplicate$ -- 2219
-empty$ -- 3190
-format.name$ -- 4837
-if$ -- 20951
+            1384 strings with 49933 characters,
+and the built_in function-call counts, 109399 in all, are:
+= -- 8165
+> -- 14098
+< -- 26
++ -- 4727
+- -- 4584
+* -- 10391
+:= -- 20609
+add.period$ -- 124
+call.type$ -- 124
+change.case$ -- 2025
+chr.to.int$ -- 121
+cite$ -- 124
+duplicate$ -- 2273
+empty$ -- 3267
+format.name$ -- 4885
+if$ -- 21251
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 117
-newline$ -- 367
-num.names$ -- 484
-pop$ -- 1964
+missing$ -- 120
+newline$ -- 376
+num.names$ -- 496
+pop$ -- 1988
 preamble$ -- 1
-purify$ -- 1998
+purify$ -- 2024
 quote$ -- 0
-skip$ -- 1960
+skip$ -- 2007
 stack$ -- 0
-substring$ -- 2666
+substring$ -- 2726
 swap$ -- 15
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1089
+type$ -- 1116
 warning$ -- 0
-while$ -- 481
+while$ -- 493
 width$ -- 0
-write$ -- 1208
-(There were 14 error messages)
+write$ -- 1238
+(There were 15 error messages)
