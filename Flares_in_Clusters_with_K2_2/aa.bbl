@@ -1,23 +1,9 @@
-\begin{thebibliography}{127}
+\begin{thebibliography}{121}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-
-\bibitem[{{Aarnio} {et~al.}(2012){Aarnio}, {Matt}, \&
-  {Stassun}}]{aarnio_masslosscme_2012}
-{Aarnio}, A.~N., {Matt}, S.~P., \& {Stassun}, K.~G. 2012, \apj, 760, 9
-
-\bibitem[{Aarnio {et~al.}(2011)Aarnio, Stassun, Hughes, \&
-  McGregor}]{Aarnio2011}
-Aarnio, A.~N., Stassun, K.~G., Hughes, W.~J., \& McGregor, S.~L. 2011,
-  \solphys, 268, 195
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
   Pope}]{aigrain_k2sc_2016}
 Aigrain, S., Parviainen, H., \& Pope, B. J.~S. 2016, \mnras, 459, 2408
-
-\bibitem[{Alvarado-G{\'o}mez {et~al.}(2018)Alvarado-G{\'o}mez, Drake, Cohen,
-  Moschou, \& Garraffo}]{alvaradogomez_cme_2018}
-Alvarado-G{\'o}mez, J.~D., Drake, J.~J., Cohen, O., Moschou, S.~P., \&
-  Garraffo, C. 2018, \apj, 862, 93
 
 \bibitem[{{Anders} {et~al.}(2019){Anders}, {Khalatyan}, {Chiappini}, {Queiroz},
   {Santiago}, {Jordi}, {Girardi}, {Brown}, {Matijevi{\v{c}}}, {Monari},
@@ -135,7 +121,7 @@ Carpenter, J.~M. 2001, The Astronomical Journal, 121, 2851
 Chambers, K.~C., Magnier, E.~A., Metcalfe, N., {et~al.} 2016, ArXiv e-prints
   [\eprint[arXiv]{1612.05560}]
 
-\bibitem[{Chang {et~al.}(2015)Chang, Byun, \& Hartman}]{chang_photometric_2015}
+\bibitem[{Chang {et~al.}(2015)Chang, Byun, \& Hartman}]{chang2015}
 Chang, S.-W., Byun, Y.-I., \& Hartman, J.~D. 2015, \apj, 814, 35
 
 \bibitem[{Clarke {et~al.}(2018)Clarke, Davenport, Covey, \&
@@ -170,7 +156,7 @@ Davenport, J. R.~A., Becker, A.~C., Kowalski, A.~F., {et~al.} 2012, \apj, 748,
   58
 
 \bibitem[{{Davenport} {et~al.}(2019){Davenport}, {Covey}, {Clarke}, {Boeck},
-  {Cornet}, \& {Hawley}}]{davenport_flaresevolve_2019}
+  {Cornet}, \& {Hawley}}]{davenport2019}
 {Davenport}, J. R.~A., {Covey}, K.~R., {Clarke}, R.~W., {et~al.} 2019, \apj,
   871, 241
 
@@ -204,10 +190,8 @@ Douglas, S.~T., Ag{\"u}eros, M.~A., Covey, K.~R., \& Kraus, A. 2017, \apj, 842,
 {Douglas}, S.~T., {Curtis}, J.~L., {Ag{\"u}eros}, M.~A., {et~al.} 2019, \apj,
   879, 100
 
-\bibitem[{{Drake} {et~al.}(2013){Drake}, {Cohen}, {Yashiro}, \&
-  {Gopalswamy}}]{drake_cmemassloss_2013}
-{Drake}, J.~J., {Cohen}, O., {Yashiro}, S., \& {Gopalswamy}, N. 2013, \apj,
-  764, 170
+\bibitem[{{Doyle} {et~al.}(2020){Doyle}, {Ramsay}, \& {Doyle}}]{doyle2020}
+{Doyle}, L., {Ramsay}, G., \& {Doyle}, J.~G. 2020, \mnras, 494, 3596
 
 \bibitem[{{Eker} {et~al.}(2018){Eker}, {Bak{\i}{\textcommabelow s}}, {Bilir},
   {Soydugan}, {Steer}, {Soydugan}, {Bak{\i}{\textcommabelow s}},
@@ -226,9 +210,6 @@ Douglas, S.~T., Ag{\"u}eros, M.~A., Covey, K.~R., \& Kraus, A. 2017, \apj, 842,
   Tonry}]{finkbeiner_ps1tosdss_2016}
 Finkbeiner, D.~P., Schlafly, E.~F., Schlegel, D.~J., {et~al.} 2016, \apj, 822,
   66
-
-\bibitem[{Fischer \& Marcy(1992)}]{fischer_multiplicity_1992}
-Fischer, D.~A. \& Marcy, G.~W. 1992, \apj, 396, 178
 
 \bibitem[{{Froning} {et~al.}(2019){Froning}, {Kowalski}, {France}, {Loyd},
   {Schneider}, {Youngblood}, {Wilson}, {Brown}, {Berta-Thompson}, {Pineda},
@@ -325,7 +306,7 @@ Fischer, D.~A. \& Marcy, G.~W. 1992, \apj, 396, 178
 \bibitem[{{Gao}(2018)}]{gao_m67mem_2018}
 {Gao}, X. 2018, \apj, 869, 9
 
-\bibitem[{Gizis(2013)}]{gizis_kepler_2013}
+\bibitem[{Gizis(2013)}]{gizis2013}
 Gizis, J.~E. 2013, \apj, 779, 172
 
 \bibitem[{Gizis(2017)}]{gizis_k2_2017-1}
@@ -344,6 +325,13 @@ Gonzalez, G. 2016, \mnras, 459, 1060
   {Finkbeiner}}]{green_bayestar_2019}
 {Green}, G.~M., {Schlafly}, E.~F., {Zucker}, C., {Speagle}, J.~S., \&
   {Finkbeiner}, D.~P. 2019, arXiv e-prints, arXiv:1905.02734
+
+\bibitem[{{G{\"u}nther} {et~al.}(2020){G{\"u}nther}, {Zhan}, {Seager},
+  {Rimmer}, {Ranjan}, {Stassun}, {Oelkers}, {Daylan}, {Newton}, {Kristiansen},
+  {Olah}, {Gillen}, {Rappaport}, {Ricker}, {Vanderspek}, {Latham}, {Winn},
+  {Jenkins}, {Glidden}, {Fausnaugh}, {Levine}, {Dittmann}, {Quinn},
+  {Krishnamurthy}, \& {Ting}}]{guenther2020}
+{G{\"u}nther}, M.~N., {Zhan}, Z., {Seager}, S., {et~al.} 2020, \aj, 159, 60
 
 \bibitem[{{Hartman} {et~al.}(2008){Hartman}, {Gaudi}, {Holman}, {McLeod},
   {Stanek}, {Barranco}, {Pinsonneault}, {Meibom}, \& {Kalirai}}]{hartman2008}
@@ -392,11 +380,13 @@ Howell, S.~B., Sobeck, C., Haas, M., {et~al.} 2014, \pasp, 126, 398
 {Jackman}, J. A.~G., {Wheatley}, P.~J., {Bayliss}, D., {et~al.} 2019, arXiv
   e-prints, arXiv:1902.00900
 
-\bibitem[{Karoff(2016)}]{karoff_observational_2016}
-Karoff, C. 2016, Nature Communications, 7, 11058
-
 \bibitem[{{Kerr} \& {Fletcher}(2014)}]{kerr_solarstellarwlf_2014}
 {Kerr}, G.~S. \& {Fletcher}, L. 2014, \apj, 783, 98
+
+\bibitem[{{Kirkpatrick} {et~al.}(1991){Kirkpatrick}, {Henry}, \&
+  {McCarthy}}]{kirkpatrick1991}
+{Kirkpatrick}, J.~D., {Henry}, T.~J., \& {McCarthy}, Donald~W., J. 1991, \apjs,
+  77, 417
 
 \bibitem[{{Kirkpatrick} {et~al.}(2010){Kirkpatrick}, {Looper}, {Burgasser},
   {Schurr}, {Cutri}, {Cushing}, {Cruz}, {Sweet}, {Knapp}, {Barman},
@@ -457,10 +447,6 @@ Luger, R., Agol, E., Kruse, E., {et~al.} 2016, \aj, 152, 100
   Kowalski, \& Hebb}]{lurie2015}
 Lurie, J.~C., Davenport, J. R.~A., Hawley, S.~L., {et~al.} 2015, \apj, 800, 95
 
-\bibitem[{Maehara {et~al.}(2012)Maehara, Shibayama, Notsu, Notsu, Nagao,
-  Kusaba, Honda, Nogami, \& Shibata}]{maehara_superflares_2012}
-Maehara, H., Shibayama, T., Notsu, S., {et~al.} 2012, \nat, 485, 478
-
 \bibitem[{{Mamajek} \& {Hillenbrand}(2008)}]{mamajek2008}
 {Mamajek}, E.~E. \& {Hillenbrand}, L.~A. 2008, \apj, 687, 1264
 
@@ -485,12 +471,6 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
   {Irwin}}]{mondrik2019}
 {Mondrik}, N., {Newton}, E., {Charbonneau}, D., \& {Irwin}, J. 2019, \apj, 870,
   10
-
-\bibitem[{{Morin} {et~al.}(2008){Morin}, {Donati}, {Petit}, {Delfosse},
-  {Forveille}, {Albert}, {Auri{\`e}re}, {Cabanac}, {Dintrans}, {Fares},
-  {Gastine}, {Jardine}, {Ligni{\`e}res}, {Paletou}, {Ramirez Velez}, \&
-  {Th{\'e}ado}}]{morin_m4magneticfields_2008}
-{Morin}, J., {Donati}, J.~F., {Petit}, P., {et~al.} 2008, \mnras, 390, 567
 
 \bibitem[{{Namekata} {et~al.}(2017){Namekata}, {Sakaue}, {Watanabe}, {Asai},
   {Maehara}, {Notsu}, {Notsu}, {Honda}, {Ishii}, {Ikuta}, {Nogami}, \&
@@ -534,7 +514,7 @@ Priest, E. \& Forbes, T. 2002, \aapr, 10, 313
   476, 2556
 
 \bibitem[{{Raetz} {et~al.}(2020){Raetz}, {Stelzer}, {Damasso}, \&
-  {Scholz}}]{2020arXiv200311937R}
+  {Scholz}}]{raetz2020}
 {Raetz}, S., {Stelzer}, B., {Damasso}, M., \& {Scholz}, A. 2020, arXiv
   e-prints, arXiv:2003.11937
 
@@ -562,15 +542,21 @@ Rebull, L.~M., Stauffer, J.~R., Bouvier, J., {et~al.} 2016{\natexlab{b}}, \aj,
 {Rebull}, L.~M., {Stauffer}, J.~R., {Hillenbrand}, L.~A., {et~al.} 2017, \apj,
   839, 92
 
-\bibitem[{Reid \& Hawley(2005)}]{reid_new_2005}
-Reid, I.~N. \& Hawley, S.~L. 2005, New Light on Dark Stars: Red Dwarfs,
-  Low-Mass Stars, Brown Dwarfs, 2nd edn., Springer-Praxis books in astronomy
-  and astrophysics (Berlin ; New York : Chichester, UK: {Springer ; Praxis})
-
 \bibitem[{{Reino} {et~al.}(2018){Reino}, {de Bruijne}, {Zari}, {d'Antona}, \&
   {Ventura}}]{reino_hyades_2018}
 {Reino}, S., {de Bruijne}, J., {Zari}, E., {d'Antona}, F., \& {Ventura}, P.
   2018, \mnras, 477, 3197
+
+\bibitem[{Ricker {et~al.}(2014)Ricker, Winn, Vanderspek, Latham, Bakos, Bean,
+  Berta-Thompson, Brown, Buchhave, Butler, Butler, Chaplin, Charbonneau,
+  Christensen-Dalsgaard, Clampin, Deming, Doty, De~Lee, Dressing, Dunham, Endl,
+  Fressin, Ge, Henning, Holman, Howard, Ida, Jenkins, Jernigan, Johnson,
+  Kaltenegger, Kawai, Kjeldsen, Laughlin, Levine, Lin, Lissauer, MacQueen,
+  Marcy, McCullough, Morton, Narita, Paegert, Palle, Pepe, Pepper, Quirrenbach,
+  Rinehart, Sasselov, Sato, Seager, Sozzetti, Stassun, Sullivan, Szentgyorgyi,
+  Torres, Udry, \& Villasenor}]{ricker2014}
+Ricker, G.~R., Winn, J.~N., Vanderspek, R., {et~al.} 2014, Journal of
+  Astronomical Telescopes, Instruments, and Systems, 1, 014003
 
 \bibitem[{{Sammis} {et~al.}(2000){Sammis}, {Tang}, \&
   {Zirin}}]{sammis_deltaspotsflares_2000}
@@ -599,21 +585,11 @@ Reid, I.~N. \& Hawley, S.~L. 2005, New Light on Dark Stars: Red Dwarfs,
 {Schmidt}, S.~J., {West}, A.~A., {Hawley}, S.~L., \& {Pineda}, J.~S. 2010, \aj,
   139, 1808
 
-\bibitem[{{See} {et~al.}(2017){See}, {Jardine}, {Vidotto}, {Donati}, {Boro
-  Saikia}, {Fares}, {Folsom}, {H{\'e}brard}, {Jeffers}, {Marsden}, {Morin},
-  {Petit}, {Waite}, \& {BCool Collaboration}}]{see_zdispindown_2017}
-{See}, V., {Jardine}, M., {Vidotto}, A.~A., {et~al.} 2017, \mnras, 466, 1542
-
 \bibitem[{Shakhovskaya(1989)}]{shakhovskaya_stellar_1989}
 Shakhovskaya, N. 1989, \solphys, 121, 375
 
-\bibitem[{{Shibayama} {et~al.}(2013){Shibayama}, {Maehara}, {Notsu}, {Notsu},
-  {Nagao}, {Honda}, {Ishii}, {Nogami}, \& {Shibata}}]{shibayama_2013}
-{Shibayama}, T., {Maehara}, H., {Notsu}, S., {et~al.} 2013, The Astrophysical
-  Journal Supplement Series, 209, 5
-
 \bibitem[{Shibayama {et~al.}(2013)Shibayama, Maehara, Notsu, Notsu, Nagao,
-  Honda, Ishii, Nogami, \& Shibata}]{shibayama_superflares_2013}
+  Honda, Ishii, Nogami, \& Shibata}]{shibayama2013}
 Shibayama, T., Maehara, H., Notsu, S., {et~al.} 2013, \apjs, 209, 5
 
 \bibitem[{Skrutskie {et~al.}(2006)Skrutskie, Cutri, Stiening, Weinberg,
@@ -670,6 +646,10 @@ Walkowicz, L.~M., Basri, G., Batalha, N., {et~al.} 2011, \aj, 141, 50
 
 \bibitem[{{Wheatland}(2004)}]{wheatland_flaresbayes_2004}
 {Wheatland}, M.~S. 2004, \apj, 609, 1134
+
+\bibitem[{{Winters} {et~al.}(2019){Winters}, {Henry}, {Jao}, {Subasavage},
+  {Chatelain}, {Slatten}, {Riedel}, {Silverstein}, \& {Payne}}]{winters2019}
+{Winters}, J.~G., {Henry}, T.~J., {Jao}, W.-C., {et~al.} 2019, \aj, 157, 216
 
 \bibitem[{{Wu} {et~al.}(2015){Wu}, {Ip}, \& {Huang}}]{wu2015}
 {Wu}, C.-J., {Ip}, W.-H., \& {Huang}, L.-C. 2015, \apj, 798, 92

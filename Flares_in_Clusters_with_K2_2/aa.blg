@@ -3,121 +3,125 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: aa.aux
 The style file: aa.bst
 Database file #1: MyLibrary.bib
-You're missing a field name---line 1251 of file MyLibrary.bib
+You're missing a field name---line 1429 of file MyLibrary.bib
  :   
  :   %number = {1}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2385 of file MyLibrary.bib
+You're missing a field name---line 2563 of file MyLibrary.bib
  :   
  :   %month = {sep},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2685 of file MyLibrary.bib
+You're missing a field name---line 2863 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3285 of file MyLibrary.bib
+Repeated entry---line 3463 of file MyLibrary.bib
  : @article{1992ApJS...78..565H
  :                             ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3641 of file MyLibrary.bib
+You're missing a field name---line 3819 of file MyLibrary.bib
  :   
  :   %month = {mar},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4178 of file MyLibrary.bib
+You're missing a field name---line 4356 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4538 of file MyLibrary.bib
+You're missing a field name---line 4697 of file MyLibrary.bib
  :   
  :   %pages = {77355B--77355B}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5266 of file MyLibrary.bib
+You're missing a field name---line 5425 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5794 of file MyLibrary.bib
+You're missing a field name---line 5953 of file MyLibrary.bib
  :   
  :   %number = {825},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5891 of file MyLibrary.bib
+You're missing a field name---line 6050 of file MyLibrary.bib
  :   
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7764 of file MyLibrary.bib
+You're missing a field name---line 7923 of file MyLibrary.bib
  :   
  :   %number = {5987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 8198 of file MyLibrary.bib
+You're missing a field name---line 8357 of file MyLibrary.bib
  :   
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9320 of file MyLibrary.bib
+You're missing a field name---line 9479 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9408 of file MyLibrary.bib
+You're missing a field name---line 9567 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "walkowicz_white-light_2011"
-Warning--I didn't find a database entry for "mondrik_flarerotation_2019"
-Warning--I didn't find a database entry for "lurie_kepler_2015"
+Warning--I didn't find a database entry for "shibayama_superflares_2013"
 Warning--I didn't find a database entry for "gershberg1972"
-Warning--I didn't find a database entry for "raetz2020"
-Warning--I didn't find a database entry for "barnes2010"
+Warning--I didn't find a database entry for "raghavan_multiplicity_2010"
+Warning--I didn't find a database entry for "duchene_multiplicity_2013"
+Warning--I didn't find a database entry for "PaperI"
+Warning--I didn't find a database entry for "shibayama_2013"
+Warning--I didn't find a database entry for "chang_photometric_2015"
+Warning--I didn't find a database entry for "maschberher2009"
+Warning--I didn't find a database entry for "mondrik_flarerotation_2019"
+Warning--I didn't find a database entry for "maehara_superflares_2012"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 127 entries,
+You've used 121 entries,
             3039 wiz_defined-function locations,
-            1405 strings with 49506 characters,
-and the built_in function-call counts, 108318 in all, are:
-= -- 8120
-> -- 13725
-< -- 30
-+ -- 4601
-- -- 4455
-* -- 10245
-:= -- 20387
-add.period$ -- 127
-call.type$ -- 127
-change.case$ -- 1996
-chr.to.int$ -- 130
-cite$ -- 127
-duplicate$ -- 2334
-empty$ -- 3354
-format.name$ -- 4769
-if$ -- 21055
+            1374 strings with 49473 characters,
+and the built_in function-call counts, 107863 in all, are:
+= -- 8040
+> -- 13964
+< -- 25
++ -- 4682
+- -- 4542
+* -- 10259
+:= -- 20319
+add.period$ -- 121
+call.type$ -- 121
+change.case$ -- 1999
+chr.to.int$ -- 118
+cite$ -- 121
+duplicate$ -- 2219
+empty$ -- 3190
+format.name$ -- 4837
+if$ -- 20951
 int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 123
-newline$ -- 385
-num.names$ -- 508
-pop$ -- 1965
+missing$ -- 117
+newline$ -- 367
+num.names$ -- 484
+pop$ -- 1964
 preamble$ -- 1
-purify$ -- 1993
+purify$ -- 1998
 quote$ -- 0
-skip$ -- 2054
+skip$ -- 1960
 stack$ -- 0
-substring$ -- 2771
-swap$ -- 18
+substring$ -- 2666
+swap$ -- 15
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1140
+type$ -- 1089
 warning$ -- 0
-while$ -- 505
+while$ -- 481
 width$ -- 0
-write$ -- 1268
+write$ -- 1208
 (There were 14 error messages)
