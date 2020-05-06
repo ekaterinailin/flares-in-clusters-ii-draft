@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  6 MAY 2020 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  6 MAY 2020 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1408,6 +1408,35 @@ Package pdftex.def Info: pics/rotation/SpT_wise_rotation.png  used on input lin
 e 670.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
 
+! Argument of \Hy@tempa has an extra }.
+<inserted text> 
+                \par 
+l.671 ...ian_stars_with_rotation_periods.txt}\%$.}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\@captype {\@iinput }\def \reserved@b {\@@input }\futurelet \@let@token \ETC.
+! Paragraph ended before \Hy@tempa was complete.
+<to be read again> 
+                   \par 
+l.671 ...ian_stars_with_rotation_periods.txt}\%$.}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+(./values/min_stars_with_rotation_periods.txt)
+(./values/max_stars_with_rotation_periods.txt)
+(./values/median_stars_with_rotation_periods.txt)
+
+LaTeX Warning: Float too large for page by 3.90118pt on input line 674.
+
 
 LaTeX Warning: Reference `fig:powerlaw_literature' on page 18 undefined on inpu
 t line 685.
@@ -1439,9 +1468,9 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10096 strings out of 494830
- 141760 string characters out of 6177367
- 321278 words of memory out of 5000000
+ 10105 strings out of 494830
+ 142120 string characters out of 6177367
+ 321479 words of memory out of 5000000
  13125 multiletter control sequences out of 15000+600000
  120685 words of font info for 199 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -1460,7 +1489,7 @@ c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (23 pages, 5093037 bytes).
+Output written on aa.pdf (23 pages, 5093148 bytes).
 PDF statistics:
  168 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
