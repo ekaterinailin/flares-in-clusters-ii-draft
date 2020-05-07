@@ -1,4 +1,4 @@
-\begin{thebibliography}{124}
+\begin{thebibliography}{122}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -403,15 +403,6 @@ Howell, S.~B., Sobeck, C., Haas, M., {et~al.} 2014, \pasp, 126, 398
   {Krucker}}]{kleint_solarstellarwlf_2016}
 {Kleint}, L., {Heinzel}, P., {Judge}, P., \& {Krucker}, S. 2016, \apj, 816, 88
 
-\bibitem[{Koch {et~al.}(2010)Koch, Borucki, Basri, Batalha, Brown, Caldwell,
-  Christensen-Dalsgaard, Cochran, DeVore, Dunham, Gautier, Geary, Gilliland,
-  Gould, Jenkins, Kondo, Latham, Lissauer, Marcy, Monet, Sasselov, Boss,
-  Brownlee, Caldwell, Dupree, Howell, Kjeldsen, Meibom, Morrison, Owen,
-  Reitsema, Tarter, Bryson, Dotson, Gazis, Haas, Kolodziejczak, Rowe,
-  Van~Cleve, Allen, Chandrasekaran, Clarke, Li, Quintana, Tenenbaum, Twicken,
-  \& Wu}]{koch_kepler_2010}
-Koch, D.~G., Borucki, W.~J., Basri, G., {et~al.} 2010, \apj, 713, L79
-
 \bibitem[{Kowalski {et~al.}(2013)Kowalski, Hawley, Wisniewski, Osten, Hilton,
   Holtzman, Schmidt, \& Davenport}]{kowalski_time-resolved_2013}
 Kowalski, A.~F., Hawley, S.~L., Wisniewski, J.~P., {et~al.} 2013, \apjs, 207,
@@ -574,15 +565,9 @@ Ricker, G.~R., Winn, J.~N., Vanderspek, R., {et~al.} 2014, Journal of
 \bibitem[{{Schmidt}(2014)}]{Schmidt2014b}
 {Schmidt}, S.~J. 2014, \memsai, 85, 741
 
-\bibitem[{{Schmidt} {et~al.}(2015){Schmidt}, {Hawley}, {West}, {Bochanski},
-  {Davenport}, {Ge}, \& {Schneider}}]{Schmidt2015}
-{Schmidt}, S.~J., {Hawley}, S.~L., {West}, A.~A., {et~al.} 2015, \aj, 149, 158
-
-\bibitem[{{Schmidt} {et~al.}(2016){Schmidt}, {Shappee}, {Gagn{\'e}}, {Stanek},
-  {Prieto}, {Holoien}, {Kochanek}, {Chomiuk}, {Dong}, {Seibert}, \&
-  {Strader}}]{schmidt_superflareasassn_2016}
-{Schmidt}, S.~J., {Shappee}, B.~J., {Gagn{\'e}}, J., {et~al.} 2016, \apj, 828,
-  L22
+\bibitem[{Schmidt {et~al.}(2015)Schmidt, Hawley, West, Bochanski, Davenport,
+  Ge, \& Schneider}]{Schmidt2015}
+Schmidt, S.~J., Hawley, S.~L., West, A.~A., {et~al.} 2015, \aj, 149, 158
 
 \bibitem[{{Schmidt} {et~al.}(2014){Schmidt}, {West}, {Bochanski}, {Hawley}, \&
   {Kielty}}]{Schmidt2014a}

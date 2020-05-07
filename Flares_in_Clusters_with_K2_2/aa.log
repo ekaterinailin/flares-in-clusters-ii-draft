@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  6 MAY 2020 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  7 MAY 2020 08:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1119,18 +1119,61 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 10.40245pt on input line 96.
 
-Underfull \hbox (badness 7888) in paragraph at lines 98--107
+Package natbib Warning: Citation `schaefer2000' on page 1 undefined on input li
+ne 99.
+
+
+Package natbib Warning: Citation `benz2010' on page 1 undefined on input line 9
+9.
+
+
+Package natbib Warning: Citation `haisch1991' on page 1 undefined on input line
+ 101.
+
+
+Package natbib Warning: Citation `hawley1992' on page 1 undefined on input line
+ 101.
+
+
+Package natbib Warning: Citation `koch2010' on page 1 undefined on input line 1
+04.
+
+
+Package natbib Warning: Citation `chang2020' on page 1 undefined on input line 
+108.
+
+Runaway argument?
+{schmidt2015, schmidt2016, paudel2018. In fact, the prototype flare s\ETC.
+! Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.109 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 98--109
 \T1/txr/m/n/10 Statistical flare stud-ies have been pi-o-neered from the
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+
+Package natbib Warning: Citation `mirzoyan1991' on page 1 undefined on input li
+ne 113.
+
+
+Underfull \vbox (badness 1406) has occurred while \output is active []
+
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<pics/clusters/openclusters_logage_vs_distance.png, id=15, 578.16pt x 433.62pt>
+<pics/clusters/openclusters_logage_vs_distance.png, id=16, 578.16pt x 433.62pt>
 
 File: pics/clusters/openclusters_logage_vs_distance.png Graphic file (type png)
 
@@ -1144,9 +1187,20 @@ LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
 (Font)              Font shape `T1/txss/m/sl' tried instead on input line 129.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 129.
- (./values/total_number_of_lcs.txt)
+
+
+Package natbib Warning: Citation `koch2010' on page 2 undefined on input line 1
+30.
+
+(./values/total_number_of_lcs.txt)
 Underfull \hbox (badness 10000) in paragraph at lines 132--132
 [][][]$\T1/txtt/m/n/9 https : / / keplerscience . arc . nasa . gov /
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 130--133
+\T1/txr/m/n/10 The Ke-pler (\T1/txr/bx/n/10 ?\T1/txr/m/n/10 ) space-craft fin-i
+shed its follow-up mis-sion
  []
 
 
@@ -1365,24 +1419,24 @@ prints,
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 527--529
+Underfull \hbox (badness 1077) in paragraph at lines 518--520
 []\T1/txr/m/n/8 Raetz, S., Stelzer, B., Damasso, M., & Scholz, A. 2020, arXiv e
 -prints,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--541
+Underfull \hbox (badness 10000) in paragraph at lines 528--532
 []\T1/txr/m/n/8 Rebull, L., Stauf-fer, J., Bou-vier, J., et al. 2016a, As-tro-n
 om-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--541
+Underfull \hbox (badness 10000) in paragraph at lines 528--532
 \T1/txr/m/n/8 i-cal Jour-nal, 152, 113, bib-tex: 2016AJ....152..113R bib-
  []
 
 
-Overfull \hbox (53.23471pt too wide) in paragraph at lines 537--541
+Overfull \hbox (53.23471pt too wide) in paragraph at lines 528--532
 \T1/txr/m/n/8 tex[eid=113;adsurl=https://ui.adsabs.harvard.edu/abs/2016AJ....15
 2..113R;adsnote=Provided
  []
@@ -1437,10 +1491,6 @@ My plan is to forget the whole thing and hope for the best.
 
 LaTeX Warning: Float too large for page by 3.90118pt on input line 674.
 
-
-LaTeX Warning: Reference `fig:powerlaw_literature' on page 18 undefined on inpu
-t line 685.
-
 <pics/appendix/overview_alpha_literature.png, id=95, 650.43pt x 505.89pt>
 File: pics/appendix/overview_alpha_literature.png Graphic file (type png)
 <use pics/appendix/overview_alpha_literature.png>
@@ -1481,40 +1531,46 @@ on/SpT_wise_rotation.png>] [23
  <./pics/appendix/overview_alpha_literature.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 697.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 697.
- (./aa.aux)
+ (./aa.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 697.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 697.
 
 
 LaTeX Warning: There were undefined references.
 
+ )
+(\end occurred inside a group at level 1)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+### semi simple group (level 1) entered at line 108 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 10106 strings out of 494830
- 142129 string characters out of 6177367
- 321479 words of memory out of 5000000
- 13126 multiletter control sequences out of 15000+600000
+ 10113 strings out of 494830
+ 142212 string characters out of 6177367
+ 315130 words of memory out of 5000000
+ 13133 multiletter control sequences out of 15000+600000
  120685 words of font info for 199 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,14n,47p,5585b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
-xfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (23 pages, 5093720 bytes).
+ 39i,14n,47p,5585b,612s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
+r/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
+ex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
+/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on aa.pdf (23 pages, 5093669 bytes).
 PDF statistics:
  168 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
