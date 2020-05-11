@@ -8,121 +8,114 @@ You're missing a field name---line 1429 of file MyLibrary.bib
  :   %number = {1}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2543 of file MyLibrary.bib
+You're missing a field name---line 2557 of file MyLibrary.bib
  :   
  :   %month = {sep},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2895 of file MyLibrary.bib
+You're missing a field name---line 2909 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3851 of file MyLibrary.bib
+You're missing a field name---line 3865 of file MyLibrary.bib
  :   
  :   %month = {mar},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4388 of file MyLibrary.bib
+You're missing a field name---line 4402 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4729 of file MyLibrary.bib
+You're missing a field name---line 4743 of file MyLibrary.bib
  :   
  :   %pages = {77355B--77355B}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5457 of file MyLibrary.bib
+You're missing a field name---line 5488 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5985 of file MyLibrary.bib
+You're missing a field name---line 6016 of file MyLibrary.bib
  :   
  :   %number = {825},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 6082 of file MyLibrary.bib
+You're missing a field name---line 6113 of file MyLibrary.bib
  :   
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 7820 of file MyLibrary.bib
+Unbalanced braces---line 7893 of file MyLibrary.bib
  :         epoch lasts longer for lower-mass stars.
  :                                                 }",
 I'm skipping whatever remains of this entry
-You're missing a field name---line 8066 of file MyLibrary.bib
+You're missing a field name---line 8139 of file MyLibrary.bib
  :   
  :   %number = {5987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 8500 of file MyLibrary.bib
+You're missing a field name---line 8573 of file MyLibrary.bib
  :   
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9622 of file MyLibrary.bib
+You're missing a field name---line 9695 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9710 of file MyLibrary.bib
+You're missing a field name---line 9783 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 11410 of file MyLibrary.bib
+Repeated entry---line 11483 of file MyLibrary.bib
  : @article{Schmidt2015
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "koch_kepler_2010"
-Warning--I didn't find a database entry for "gershberg1972"
-Warning--I didn't find a database entry for "raghavan_multiplicity_2010"
-Warning--I didn't find a database entry for "duchene_multiplicity_2013"
-Warning--I didn't find a database entry for "PaperI"
-Warning--I didn't find a database entry for "maschberher2009"
-Warning--I didn't find a database entry for "schmidt_superflareasassn_2016"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 122 entries,
+You've used 132 entries,
             3039 wiz_defined-function locations,
-            1374 strings with 48562 characters,
-and the built_in function-call counts, 106079 in all, are:
-= -- 7933
-> -- 13572
-< -- 26
-+ -- 4551
-- -- 4410
-* -- 10057
-:= -- 19977
-add.period$ -- 122
-call.type$ -- 122
-change.case$ -- 1959
-chr.to.int$ -- 119
-cite$ -- 122
-duplicate$ -- 2237
-empty$ -- 3215
-format.name$ -- 4707
-if$ -- 20611
-int.to.chr$ -- 4
+            1415 strings with 50870 characters,
+and the built_in function-call counts, 112874 in all, are:
+= -- 8465
+> -- 14331
+< -- 31
++ -- 4807
+- -- 4653
+* -- 10669
+:= -- 21253
+add.period$ -- 132
+call.type$ -- 132
+change.case$ -- 2080
+chr.to.int$ -- 128
+cite$ -- 132
+duplicate$ -- 2420
+empty$ -- 3472
+format.name$ -- 4979
+if$ -- 21938
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 118
-newline$ -- 370
-num.names$ -- 488
-pop$ -- 1923
+missing$ -- 128
+newline$ -- 400
+num.names$ -- 528
+pop$ -- 2046
 preamble$ -- 1
-purify$ -- 1958
+purify$ -- 2079
 quote$ -- 0
-skip$ -- 1976
+skip$ -- 2129
 stack$ -- 0
-substring$ -- 2684
-swap$ -- 15
+substring$ -- 2887
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1098
+type$ -- 1188
 warning$ -- 0
-while$ -- 485
+while$ -- 525
 width$ -- 0
-write$ -- 1218
+write$ -- 1318
 (There were 15 error messages)
