@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  7 MAY 2020 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  11 MAY 2020 16:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1118,19 +1118,13 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 96.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 10.40245pt on input line 96.
-Runaway argument?
-{schmidt2015, schmidt2016, paudel2018. In fact, the prototype flare s\ETC.
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.109 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+
+Underfull \hbox (badness 1168) in paragraph at lines 98--115
+\T1/txr/m/n/10 up to sev-eral or-ders of mag-ni-tude within min-utes or sec-
+ []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 98--109
+Underfull \hbox (badness 7888) in paragraph at lines 98--115
 \T1/txr/m/n/10 Statistical flare stud-ies have been pi-o-neered from the
  []
 
@@ -1150,18 +1144,22 @@ File: pics/clusters/openclusters_logage_vs_distance.png Graphic file (type png)
 
 <use pics/clusters/openclusters_logage_vs_distance.png>
 Package pdftex.def Info: pics/clusters/openclusters_logage_vs_distance.png  use
-d on input line 124.
+d on input line 123.
 (pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 129.
+(Font)              scaled to size 9.49997pt on input line 128.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 129.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 128.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 129.
+(Font)              scaled to size 9.49997pt on input line 128.
  (./values/total_number_of_lcs.txt)
-Underfull \hbox (badness 10000) in paragraph at lines 132--132
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 [][][]$\T1/txtt/m/n/9 https : / / keplerscience . arc . nasa . gov /
  []
+
+
+Underfull \vbox (badness 3219) has occurred while \output is active []
+
 
 (./tables/table_ocs.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1171,27 +1169,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: pics/clusters/Teff_spread_young.png Graphic file (type png)
 <use pics/clusters/Teff_spread_young.png>
 Package pdftex.def Info: pics/clusters/Teff_spread_young.png  used on input lin
-e 181.
+e 180.
 (pdftex.def)             Requested size: 2007.74606pt x 1206.00269pt.
 <pics/clusters/Teff_spread_old.png, id=25, 2015.27907pt x 822.07124pt>
 File: pics/clusters/Teff_spread_old.png Graphic file (type png)
 <use pics/clusters/Teff_spread_old.png>
 Package pdftex.def Info: pics/clusters/Teff_spread_old.png  used on input line 
-190.
+189.
 (pdftex.def)             Requested size: 2015.27417pt x 822.06923pt.
 <pics/clusters/teff_R.png, id=26, 1240.635pt x 1436.36626pt>
 File: pics/clusters/teff_R.png Graphic file (type png)
 <use pics/clusters/teff_R.png>
-Package pdftex.def Info: pics/clusters/teff_R.png  used on input line 205.
+Package pdftex.def Info: pics/clusters/teff_R.png  used on input line 204.
 (pdftex.def)             Requested size: 523.5307pt x 606.11896pt.
 
-Underfull \hbox (badness 1005) in paragraph at lines 215--218
+Underfull \hbox (badness 1005) in paragraph at lines 214--217
 \T1/txr/m/n/10 We de-ter-mined ef-fec-tive tem-per-a-tures $\OML/txmi/m/it/10 T
 []$ \T1/txr/m/n/10 us-ing broad-band
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--218
+Underfull \hbox (badness 3792) in paragraph at lines 214--217
+\T1/txr/m/n/10 Skrut-skie et al. 2006), the Panoramic Sur-vey Tele-scope
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 214--217
+\T1/txr/m/n/10 and Rapid Re-sponse Sys-tem [] Data Re-lease
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--217
 
  []
 
@@ -1204,32 +1212,32 @@ Underfull \vbox (badness 5817) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 4328) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <./pics/clusters/teff_R.png>]
-Underfull \hbox (badness 1394) in paragraph at lines 271--276
-\T1/txr/m/n/10 Namekata et al. 2017), SEDs of stel-lar flares tend to be
- []
+
+Package natbib Warning: Citation `Schmidt2015' on page 7 undefined on input lin
+e 235.
 
 [7] (./tables/flares.tex)
 <pics/FFDs/full_sample_ffd_ED_wheatland.png, id=47, 578.16pt x 433.62pt>
 File: pics/FFDs/full_sample_ffd_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/full_sample_ffd_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/full_sample_ffd_ED_wheatland.png  used on in
-put line 348.
+put line 345.
 (pdftex.def)             Requested size: 256.53291pt x 192.39458pt.
 <pics/FFDs/full_sample_ffd_energy_wheatland.png, id=48, 578.16pt x 433.62pt>
 File: pics/FFDs/full_sample_ffd_energy_wheatland.png Graphic file (type png)
 <use pics/FFDs/full_sample_ffd_energy_wheatland.png>
 Package pdftex.def Info: pics/FFDs/full_sample_ffd_energy_wheatland.png  used o
-n input line 350.
+n input line 347.
 (pdftex.def)             Requested size: 256.53291pt x 192.39458pt.
 <pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png, id=49, 903.375pt x 1409.265pt>
 
 File: pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png  used o
-n input line 358.
+n input line 355.
 (pdftex.def)             Requested size: 441.01772pt x 688.00848pt.
 <pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png, id=50, 903.375pt x 1409.26
 5pt>
@@ -1237,11 +1245,11 @@ File: pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png Graphic file (type png
 )
 <use pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png>
 Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png  us
-ed on input line 366.
+ed on input line 363.
 (pdftex.def)             Requested size: 441.01772pt x 688.00848pt.
 
 
-LaTeX Warning: Float too large for page by 9.61948pt on input line 369.
+LaTeX Warning: Float too large for page by 9.61948pt on input line 366.
 
 (./values/total_number_of_flares.txt) (./values/total_number_of_flares.txt)
 [8]
@@ -1259,18 +1267,21 @@ _energy_wheatland.png>] [10 <./pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>]
 File: pics/FFDs/beta_T_age_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/beta_T_age_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/beta_T_age_ED_wheatland.png  used on input l
-ine 406.
+ine 400.
 (pdftex.def)             Requested size: 384.1122pt x 230.46591pt.
+
+
+LaTeX Warning: Reference `eq:ED' on page 12 undefined on input line 406.
+
 <pics/FA/FA_T_age_Ethresh.png, id=68, 722.7pt x 361.35pt>
 File: pics/FA/FA_T_age_Ethresh.png Graphic file (type png)
 <use pics/FA/FA_T_age_Ethresh.png>
-Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 429.
+Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 423.
 (pdftex.def)             Requested size: 384.1122pt x 192.05493pt.
-
 ! Argument of \Hy@tempa has an extra }.
 <inserted text> 
                 \par 
-l.430 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
+l.424 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1284,33 +1295,39 @@ Runaway argument?
 ! Paragraph ended before \Hy@tempa was complete.
 <to be read again> 
                    \par 
-l.430 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
+l.424 ...Kp}$ in Fig. \ref{fig:powerlawfit_full}.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 (./values/FA_energy_thesh.txt)
-Underfull \hbox (badness 1264) in paragraph at lines 436--438
+Underfull \hbox (badness 1264) in paragraph at lines 430--432
 \T1/txr/m/n/10 We ex-pected the flar-ing ac-tiv-ity in the Hyades and Prae-
  []
 
 <pics/FFDs/discussion_FFDs.png, id=69, 722.7pt x 650.43pt>
 File: pics/FFDs/discussion_FFDs.png Graphic file (type png)
 <use pics/FFDs/discussion_FFDs.png>
-Package pdftex.def Info: pics/FFDs/discussion_FFDs.png  used on input line 472.
+Package pdftex.def Info: pics/FFDs/discussion_FFDs.png  used on input line 466.
 
 (pdftex.def)             Requested size: 384.1122pt x 345.69888pt.
 [12]
-Underfull \vbox (badness 4024) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./pics/FFDs/beta_T_age_ED_wheatland.png>]
+ [13 <./pics/FFDs/beta_T_age_ED_wheatland.png>] [14 <./pics/FA/FA_T_age_Ethresh
+.png>]
+Underfull \hbox (badness 1454) in paragraph at lines 499--507
+\T1/txr/m/n/10 sult-ing from the use of dif-fer-ent power law fit-ting meth-
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 <./pics/FA/FA_T_age_Ethresh.png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <./pics/FFDs/discussion_FFDs.png>] (./values/total_number_of_lcs.txt)
@@ -1328,30 +1345,30 @@ prints,
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 543--545
+Underfull \hbox (badness 1077) in paragraph at lines 556--558
 []\T1/txr/m/n/8 Raetz, S., Stelzer, B., Damasso, M., & Scholz, A. 2020, arXiv e
 -prints,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--561
+Underfull \hbox (badness 10000) in paragraph at lines 570--574
 []\T1/txr/m/n/8 Rebull, L., Stauf-fer, J., Bou-vier, J., et al. 2016a, As-tro-n
 om-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--561
+Underfull \hbox (badness 10000) in paragraph at lines 570--574
 \T1/txr/m/n/8 i-cal Jour-nal, 152, 113, bib-tex: 2016AJ....152..113R bib-
  []
 
 
-Overfull \hbox (53.23471pt too wide) in paragraph at lines 557--561
+Overfull \hbox (53.23471pt too wide) in paragraph at lines 570--574
 \T1/txr/m/n/8 tex[eid=113;adsurl=https://ui.adsabs.harvard.edu/abs/2016AJ....15
 2..113R;adsnote=Provided
  []
 
 ) [17]
-Underfull \hbox (badness 2809) in paragraph at lines 565--569
+Underfull \hbox (badness 2809) in paragraph at lines 559--563
 \T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
@@ -1359,7 +1376,7 @@ Underfull \hbox (badness 2809) in paragraph at lines 565--569
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
- line 628.
+ line 622.
 (pdftex.def)             Requested size: 523.5307pt x 588.97437pt.
 (./tables/clusterparameters_appendix.tex) (./values/MMLE_alpha_energy.txt)
 (./values/MMLE_alpha_ed.txt) (./values/MCMC_alpha_energy.txt)
@@ -1368,13 +1385,13 @@ Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
 File: pics/rotation/SpT_wise_rotation.png Graphic file (type png)
 <use pics/rotation/SpT_wise_rotation.png>
 Package pdftex.def Info: pics/rotation/SpT_wise_rotation.png  used on input lin
-e 670.
+e 664.
 (pdftex.def)             Requested size: 455.24408pt x 673.7797pt.
 
 ! Argument of \Hy@tempa has an extra }.
 <inserted text> 
                 \par 
-l.671 ...ian_stars_with_rotation_periods.txt}\%$.}
+l.665 ...ian_stars_with_rotation_periods.txt}\%$.}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1388,7 +1405,7 @@ Runaway argument?
 ! Paragraph ended before \Hy@tempa was complete.
 <to be read again> 
                    \par 
-l.671 ...ian_stars_with_rotation_periods.txt}\%$.}
+l.665 ...ian_stars_with_rotation_periods.txt}\%$.}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1398,18 +1415,18 @@ My plan is to forget the whole thing and hope for the best.
 (./values/max_stars_with_rotation_periods.txt)
 (./values/median_stars_with_rotation_periods.txt)
 
-LaTeX Warning: Float too large for page by 3.90118pt on input line 674.
+LaTeX Warning: Float too large for page by 3.90118pt on input line 668.
 
 <pics/appendix/overview_alpha_literature.png, id=95, 650.43pt x 505.89pt>
 File: pics/appendix/overview_alpha_literature.png Graphic file (type png)
 <use pics/appendix/overview_alpha_literature.png>
 Package pdftex.def Info: pics/appendix/overview_alpha_literature.png  used on i
-nput line 690.
+nput line 684.
 (pdftex.def)             Requested size: 256.0748pt x 199.17207pt.
 ! Undefined control sequence.
 <argument> ...res found in each study. \citealias 
                                                   {ilin2019} and this work a...
-l.692 }
+l.686 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1420,13 +1437,16 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...res found in each study. \citealias 
                                                   {ilin2019} and this work a...
-l.692 }
+l.686 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: There were undefined citations.
 
 [18
 
@@ -1435,39 +1455,42 @@ on/SpT_wise_rotation.png>] [23
 
 
  <./pics/appendix/overview_alpha_literature.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 697.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 697.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 691.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 691.
  (./aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 697.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 697.
- )
-(\end occurred inside a group at level 1)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 691.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 691.
 
-### semi simple group (level 1) entered at line 108 (\begingroup)
-### bottom level 
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 10105 strings out of 494830
- 141999 string characters out of 6177367
- 313169 words of memory out of 5000000
- 13123 multiletter control sequences out of 15000+600000
+ 10110 strings out of 494830
+ 142113 string characters out of 6177367
+ 319361 words of memory out of 5000000
+ 13128 multiletter control sequences out of 15000+600000
  120685 words of font info for 199 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,14n,47p,5585b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/txfonts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/tx
-ex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
-/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on aa.pdf (23 pages, 5267257 bytes).
+ 39i,14n,47p,5585b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/t
+xfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
+c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/times/utmri8a.pfb>
+Output written on aa.pdf (23 pages, 5268020 bytes).
 PDF statistics:
  168 PDF objects out of 1000 (max. 8388607)
  99 compressed objects within 1 object stream
