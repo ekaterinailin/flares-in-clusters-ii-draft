@@ -57,18 +57,17 @@
    \author{Ekaterina Ilin
           \inst{1}, Sarah J. Schmidt\inst{1},
           Katja Poppenhäger\inst{1},
-          James R. A. Davenport\inst{2}
-          \and
-          Klaus G. Strassmeier\inst{1}
+          James R. A. Davenport\inst{2},
+           Martti H. Kristiansen\inst{3,4},
+           Klaus G. Strassmeier\inst{1},
           %\fnmsep\thanks{Just to show the usage
           %of the elements in the author field}
           }
 
-   \institute{Leinbiz Institut für Astrophysik Potsdam\\
-              \email{eilin@aip.de}
-         \and
-            University of Washington
-             \email{jrad@uw.edu}
+   \institute{Leibniz-Institut für Astrophysik Potsdam\\\email{eilin@aip.de},\and
+              University of Washington\\ \email{jrad@uw.edu},\and
+              Brorfelde Observatory, Observator Gyldenkernes Vej 7, DK-4340 T\o ll\o se, Denmark,\and
+              DTU Space, National Space Institute, Technical University of Denmark, Elektrovej 327, DK-2800 Lyngby, Denmark
              %\thanks{The university of heaven temporarily does not
              %        accept e-mails}
              }
@@ -211,7 +210,7 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 %---------------------------------------------------------------
 
 %\subsubsection{Photometry and extinction correction}
-We determined effective temperatures $T_\mathrm{eff}$ using broadband photometry from the Two Micron All Sky Survey~(2MASS; \citealt{skrutskie_two_2006}), the Panoramic Survey Telescope and Rapid Response System \mbox{(Pan-STARRS)} Data Release 1~(PanSTARRS DR1; \citealt{2016arXiv161205560C}), and Gaia Data Release 2~(Gaia DR2; \citealt{gaia_dr2_release_2018}). We applied quality cuts to 2MASS, Pan-STARRS DR1, and Gaia DR2 data, as described in Appendix \ref{sec:app:photometry}, and removed foreground stars using Gaia DR2 parallaxes. We corrected the 2MASS and PanSTARRS photometry in M67 and Ruprecht 147 for extinction using the most recent version~\citep{green_bayestar_2019} of the \texttt{dustmaps} package that provides 3D dust maps derived from 2MASS and PanSTARRS photometry together with Gaia distances~\citep{green_dustmaps_2018}. When no Gaia parallax was available we used the cluster median distance instead. If an extinction value was not available for a given star we used the average extinction value of the respective cluster. We accounted for extinction in Gaia $BP$ and $RP$ bands using the reddening $E(B_P-R_P)$ derived from Gaia photometry and parallax from Gaia DR2~\citep{andrae_gaiaapsis_2018}. We dropped targets that were too bright and would saturate the detector (Kepler magnitude $K_\mathrm{p} \leq 9$).
+We determined effective temperatures $T_\mathrm{eff}$ using broadband photometry from the Two Micron All Sky Survey~(2MASS; \citealt{skrutskie_two_2006}), the Panoramic Survey Telescope and Rapid Response System \mbox{(Pan-STARRS)} Data Release 1~(PanSTARRS DR1; \citealt{2016arXiv161205560C}), and Gaia Data Release 2~(Gaia DR2; \citealt{gaia2016, gaia2018}). We applied quality cuts to 2MASS, Pan-STARRS DR1, and Gaia DR2 data, as described in Appendix \ref{sec:app:photometry}, and removed foreground stars using Gaia DR2 parallaxes. We corrected the 2MASS and PanSTARRS photometry in M67 and Ruprecht 147 for extinction using the most recent version~\citep{green_bayestar_2019} of the \texttt{dustmaps} package that provides 3D dust maps derived from 2MASS and PanSTARRS photometry together with Gaia distances~\citep{green_dustmaps_2018}. When no Gaia parallax was available we used the cluster median distance instead. If an extinction value was not available for a given star we used the average extinction value of the respective cluster. We accounted for extinction in Gaia $BP$ and $RP$ bands using the reddening $E(B_P-R_P)$ derived from Gaia photometry and parallax from Gaia DR2~\citep{andrae_gaiaapsis_2018}. We dropped targets that were too bright and would saturate the detector (Kepler magnitude $K_\mathrm{p} \leq 9$).
 %The latter were obtained using TOPCAT~\citep{Taylor_TOPCAT_2005}\footnote{\url{http://www.star.bristol.ac.uk/~mbt/topcat/}}.
 \\
 \subsubsection{Effective temperatures $T_\mathrm{eff}$}
@@ -223,7 +222,7 @@ We applied several methods and color-temperature relations (CTRs) to determine r
 \\
 We supplemented our estimates with $T_\mathrm{eff}$ estimates from \citet{anders_starhorse_2019} who determined distances, extinctions, and various stellar parameters for 137 million stars in Gaia DR2 using the StarHorse pipeline~\citep{queiroz_starhorse_2018}.
 \\
-Gaia DR2 published $T_\mathrm{eff}$ for over 160 million sources~\citep{gaia_dr2_release_2018}. The typical uncertainty was quoted at 324 K, but it is lower for stars above $\sim$4100 K and below $\sim$6700K, so that we adopt 175 K which is above the quoted root-median-squared error in this $T_\mathrm{eff}$ range~\citep{andrae_gaiaapsis_2018}, and use provided values only in this range.
+Gaia DR2 published $T_\mathrm{eff}$ for over 160 million sources~\citep{gaia2018}. The typical uncertainty was quoted at 324 K, but it is lower for stars above $\sim$4100 K and below $\sim$6700K, so that we adopt 175 K which is above the quoted root-median-squared error in this $T_\mathrm{eff}$ range~\citep{andrae_gaiaapsis_2018}, and use provided values only in this range.
 \\
 Empirical CTRs suffer from systematic errors that stem both from the different methods applied, and from sample selection biases. We therefore used several empirical relations in their appropriate ranges to obtain $T_\mathrm{eff}$ from each, and draw a more reliable median value. Targets that were lacking sufficient photometric data to derive $T_\mathrm{eff}$, or that were too hot to be expected to have a convective envelope ($T_\mathrm{eff} \geq 7000\,$K), were removed from the sample. We dropped all targets where the uncertainty on the weighted mean $T_\mathrm{eff}$ was greater than $10\,$\%. Only targets that were assigned a $T_\mathrm{eff}$ were searched for flares. 
 %what are the distributions of uncertainties on Teff
@@ -534,11 +533,12 @@ Results from the first year of operations of the Transiting Exoplanet Survey Sat
 %\\
 %Observationally, not much can be directly said about the small scale topology of stellar magnetic fields beyond% extrapolations from the solar case. On the Sun, chromospheric activity indicates line emission in excess of radiative equilibrium that is caused by magnetic fields. Likewise, magnetic field effects heat the corona
 \begin{acknowledgements}
-This work made use of the \url{gaia-kepler.fun} crossmatch database created by Megan Bedell.
+%This work made use of the \url{gaia-kepler.fun} crossmatch database created by Megan Bedell.
 Kepler-affiliated tools were used in the process: \texttt{lightkurve}, \texttt{K2SC}, \texttt{AltaiPony}.
 Also: numpy, pandas, astroML, astropy, specmatch-emp, bokeh~\citep{bokeh}...
 
 TOPCAT: This research made use of the cross-match service provided by CDS, Strasbourg.
+This research made use of IMCCE's SkyBoT VO tool.
 
 This work has made use of data from the European Space Agency (ESA) mission
 {\it Gaia} (\url{https://www.cosmos.esa.int/gaia}), processed by the {\it Gaia}
@@ -546,10 +546,6 @@ Data Processing and Analysis Consortium (DPAC,
 \url{https://www.cosmos.esa.int/web/gaia/dpac/consortium}). Funding for the DPAC
 has been provided by national institutions, in particular the institutions
 participating in the {\it Gaia} Multilateral Agreement.
-
-If you have used Gaia DR2 data in your research, please cite both the Gaia mission paper and the Gaia DR2 release paper:
-Gaia Collaboration et al. (2016): Description of the Gaia mission (spacecraft, instruments, survey and measurement principles, and operations), Gaia Collaboration et al. (2018b): Summary of the contents and survey properties.
-
 This paper includes data collected by the Kepler mission and obtained from the MAST data archive at the Space Telescope Science Institute (STScI). Funding for the Kepler mission is provided by the NASA Science Mission Directorate. STScI is operated by the Association of Universities for Research in Astronomy, Inc., under NASA contract NAS 5–26555.
 \end{acknowledgements}
 \bibliography{MyLibrary}
