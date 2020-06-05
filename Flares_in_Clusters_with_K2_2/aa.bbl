@@ -1,4 +1,4 @@
-\begin{thebibliography}{140}
+\begin{thebibliography}{141}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -649,6 +649,14 @@ Lacy, C.~H., Moffett, T.~J., \& Evans, D.~S. 1976, \apjs, 30, 85
   {Ballester}, {D{\'e}sert}, {Ferlet}, \& {Sing}}]{lecavelier_flareescape_2012}
 {Lecavelier des Etangs}, A., {Bourrier}, V., {Wheatley}, P.~J., {et~al.} 2012,
   \aap, 543, L4
+
+\bibitem[{{Lightkurve Collaboration} {et~al.}(2018){Lightkurve Collaboration},
+  {Cardoso}, {Hedges}, {Gully-Santiago}, {Saunders}, {Cody}, {Barclay}, {Hall},
+  {Sagear}, {Turtelboom}, {Zhang}, {Tzanidakis}, {Mighell}, {Coughlin}, {Bell},
+  {Berta-Thompson}, {Williams}, {Dotson}, \& {Barentsen}}]{lightkurve2018}
+{Lightkurve Collaboration}, {Cardoso}, J.~V.~d.~M., {Hedges}, C., {et~al.}
+  2018, {Lightkurve: Kepler and TESS time series analysis in Python},
+  Astrophysics Source Code Library
 
 \bibitem[{{Lin} {et~al.}(2019){Lin}, {Ip}, {Hou}, {Huang}, \&
   {Chang}}]{lin2019}

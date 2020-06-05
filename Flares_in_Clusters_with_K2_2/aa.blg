@@ -23,101 +23,100 @@ You're missing a field name---line 4204 of file MyLibrary.bib
  :   %month = {mar},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4741 of file MyLibrary.bib
+You're missing a field name---line 4759 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5082 of file MyLibrary.bib
+You're missing a field name---line 5100 of file MyLibrary.bib
  :   
  :   %pages = {77355B--77355B}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5827 of file MyLibrary.bib
+You're missing a field name---line 5845 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 6355 of file MyLibrary.bib
+You're missing a field name---line 6373 of file MyLibrary.bib
  :   
  :   %number = {825},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 6452 of file MyLibrary.bib
+You're missing a field name---line 6470 of file MyLibrary.bib
  :   
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 8281 of file MyLibrary.bib
+Unbalanced braces---line 8299 of file MyLibrary.bib
  :         epoch lasts longer for lower-mass stars.
  :                                                 }",
 I'm skipping whatever remains of this entry
-You're missing a field name---line 8527 of file MyLibrary.bib
+You're missing a field name---line 8545 of file MyLibrary.bib
  :   
  :   %number = {5987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 8961 of file MyLibrary.bib
+You're missing a field name---line 8979 of file MyLibrary.bib
  :   
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 10083 of file MyLibrary.bib
+You're missing a field name---line 10101 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 10171 of file MyLibrary.bib
+You're missing a field name---line 10189 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Reallocating 'str_pool' (item size: 1) to 130000 items.
-Repeated entry---line 11927 of file MyLibrary.bib
+Repeated entry---line 11945 of file MyLibrary.bib
  : @article{Schmidt2015
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "lightkurve2018"
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-You've used 140 entries,
+You've used 141 entries,
             3039 wiz_defined-function locations,
-            1459 strings with 74853 characters,
-and the built_in function-call counts, 173828 in all, are:
-= -- 12428
-> -- 25555
+            1464 strings with 75330 characters,
+and the built_in function-call counts, 174963 in all, are:
+= -- 12510
+> -- 25728
 < -- 33
-+ -- 8555
-- -- 8386
-* -- 17077
-:= -- 32895
-add.period$ -- 140
-call.type$ -- 140
-change.case$ -- 3355
-chr.to.int$ -- 135
-cite$ -- 140
-duplicate$ -- 2577
-empty$ -- 3689
-format.name$ -- 8732
-if$ -- 33629
++ -- 8613
+- -- 8443
+* -- 17189
+:= -- 33115
+add.period$ -- 141
+call.type$ -- 141
+change.case$ -- 3378
+chr.to.int$ -- 136
+cite$ -- 141
+duplicate$ -- 2593
+empty$ -- 3709
+format.name$ -- 8791
+if$ -- 33844
 int.to.chr$ -- 6
 int.to.str$ -- 1
 missing$ -- 135
-newline$ -- 424
-num.names$ -- 561
-pop$ -- 3322
+newline$ -- 427
+num.names$ -- 565
+pop$ -- 3344
 preamble$ -- 1
-purify$ -- 3354
+purify$ -- 3377
 quote$ -- 0
-skip$ -- 2260
+skip$ -- 2271
 stack$ -- 0
-substring$ -- 3054
+substring$ -- 3065
 swap$ -- 27
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1260
+type$ -- 1269
 warning$ -- 0
-while$ -- 558
+while$ -- 561
 width$ -- 0
-write$ -- 1398
+write$ -- 1408
 (There were 15 error messages)
