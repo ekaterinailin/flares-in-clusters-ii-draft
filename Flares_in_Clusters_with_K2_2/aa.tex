@@ -22,6 +22,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[varg]{txfonts}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is for coloring the draft
+\usepackage{xcolor}
+%------------------------------
 \usepackage[draft]{hyperref}
 %----bibliograhy stuff----
 \usepackage{natbib}
@@ -59,6 +62,7 @@
           Katja Poppenhäger\inst{1},
           James R. A. Davenport\inst{2},
            Martti H. Kristiansen\inst{3,4},
+           Mark Omohundro\inst{5}
            Klaus G. Strassmeier\inst{1},
           %\fnmsep\thanks{Just to show the usage
           %of the elements in the author field}
@@ -67,7 +71,8 @@
    \institute{Leibniz-Institut für Astrophysik Potsdam\\\email{eilin@aip.de},\and
               University of Washington\\ \email{jrad@uw.edu},\and
               Brorfelde Observatory, Observator Gyldenkernes Vej 7, DK-4340 T\o ll\o se, Denmark,\and
-              DTU Space, National Space Institute, Technical University of Denmark, Elektrovej 327, DK-2800 Lyngby, Denmark
+              DTU Space, National Space Institute, Technical University of Denmark, Elektrovej 327, DK-2800 Lyngby, Denmark \and
+              Citizen Scientist, c/o Zooniverse, Department of Physics, University of Oxford, Denys Wilkinson Building, Keble Road, Oxford, OX1 3RH, UK
              %\thanks{The university of heaven temporarily does not
              %        accept e-mails}
              }
@@ -110,7 +115,7 @@ Flaring activity decays with age. However, stellar ages can only be determined i
 \\
 While absolute stellar ages are difficult to assess, they can at least be differentially controlled for in coeval groups of stars. Flaring-age studies in binaries showed consistent activity for both components in the majority of targets~\citep{lurie2015, clarke_flare_2018}. Open clusters are also coeval groups of stars with well-determined ages from isochrones that have been used as a laboratory for flare studies on stars with a fixed age~\citep{mirzoyan1993, chang2015}. \citet{ilin2019}~(hereafter \citetalias{ilin2019}) investigated the flaring activity of late-K to mid-M dwarfs in three open clusters (OCs), the Pleiades, Praesepe, and M67, using K2 time domain photometry. They analyzed flare frequency distributions (FFDs) broken down by the stars' effective temperatures $T_\mathrm{eff}$ and ages. They found that flaring activity declined both with increasing mass and age, and that the trend was more pronounced for higher mass stars. 
 \\
-This study aimed to extend the results in \citetalias{ilin2019} to the age of Ruprecht 147 (2.5 Gyr), and both higher and lower masses than in the previous study. We used the now complete K2 data set, supplemented all three OCs in~\citetalias{ilin2019} with improved versions of already treated light curves in Campaigns 4 and 5, and added light curves from later Campaigns. The light curve catalog, and the determination of cluster membership and effective temperature for the investigated stars are detailed in Section \ref{sec:data}. We used a semi-automated flare finding procedure, described how we estimated flare energies, and how we parametrized the statistical properties of flares in Section \ref{sec:methods}. We present our findings in Section \ref{sec:results}. We placed our results in the context of recent flare studies, and reflected on the power law nature of FFDs in Section \ref{sec:discussion}. Recently, \citet{davenport2019} proposed an empirical parametrization of the flaring-mass-age relation based on FFDs of stars with gyrochronologically determined ages, which we also put to test in the discussion. The summary and conclusions can be found in Section \ref{sec:summary}.
+This study aimed to extend the results in \citetalias{ilin2019} to the age of Ruprecht 147 (Rup 147, 2.5 Gyr), and both higher and lower masses than in the previous study. We used the now complete K2 data set, supplemented all three OCs in~\citetalias{ilin2019} with improved versions of already treated light curves in Campaigns 4 and 5, and added light curves from later Campaigns. The light curve catalog, and the determination of cluster membership and effective temperature for the investigated stars are detailed in Section \ref{sec:data}. We used a semi-automated flare finding procedure, described how we estimated flare energies, and how we parametrized the statistical properties of flares in Section \ref{sec:methods}. We present our findings in Section \ref{sec:results}. We placed our results in the context of recent flare studies, and reflected on the power law nature of FFDs in Section \ref{sec:discussion}. Recently, \citet{davenport2019} proposed an empirical parametrization of the flaring-mass-age relation based on FFDs of stars with gyrochronologically determined ages, which we also put to test in the discussion. The summary and conclusions can be found in Section \ref{sec:summary}.
 \section{Data}
 \label{sec:data}
 This work is based on K2 30-minute cadence light curves that were provided by the Kepler archives hosted at the Barbara A. Mikulski Archive for Space Telescopes (MAST). We used multiband photometry from several all-sky surveys  to assign $T_\mathrm{eff}$, and gathered OC membership information from the literature to estimate the ages. An overview over the cluster sample is presented in Table \ref{tab:data_clusters} and illustrated in Figure \ref{fig:OCs}.
@@ -120,7 +125,7 @@ This work is based on K2 30-minute cadence light curves that were provided by th
 %-------------------------------------------
      \begin{figure}
             \includegraphics[width=\hsize]{pics/clusters/openclusters_logage_vs_distance.png}
-         \caption{The values for age, metallicity, and distance are approximate values from a compilation of existing literature, see Appendix \ref{app:cluster_params}.}
+         \caption{\textbf{Age vs. distance of open clusters (star symbols) that were searched for flares. The colors indicate the metallicity of the cluster. Age, distance, and metallicity are }approximate values from a compilation of existing literature, see Appendix \ref{app:cluster_params}.}
          \label{fig:OCs}
    \end{figure}
 
@@ -132,7 +137,7 @@ As K2 was conducted on the two-wheeled Kepler satellite, it was subjected to sub
 We obtained membership information from multiple catalogs for each OC. We cross-matched these catalogs on RA and declination within 3 arcsec. The resulting target lists were used to search the K2 archive. One part of the membership catalogs provided membership probabilities~\citep{douglas_praesepe_hyades_2014, cantat_gaudin_2018, olivares_pleiades_2018, reino_hyades_2018, gao_m67mem_2018, olivares_ngc6774_2019}. For the other part no probability was quoted~\citep{rebull_rotation_2016, douglas_poking_2017, gaia_dr2_2018_hrd}, or qualitative classifiers were given~\citep{curtis_ruprecht_2013, gonzalez_m67mem_2016,rebull_praesepe_2017}. In the latter cases we assigned approximate probabilities anchored to the set threshold for inclusion into our final sample. Absence in a catalog did not decrease the likelihood of membership, as each catalog shows different selection biases which we did not address in this study. We set the threshold mean membership probability $p$ for a target in our sample to 0.8.
 \\
 % For the more distant clusters, Ruprecht 147 and M35, we use the mean cluster distance. For the nearby Pleiades, Praesepe, and most importantly the Hyades, we match our targets with Gaia DR2~\citep{gaia_dr2_release_2018} distances, or use mean distances as fallback option. Ages and metallicities are taken from literature, adopting median values when multiple studies were considered, and excluding studies that appear outdated.
-We studied flaring activity in the low mass stars in five OCs spanning ages from ZAMS to roughly solar. Table \ref{tab:data_clusters} provides an overview over the final sample. A literature overview of age, distance, and metallicity determinations is given in Table \ref{tab:app:oc_parameters} in the Appendix. Membership probability histograms of the final sample are displayed in Figure \ref{fig:app:memberships}.
+We studied flaring activity in the low mass stars in five OCs spanning ages from ZAMS to roughly solar. Table \ref{tab:data_clusters} provides an overview over the final sample. Membership probability histograms of the final sample are displayed in Figure \ref{fig:app:memberships} in Appendix \ref{app:memberships}. A literature overview of age, distance, and metallicity determinations is given in Table \ref{tab:app:oc_parameters} in Appendix \ref{app:cluster_params}. 
 \begin{table*}
 \caption{Open clusters.}
 \label{tab:data_clusters}
@@ -160,7 +165,7 @@ Praesepe (750 Myr) is only a little older than the Hyades. The OC was observed d
 %---------------------------------------------------------------
 \subsubsection{Ruprecht 147}
 %age distance citation?
-Ruprecht 147 is a 2.5 Gyr old OC observed during Campaign 7 with K2. We used the mean membership probabilities obtained from ~\citet{curtis_ruprecht_2013, cantat_gaudin_2018, olivares_ngc6774_2019}, and~\citet{gaia_dr2_2018_hrd} to identify the most likely members.
+Rup 147 is a 2.5 Gyr old OC observed during Campaign 7 with K2. We used the mean membership probabilities obtained from ~\citet{curtis_ruprecht_2013, cantat_gaudin_2018, olivares_ngc6774_2019}, and~\citet{gaia_dr2_2018_hrd} to identify the most likely members.
 %---------------------------------------------------------------
 \subsubsection{M67}
 %age distance citation?
@@ -178,7 +183,7 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 		\centering
            \includegraphics[angle=90, width=0.75\hsize]{pics/clusters/Teff_spread_young.png}
 
-      \caption{Empricial color-temperature relations applied to high probability members in the Pleiades, the Hyades, and Praesepe. Individual stars are connected by lines between sub-plots to illustrate differences in the relations.}
+      \caption{Empricial color-$T_\mathrm{eff}$ relations applied to high probability members of the Pleiades, the Hyades, and Praesepe. \textbf{Individual stars are connected by lines between sub-plots to illustrate differences in the relations. We used PanSTARRS $griz$, 2MASS $JHK$, and Gaia DR2 $BP$ and $RP$ with the relations given for $BP-RP$ (StarHorse, \citealt{anders_starhorse_2019}); $g-r$, $g-i$, $g-z$, $g-J$, $g-H$, $g-K$~\citep{boyajian_stellar_2013}; $BP-RP$ (Apsis, \citealt{andrae_gaiaapsis_2018}); $r-z$, $r-J$, and $BP-RP$ (Mann, \citealt{mann_erratum_2016}).}}
          \label{fig:teff_pleiades_hyades_praesepe}
    \end{figure*}
    
@@ -187,7 +192,7 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 		\centering
            \includegraphics[angle=90, width=0.52\hsize]{pics/clusters/Teff_spread_old.png}
 
-      \caption{Empricial color-temperature relations applied to high probability members in Ruprecht 147, and M67. Description as in Fig. \ref{fig:teff_pleiades_hyades_praesepe}.}
+      \caption{Empricial color-$T_\mathrm{eff}$ relations applied to high probability members of Rup 147, and M67. Description as in Fig. \ref{fig:teff_pleiades_hyades_praesepe}.}
          \label{fig:teff_ngc6774_ngc2682}
    \end{figure*}   
 %---------------------------------------------------------------
@@ -202,7 +207,7 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 		\centering
            \includegraphics[width=\hsize]{pics/clusters/teff_R.png}
 
-      \caption{$T_\mathrm{eff}-R_*$ relation for all clusters in this study.}
+      \caption{\textbf{$T_\mathrm{eff}-R_*$ distributions for all clusters in this study. Each panel shows the distribution of high probability member of the OC indictaed in the panel title. Stellar radii $R_*$ are given in units of solar radii. Uncertainties on $T_\mathrm{eff}$ and $R_*$ (grey error bars) are propagated from the color-$T_\mathrm{eff}$ relations, and empirical $T_\mathrm{eff}-R_*$ relations, respectively.}}
          \label{fig:teff_radius}
    \end{figure*}   
 
@@ -210,13 +215,13 @@ M67 is a solar-age, solar metallicity OC about 900 pc away. Multiple members wer
 %---------------------------------------------------------------
 
 %\subsubsection{Photometry and extinction correction}
-We determined effective temperatures $T_\mathrm{eff}$ using broadband photometry from the Two Micron All Sky Survey~(2MASS; \citealt{skrutskie_two_2006}), the Panoramic Survey Telescope and Rapid Response System \mbox{(Pan-STARRS)} Data Release 1~(PanSTARRS DR1; \citealt{2016arXiv161205560C}), and Gaia Data Release 2~(Gaia DR2; \citealt{gaia2016, gaia2018}). We applied quality cuts to 2MASS, Pan-STARRS DR1, and Gaia DR2 data, as described in Appendix \ref{sec:app:photometry}, and removed foreground stars using Gaia DR2 parallaxes. We corrected the 2MASS and PanSTARRS photometry in M67 and Ruprecht 147 for extinction using the most recent version~\citep{green_bayestar_2019} of the \texttt{dustmaps} package that provides 3D dust maps derived from 2MASS and PanSTARRS photometry together with Gaia distances~\citep{green_dustmaps_2018}. When no Gaia parallax was available we used the cluster median distance instead. If an extinction value was not available for a given star we used the average extinction value of the respective cluster. We accounted for extinction in Gaia $BP$ and $RP$ bands using the reddening $E(B_P-R_P)$ derived from Gaia photometry and parallax from Gaia DR2~\citep{andrae_gaiaapsis_2018}. We dropped targets that were too bright and would saturate the detector (Kepler magnitude $K_\mathrm{p} \leq 9$).
+We determined effective temperatures $T_\mathrm{eff}$ using broadband photometry from the Two Micron All Sky Survey~(2MASS; \citealt{skrutskie_two_2006}), the Panoramic Survey Telescope and Rapid Response System \mbox{(Pan-STARRS)} Data Release 1~(PanSTARRS DR1; \citealt{2016arXiv161205560C}), and Gaia Data Release 2~(Gaia DR2; \citealt{gaia2016, gaia2018}). We applied quality cuts to 2MASS, Pan-STARRS DR1, and Gaia DR2 data, as described in Appendix \ref{app:photometry}, and removed foreground stars using Gaia DR2 parallaxes. We corrected the 2MASS and PanSTARRS photometry in M67 and Rup 147 for extinction using the most recent version~\citep{green_bayestar_2019} of the \texttt{dustmaps} package that provides 3D dust maps derived from 2MASS and PanSTARRS photometry together with Gaia distances~\citep{green_dustmaps_2018}. When no Gaia parallax was available we used the cluster median distance instead. If an extinction value was not available for a given star we used the average extinction value of the respective cluster. We accounted for extinction in Gaia $BP$ and $RP$ bands using the reddening $E(B_P-R_P)$ derived from Gaia photometry and parallax from Gaia DR2~\citep{andrae_gaiaapsis_2018}. We dropped targets that were too bright and would saturate the detector (Kepler magnitude $K_\mathrm{p} \leq 9$).
 %The latter were obtained using TOPCAT~\citep{Taylor_TOPCAT_2005}\footnote{\url{http://www.star.bristol.ac.uk/~mbt/topcat/}}.
 \\
 \subsubsection{Effective temperatures $T_\mathrm{eff}$}
 We applied several methods and color-temperature relations (CTRs) to determine robust $T_\mathrm{eff}$~(Figs. \ref{fig:teff_pleiades_hyades_praesepe} and \ref{fig:teff_ngc6774_ngc2682}). We used CTRs from \citet{boyajian_stellar_2013} and \citet{mann_erratum_2016} (erratum to \citealt{mann_how_2015}), $T_\mathrm{eff}$ derived from Gaia DR2 using the StarHorse algorithm~\citep{queiroz_starhorse_2018}, and $T_\mathrm{eff}$ inferred from Gaia DR2 using the Apsis pipeline~\citep{bailerjones_apsis_2013, andrae_gaiaapsis_2018}.
 \\
-\citet{boyajian_stellar_2013} determined CTRs from a range of interferometrically characterized stars using $g-z$, $g-i$, $g-r$, $g-J$, $g-H$, and $g-K$ colors from SDSS and Johnson magnitudes for A to K stars. Their sample was centered on solar metallicity, so we constained the use of these CTRs to stars with $-0.25<$\,[Fe/H]$\,<0.25$. Following \citet{boyajian_stellar_2013}, we transformed 2MASS $JHK$ to $J-H$, $H-K$, and $J-K$ in the Johnson system from 2MASS to the Bessell-Brett sytem~\citep{carpenter_color_2001}, and from Bessell-Brett to Johnson using the relations in~\citet{bessell_brett_1988}. 
+\citet{boyajian_stellar_2013} determined CTRs from a range of interferometrically characterized stars using $g-r$, $g-i$, $g-z$, $g-J$, $g-H$, and $g-K$ colors from SDSS and Johnson magnitudes for A to K stars. Their sample was centered on solar metallicity, so we constained the use of these CTRs to stars with $-0.25<$\,[Fe/H]$\,<0.25$. Following \citet{boyajian_stellar_2013}, we transformed 2MASS $JHK$ to $J-H$, $H-K$, and $J-K$ in the Johnson system from 2MASS to the Bessell-Brett sytem~\citep{carpenter_color_2001}, and from Bessell-Brett to Johnson using the relations in~\citet{bessell_brett_1988}. 
 \\
 \citet{mann_how_2015} derived CTRs from absolutely calibrated spectra to which they fitted atmospheric models to obtain $T_\mathrm{eff}$. Alternatively, they determined $T_\mathrm{eff}$ from long-baseline optical interferometry measurements using the bolometric flux. They noted transformations for SDSS/2MASS $r-z$ and $r-J$, or Gaia $BP-RP$ where extra information could be added from metallicity or 2MASS $J-H$. The relations in \citet{mann_how_2015} were only valid if metallicity was sufficiently close to solar, which was satisfied for the OCs in this paper~(see Table \ref{tab:data_clusters}). 
 \\
@@ -231,7 +236,7 @@ We used a catalog of empirically characterized stars~\citep{yee_specmatch_2017} 
 $T_\mathrm{eff}$, 15\;\% in $R_*$, and 0.09\;dex in [Fe/H]. We interpolated between stars from the catalog to our derived $T_\mathrm{eff}$,  and propagated the resulting scatter to the uncertainty in $R_*$ if $T_\mathrm{eff}>3500$ K. For stars with $T_\mathrm{eff}< 3500$ K we used $T_\mathrm{eff}-R_*$ relations derived by~\citet{mann_how_2015,mann_erratum_2016}. 
 \subsubsection{Stellar spectra and luminosities}
 \label{sec:lum}
-We assigned spectra to our targets from the SpecMatchEmp~\citep{yee_specmatch_2017} and the FlareSpecPhot libraries~\citep{Schmidt2014b, Kirkpatrick2010, Burgasser2007, Burgasser2008, Burgasser2010, Burgasser2004, Cruz2004, Burgasser2006, Rayner2009, Doi2010, Filippazzo2015, Cruz2003, West2011, Bochanski2010,  Bochanski2007, Schmidt2010, Schmidt2015, Schmidt2014a, mann_how_2015}. When a specturm was available for the derived spectral type in FlareSpecPhot, we preferred it over SpecMatchEmp, which was the case for all stars cooler than M0, where we mapped spectral type to effective temperature as appears in~\citet{pecaut_intrinsic_2013}. We then combined stellar radii $R_*$, $T_\mathrm{eff}$, and spectra to projected bolometric luminosities $L_{\mathrm{bol,*}}$, and projected luminosities in the Kepler band $L_{\mathrm{Kp,*}}$~\citep{shibayama2013,ilin2019}. Uncertainties on $L_{\mathrm{Kp,*}}$ ranged from 9\;\% to 52\;\% with a median value of 17\;\%.
+We assigned spectra to our targets from the SpecMatchEmp~\citep{yee_specmatch_2017} and the FlareSpecPhot libraries~\citep{Kirkpatrick2010, Burgasser2007, Burgasser2008, Burgasser2010, Burgasser2004, Cruz2004, Burgasser2006, Rayner2009, Doi2010, Filippazzo2015, Cruz2003, West2011, Bochanski2010,  Bochanski2007, Schmidt2010, schmidt2015, Schmidt2014a, Schmidt2014b, mann_how_2015}. When a specturm was available for the derived spectral type in FlareSpecPhot, we preferred it over SpecMatchEmp, which was the case for all stars cooler than M0, where we mapped spectral type to effective temperature as appears in~\citet{pecaut_intrinsic_2013}. We then combined stellar radii $R_*$, $T_\mathrm{eff}$, and spectra to projected bolometric luminosities $L_{\mathrm{bol,*}}$, and projected luminosities in the Kepler band $L_{\mathrm{Kp,*}}$~\citep{shibayama2013,ilin2019}. Uncertainties on $L_{\mathrm{Kp,*}}$ ranged from 9\;\% to 52\;\% with a median value of 17\;\%.
 %uncertainties on derived luminosities
 %\citet{rabus_discontinuity_2019} found a discontinuity in the Teff-R relation to occur around 0.23 $M_{\odot}$, and a corresponding bimodal distribution of stellar radii from $T_\mathrm{eff}$ between 3200 and 3340 K. Estimates of bolometric luminosity based on $R$ derived from $T_\mathrm{eff}$, even using empirical relations, can then be off by factors of 2 to 6. While estimates of $M_*$ can help lift this degeneracy they are not provided independently in our sample. We would then have to acknowledge the increased uncertainty in the luminosities for the stars that fall in this regime. However, the observed transition is consistent with very low mass stellar models, where it is not a break but a smooth transition in the Teff-R relation caused by the non-linear increase in the core electron degeneracy parameters with decreasing stellar mass~\citep{cassisi_nodiscontinuity_2019}. %can we account for it
 \section{Methods}
@@ -253,7 +258,7 @@ ED=\displaystyle \int \mathrm dt\, \frac{F_{flare}(t)}{F_0}.
 $ED$ is a quantity independent of calibration and distance that is suited to compare flaring activity on stars where these properties are uncertain. $ED$ describes the time during which a star releases as much energy as the flare itself. This time can be shorter or longer than the actual flare duration. 
 The uncertainty in $ED$ depended on the light curve noise properties, time sampling, spacecraft roll, and other systematic effects. Moreover, K2SC de-trending and the flare finding procedure introduced additional uncertainty that eventually dominated the photometric noise. 
 \\
-The Kepler flare sample has shown to be difficult to treat in a fully automated way. Without manual vetting, the event samples remain significantly contaminated~\citep{yang2019}. As K2 was subject to severe technical difficulties, the expected contamination rate was expected to be even higher. Some light curves could not be de-trended using K2SC alone. Light curves with extreme astrophysical signal like deep transits, rotational modulation on time scales of a few hours or passages of bright solar system objects (SSOs) had to be masked accordingly or fitted with an additional sinusoidal component to the K2SC-treated time series. A number of light curves were excluded from the flare search because they saturated the detector, or because the target aperture overlapped with broken pixels. Some very faint targets and extreme variables could not be searched because the de-trending did not terminate successfully. The online version of Table \ref{tab:flares} includes explanatory flags and notes on the excluded targets. \textbf{Here is some room for SkyBot notes.}
+The Kepler flare sample has shown to be difficult to treat in a fully automated way. Without manual vetting, the event samples remain significantly contaminated~\citep{yang2019}. As K2 was subject to severe technical difficulties, the expected contamination rate was expected to be even higher. Some light curves could not be de-trended using K2SC alone. Light curves with extreme astrophysical signal like deep transits, rotational modulation on time scales of a few hours or passages of bright solar system objects (SSOs) had to be masked accordingly or fitted with an additional sinusoidal component to the K2SC-treated time series. \textcolor{red}{\textbf{Other SSOs mimicked the fast rise and exponential decay shape of flares, and could only be identified using an extension to the Virtual Observatory (VO) tool sky body tracker (SkyBoT, \citealt{berthier2006, berthier2016}). We identified 144 SSOs using SkyBot and visual inspection with \texttt{lightkurve}~\citep{lightkurve2018}, that is \input{values/sso_fraction.txt} of confirmed flare candidates.}} A number of light curves were excluded from the flare search because they saturated the detector, or because the target aperture overlapped with broken pixels. Some very faint targets and extreme variables could not be searched because the de-trending did not terminate successfully. The online version of Table \ref{tab:flares} includes explanatory flags and notes on the excluded targets. 
 %\subsection{Recovery probability and $ED$ correction}
 %\label{recprob_edcor}
 %To further validate the flare events, every candidates was re-injected to its light curve of origin several times with varying amplitude and duration using a classical flare template~\citep{davenport_kepler_2014}. This returned a recovery probability of similar flare morphologies on a given light curve. We accepted a candidate if the recovery probability was above 80\;\%. From the difference between injected and recovered values we calculated individual correction factors for all candidates that typically increased the $ED$ because the 30\;min time sampling systematically underestimates the $ED$~\citep{yang_flaresampling_2018} as compared to short cadence observations. Corrected flare $ED$s from injection-recovery validated candidates were then converted to $E_\mathrm{Kp, flare}$ and passed on to further analysis.
@@ -331,11 +336,12 @@ Starting from a uniform prior for $\alpha$ and $\epsilon$, we found a Gaussian d
 \label{sec:results}
 %----------------------------------------
 \begin{table*}
-\caption{Selection of confirmed flare candidates detected in open clusters observed by Kepler/K2, sorted by amplitude $a$. The full table is available on CDS.  Uncertainties are noted in parentheses.}
+\caption{Confirmed flare candidates detected in open cluster stars observed by K2, sorted by amplitude $a$.}
 \label{tab:flares}
 \centering
 \footnotesize
 \input{tables/flares.tex}
+\tablefoot{\textbf{The full table is available via CDS. See Section~\ref{sec:results} for explanations on the columns. Uncertainties are given in parentheses.}}
 \end{table*}
 %----------------------------------------
 %----------------------------------------
@@ -344,7 +350,7 @@ Starting from a uniform prior for $\alpha$ and $\epsilon$, we found a Gaussian d
     \includegraphics[width=0.49\hsize]{pics/FFDs/full_sample_ffd_ED_wheatland.png}
     \hspace{.01cm}
     \includegraphics[width=0.49\hsize]{pics/FFDs/full_sample_ffd_energy_wheatland.png}
-    \caption{FFD (scatter) in $ED$ (left panel) and energy (right panel) and respective power law fit (black line) to the full sample of flare candidates. The full FFD is shown in orange, the portion used for the fit is overplotted in grey. The red shade is a randomly drawn sample from the posterior distribution.}      
+    \caption{\textbf{Cumulative flare frequency distributions (FFD, grey stars) in $ED$ (left panel) and $E_\mathrm{Kp}$ (right panel) with respective power law fits (red lines) to the full sample of confirmed flare candidates. The complete distribution (light grey stars) is larger than the portion used for the fit (dark grey stars) because we omitted the incomplete low energy tail. The red shade consists of a randomly drawn sample from the posterior distribution. $\alpha$ and $\beta$ are the best fit power law parameters as defined in Eq. \ref{eqn:cumdist}.}}      
     \label{fig:powerlawfit_full}
 \end{figure*}
 %----------------------------------------
@@ -352,7 +358,7 @@ Starting from a uniform prior for $\alpha$ and $\epsilon$, we found a Gaussian d
 \begin{figure*}
     \centering
     \includegraphics[width=14cm]{pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png}
-    \caption{\textbf{Cumulative flare frequency distributions (FFD, scatter) in $ED$, and respective power law fits (black lines), in log-log representation. In each of the panels a.-g. the distributions of flares are shown for different OCs for samples of stars in the $T_\mathrm{eff}$ bin that is given in the respective panel title. The different clusters are the Pleiades (maroon crosses), the Hyades (orange stars), Praesepe (yellow diamonds), Ruprecht 147 (green "m"s), and M67 (blue triangles). The legends denote the best fit power law exponent $\alpha$, and intercept $\beta$ (Eq. \ref{eqn:cumdist}) for each distribution. We used the fit to the full sample as a prior for $\alpha$. Higher $\beta$ indicate higher flare frequencies. The extension of the black lines in $ED$ indicates the low-energy threshold adopted for every fit. For the single flare detection in M67 we give the power law parameters obtained directly from Eq.~\ref{eqn:cumdist} using the prior value for $\alpha$. When no distribution is shown, either no flares were found in the sub-sample, or no stars in the respective $T_\mathrm{eff}$ bin were observed for the OC by K2. The overview of all power law fit parameters including uncertainties is given in Table \ref{tab:powerlawtable_spt}.} }          	
+    \caption{\textbf{Cumulative flare frequency distributions (FFD, scatter) in $ED$, and respective power law fits (black lines), in log-log representation. In each of the panels a.-g. the distributions of flares are shown for different OCs for samples of stars in the $T_\mathrm{eff}$ bin that is given in the respective panel title. The different clusters are the Pleiades (maroon crosses), the Hyades (orange stars), Praesepe (yellow diamonds), Rup 147 (green "m"s), and M67 (blue triangles). The legends denote the best fit power law exponent $\alpha$, and intercept $\beta$ (Eq. \ref{eqn:cumdist}) for each distribution. We used the fit to the full sample as a prior for $\alpha$. Higher $\beta$ indicate higher flare frequencies. The extension of the black lines in $ED$ indicates the low-energy threshold adopted for every fit. For the single flare detection in M67 we give the power law parameters obtained directly from Eq.~\ref{eqn:cumdist} using the prior value for $\alpha$. When no distribution is shown, either no flares were found in the sub-sample, or no stars in the respective $T_\mathrm{eff}$ bin were observed for the OC by K2. The overview of all power law fit parameters including uncertainties is given in Table \ref{tab:powerlawtable_spt}.} }          	
     \label{fig:powerlawfits_s}
 \end{figure*}
 %----------------------------------------
@@ -364,7 +370,7 @@ Starting from a uniform prior for $\alpha$ and $\epsilon$, we found a Gaussian d
     \label{fig:powerlawfits_erg}
 \end{figure*}
 %----------------------------------------
-The core objective of this work was to quantify how the previously noted decline in flaring activity with age would unfold for different spectral types. To this end, we searched the long cadence light curves of stars across a broad range of spectral types in five different open clusters for flares, and measured their energies and occurrence rates. We found \input{values/total_number_of_flares.txt} flares. We fitted power law relations to the flare frequency distributions (FFD) of stars binned by age, and $T_\mathrm{eff}$. We found that flaring activity decreased with increasing age from ZAMS to 3.6 Gyr, and from mid-M to G dwarfs. Except for the stars in the coolest temperature bin (M5.5-M8, 2\,500-3\,000 K), stellar flaring activity at a given age was higher for cooler stars.
+The core objective of this work was to quantify how the previously noted decline in flaring activity with age would unfold for different spectral types. To this end, we searched the long cadence light curves of stars across a broad range of spectral types in five different open clusters for flares, and measured their energies and occurrence rates. \textbf{We found a total \input{values/total_number_of_flares.txt} flares in five OCs for $T_\mathrm{eff}$ between 2500 K and 6000 K. The flares' amplitudes $a$, start and end cadence numbers $c_0$ and $c_1$, $ED$, energies $E_\mathrm{Kp}$, along with the stars' EPIC ID, $T_\mathrm{eff}$, and bolometric and Kepler band luminosities $L_{bol,*}$ and $L_\mathrm{Kp,*}$ are listed in Table \ref{tab:flares}. We fitted power law relations to the flare frequency distributions (FFD) of stars binned by age, and $T_\mathrm{eff}$~(Figs. \ref{fig:powerlawfits_s},\ref{fig:powerlawfits_erg} and Table \ref{tab:powerlawtable_spt})}. We found that flaring activity decreased with increasing age from ZAMS to 3.6 Gyr, and from mid-M to G dwarfs. Except for the stars in the coolest temperature bin (M5.5-M8, 2\,500-3\,000 K), stellar flaring activity at a given age was higher for cooler stars.
 %\\
 %What creates the strong emission in white light? Extended flare loops, maybe~\citep{heinzel_flareloops_2018}
 %-------------------------------------------
@@ -374,24 +380,28 @@ We fitted power law parameters for $\alpha$ and $\beta$ to the full sample FFDs 
 \\
 The detection threshold in any FFD was not a unique function of $E_\mathrm{Kp}$ or $ED$, but depends on the flares' amplitudes and durations. Since it was computationally not feasible to perform the injection of synthetic flares to determine the effect of K2SC de-trending, we could not correct for the incompleteness of flare detection at the low energy end. To a first approximation to a detection threshold, we chose to use only the portion of the FFD for the fit, where all flaring stars contributed, and doubled the resulting energy threshold. This mitigated but did not solve the problem of a detection probability $<1$ that still affected the shape of the FFDs at the lower energy end. We did not exclude even more flares on the low-energy end because it would have given increasing weight to the high-energy tail naturally suffered from low numbers of flares. In the case of the full sample we expected that for some stars the high-energy threshold would be reached at some energy below the maximum detected energy in the sample. Consequently the high-energy tail of the FFD would also be incomplete. To arrive at consistency with a powerlaw at a 5\% significance level using a Kolmogorov-Smirnov as suggested by~\citet{wheatland_flaresbayes_2004} by choosing ever higher low-energy cutoffs, we would have had to exclude the majority of flares. The power law exponent in these cases would have approached $\alpha\sim 2.4$ (using only about 320 flares out of \input{values/total_number_of_flares.txt}). The absolute value of $\alpha$ obtained in this study should be interpreted in light of these limitations. It remained useful as a relative anchor for the comparison within the sample assuming that the FFDs for different age and $T_\mathrm{eff}$ bins suffered from the same incompletenesses.
 \\
-We fitted a Gaussian distribution to the posterior distribution for $\alpha$ from the full sample. The values for the full sample FFDs in $E_\mathrm{Kp}$ and $ED$ space~(Fig. \ref{fig:powerlawfit_full}) are summarized in Table \ref{tab:powerlawtable_fullsample}. The core part of this work was to investigate the effects of age on the flaring activity for low mass stars. We therefore split up the full sample into $T_\mathrm{eff}$ bins and constructed the FFDs cluster by cluster~(Figs. \ref{fig:powerlawfits_s}, and \ref{fig:powerlawfits_erg}). The fitted Gaussian distributions were then used as priors for the power law fits to the FFDs in the individual bins. The power law fit parameters to these FFDs are summarized in Table \ref{tab:powerlawtable_spt}. 
+We fitted a Gaussian distribution to the posterior distribution for $\alpha$ from the full sample. The values for the full sample FFDs in $E_\mathrm{Kp}$ and $ED$ space~(Fig. \ref{fig:powerlawfit_full}) are summarized in Table \ref{tab:powerlawtable_fullsample}. \textbf{In the table, $\alpha$ and $\beta$ are the power law parameters from Eq.~\ref{eqn:cumdist}. The number of flares $n_\mathrm{tot}$ in the distribution is higher than the number $n_\mathrm{fit}$ of flares used to fit the power law because we omitted the low-energy tail of the distribution.}
+\\
+The core part of this work was to investigate the effects of age on the flaring activity for low mass stars. We therefore split up the full sample into $T_\mathrm{eff}$ bins and constructed the FFDs cluster by cluster~(Figs. \ref{fig:powerlawfits_s} and \ref{fig:powerlawfits_erg}). \textbf{The full sample posteriors for $\alpha$ were then used as priors for the power law fits to the FFDs in the individual bins. The power law fit parameters to these FFDs, broken down by cluster and $T_\mathrm{eff}$, are summarized in Table \ref{tab:powerlawtable_spt}. The indices s and erg to $\alpha$ and $\beta$ indicate the fits to the FFD in $ED$ and $E_\mathrm{Kp}$, respectively. $n$ is the number of flares detected in each $T_\mathrm{eff}$ bin. }
 %-------------------------------------------
 
 %-------------------------------------------
 \begin{table*}
-\caption{Summary of flaring $\beta$ of all clusters and $T_\mathrm{eff}$ bins in $E_\mathrm{Kp}$ and $ED$ distributions.}
+\caption{\textbf{Power law fit parameters for all clusters and $T_\mathrm{eff}$ bins in $E_\mathrm{Kp}$ and $ED$ FFDs.}}
 \label{tab:powerlawtable_spt}
 \centering
 \input{tables/powerlaw_SpT_wheatland.tex}
+\tablefoot{\textbf{Uncertainties are given in parentheses.}}
 \end{table*}
 %-------------------------------------------
 
 %-------------------------------------------
 \begin{table}
-\caption{Summary of FFD parameters and power law fits to the full sample of all clusters in $E_\mathrm{Kp}$ and $ED$ space. $\alpha$: power law exponent. $n_\mathrm{tot}$: number of flares in the FFD. $n_\mathrm{fit}$: number of flare used to fit the power law.}
+\caption{\textbf{FFD and power law fit parameters to the full flare samples in $E_\mathrm{Kp}$ and $ED$ (Fig. \ref{fig:powerlawfit_full}).}}
 \label{tab:powerlawtable_fullsample}
 \centering
 \input{tables/powerlaw_fullsample_wheatland.tex}
+\tablefoot{\textbf{Uncertainties are given in parentheses.}}
 \end{table}
 %-------------------------------------------
 
@@ -433,14 +443,15 @@ We expected the flaring activity in the Hyades and Praesepe to be very similar b
 \subsection{M67 and Rup 147}
 %-------------------------------------------
 \begin{table}
+
+\caption{\textbf{Hypothetic binary configurations for flaring old stars.}}
 \label{tab:m67_rup147_binaries}
-\caption{Mass budget of flaring stars in M67 and Rup 147 within uncertainties on radius. The hypothetic binary pairs were calculated assuming that the the primary mass was the smallest possible within $1\sigma$ of the uncertainty on their radii. Median SpT: The spectral type of the target if it was a single star. Binary: The hypothetic binary pair with the highest possible mass ratio.}
 \centering
 \begin{tabular}{lccc}
 \hline
  cluster & EPIC & median SpT &     binary \\
 \hline
-     M67 &  211420952 &         K9 &  K6.5 + M5.5 \\
+ %    M67 &  211420952 &         K9 &  K6.5 + M5.5 \\
      M67 &  211434440 &         K1 &    K2 + M5.5 \\
 %     M67 &  211419613 &         G3 &      K0 + M6 \\
  Rup 147 &  219601739 &         G8 &      K1 + M6 \\
@@ -450,11 +461,11 @@ We expected the flaring activity in the Hyades and Praesepe to be very similar b
 \end{tabular}
 \end{table}
 %-------------------------------------------
-We found several flare candidates in members of M67 and Rup 147. But upon close inspection all but the events that occurred on four stars either turned out to be false positives, or occurred on multiple systems or evolved stars. Most flare candidates in these old clusters were detected on RS CVn binaries, cataclysmic binaries, Algol type binaries, spectroscopic and eclipsing binaries, and red giant stars. Excluding all these, we were left with two flares in M67 on two K dwarfs. In Rup 147, we narrowed down the list to a flare on a G8 star in Rup 147, and four flares each on a K0.5 and an M3 star. For these stars, the multiplicity status was unknown. We found that the mass range of these stars as calculated from the uncertainties on their radii~\citep{eker2018} was large enough that the four stars in question could in principle be binary stars with undetected mid-M dwarf companions~(Table \ref{tab:m67_rup147_binaries}). After the manual inspection of the younger clusters we concluded that, while binaries and false positives were present in these clusters also, they were not the dominating source of flares. As multiplicity rates for low-mass stars decrease from about 50\% for F type stars~\citep{raghavan2010} to 22\% for L and T dwarfs~\citep{duchene2013}, with M dwarf having somewhat higher multiplicity rates at about 27\%~\citep{winters2019}, we expect that the error introduced by unresolved binaries on our results was smaller for the cooler $T_\mathrm{eff}$ bins.
+We found several flare candidates in members of M67 and Rup 147. But upon close inspection all but the events that occurred on four stars either turned out to be false positives, or occurred on multiple systems or evolved stars. Most flare candidates in these old clusters were detected on RS CVn binaries, cataclysmic binaries, Algol type binaries, spectroscopic and eclipsing binaries, and red giant stars. Excluding all these, we were left with one flare in M67 on an early K dwarf. In Rup 147, we narrowed down the list to a flare on a G8 star in Rup 147, and four flares each on a K0.5 and an M3 star. For these stars, the multiplicity status was unknown. \textbf{We found that the mass range of these stars as calculated from the uncertainties on their radii $R_*$ using the relations from \citet{eker2018} was large enough that the stars in question could in principle be binary stars with undetected mid-M dwarf companions. We calculated hypothetic binary pairs for the cases where the primary mass was the smallest possible within $1\sigma$ on $R_*$. We give the median spectral type of the target if it was a single star, and the spectral types of the hypothetic binaries in Table~\ref{tab:m67_rup147_binaries}.}
+\\
+After the manual inspection of the younger clusters we concluded that, while binaries and false positives were present in these clusters also, they were not the dominating source of flares. As multiplicity rates for low-mass stars decrease from about 50\% for F type stars~\citep{raghavan2010} to 22\% for L and T dwarfs~\citep{duchene2013}, with M dwarf having somewhat higher multiplicity rates at about 27\%~\citep{winters2019}, we expect that the error introduced by unresolved binaries on our results was smaller for the cooler $T_\mathrm{eff}$ bins.
 % Kouwenhoven et al. (2009):  $30-40\,\%$ of M dwarfs are members of a binary system. For late M dwarfs and brown dwarfs this drops to $10 - 30\,\%$.
 %ChangQing Luo+19 inspect an interacting M dwarf (M1+M3.5, BX Tri) eclipsing binary that exhibits superflares and strong hydrogen emission (semi-detached system, references to other observations of BX Tri)
-\\
-\textbf{Here is room for some notes on Martti's SkyBot.}
 \section{Discussion}
 \label{sec:discussion}
 %-------------------------------------------
@@ -556,7 +567,7 @@ This paper includes data collected by the Kepler mission and obtained from the M
 \begin{appendix}
 %--------------------------------------------------------------------
 \section{Membership probabilities}
-
+\label{app:memberships}
 To match catalogs on RA and declination we used the \texttt{astroML.crossmatch} tool for Python~\citep{astroML}.
 \\
 For the studies with classifiers we assigned membership probabilities as follows.
@@ -589,7 +600,7 @@ Table \ref{tab:app:memberships} gives an overview over different membership cata
 %--------------------------------------------------------------------
 
 \begin{table*}
-\caption{Membership catalogs overview. No distance are given for Hyades we adopted individual distances for all members. }
+\caption{\textbf{Membership catalogs used in this work.}}
 \label{tab:app:memberships}
 \centering
 \begin{tabular}{llll}     % 7 columns
@@ -614,7 +625,7 @@ Table \ref{tab:app:memberships} gives an overview over different membership cata
    \citet{olivares_ngc6774_2019} & probability & Rup 147 & Gaia DR2, DANCe\\
 \hline
 \end{tabular}
-\tablefoot{DANCe: DANCe membership study project. (1) Positions for Hyades were propagated to epoch 2000 using Gaia proper motions.}
+\tablefoot{\textbf{Meta study: See references in the studies for additional membership information. DANCe: DANCe membership study project.  Gaia DR1: The study used data from the first data release~\citep{gaia2016_2} of the Gaia mission~\citep{gaia2016}. Gaia DR2: The study used data from the second data release~\citep{gaia2018}. (1): Positions for Hyades were propagated to epoch 2000 using Gaia proper motions.}}
 \end{table*}
 
 %--------------------------------------------------------------------
@@ -634,13 +645,16 @@ We compiled various age, distance, and metallicity values from the literature fo
 %--------------------------------------------------------------------
 
 \section{Broadband photometry: quality cuts and conversions}
-\label{sec:app:photometry}
+\label{app:photometry}
 We required \texttt{flux}/\texttt{flux\_error}$ \geq 10$ for Gaia G, BP, and RP bands. We require that the 2MASS measurements for $J$, $H$, and $K$ to be "A". "A" meant that measurements had $S/N>10$ and $\sigma<0.11$. For PanSTARRS photometry, we required that the \texttt{QF\_OBJ\_GOOD} quality filter flag was set. %We required flags 8 or 16 or 32 in the \texttt{gFlags}~(and respective flags for r,i,z, and y) from \texttt{ObjectFilterFlags} to be set for each band. 8 indicates that observation were made on a photometric night. 16 and 32 verify that PS1 photometry was obtained.
 SDSS and PS1 \textit{ugrizy} bands were similar but not identical, but could be converted using Table 2 in~\citet{finkbeiner_ps1tosdss_2016}.
 %\section{Solar system objects}
 %Solar system objects (SSOs) produce brightness excursions in K2 light curves that can closely resemble flare signatures. Often, they can be distinguished by their symmetric rise and decay shape as contrasted with the typical fast-rise gradual decay flare shape~\citep{davenport_kepler_2014}.
 %M. H. Christiansen and colleagues developed a routine called \texttt{SkyBoT} that matches positions and times to passages of SSOs listed in YYY. RA, declination, start, stop, and mid epochs of flares in BKJD are the input parameters. We excluded all flare candidates that occurred within X minutes of a SSO passage at the star's position. This procedure removed ZZ\% of all flare candidates. In the case of high energy flares, we confirmed the passage by manually inspecting the pixel file with the \texttt{lightkurve} \texttt{interact} function for TargetPixelFiles.
 %-------------------------------------------------------------------
+\textcolor{red}{\textbf{\section{Solar System Object detection with SkyBot}
+\label{app:skybot}
+The K2 photometry was heavily affected by asteroid-crossings which consequently produced mimicking flare profiles in the light curves~\citep{szabo2015}. Independently, two of us visually verify the SSO-nature of 42 flaring light curve events by inspecting their corresponding TargetPixelFiles (TPF) using \texttt{lightkurve}~\citep{lightkurve2018}. Except for one occasion, all events were found to be known SSOs, both in the visual survey and automatically using SkyBot~\citep{berthier2016}. Subsequently, we ran SkyBot on the remaining catalog flares to remove other false positive events caused by known SSOs. Visual inspections of TPFs were carried out for any SSO detected within 30'' of its target star at mid-event time. This yielded an additional 103 contaminated signals distributed among three subgroups, (i) 77 unambiguous SSO-contaminants verified through \texttt{lightkurve} (ii) 18 faint SkyBot-detections ($V\approx 20.4-23.8$) within $\sim3$ pixels from the respective target star but visually unresolvable in the TPF, (iii) 8 occurrences in which both flare and SSO-crossing occurred during the given flare duration stated in the catalog. The latter should be dealt with caution due to a high risk of inaccurate catalog information altered by the presence of SSOs. Despite of discarding a total of 144 flare events, additional contaminants by unknown SSOs must be expected to hide in the current catalog. This issue can partly be resolved by manually animating each TPF as demonstrated by Kristiansen et al. (in prep.). }}
 \section{Modified Maximum Likelihood Estimatator}
 \label{sec:app:MMLE}
 As a means to arrive at results efficiently, and as consistency check to the method derived from~\citet{wheatland_flaresbayes_2004} we fitted $\alpha$ to the FFDs in $ED$ and $E_\mathrm{Kp}$ space using a Modified Maximum Likelihood Estimatator (MMLE,~ \citealt{maschberger2009}). The logarithm of the likelihood function $\mathcal{L}$ that had to be maximized was given by the authors in Eq. (8) in their manuscript:
@@ -677,7 +691,7 @@ One example of non-linear spin-down was the apparent temporary stalling of spin-
 In Fig. \ref{fig:rotation_histogram} we show rotation periods derived from K2 light curves for the Pleiades~\citep{rebull_pleiadesrot_2016}, the Hyades and Praesepe~\citep{douglas2019}, to illustrate the $P_\mathrm{rot}$ distributions that correspond to our $T_\mathrm{eff}$ bins at fixed ages.
 \section{Universality of $\alpha$}
 \label{sec:app:universal_alpha}
-We searched the literature for studies work where power laws were fitted to FFDs of flares in the optical regime using different methods~(see Fig.~\ref{fig:app:powerlaw_literature} for a comparison). While most studies consistently find values somewhat above or below $\alpha\approx2$, the comparison reveals unresolved systematic errors in all these studies, including our own, if $\alpha$ is truly universal for all FFDs.
+We searched the literature for studies where power laws were fitted to FFDs of flares in the optical regime using different methods~(see Fig.~\ref{fig:app:powerlaw_literature} for a comparison). While most studies consistently find values somewhat above or below $\alpha\approx2$, the comparison reveals unresolved systematic errors in all these studies, including our own, if $\alpha$ is truly universal for all FFDs.
 
 %--------------------------------------------------------------------
    \begin{figure}

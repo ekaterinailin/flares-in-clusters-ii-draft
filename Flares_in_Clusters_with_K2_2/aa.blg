@@ -1,126 +1,123 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7400)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: aa.aux
 The style file: aa.bst
-Case mismatch error between cite keys Schmidt2015 and schmidt2015
----line 183 of file aa.aux
- : \citation{Schmidt2015
- :                      }
-I'm skipping whatever remains of this command
 Database file #1: MyLibrary.bib
-You're missing a field name---line 1429 of file MyLibrary.bib
+You're missing a field name---line 1534 of file MyLibrary.bib
  :   
  :   %number = {1}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2557 of file MyLibrary.bib
+You're missing a field name---line 2662 of file MyLibrary.bib
  :   
  :   %month = {sep},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2909 of file MyLibrary.bib
+You're missing a field name---line 3014 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3865 of file MyLibrary.bib
+You're missing a field name---line 4204 of file MyLibrary.bib
  :   
  :   %month = {mar},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4402 of file MyLibrary.bib
+You're missing a field name---line 4741 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4743 of file MyLibrary.bib
+You're missing a field name---line 5082 of file MyLibrary.bib
  :   
  :   %pages = {77355B--77355B}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5488 of file MyLibrary.bib
+You're missing a field name---line 5827 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 6016 of file MyLibrary.bib
+You're missing a field name---line 6355 of file MyLibrary.bib
  :   
  :   %number = {825},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 6113 of file MyLibrary.bib
+You're missing a field name---line 6452 of file MyLibrary.bib
  :   
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 7893 of file MyLibrary.bib
+Unbalanced braces---line 8281 of file MyLibrary.bib
  :         epoch lasts longer for lower-mass stars.
  :                                                 }",
 I'm skipping whatever remains of this entry
-You're missing a field name---line 8139 of file MyLibrary.bib
+You're missing a field name---line 8527 of file MyLibrary.bib
  :   
  :   %number = {5987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 8573 of file MyLibrary.bib
+You're missing a field name---line 8961 of file MyLibrary.bib
  :   
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9695 of file MyLibrary.bib
+You're missing a field name---line 10083 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9783 of file MyLibrary.bib
+You're missing a field name---line 10171 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 11483 of file MyLibrary.bib
+Reallocating 'str_pool' (item size: 1) to 130000 items.
+Repeated entry---line 11927 of file MyLibrary.bib
  : @article{Schmidt2015
  :                     ,
 I'm skipping whatever remains of this entry
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 135 entries,
+Warning--I didn't find a database entry for "lightkurve2018"
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+You've used 140 entries,
             3039 wiz_defined-function locations,
-            1428 strings with 51340 characters,
-and the built_in function-call counts, 113929 in all, are:
-= -- 8559
-> -- 14370
-< -- 32
-+ -- 4823
-- -- 4662
-* -- 10748
-:= -- 21445
-add.period$ -- 135
-call.type$ -- 135
-change.case$ -- 2095
-chr.to.int$ -- 131
-cite$ -- 135
-duplicate$ -- 2476
-empty$ -- 3550
-format.name$ -- 4996
-if$ -- 22147
-int.to.chr$ -- 5
+            1459 strings with 74853 characters,
+and the built_in function-call counts, 173828 in all, are:
+= -- 12428
+> -- 25555
+< -- 33
++ -- 8555
+- -- 8386
+* -- 17077
+:= -- 32895
+add.period$ -- 140
+call.type$ -- 140
+change.case$ -- 3355
+chr.to.int$ -- 135
+cite$ -- 140
+duplicate$ -- 2577
+empty$ -- 3689
+format.name$ -- 8732
+if$ -- 33629
+int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 131
-newline$ -- 409
-num.names$ -- 540
-pop$ -- 2060
+missing$ -- 135
+newline$ -- 424
+num.names$ -- 561
+pop$ -- 3322
 preamble$ -- 1
-purify$ -- 2094
+purify$ -- 3354
 quote$ -- 0
-skip$ -- 2178
+skip$ -- 2260
 stack$ -- 0
-substring$ -- 2954
-swap$ -- 17
-text.length$ -- 0
+substring$ -- 3054
+swap$ -- 27
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1215
+type$ -- 1260
 warning$ -- 0
-while$ -- 537
+while$ -- 558
 width$ -- 0
-write$ -- 1348
-(There were 16 error messages)
+write$ -- 1398
+(There were 15 error messages)
