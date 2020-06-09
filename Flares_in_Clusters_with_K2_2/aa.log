@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.18)  9 JUN 2020 10:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.18)  9 JUN 2020 11:30
 entering extended mode
 **./aa.tex
 (aa.tex
@@ -738,8 +738,8 @@ LaTeX Info: Redefining \nameref on input line 51.
 ! Argument of \reserved@a has an extra }.
 <inserted text> 
                 \par 
-l.97    \keywords
-                 {Methods: data analysis, Stars: activity, Stars: flare, Sta...
+l.96   {}
+         
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
 this error. If you simply proceed now, the `\par' that
@@ -752,20 +752,14 @@ Runaway argument?
 ! Paragraph ended before \reserved@a was complete.
 <to be read again> 
                    \par 
-l.97    \keywords
-                 {Methods: data analysis, Stars: activity, Stars: flare, Sta...
+l.96   {}
+         
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-[1
-
-{/home/ekaterina/.miktex/texmfs/data/pdftex/config/pdftex.map}
-
-]
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
 00.
-
 (/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
@@ -835,16 +829,6 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 8.54997pt on input line 100.
 
 (values/total_number_of_lcs.txt) (values/total_number_of_flares.txt)
-Runaway argument?
-! Paragraph ended before \keywords was complete.
-<to be read again> 
-                   \par 
-l.100 \section
-              {Introduction}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
 
 
 IMPORTANT
@@ -882,11 +866,6 @@ Underfull \hbox (badness 2726) in paragraph at lines 102--119
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 102--119
-\T1/txr/m/n/10 fixed age (Mirzoyan 1993; Chang et al. 2015). Ilin et al.
- []
-
-
 Underfull \hbox (badness 2334) in paragraph at lines 102--119
 \T1/txr/m/n/10 described how we estimated flare energies, and how we
  []
@@ -902,10 +881,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2
+ [1{/home/ekaterina/.miktex/texmfs/data/pdftex/config/pdftex.map}
+
 
 ]
-<pics/clusters/openclusters_logage_vs_distance.png, id=18, 578.16pt x 433.62pt>
+<pics/clusters/openclusters_logage_vs_distance.png, id=15, 578.16pt x 433.62pt>
 
 File: pics/clusters/openclusters_logage_vs_distance.png Graphic file (type png)
 
@@ -962,30 +942,27 @@ Underfull \hbox (badness 1117) in paragraph at lines 151--158
 \T1/txr/m/n/10 and merged the catalog with lists of members determined
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 19.07501pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[3 <./pics/clusters/openclusters_logage_vs_distance.png>]
+[2 <./pics/clusters/openclusters_logage_vs_distance.png>]
 Underfull \hbox (badness 1038) in paragraph at lines 172--174
 \T1/txr/m/n/10 Multiple members were observed during Campaign 5, and
  []
 
-<pics/clusters/Teff_spread_young.png, id=28, 2007.75093pt x 1206.00563pt>
+<pics/clusters/Teff_spread_young.png, id=24, 2007.75093pt x 1206.00563pt>
 File: pics/clusters/Teff_spread_young.png Graphic file (type png)
 <use pics/clusters/Teff_spread_young.png>
 Package pdftex.def Info: pics/clusters/Teff_spread_young.png  used on input lin
 e 184.
 (pdftex.def)             Requested size: 2007.74606pt x 1206.00269pt.
-<pics/clusters/Teff_spread_old.png, id=29, 2015.27907pt x 822.07124pt>
+
+Underfull \vbox (badness 3590) has occurred while \output is active []
+
+<pics/clusters/Teff_spread_old.png, id=25, 2015.27907pt x 822.07124pt>
 File: pics/clusters/Teff_spread_old.png Graphic file (type png)
 <use pics/clusters/Teff_spread_old.png>
 Package pdftex.def Info: pics/clusters/Teff_spread_old.png  used on input line 
 193.
 (pdftex.def)             Requested size: 2015.27417pt x 822.06923pt.
-<pics/clusters/teff_R.png, id=30, 1240.635pt x 1436.36626pt>
+<pics/clusters/teff_R.png, id=26, 1240.635pt x 1436.36626pt>
 File: pics/clusters/teff_R.png Graphic file (type png)
 <use pics/clusters/teff_R.png>
 Package pdftex.def Info: pics/clusters/teff_R.png  used on input line 208.
@@ -1022,11 +999,16 @@ Underfull \hbox (badness 1466) in paragraph at lines 222--234
  []
 
 
-Underfull \vbox (badness 5817) has occurred while \output is active []
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 19.07501pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
 
- [4]
-[5 <./pics/clusters/Teff_spread_young.png>] [6 <./pics/clusters/Teff_spread_old
-.png>]
+[3] [4 <./pics/clusters/Teff_spread_young.png>] [5 <./pics/clusters/Teff_spread
+_old.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 2334) in paragraph at lines 249--254
 \T1/txr/m/n/10 After de-trending, the flare finder algorithm searched for
  []
@@ -1042,26 +1024,10 @@ Underfull \hbox (badness 1430) in paragraph at lines 257--272
 \T1/txr/m/n/10 effects. Moreover, K2SC de-trending and the flare finding
  []
 
-[7]
+[6]
 Underfull \hbox (badness 1072) in paragraph at lines 296--300
 \T1/txr/m/n/10 and, analogously, for $\OML/txmi/m/it/10 ED$ \T1/txr/m/n/10 (Ger
 shberg 1972). We used and
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 296--300
-\T1/txr/m/n/10 activity. We used the MCMC method to sample from the
- []
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 296--300
-\T1/txr/m/n/10 followed a Poisson process in time, and were power law
- []
-
-
-Underfull \hbox (badness 1137) in paragraph at lines 296--300
-\T1/txr/m/n/10 us to fit for $\OML/txmi/m/it/10 $ \T1/txr/m/n/10 and $\OML/txm
-i/m/it/10 $ \T1/txr/m/n/10 simultaneously, and determine their
  []
 
 
@@ -1074,20 +1040,20 @@ Underfull \hbox (badness 3168) in paragraph at lines 321--335
 \T1/txr/m/n/10 The power law exponent determined for flare frequency
  []
 
-(tables/flares.tex)
-<pics/FFDs/full_sample_ffd_ED_wheatland.png, id=47, 578.16pt x 433.62pt>
+[7] (tables/flares.tex)
+<pics/FFDs/full_sample_ffd_ED_wheatland.png, id=48, 578.16pt x 433.62pt>
 File: pics/FFDs/full_sample_ffd_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/full_sample_ffd_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/full_sample_ffd_ED_wheatland.png  used on in
 put line 350.
 (pdftex.def)             Requested size: 256.53291pt x 192.39458pt.
-<pics/FFDs/full_sample_ffd_energy_wheatland.png, id=48, 578.16pt x 433.62pt>
+<pics/FFDs/full_sample_ffd_energy_wheatland.png, id=49, 578.16pt x 433.62pt>
 File: pics/FFDs/full_sample_ffd_energy_wheatland.png Graphic file (type png)
 <use pics/FFDs/full_sample_ffd_energy_wheatland.png>
 Package pdftex.def Info: pics/FFDs/full_sample_ffd_energy_wheatland.png  used o
 n input line 352.
 (pdftex.def)             Requested size: 256.53291pt x 192.39458pt.
-<pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png, id=49, 903.375pt x 1409.265pt>
+<pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png, id=50, 903.375pt x 1409.265pt>
 
 File: pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>
@@ -1098,7 +1064,7 @@ n input line 360.
 
 LaTeX Warning: Float too large for page by 3.25226pt on input line 363.
 
-<pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png, id=50, 903.375pt x 1409.26
+<pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png, id=51, 903.375pt x 1409.26
 5pt>
 File: pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png Graphic file (type png
 )
@@ -1111,23 +1077,19 @@ Underfull \hbox (badness 1067) in paragraph at lines 373--377
 \T1/txr/m/n/10 The core objective of this work was to quantify how the
  []
 
-[8]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
 (tables/powerlaw_SpT_wheatland.tex)
 Overfull \hbox (11.60294pt too wide) in paragraph at lines 1--395
  [][] 
  []
 
 (tables/powerlaw_fullsample_wheatland.tex)
-<pics/FFDs/beta_T_age_ED_wheatland.png, id=58, 722.7pt x 433.62pt>
+<pics/FFDs/beta_T_age_ED_wheatland.png, id=52, 722.7pt x 433.62pt>
 File: pics/FFDs/beta_T_age_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/beta_T_age_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/beta_T_age_ED_wheatland.png  used on input l
 ine 412.
 (pdftex.def)             Requested size: 441.01772pt x 264.61368pt.
-<pics/FA/FA_T_age_Ethresh.png, id=59, 722.7pt x 361.35pt>
+<pics/FA/FA_T_age_Ethresh.png, id=53, 722.7pt x 361.35pt>
 File: pics/FA/FA_T_age_Ethresh.png Graphic file (type png)
 <use pics/FA/FA_T_age_Ethresh.png>
 Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 433.
@@ -1166,10 +1128,13 @@ Underfull \hbox (badness 1360) in paragraph at lines 440--442
 \T1/txr/m/n/10 could be explained by the rotation period distributions of
  []
 
-
+[8]
 Underfull \hbox (badness 2846) in paragraph at lines 463--468
 \T1/txr/m/n/10 After the manual inspection of the younger clusters we
  []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \hbox (badness 1152) in paragraph at lines 471--472
@@ -1201,7 +1166,7 @@ Underfull \hbox (badness 1062) in paragraph at lines 471--472
 \T1/txr/m/n/10 back to its cause. We found poor agreement between our
  []
 
-<pics/FFDs/discussion_FFDs.png, id=60, 722.7pt x 650.43pt>
+<pics/FFDs/discussion_FFDs.png, id=57, 722.7pt x 650.43pt>
 File: pics/FFDs/discussion_FFDs.png Graphic file (type png)
 <use pics/FFDs/discussion_FFDs.png>
 Package pdftex.def Info: pics/FFDs/discussion_FFDs.png  used on input line 479.
@@ -1217,7 +1182,7 @@ Underfull \hbox (badness 1132) in paragraph at lines 484--495
 \T1/txr/bx/n/10 by spectral types. The activity levels for spectral types
  []
 
-[10] [11]
+[9] [10]
 Underfull \hbox (badness 1158) in paragraph at lines 497--510
 \T1/txr/m/n/10 Davenport et al. (2019) derived a parametrization of FFD
  []
@@ -1245,7 +1210,7 @@ Underfull \hbox (badness 7221) in paragraph at lines 511--519
 
 Underfull \vbox (badness 1521) has occurred while \output is active []
 
- [12]
+ [11]
 (values/total_number_of_lcs.txt) (values/total_number_of_stars.txt)
 (values/total_number_of_flares.txt)
 Underfull \hbox (badness 1902) in paragraph at lines 525--546
@@ -1303,7 +1268,10 @@ Underfull \hbox (badness 1708) in paragraph at lines 546--561
 /8 Multilateral Agreement. This paper
  []
 
-(aa.bbl [13]
+(aa.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
 Underfull \hbox (badness 3657) in paragraph at lines 40--42
 []\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saunders, N., et al. 2018, arXiv e-p
 rints,
@@ -1343,13 +1311,13 @@ Overfull \hbox (63.45871pt too wide) in paragraph at lines 852--856
 .152..113R;adsnote=Provided
  []
 
-[14]) [15
+[13]) [14
 
-] [16 <./pics/clusters/teff_R.png>] [17 <./pics/FFDs/full_sample_ffd_ED_wheatla
-nd.png> <./pics/FFDs/full_sample_ffd_energy_wheatland.png>] [18 <./pics/FFDs/Sp
-T_wise_sample_ffd_ED_wheatland.png>] [19 <./pics/FFDs/SpT_wise_sample_ffd_energ
-y_wheatland.png>] [20 <./pics/FFDs/beta_T_age_ED_wheatland.png> <./pics/FA/FA_T
-_age_Ethresh.png>] [21 <./pics/FFDs/discussion_FFDs.png>]
+] [15 <./pics/clusters/teff_R.png>] [16 <./pics/FFDs/full_sample_ffd_ED_wheatla
+nd.png> <./pics/FFDs/full_sample_ffd_energy_wheatland.png>] [17 <./pics/FFDs/Sp
+T_wise_sample_ffd_ED_wheatland.png>] [18 <./pics/FFDs/SpT_wise_sample_ffd_energ
+y_wheatland.png>] [19 <./pics/FFDs/beta_T_age_ED_wheatland.png> <./pics/FA/FA_T
+_age_Ethresh.png>] [20 <./pics/FFDs/discussion_FFDs.png>]
 Underfull \hbox (badness 2809) in paragraph at lines 568--572
 \T1/txr/m/n/10 To match catalogs on RA and declination we used the
  []
@@ -1359,18 +1327,28 @@ Underfull \hbox (badness 2846) in paragraph at lines 568--572
 \T1/txr/m/n/10 For the studies with classifiers we assigned membership
  []
 
-<pics/appendix/membership_histograms.png, id=108, 1156.32pt x 1300.86pt>
+<pics/appendix/membership_histograms.png, id=105, 1156.32pt x 1300.86pt>
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
  line 631.
 (pdftex.def)             Requested size: 523.5307pt x 588.97437pt.
+
+Overfull \hbox (6.90001pt too wide) in paragraph at lines 630--632
+[]\T1/txr/m/n/10 h [] 
+ []
+
 (tables/clusterparameters_appendix.tex)
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10.95> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 652.
 
-Underfull \hbox (badness 7685) in paragraph at lines 652--653
-\T1/txr/bx/n/10 mimicking flare profiles in the light curves (Szabó
+Underfull \hbox (badness 2359) in paragraph at lines 652--653
+\T1/txr/bx/n/10 The K2 photometry was heavily affected by crossings
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 652--653
+\T1/txr/bx/n/10 of Solar System Objects (SSO), which consequently
  []
 
 
@@ -1400,7 +1378,7 @@ Underfull \hbox (badness 1688) in paragraph at lines 655--656
 
 (values/MMLE_alpha_energy.txt) (values/MMLE_alpha_ed.txt)
 (values/MCMC_alpha_energy.txt) (values/MCMC_alpha_ed.txt)
-<pics/rotation/SpT_wise_rotation.png, id=109, 903.375pt x 1336.995pt>
+<pics/rotation/SpT_wise_rotation.png, id=106, 903.375pt x 1336.995pt>
 File: pics/rotation/SpT_wise_rotation.png Graphic file (type png)
 <use pics/rotation/SpT_wise_rotation.png>
 Package pdftex.def Info: pics/rotation/SpT_wise_rotation.png  used on input lin
@@ -1436,11 +1414,11 @@ My plan is to forget the whole thing and hope for the best.
 
 LaTeX Warning: Float too large for page by 5.7282pt on input line 678.
 
-[22
+[21
 
 
 ]
-<pics/appendix/overview_alpha_literature.png, id=113, 650.43pt x 505.89pt>
+<pics/appendix/overview_alpha_literature.png, id=110, 650.43pt x 505.89pt>
 File: pics/appendix/overview_alpha_literature.png Graphic file (type png)
 <use pics/appendix/overview_alpha_literature.png>
 Package pdftex.def Info: pics/appendix/overview_alpha_literature.png  used on i
@@ -1469,10 +1447,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[23
+[22
 
-] [24] [25 <./pics/appendix/membership_histograms.png>] [26 <./pics/rotation/Sp
-T_wise_rotation.png>] [27
+] [23] [24 <./pics/appendix/membership_histograms.png>] [25 <./pics/rotation/Sp
+T_wise_rotation.png>] [26
 
 
  <./pics/appendix/overview_alpha_literature.png>]
@@ -1482,15 +1460,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 701.
 (aa.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 701.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 701.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  11242 strings out of 482728
  165944 string characters out of 2948687
- 591533 words of memory out of 3000000
+ 602858 words of memory out of 3000000
  26625 multiletter control sequences out of 15000+200000
  652318 words of font info for 214 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 46i,14n,49p,7194b,759s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,14n,49p,7194b,745s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/ekaterina/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/ek
 aterina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtcxr.pfb></home/ekat
 erina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtxb.pfb></home/ekateri
@@ -1510,9 +1492,9 @@ ts/type1/urw/times/utmb8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/typ
 e1/urw/times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type1/urw
 /times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on aa.pdf (27 pages, 5199886 bytes).
+Output written on aa.pdf (26 pages, 5199547 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
+ 188 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
