@@ -3,124 +3,122 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: aa.aux
 The style file: aa.bst
 Database file #1: MyLibrary.bib
-You're missing a field name---line 1996 of file MyLibrary.bib
+You're missing a field name---line 2092 of file MyLibrary.bib
  :   
  :   %number = {1}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3124 of file MyLibrary.bib
+You're missing a field name---line 3220 of file MyLibrary.bib
  :   
  :   %month = {sep},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3531 of file MyLibrary.bib
+You're missing a field name---line 3664 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4721 of file MyLibrary.bib
+You're missing a field name---line 4854 of file MyLibrary.bib
  :   
  :   %month = {mar},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5276 of file MyLibrary.bib
+You're missing a field name---line 5409 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5617 of file MyLibrary.bib
+You're missing a field name---line 5750 of file MyLibrary.bib
  :   
  :   %pages = {77355B--77355B}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 6362 of file MyLibrary.bib
+You're missing a field name---line 6495 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 6902 of file MyLibrary.bib
+You're missing a field name---line 7035 of file MyLibrary.bib
  :   
  :   %number = {825},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 6999 of file MyLibrary.bib
+You're missing a field name---line 7132 of file MyLibrary.bib
  :   
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "pandas2020software" isn't style-file defined
---line 7657 of file MyLibrary.bib
+--line 7790 of file MyLibrary.bib
 Reallocating 'str_pool' (item size: 1) to 130000 items.
-Unbalanced braces---line 8828 of file MyLibrary.bib
+Unbalanced braces---line 8977 of file MyLibrary.bib
  :         epoch lasts longer for lower-mass stars.
  :                                                 }",
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9074 of file MyLibrary.bib
+You're missing a field name---line 9223 of file MyLibrary.bib
  :   
  :   %number = {5987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9508 of file MyLibrary.bib
+You're missing a field name---line 9657 of file MyLibrary.bib
  :   
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 10630 of file MyLibrary.bib
+You're missing a field name---line 10779 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 10718 of file MyLibrary.bib
+You're missing a field name---line 10867 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 12523 of file MyLibrary.bib
+Repeated entry---line 12672 of file MyLibrary.bib
  : @article{Schmidt2015
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "kowalski_time-resolved_2013"
-Warning--I didn't find a database entry for "astroML"
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-You've used 166 entries,
+You've used 165 entries,
             3039 wiz_defined-function locations,
-            1606 strings with 81357 characters,
-and the built_in function-call counts, 190645 in all, are:
-= -- 13736
-> -- 27363
-< -- 39
-+ -- 9162
-- -- 8961
-* -- 18604
-:= -- 36044
-add.period$ -- 166
-call.type$ -- 166
-change.case$ -- 3650
-chr.to.int$ -- 161
-cite$ -- 166
-duplicate$ -- 3060
-empty$ -- 4376
-format.name$ -- 9375
-if$ -- 36904
-int.to.chr$ -- 6
+            1601 strings with 80631 characters,
+and the built_in function-call counts, 188493 in all, are:
+= -- 13573
+> -- 27118
+< -- 40
++ -- 9078
+- -- 8880
+* -- 18384
+:= -- 35697
+add.period$ -- 165
+call.type$ -- 165
+change.case$ -- 3618
+chr.to.int$ -- 162
+cite$ -- 165
+duplicate$ -- 3040
+empty$ -- 4298
+format.name$ -- 9291
+if$ -- 36446
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 157
-newline$ -- 502
-num.names$ -- 666
-pop$ -- 3619
+missing$ -- 156
+newline$ -- 499
+num.names$ -- 662
+pop$ -- 3581
 preamble$ -- 1
-purify$ -- 3649
+purify$ -- 3618
 quote$ -- 0
-skip$ -- 2677
+skip$ -- 2620
 stack$ -- 0
-substring$ -- 3590
-swap$ -- 35
+substring$ -- 3411
+swap$ -- 31
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1491
+type$ -- 1482
 warning$ -- 0
-while$ -- 660
+while$ -- 656
 width$ -- 0
-write$ -- 1657
+write$ -- 1650
 (There were 15 error messages)

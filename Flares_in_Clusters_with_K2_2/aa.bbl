@@ -1,4 +1,4 @@
-\begin{thebibliography}{166}
+\begin{thebibliography}{165}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -597,16 +597,13 @@ Gonzalez, G. 2016, \mnras, 459, 1060
   {Rosenfield}, {Cargile}, \& {Dolphin}}]{gossage2018}
 {Gossage}, S., {Conroy}, C., {Dotter}, A., {et~al.} 2018, \apj, 863, 67
 
-\bibitem[{{Green} {et~al.}(2018){Green}, {Schlafly}, {Finkbeiner}, {Rix},
-  {Martin}, {Burgett}, {Draper}, {Flewelling}, {Hodapp}, \&
-  {Kaiser}}]{green_dustmaps_2018}
-{Green}, G.~M., {Schlafly}, E.~F., {Finkbeiner}, D., {et~al.} 2018, \mnras,
-  478, 651
+\bibitem[{{Green}(2018)}]{green_dustmaps_2018}
+{Green}, G.~M. 2018, The Journal of Open Source Software, 3, 695
 
 \bibitem[{{Green} {et~al.}(2019){Green}, {Schlafly}, {Zucker}, {Speagle}, \&
-  {Finkbeiner}}]{green_bayestar_2019}
-{Green}, G.~M., {Schlafly}, E.~F., {Zucker}, C., {Speagle}, J.~S., \&
-  {Finkbeiner}, D.~P. 2019, arXiv e-prints, arXiv:1905.02734
+  {Finkbeiner}}]{green2019}
+{Green}, G.~M., {Schlafly}, E., {Zucker}, C., {Speagle}, J.~S., \&
+  {Finkbeiner}, D. 2019, \apj, 887, 93
 
 \bibitem[{{G{\"u}nther} {et~al.}(2020){G{\"u}nther}, {Zhan}, {Seager},
   {Rimmer}, {Ranjan}, {Stassun}, {Oelkers}, {Daylan}, {Newton}, {Kristiansen},
@@ -641,16 +638,13 @@ Hilton, E.~J. 2011, PhD thesis, University of Washington
 Hilton, E.~J., West, A.~A., Hawley, S.~L., \& Kowalski, A.~F. 2010, \aj, 140,
   1402
 
-\bibitem[{{Howard} {et~al.}(2019{\natexlab{a}}){Howard}, {Corbett}, {Law},
-  {Ratzloff}, {Glazier}, {Fors}, {del Ser}, \& {Haislip}}]{howard2019}
-{Howard}, W.~S., {Corbett}, H., {Law}, N.~M., {et~al.} 2019{\natexlab{a}},
-  \apj, 881, 9
+\bibitem[{{Howard} {et~al.}(2020){Howard}, {Corbett}, {Law}, {Ratzloff},
+  {Galliher}, {Glazier}, {Fors}, {del Ser}, \& {Haislip}}]{howard2020}
+{Howard}, W.~S., {Corbett}, H., {Law}, N.~M., {et~al.} 2020, \apj, 895, 140
 
-\bibitem[{{Howard} {et~al.}(2019{\natexlab{b}}){Howard}, {Corbett}, {Law},
-  {Ratzloff}, {Glazier}, {Fors}, {del Ser}, \&
-  {Haislip}}]{howard_evryflare2arxiv_2019}
-{Howard}, W.~S., {Corbett}, H., {Law}, N.~M., {et~al.} 2019{\natexlab{b}},
-  arXiv e-prints, arXiv:1907.10735
+\bibitem[{{Howard} {et~al.}(2019){Howard}, {Corbett}, {Law}, {Ratzloff},
+  {Glazier}, {Fors}, {del Ser}, \& {Haislip}}]{howard2019}
+{Howard}, W.~S., {Corbett}, H., {Law}, N.~M., {et~al.} 2019, \apj, 881, 9
 
 \bibitem[{Howell {et~al.}(2014)Howell, Sobeck, Haas, Still, Barclay, Mullally,
   Troeltzsch, Aigrain, Bryson, Caldwell, Chaplin, Cochran, Huber, Marcy,
@@ -670,9 +664,9 @@ Howell, S.~B., Sobeck, C., Haas, M., {et~al.} 2014, \pasp, 126, 398
 
 \bibitem[{{Jackman} {et~al.}(2019){Jackman}, {Wheatley}, {Bayliss}, {Burleigh},
   {Casewell}, {Eigm{\"u}ller}, {Goad}, {Pollacco}, {Raynard}, {Watson}, \&
-  {West}}]{jackman_superflareucd_2019}
-{Jackman}, J. A.~G., {Wheatley}, P.~J., {Bayliss}, D., {et~al.} 2019, arXiv
-  e-prints, arXiv:1902.00900
+  {West}}]{jackman2019}
+{Jackman}, J. A.~G., {Wheatley}, P.~J., {Bayliss}, D., {et~al.} 2019, \mnras,
+  485, L136
 
 \bibitem[{{Kerr} \& {Fletcher}(2014)}]{kerr_solarstellarwlf_2014}
 {Kerr}, G.~S. \& {Fletcher}, L. 2014, \apj, 783, 98
@@ -855,8 +849,7 @@ Priest, E. \& Forbes, T. 2002, \aapr, 10, 313
 
 \bibitem[{{Raetz} {et~al.}(2020){Raetz}, {Stelzer}, {Damasso}, \&
   {Scholz}}]{raetz2020}
-{Raetz}, S., {Stelzer}, B., {Damasso}, M., \& {Scholz}, A. 2020, arXiv
-  e-prints, arXiv:2003.11937
+{Raetz}, S., {Stelzer}, B., {Damasso}, M., \& {Scholz}, A. 2020, \aap, 637, A22
 
 \bibitem[{Raghavan {et~al.}(2010)Raghavan, McAlister, Henry, Latham, Marcy,
   Mason, Gies, White, \& {ten Brummelaar}}]{raghavan2010}
@@ -865,21 +858,11 @@ Raghavan, D., McAlister, H.~A., Henry, T.~J., {et~al.} 2010, \apjs, 190, 1
 \bibitem[{{Rayner} {et~al.}(2009){Rayner}, {Cushing}, \& {Vacca}}]{Rayner2009}
 {Rayner}, J.~T., {Cushing}, M.~C., \& {Vacca}, W.~D. 2009, \apjs, 185, 289
 
-\bibitem[{Rebull {et~al.}(2016{\natexlab{a}})Rebull, Stauffer, Bouvier, Cody,
-  Hillenbrand, Soderblom, Valenti, Barrado, Bouy, Ciardi, Pinsonneault,
-  Stassun, Micela, Aigrain, Vrba, Somers, Christiansen, Gillen, \&
-  Collier~Cameron}]{rebull_rotation_2016}
-Rebull, L., Stauffer, J., Bouvier, J., {et~al.} 2016{\natexlab{a}},
-  Astronomical Journal, 152, 113, bibtex: 2016AJ....152..113R
-  bibtex[eid=113;adsurl=https://ui.adsabs.harvard.edu/abs/2016AJ....152..113R;adsnote=Provided
-  by the SAO/NASA Astrophysics Data System]
-
-\bibitem[{Rebull {et~al.}(2016{\natexlab{b}})Rebull, Stauffer, Bouvier, Cody,
-  Hillenbrand, Soderblom, Valenti, Barrado, Bouy, Ciardi, Pinsonneault,
-  Stassun, Micela, Aigrain, Vrba, Somers, Christiansen, Gillen, \&
-  Collier~Cameron}]{rebull_pleiadesrot_2016}
-Rebull, L.~M., Stauffer, J.~R., Bouvier, J., {et~al.} 2016{\natexlab{b}}, \aj,
-  152, 113
+\bibitem[{{Rebull} {et~al.}(2016){Rebull}, {Stauffer}, {Bouvier}, {Cody},
+  {Hillenbrand}, {Soderblom}, {Valenti}, {Barrado}, {Bouy}, {Ciardi},
+  {Pinsonneault}, {Stassun}, {Micela}, {Aigrain}, {Vrba}, {Somers},
+  {Christiansen}, {Gillen}, \& {Collier Cameron}}]{rebull_pleiadesrot_2016}
+{Rebull}, L.~M., {Stauffer}, J.~R., {Bouvier}, J., {et~al.} 2016, \aj, 152, 113
 
 \bibitem[{{Rebull} {et~al.}(2017){Rebull}, {Stauffer}, {Hillenbrand}, {Cody},
   {Bouvier}, {Soderblom}, {Pinsonneault}, \& {Hebb}}]{rebull_praesepe_2017}

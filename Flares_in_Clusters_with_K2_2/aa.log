@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.18)  12 JUN 2020 09:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.18)  12 JUN 2020 10:18
 entering extended mode
 **./aa.tex
 (aa.tex
@@ -848,10 +848,6 @@ LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 114.
 
-Package natbib Warning: Citation `kowalski2013' on page 1 undefined on input li
-ne 114.
-
-
 Underfull \hbox (badness 2334) in paragraph at lines 102--119
 \T1/txr/m/n/10 Stellar flares on cool stars can enhance the optical flux
  []
@@ -1252,8 +1248,8 @@ Underfull \hbox (badness 1629) in paragraph at lines 461--462
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 461--462
-\T1/txr/m/n/10 2019a) we found encouraging consistency but also some
+Underfull \hbox (badness 3547) in paragraph at lines 461--462
+\T1/txr/m/n/10 2019) we found encouraging consistency but also some
  []
 
 
@@ -1278,11 +1274,6 @@ Package pdftex.def Info: pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png
 
 Underfull \hbox (badness 1939) in paragraph at lines 481--492
 \T1/txr/bx/n/10 and 0.71 days) M5 flare stars in a M5-M5-M8 triple
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 481--492
-\T1/txr/bx/n/10 by spectral type. The activity levels for spectral types
  []
 
 
@@ -1316,6 +1307,9 @@ Underfull \hbox (badness 7221) in paragraph at lines 496--503
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [16 <./pics/FFDs/discussion_FFDs.png>] (values/total_number_of_lcs.txt)
 (values/total_number_of_stars.txt) (values/total_number_of_flares.txt)
 Underfull \hbox (badness 1902) in paragraph at lines 509--520
@@ -1323,80 +1317,59 @@ Underfull \hbox (badness 1902) in paragraph at lines 509--520
  []
 
 [17 <./pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png>]
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <8> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 524.
+Underfull \hbox (badness 1824) in paragraph at lines 521--530
+\T1/txr/m/n/8 advice in the development of \T1/txtt/m/n/8 AltaiPony\T1/txr/m/n/
+8 , Ann-Marie Cody for helpful
+ []
 
 
-Package natbib Warning: Citation `numpy2011' on page 18 undefined on input line
- 524.
+Underfull \hbox (badness 1668) in paragraph at lines 521--530
+\T1/txr/m/n/8 comments on K2 data, and Nikoleta Ilic for extensive code review.
+ EI
+ []
 
 
-Package natbib Warning: Citation `pandas2020software' on page 18 undefined on i
-nput line 524.
+Underfull \hbox (badness 1014) in paragraph at lines 521--530
+\T1/txr/m/n/8 acknowledges support from the German National Scholarship Foundat
+ion.
+ []
 
 
-Package natbib Warning: Citation `pandas2010' on page 18 undefined on input lin
-e 524.
+Underfull \hbox (badness 1867) in paragraph at lines 521--530
+\T1/txr/m/n/8 This paper includes data collected by the Kepler mission and obta
+ined
+ []
 
 
-Package natbib Warning: Citation `astroML2012' on page 18 undefined on input li
-ne 524.
+Underfull \hbox (badness 2334) in paragraph at lines 521--530
+\T1/txr/m/n/8 from the MAST data archive at the Space Telescope Science Institu
+te
+ []
 
 
-Package natbib Warning: Citation `astroML2014' on page 18 undefined on input li
-ne 524.
+Underfull \hbox (badness 1888) in paragraph at lines 521--530
+\T1/txr/m/n/8 2011), \T1/txtt/m/n/8 pandas \T1/txr/m/n/8 (pandas development te
+am 2020; Wes McKinney 2010),
+ []
 
 
-Package natbib Warning: Citation `astropy2013' on page 18 undefined on input li
-ne 524.
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 521--530
-\T1/txr/m/n/8 Analysis Consortium (DPAC, $\T1/txtt/m/n/8 https : / / www . cosm
-os . esa . int / web / gaia /
+Underfull \hbox (badness 4429) in paragraph at lines 521--530
+\T1/txr/m/n/8 Development Team 2019), the cross-match service provided by CDS,
  []
 
 (aa.bbl
-Underfull \hbox (badness 3657) in paragraph at lines 40--42
+Underfull \hbox (badness 3657) in paragraph at lines 51--53
 []\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saunders, N., et al. 2018, arXiv e-p
 rints,
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 85--87
+Underfull \hbox (badness 2753) in paragraph at lines 96--98
 []\T1/txr/m/n/8 Bokeh Development Team. 2019, Bokeh: Python library for interac
 tive
  []
 
-
-Underfull \hbox (badness 1629) in paragraph at lines 641--643
-[]\T1/txr/m/n/8 Howard, W. S., Corbett, H., Law, N. M., et al. 2019b, arXiv e-p
-rints,
- []
-
-[18]
-Underfull \hbox (badness 1077) in paragraph at lines 838--840
-[]\T1/txr/m/n/8 Raetz, S., Stelzer, B., Damasso, M., & Scholz, A. 2020, arXiv e
--prints,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 852--856
-[]\T1/txr/m/n/8 Rebull, L., Stauffer, J., Bouvier, J., et al. 2016a,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 852--856
-\T1/txr/m/n/8 Astronomical Journal, 152, 113, bibtex: 2016AJ....152..113R
- []
-
-
-Overfull \hbox (63.45871pt too wide) in paragraph at lines 852--856
-\T1/txr/m/n/8 bibtex[eid=113;adsurl=https://ui.adsabs.harvard.edu/abs/2016AJ...
-.152..113R;adsnote=Provided
- []
-
-) [19
+[18]) [19
 
 ]
 Underfull \hbox (badness 2809) in paragraph at lines 537--541
@@ -1499,11 +1472,7 @@ File: pics/appendix/overview_alpha_literature.png Graphic file (type png)
 Package pdftex.def Info: pics/appendix/overview_alpha_literature.png  used on i
 nput line 663.
 (pdftex.def)             Requested size: 256.0748pt x 199.17207pt.
-
-
-Package natbib Warning: There were undefined citations.
-
-[21
+ [21
 
 ] [22 <./pics/appendix/membership_histograms.png>] [23] [24 <./pics/rotation/Sp
 T_wise_rotation.png>] [25
@@ -1512,23 +1481,23 @@ T_wise_rotation.png>] [25
  <./pics/appendix/overview_alpha_literature.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 670.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 670.
+ (aa.aux
 
-(aa.aux)
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 670.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 670.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 11253 strings out of 482728
- 166335 string characters out of 2948687
- 588483 words of memory out of 3000000
- 26633 multiletter control sequences out of 15000+200000
- 655367 words of font info for 217 fonts, out of 3000000 for 9000
+ 11254 strings out of 482728
+ 166315 string characters out of 2948687
+ 589988 words of memory out of 3000000
+ 26636 multiletter control sequences out of 15000+200000
+ 652318 words of font info for 214 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 46i,14n,49p,7194b,713s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,14n,49p,7194b,707s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/ekaterina/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/ek
 aterina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtcxr.pfb></home/ekat
 erina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtxb.pfb></home/ekateri
@@ -1548,7 +1517,7 @@ ts/type1/urw/times/utmb8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/typ
 e1/urw/times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type1/urw
 /times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on aa.pdf (25 pages, 5254027 bytes).
+Output written on aa.pdf (25 pages, 5253951 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
