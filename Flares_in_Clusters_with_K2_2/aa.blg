@@ -48,6 +48,8 @@ You're missing a field name---line 6999 of file MyLibrary.bib
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "pandas2020software" isn't style-file defined
+--line 7657 of file MyLibrary.bib
 Reallocating 'str_pool' (item size: 1) to 130000 items.
 Unbalanced braces---line 8828 of file MyLibrary.bib
  :         epoch lasts longer for lower-mass stars.
@@ -73,50 +75,52 @@ You're missing a field name---line 10718 of file MyLibrary.bib
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 12514 of file MyLibrary.bib
+Repeated entry---line 12523 of file MyLibrary.bib
  : @article{Schmidt2015
  :                     ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "kowalski_time-resolved_2013"
+Warning--I didn't find a database entry for "astroML"
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-You've used 161 entries,
+You've used 166 entries,
             3039 wiz_defined-function locations,
-            1576 strings with 79753 characters,
-and the built_in function-call counts, 186523 in all, are:
-= -- 13427
-> -- 26856
-< -- 37
-+ -- 8991
-- -- 8797
-* -- 18230
-:= -- 35276
-add.period$ -- 161
-call.type$ -- 161
-change.case$ -- 3576
-chr.to.int$ -- 156
-cite$ -- 161
-duplicate$ -- 2962
-empty$ -- 4226
-format.name$ -- 9200
-if$ -- 36094
+            1606 strings with 81357 characters,
+and the built_in function-call counts, 190645 in all, are:
+= -- 13736
+> -- 27363
+< -- 39
++ -- 9162
+- -- 8961
+* -- 18604
+:= -- 36044
+add.period$ -- 166
+call.type$ -- 166
+change.case$ -- 3650
+chr.to.int$ -- 161
+cite$ -- 166
+duplicate$ -- 3060
+empty$ -- 4376
+format.name$ -- 9375
+if$ -- 36904
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 154
-newline$ -- 487
-num.names$ -- 645
-pop$ -- 3541
+missing$ -- 157
+newline$ -- 502
+num.names$ -- 666
+pop$ -- 3619
 preamble$ -- 1
-purify$ -- 3575
+purify$ -- 3649
 quote$ -- 0
-skip$ -- 2589
+skip$ -- 2677
 stack$ -- 0
-substring$ -- 3488
-swap$ -- 27
+substring$ -- 3590
+swap$ -- 35
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1449
+type$ -- 1491
 warning$ -- 0
-while$ -- 640
+while$ -- 660
 width$ -- 0
-write$ -- 1608
+write$ -- 1657
 (There were 15 error messages)

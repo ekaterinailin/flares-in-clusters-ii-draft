@@ -1,4 +1,4 @@
-\begin{thebibliography}{161}
+\begin{thebibliography}{166}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -20,6 +20,17 @@ Aigrain, S., Parviainen, H., \& Pope, B. J.~S. 2016, \mnras, 459, 2408
 
 \bibitem[{{Aschwanden}(2015)}]{aschwanden_powerlaws_2015}
 {Aschwanden}, M.~J. 2015, \apj, 814, 19
+
+\bibitem[{{Astropy Collaboration} {et~al.}(2013){Astropy Collaboration},
+  {Robitaille}, {Tollerud}, {Greenfield}, {Droettboom}, {Bray}, {Aldcroft},
+  {Davis}, {Ginsburg}, {Price-Whelan}, {Kerzendorf}, {Conley}, {Crighton},
+  {Barbary}, {Muna}, {Ferguson}, {Grollier}, {Parikh}, {Nair}, {Unther},
+  {Deil}, {Woillez}, {Conseil}, {Kramer}, {Turner}, {Singer}, {Fox}, {Weaver},
+  {Zabalza}, {Edwards}, {Azalee Bostroem}, {Burke}, {Casey}, {Crawford},
+  {Dencheva}, {Ely}, {Jenness}, {Labrie}, {Lim}, {Pierfederici}, {Pontzen},
+  {Ptak}, {Refsdal}, {Servillat}, \& {Streicher}}]{astropy2013}
+{Astropy Collaboration}, {Robitaille}, T.~P., {Tollerud}, E.~J., {et~al.} 2013,
+  \aap, 558, A33
 
 \bibitem[{{Bailer-Jones} {et~al.}(2013){Bailer-Jones}, {Andrae}, {Arcay},
   {Astraatmadja}, {Bellas-Velidis}, {Berihuete}, {Bijaoui}, {Carri{\'o}n},
@@ -651,6 +662,12 @@ Howell, S.~B., Sobeck, C., Haas, M., {et~al.} 2014, \pasp, 126, 398
 {Ilin}, E., {Schmidt}, S.~J., {Davenport}, J. R.~A., \& {Strassmeier}, K.~G.
   2019, \aap, 622, A133
 
+\bibitem[{{Ivezi{\'c}} {et~al.}(2014){Ivezi{\'c}}, {Connolly}, {Vanderplas}, \&
+  {Gray}}]{astroML2014}
+{Ivezi{\'c}}, {\v Z}., {Connolly}, A., {Vanderplas}, J., \& {Gray}, A. 2014,
+  Statistics, Data Mining and Machine Learning in Astronomy (Princeton
+  University Press)
+
 \bibitem[{{Jackman} {et~al.}(2019){Jackman}, {Wheatley}, {Bayliss}, {Burleigh},
   {Casewell}, {Eigm{\"u}ller}, {Goad}, {Pollacco}, {Raynard}, {Watson}, \&
   {West}}]{jackman_superflareucd_2019}
@@ -685,7 +702,7 @@ Howell, S.~B., Sobeck, C., Haas, M., {et~al.} 2014, \pasp, 126, 398
 Koch, D.~G., Borucki, W.~J., Basri, G., {et~al.} 2010, \apj, 713, L79
 
 \bibitem[{Kowalski {et~al.}(2013)Kowalski, Hawley, Wisniewski, Osten, Hilton,
-  Holtzman, Schmidt, \& Davenport}]{kowalski_time-resolved_2013}
+  Holtzman, Schmidt, \& Davenport}]{kowalski2013}
 Kowalski, A.~F., Hawley, S.~L., Wisniewski, J.~P., {et~al.} 2013, \apjs, 207,
   15
 
@@ -806,6 +823,9 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
 
 \bibitem[{Pace(2013)}]{pace_chromospheric_2013}
 Pace, G. 2013, \aap, 551, L8
+
+\bibitem[{pandas~development team(2020)}]{pandas2020software}
+pandas~development team, T. 2020, pandas-dev/pandas: Pandas
 
 \bibitem[{{Paudel} {et~al.}(2018){Paudel}, {Gizis}, {Mullan}, {Schmidt},
   {Burgasser}, {Williams}, \& {Berger}}]{paudel_monsterucdflare_2018}
@@ -967,12 +987,17 @@ Szab{\'{o}}, R., S{\'{a}}rneczky, K., Szab{\'{o}}, G.~M., {et~al.} 2015, The
 Van~Cleve, J.~E., Howell, S.~B., Smith, J.~C., {et~al.} 2016, \pasp, 128,
   075002
 
+\bibitem[{{van der Walt} {et~al.}(2011){van der Walt}, {Colbert}, \&
+  {Varoquaux}}]{numpy2011}
+{van der Walt}, S., {Colbert}, S.~C., \& {Varoquaux}, G. 2011, Computing in
+  Science Engineering, 13, 22
+
 \bibitem[{{Vanderburg} \& {Johnson}(2014)}]{vanderburg_k2sff_2014}
 {Vanderburg}, A. \& {Johnson}, J.~A. 2014, Publications of the Astronomical
   Society of the Pacific, 126, 948
 
 \bibitem[{{Vanderplas} {et~al.}(2012){Vanderplas}, {Connolly}, {Ivezi{\'c}}, \&
-  {Gray}}]{astroML}
+  {Gray}}]{astroML2012}
 {Vanderplas}, J., {Connolly}, A., {Ivezi{\'c}}, {\v Z}., \& {Gray}, A. 2012, in
   Conference on Intelligent Data Understanding (CIDU), 47 --54
 
@@ -985,6 +1010,10 @@ Walkowicz, L.~M., Basri, G., Batalha, N., {et~al.} 2011, \aj, 141, 50
   \& {Ohno}}]{watanabe_solarstellarwlf_2013}
 {Watanabe}, K., {Shimizu}, T., {Masuda}, S., {Ichimoto}, K., \& {Ohno}, M.
   2013, \apj, 776, 123
+
+\bibitem[{{W}es {M}c{K}inney(2010)}]{pandas2010}
+{W}es {M}c{K}inney. 2010, in {P}roceedings of the 9th {P}ython in {S}cience
+  {C}onference, ed. {S}t\'efan van~der {W}alt \& {J}arrod {M}illman, 56 -- 61
 
 \bibitem[{{West} {et~al.}(2011){West}, {Morgan}, {Bochanski}, {Andersen},
   {Bell}, {Kowalski}, {Davenport}, {Hawley}, {Schmidt}, {Bernat}, {Hilton},
