@@ -1,4 +1,4 @@
-\begin{thebibliography}{165}
+\begin{thebibliography}{166}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -240,6 +240,11 @@ Davenport, J. R.~A., Becker, A.~C., Kowalski, A.~F., {et~al.} 2012, \apj, 748,
   Kowalski, Johnson, Malatesta, Peraza, Keil, Silverberg, Jansen, Scheffler,
   Berdis, Larsen, \& Hilton}]{davenport_kepler_2014}
 Davenport, J. R.~A., Hawley, S.~L., Hebb, L., {et~al.} 2014, \apj, 797, 122
+
+\bibitem[{{Davenport} {et~al.}(2020){Davenport}, {Tovar Mendoza}, \&
+  {Hawley}}]{davenport2020arxiv}
+{Davenport}, J. R.~A., {Tovar Mendoza}, G., \& {Hawley}, S.~L. 2020, arXiv
+  e-prints, arXiv:2005.10281
 
 \bibitem[{Dias {et~al.}(2012)Dias, Monteiro, Caetano, \&
   Oliveira}]{dias_fitting_2012}
