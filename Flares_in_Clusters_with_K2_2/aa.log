@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.18)  9 JUL 2020 12:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.18)  9 JUL 2020 12:24
 entering extended mode
 **./aa.tex
 (aa.tex
@@ -885,6 +885,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 121.
 <pics/clusters/openclusters_logage_vs_distance.png, id=15, 578.16pt x 433.62pt>
 
 File: pics/clusters/openclusters_logage_vs_distance.png Graphic file (type png)
@@ -1064,8 +1066,6 @@ Underfull \hbox (badness 2096) in paragraph at lines 264--268
 ng and the flare finding
  []
 
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 287.
 
 Underfull \hbox (badness 1072) in paragraph at lines 286--290
 \T1/txr/m/n/10 and, analogously, for $\OML/txmi/m/it/10 ED$ \T1/txr/m/n/10 (Ger
@@ -1263,7 +1263,7 @@ Underfull \hbox (badness 2846) in paragraph at lines 461--466
  []
 
 
-Underfull \vbox (badness 6493) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./pics/FFDs/beta_T_age_ED_wheatland.png> <./pics/FA/FA_T_age_Ethresh.png>
 ]
@@ -1305,9 +1305,6 @@ png)
 Package pdftex.def Info: pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png 
  used on input line 484.
 (pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1498,7 +1495,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  11264 strings out of 482728
  166803 string characters out of 2948687
- 592423 words of memory out of 3000000
+ 592361 words of memory out of 3000000
  26639 multiletter control sequences out of 15000+200000
  650284 words of font info for 212 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
@@ -1520,7 +1517,7 @@ all/fonts/type1/urw/helvetic/uhvr8a.pfb></home/ekaterina/.miktex/texmfs/install
 /type1/urw/times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type1
 /urw/times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on aa.pdf (25 pages, 5401998 bytes).
+Output written on aa.pdf (25 pages, 5402344 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
