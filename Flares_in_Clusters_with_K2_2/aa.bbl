@@ -1,4 +1,4 @@
-\begin{thebibliography}{166}
+\begin{thebibliography}{171}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -95,6 +95,16 @@ Berthier, J., Carry, B., Vachier, F., Eggl, S., \& Santerne, A. 2016, Monthly
 \bibitem[{{Bokeh Development Team}(2019)}]{bokeh}
 {Bokeh Development Team}. 2019, Bokeh: Python library for interactive
   visualization
+
+\bibitem[{{Booth} {et~al.}(2020){Booth}, {Poppenhaeger}, {Watson}, {Silva
+  Aguirre}, {Stello}, \& {Bruntt}}]{booth2020}
+{Booth}, R.~S., {Poppenhaeger}, K., {Watson}, C.~A., {et~al.} 2020, \mnras,
+  491, 455
+
+\bibitem[{{Booth} {et~al.}(2017){Booth}, {Poppenhaeger}, {Watson}, {Silva
+  Aguirre}, \& {Wolk}}]{booth2017}
+{Booth}, R.~S., {Poppenhaeger}, K., {Watson}, C.~A., {Silva Aguirre}, V., \&
+  {Wolk}, S.~J. 2017, \mnras, 471, 1012
 
 \bibitem[{{Bossini} {et~al.}(2019){Bossini}, {Vallenari}, {Bragaglia},
   {Cantat-Gaudin}, {Sordo}, {Balaguer-N{\'u}{\~n}ez}, {Jordi}, {Moitinho},
@@ -735,6 +745,12 @@ Lacy, C.~H., Moffett, T.~J., \& Evans, D.~S. 1976, \apjs, 30, 85
 {Liu}, F., {Yong}, D., {Asplund}, M., {Ram{\'\i}rez}, I., \& {Mel{\'e}ndez}, J.
   2016, \mnras, 457, 3934
 
+\bibitem[{{Lorenzo-Oliveira} {et~al.}(2018){Lorenzo-Oliveira}, {Freitas},
+  {Mel{\'e}ndez}, {Bedell}, {Ram{\'\i}rez}, {Bean}, {Asplund}, {Spina},
+  {Dreizler}, {Alves-Brito}, \& {Casagrande}}]{lorenzooliveira2018}
+{Lorenzo-Oliveira}, D., {Freitas}, F.~C., {Mel{\'e}ndez}, J., {et~al.} 2018,
+  \aap, 619, A73
+
 \bibitem[{Lorenzo-Oliveira {et~al.}(2016)Lorenzo-Oliveira, {Porto de Mello}, \&
   Schiavon}]{lorenzo-oliveira_age-mass-metallicity-activity_2016}
 Lorenzo-Oliveira, D., {Porto de Mello}, G.~F., \& Schiavon, R.~P. 2016, \aap,
@@ -890,6 +906,11 @@ Raghavan, D., McAlister, H.~A., Henry, T.~J., {et~al.} 2010, \apjs, 190, 1
 Ricker, G.~R., Winn, J.~N., Vanderspek, R., {et~al.} 2014, Journal of
   Astronomical Telescopes, Instruments, and Systems, 1, 014003
 
+\bibitem[{{Robrade} {et~al.}(2010){Robrade}, {Poppenhaeger}, \&
+  {Schmitt}}]{robrade2010}
+{Robrade}, J., {Poppenhaeger}, K., \& {Schmitt}, J.~H.~M.~M. 2010, \aap, 513,
+  A12
+
 \bibitem[{Salaris {et~al.}(2004)Salaris, Weiss, \& Percival}]{salaris_age_2004}
 Salaris, M., Weiss, A., \& Percival, S.~M. 2004, \aap, 414, 163
 
@@ -946,6 +967,11 @@ Skumanich, A. 1972, \apj, 171, 565
 \bibitem[{Soderblom {et~al.}(1991)Soderblom, Duncan, \&
   Johnson}]{soderblom_chromospheric_1991}
 Soderblom, D.~R., Duncan, D.~K., \& Johnson, D. R.~H. 1991, \apj, 375, 722
+
+\bibitem[{{Stelzer} {et~al.}(2006){Stelzer}, {Schmitt}, {Micela}, \&
+  {Liefke}}]{stelzer2006}
+{Stelzer}, B., {Schmitt}, J.~H.~M.~M., {Micela}, G., \& {Liefke}, C. 2006,
+  \aap, 460, L35
 
 \bibitem[{Szab{\'{o}} {et~al.}(2015)Szab{\'{o}}, S{\'{a}}rneczky, Szab{\'{o}},
   P{\'{a}}l, Kiss, Cs{\'{a}}k, Ill{\'{e}}s, R{\'{a}}cz, \& Kiss}]{szabo2015}
