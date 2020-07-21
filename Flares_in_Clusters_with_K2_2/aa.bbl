@@ -1,4 +1,4 @@
-\begin{thebibliography}{171}
+\begin{thebibliography}{175}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -61,6 +61,9 @@ Bell, C. P.~M., Naylor, T., Mayne, N.~J., Jeffries, R.~D., \& Littlefair, S.~P.
 
 \bibitem[{Benz \& G{\"u}del(2010)}]{benz2010}
 Benz, A.~O. \& G{\"u}del, M. 2010, \araa, 48, 241
+
+\bibitem[{{Berger}(2006)}]{berger2006}
+{Berger}, E. 2006, \apj, 648, 629
 
 \bibitem[{Berthier {et~al.}(2016)Berthier, Carry, Vachier, Eggl, \&
   Santerne}]{berthier2016}
@@ -756,10 +759,16 @@ Lacy, C.~H., Moffett, T.~J., \& Evans, D.~S. 1976, \apjs, 30, 85
 Lorenzo-Oliveira, D., {Porto de Mello}, G.~F., \& Schiavon, R.~P. 2016, \aap,
   594, L3
 
-\bibitem[{{Loyd} {et~al.}(2018){Loyd}, {France}, {Youngblood}, {Schneider},
-  {Brown}, {Hu}, {Segura}, {Linsky}, {Redfield}, {Tian}, {Rugheimer}, {Miguel},
-  \& {Froning}}]{loyd_mflaresplanetsfuv_2018}
-{Loyd}, R.~O.~P., {France}, K., {Youngblood}, A., {et~al.} 2018, \apj, 867, 71
+\bibitem[{{Loyd} {et~al.}(2018{\natexlab{a}}){Loyd}, {France}, {Youngblood},
+  {Schneider}, {Brown}, {Hu}, {Segura}, {Linsky}, {Redfield}, {Tian},
+  {Rugheimer}, {Miguel}, \& {Froning}}]{loyd_mflaresplanetsfuv_2018}
+{Loyd}, R.~O.~P., {France}, K., {Youngblood}, A., {et~al.} 2018{\natexlab{a}},
+  \apj, 867, 71
+
+\bibitem[{{Loyd} {et~al.}(2018{\natexlab{b}}){Loyd}, {Shkolnik}, {Schneider},
+  {Barman}, {Meadows}, {Pagano}, \& {Peacock}}]{loyd2018}
+{Loyd}, R.~O.~P., {Shkolnik}, E.~L., {Schneider}, A.~C., {et~al.}
+  2018{\natexlab{b}}, \apj, 867, 70
 
 \bibitem[{Luger {et~al.}(2016)Luger, Agol, Kruse, Barnes, Becker,
   Foreman-Mackey, \& Deming}]{luger_everest_2016}
@@ -820,6 +829,10 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
   {Soubiran}}]{netopil_metallicities_2016}
 {Netopil}, M., {Paunzen}, E., {Heiter}, U., \& {Soubiran}, C. 2016, \aap, 585,
   A150
+
+\bibitem[{Odert {et~al.}(2017)Odert, Leitzinger, Hanslmeier, \&
+  Lammer}]{odert2017}
+Odert, P., Leitzinger, M., Hanslmeier, A., \& Lammer, H. 2017, \mnras, 472, 876
 
 \bibitem[{{Olivares} {et~al.}(2019){Olivares}, {Bouy}, {Sarro}, {Miret-Roig},
   {Berihuete}, {Bertin}, {Barrado}, {Hu{\'e}lamo}, {Tamura}, {Allen},
@@ -931,6 +944,12 @@ Schaefer, B.~E., King, J.~R., \& Deliyannis, C.~P. 2000, \apj, 529, 1026
 \bibitem[{Schmidt {et~al.}(2016)Schmidt, Shappee, Gagn{\'e}, Stanek, Prieto,
   Holoien, Kochanek, Chomiuk, Dong, Seibert, \& Strader}]{schmidt2016}
 Schmidt, S.~J., Shappee, B.~J., Gagn{\'e}, J., {et~al.} 2016, \apj, 828, L22
+
+\bibitem[{{Schmidt} {et~al.}(2019){Schmidt}, {Shappee}, {van Saders}, {Stanek},
+  {Brown}, {Kochanek}, {Dong}, {Drout}, {Frank}, {Holoien}, {Johnson},
+  {Madore}, {Prieto}, {Seibert}, {Seidel}, \& {Simonian}}]{schmidt2019}
+{Schmidt}, S.~J., {Shappee}, B.~J., {van Saders}, J.~L., {et~al.} 2019, \apj,
+  876, 115
 
 \bibitem[{{Schmidt} {et~al.}(2014){Schmidt}, {West}, {Bochanski}, {Hawley}, \&
   {Kielty}}]{Schmidt2014a}
