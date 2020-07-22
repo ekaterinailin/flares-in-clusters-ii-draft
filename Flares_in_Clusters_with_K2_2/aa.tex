@@ -186,7 +186,7 @@ We determined effective temperatures ($T_\mathrm{eff}$) using broadband photomet
 \\
 Empirical color-temperature relations (CTR) suffer from systematic errors that stem both from the different methods applied, and from sample selection biases. We therefore used several empirical relations in their appropriate ranges to obtain $T_\mathrm{eff}$ from each, and draw a more reliable median value. Targets that were lacking sufficient photometric data to derive $T_\mathrm{eff}$, or that were too hot to be expected to have a convective envelope ($T_\mathrm{eff} \geq 7000\,$K), were removed from the sample. We dropped all targets where the uncertainty on the weighted mean $T_\mathrm{eff}$ was greater than $10\,$\%. Only targets that were assigned a $T_\mathrm{eff}$ were searched for flares. 
 }
-To determine robust $T_\mathrm{eff}$~(Figs. \ref{fig:teff_pleiades_hyades_praesepe} and \ref{fig:teff_ngc6774_ngc2682}), we used CTRs from \citet{boyajian_stellar_2013} and \citet{mann_erratum_2016} (erratum to \citealt{mann_how_2015}), $T_\mathrm{eff}$ derived from Gaia DR2 using the StarHorse algorithm~\citep{queiroz_starhorse_2018}, and $T_\mathrm{eff}$ inferred from Gaia DR2 using the Apsis pipeline~\citep{bailerjones_apsis_2013, andrae_gaiaapsis_2018}.
+To determine robust $T_\mathrm{eff}$~(Fig. \ref{fig:teff_spread}), we used CTRs from \citet{boyajian_stellar_2013} and \citet{mann_erratum_2016} (erratum to \citealt{mann_how_2015}), $T_\mathrm{eff}$ derived from Gaia DR2 using the StarHorse algorithm~\citep{queiroz_starhorse_2018}, and $T_\mathrm{eff}$ inferred from Gaia DR2 using the Apsis pipeline~\citep{bailerjones_apsis_2013, andrae_gaiaapsis_2018}.
 \\
 \citet{boyajian_stellar_2013} determined CTRs from a range of interferometrically characterized stars using $g-r$, $g-i$, $g-z$, $g-J$, $g-H$, and $g-K$ colors from SDSS and Johnson magnitudes for A to K stars. Their sample was centered on solar metallicity, so we constained the use of these CTRs to stars with $-0.25<$\,[Fe/H]$\,<0.25$. Following \citet{boyajian_stellar_2013}, we transformed 2MASS $JHK$ to $J-H$, $H-K$, and $J-K$ in the Johnson system from 2MASS to the Bessell-Brett sytem~\citep{carpenter_color_2001}, and from Bessell-Brett to Johnson using the relations in~\citet{bessell_brett_1988}. 
 \\
@@ -201,20 +201,20 @@ Gaia DR2 published $T_\mathrm{eff}$ for over 160 million sources~\citep{gaia2018
 
    \begin{figure*}[ht!]
 		\centering
-           \includegraphics[angle=90, width=0.7\hsize]{pics/clusters/Teff_spread_young.png}
+           \includegraphics[angle=90, width=\hsize]{pics/clusters/Teff_spread_all.png}
 
-      \caption{Empricial color-$T_\mathrm{eff}$ relations applied to high probability members of the Pleiades, the Hyades, and Praesepe. Individual stars are connected by lines between sub-plots to illustrate differences in the relations. We used PanSTARRS $griz$, 2MASS $JHK$, and Gaia DR2 $BP$ and $RP$ photometry with the following relations: $BP-RP$ (StarHorse, \citealt{anders_starhorse_2019}); $g-r$, $g-i$, $g-z$, $g-J$, $g-H$, $g-K$~\citep{boyajian_stellar_2013}; $BP-RP$ (Apsis, \citealt{andrae_gaiaapsis_2018}); $BP-RP$ (Mann), $r-z$, and $r-J$ \citep{mann_erratum_2016}. \textbf{The majority of connecting lines is nearly horizontal, indicating that different CTRs are consistent with one another when applied to our sample. As expected, some relations show noticeable systematic differences, especially at the high and low temperature ends of their scopes of validity.}}
-         \label{fig:teff_pleiades_hyades_praesepe}
+      \caption{Empricial color-$T_\mathrm{eff}$ relations applied to high probability members of the five open clusters in this study. Individual stars are connected with lines between sub-plots to illustrate differences in the relations. We used PanSTARRS $griz$, 2MASS $JHK$, and Gaia DR2 $BP$ and $RP$ photometry with the following relations: $BP-RP$ (StarHorse, \citealt{anders_starhorse_2019}); $g-r$, $g-i$, $g-z$, $g-J$, $g-H$, $g-K$~\citep{boyajian_stellar_2013}; $BP-RP$ (Apsis, \citealt{andrae_gaiaapsis_2018}); $BP-RP$ (Mann), $r-z$, and $r-J$ \citep{mann_erratum_2016}. \textbf{The majority of connecting lines is nearly horizontal, indicating that different CTRs are consistent with one another when applied to our sample. As expected, some relations show noticeable systematic differences, especially at the high and low temperature ends of their scopes of validity.}}
+         \label{fig:teff_spread}
    \end{figure*}
    
-
-   \begin{figure*}[ht!]
-		\centering
-           \includegraphics[angle=90, width=0.52\hsize]{pics/clusters/Teff_spread_old.png}
-
-      \caption{Empricial color-$T_\mathrm{eff}$ relations applied to high probability members of Ruprecht 147, and M67. See Fig. \ref{fig:teff_pleiades_hyades_praesepe} for details.}
-         \label{fig:teff_ngc6774_ngc2682}
-   \end{figure*}   
+%
+%   \begin{figure*}[ht!]
+%		\centering
+%           \includegraphics[angle=90, width=0.52\hsize]{pics/clusters/Teff_spread_old.png}
+%
+%      \caption{Empricial color-$T_\mathrm{eff}$ relations applied to high probability members of Ruprecht 147, and M67. See Fig. \ref{fig:teff_pleiades_hyades_praesepe} for details.}
+%         \label{fig:teff_ngc6774_ngc2682}
+%   \end{figure*}   
 %---------------------------------------------------------------
 %---------------------------------------------------------------
 
