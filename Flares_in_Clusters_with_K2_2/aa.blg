@@ -38,52 +38,52 @@ You're missing a field name---line 6657 of file MyLibrary.bib
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7197 of file MyLibrary.bib
+You're missing a field name---line 7227 of file MyLibrary.bib
  :   
  :   %number = {825},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7294 of file MyLibrary.bib
+You're missing a field name---line 7324 of file MyLibrary.bib
  :   
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "pandas2020software" isn't style-file defined
---line 7952 of file MyLibrary.bib
+--line 7982 of file MyLibrary.bib
 Reallocating 'str_pool' (item size: 1) to 130000 items.
-Unbalanced braces---line 9139 of file MyLibrary.bib
+Unbalanced braces---line 9169 of file MyLibrary.bib
  :         epoch lasts longer for lower-mass stars.
  :                                                 }",
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9385 of file MyLibrary.bib
+You're missing a field name---line 9415 of file MyLibrary.bib
  :   
  :   %number = {5987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9819 of file MyLibrary.bib
+You're missing a field name---line 9849 of file MyLibrary.bib
  :   
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 10925 of file MyLibrary.bib
+You're missing a field name---line 10955 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 11013 of file MyLibrary.bib
+You're missing a field name---line 11043 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 12850 of file MyLibrary.bib
+Repeated entry---line 12880 of file MyLibrary.bib
  : @article{Schmidt2015
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "davenport2016"
+Warning--I didn't find a database entry for "curtis_ruprecht_2013"
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 You've used 175 entries,
             3039 wiz_defined-function locations,
-            1656 strings with 83015 characters,
+            1657 strings with 83021 characters,
 and the built_in function-call counts, 194453 in all, are:
 = -- 14049
 > -- 27688
