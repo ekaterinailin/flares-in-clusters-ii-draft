@@ -638,11 +638,6 @@ Gonzalez, G. 2016, \mnras, 459, 1060
 {Hartman}, J.~D., {Gaudi}, B.~S., {Holman}, M.~J., {et~al.} 2008, \apj, 675,
   1233
 
-\bibitem[{Hawley {et~al.}(2014)Hawley, Davenport, Kowalski, Wisniewski, Hebb,
-  Deitrick, \& Hilton}]{hawley_kepler_2014}
-Hawley, S.~L., Davenport, J. R.~A., Kowalski, A.~F., {et~al.} 2014, \apj, 797,
-  121
-
 \bibitem[{Hawley \& Fisher(1992{\natexlab{a}})}]{hawley1992}
 Hawley, S.~L. \& Fisher, G.~H. 1992{\natexlab{a}}, \apjs, 78, 565
 
@@ -679,6 +674,13 @@ Howell, S.~B., Sobeck, C., Haas, M., {et~al.} 2014, \pasp, 126, 398
 {Ivezi{\'c}}, {\v Z}., {Connolly}, A., {Vanderplas}, J., \& {Gray}, A. 2014,
   Statistics, Data Mining and Machine Learning in Astronomy (Princeton
   University Press)
+
+\bibitem[{{Jackman} {et~al.}(2020){Jackman}, {Wheatley}, {Acton}, {Anderson},
+  {Belardi}, {Burleigh}, {Casewell}, {Eigm{\"u}ller}, {Gill}, {Gillen}, {Goad},
+  {Grange}, {Hodgkin}, {Jenkins}, {McCormac}, {Moyano}, {Queloz}, {Raynard},
+  {Tilbrook}, {Watson}, \& {West}}]{jackman2020}
+{Jackman}, J. A.~G., {Wheatley}, P.~J., {Acton}, J.~S., {et~al.} 2020, \mnras
+  [\eprint[arXiv]{2007.01553}]
 
 \bibitem[{{Jackman} {et~al.}(2019){Jackman}, {Wheatley}, {Bayliss}, {Burleigh},
   {Casewell}, {Eigm{\"u}ller}, {Goad}, {Pollacco}, {Raynard}, {Watson}, \&
