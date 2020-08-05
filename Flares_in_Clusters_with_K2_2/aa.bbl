@@ -1,4 +1,4 @@
-\begin{thebibliography}{175}
+\begin{thebibliography}{176}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -772,6 +772,10 @@ Lorenzo-Oliveira, D., {Porto de Mello}, G.~F., \& Schiavon, R.~P. 2016, \aap,
 {Loyd}, R.~O.~P., {Shkolnik}, E.~L., {Schneider}, A.~C., {et~al.}
   2018{\natexlab{b}}, \apj, 867, 70
 
+\bibitem[{{Lu} {et~al.}(2019){Lu}, {Zhang}, {Shi}, {Han}, {Fan}, {Long}, \&
+  {Pi}}]{lu2019}
+{Lu}, H.-p., {Zhang}, L.-y., {Shi}, J., {et~al.} 2019, \apjs, 243, 28
+
 \bibitem[{Luger {et~al.}(2016)Luger, Agol, Kruse, Barnes, Becker,
   Foreman-Mackey, \& Deming}]{luger_everest_2016}
 Luger, R., Agol, E., Kruse, E., {et~al.} 2016, \aj, 152, 100
@@ -853,9 +857,6 @@ Odert, P., Leitzinger, M., Hanslmeier, A., \& Lammer, H. 2017, \mnras, 472, 876
 
 \bibitem[{Pace(2013)}]{pace_chromospheric_2013}
 Pace, G. 2013, \aap, 551, L8
-
-\bibitem[{pandas~development team(2020)}]{pandas2020software}
-pandas~development team, T. 2020, pandas-dev/pandas: Pandas
 
 \bibitem[{{Paudel} {et~al.}(2018){Paudel}, {Gizis}, {Mullan}, {Schmidt},
   {Burgasser}, {Williams}, \& {Berger}}]{paudel_monsterucdflare_2018}
@@ -988,6 +989,11 @@ Skumanich, A. 1972, \apj, 171, 565
 \bibitem[{Soderblom {et~al.}(1991)Soderblom, Duncan, \&
   Johnson}]{soderblom_chromospheric_1991}
 Soderblom, D.~R., Duncan, D.~K., \& Johnson, D. R.~H. 1991, \apj, 375, 722
+
+\bibitem[{{Stelzer} {et~al.}(2016){Stelzer}, {Damasso}, {Scholz}, \&
+  {Matt}}]{stelzer2016}
+{Stelzer}, B., {Damasso}, M., {Scholz}, A., \& {Matt}, S.~P. 2016, \mnras, 463,
+  1844
 
 \bibitem[{{Stelzer} {et~al.}(2006){Stelzer}, {Schmitt}, {Micela}, \&
   {Liefke}}]{stelzer2006}
