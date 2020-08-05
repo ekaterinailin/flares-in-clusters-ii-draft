@@ -77,47 +77,46 @@ Repeated entry---line 13008 of file MyLibrary.bib
  : @article{Schmidt2015
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "wheatland2004"
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-You've used 176 entries,
+You've used 177 entries,
             3039 wiz_defined-function locations,
-            1665 strings with 83745 characters,
-and the built_in function-call counts, 195922 in all, are:
-= -- 14152
-> -- 27908
+            1664 strings with 83893 characters,
+and the built_in function-call counts, 196449 in all, are:
+= -- 14193
+> -- 27957
 < -- 40
-+ -- 9342
-- -- 9132
-* -- 19080
-:= -- 37073
-add.period$ -- 176
-call.type$ -- 176
-change.case$ -- 3746
-chr.to.int$ -- 172
-cite$ -- 176
-duplicate$ -- 3247
-empty$ -- 4601
-format.name$ -- 9571
-if$ -- 37902
++ -- 9358
+- -- 9147
+* -- 19129
+:= -- 37172
+add.period$ -- 177
+call.type$ -- 177
+change.case$ -- 3755
+chr.to.int$ -- 173
+cite$ -- 177
+duplicate$ -- 3266
+empty$ -- 4626
+format.name$ -- 9589
+if$ -- 38003
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 168
-newline$ -- 532
-num.names$ -- 706
-pop$ -- 3713
+missing$ -- 169
+newline$ -- 535
+num.names$ -- 710
+pop$ -- 3722
 preamble$ -- 1
-purify$ -- 3746
+purify$ -- 3755
 quote$ -- 0
-skip$ -- 2799
+skip$ -- 2814
 stack$ -- 0
-substring$ -- 3681
+substring$ -- 3699
 swap$ -- 34
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1581
+type$ -- 1590
 warning$ -- 0
-while$ -- 700
+while$ -- 704
 width$ -- 0
-write$ -- 1760
+write$ -- 1770
 (There were 15 error messages)

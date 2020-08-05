@@ -1,4 +1,4 @@
-\begin{thebibliography}{176}
+\begin{thebibliography}{177}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -54,6 +54,11 @@ Aigrain, S., Parviainen, H., \& Pope, B. J.~S. 2016, \mnras, 459, 2408
 \bibitem[{Barnes(2003)}]{barnes_rotational_2003}
 Barnes, S.~A. 2003, \apj, 586, 464
 
+\bibitem[{Barnes {et~al.}(2016)Barnes, Weingrill, Fritzewski, Strassmeier, \&
+  Platais}]{barnes_rotation_2016}
+Barnes, S.~A., Weingrill, J., Fritzewski, D., Strassmeier, K.~G., \& Platais,
+  I. 2016, \apj, 823, 16
+
 \bibitem[{Bell {et~al.}(2012)Bell, Naylor, Mayne, Jeffries, \&
   Littlefair}]{bell_pre-main-sequence_2012}
 Bell, C. P.~M., Naylor, T., Mayne, N.~J., Jeffries, R.~D., \& Littlefair, S.~P.
@@ -67,8 +72,8 @@ Benz, A.~O. \& G{\"u}del, M. 2010, \araa, 48, 241
 
 \bibitem[{Berthier {et~al.}(2016)Berthier, Carry, Vachier, Eggl, \&
   Santerne}]{berthier2016}
-Berthier, J., Carry, B., Vachier, F., Eggl, S., \& Santerne, A. 2016, Monthly
-  Notices of the Royal Astronomical Society, 458, 3394
+Berthier, J., Carry, B., Vachier, F., Eggl, S., \& Santerne, A. 2016, \mnras,
+  458, 3394
 
 \bibitem[{{Berthier} {et~al.}(2006){Berthier}, {Vachier}, {Thuillot},
   {Fernique}, {Ochsenbein}, {Genova}, {Lainey}, \& {Arlot}}]{berthier2006}
@@ -78,8 +83,7 @@ Berthier, J., Carry, B., Vachier, F., Eggl, S., \& Santerne, A. 2016, Monthly
   \& S.~{Enrique}, 367
 
 \bibitem[{{Bessell} \& {Brett}(1988)}]{bessell_brett_1988}
-{Bessell}, M.~S. \& {Brett}, J.~M. 1988, Publications of the Astronomical
-  Society of the Pacific, 100, 1134
+{Bessell}, M.~S. \& {Brett}, J.~M. 1988, \pasp, 100, 1134
 
 \bibitem[{{Bochanski} {et~al.}(2010){Bochanski}, {Hawley}, {Covey}, {West},
   {Reid}, {Golimowski}, \& {Ivezi{\'c}}}]{Bochanski2010}
@@ -122,8 +126,7 @@ Boudreault, S., Lodieu, N., Deacon, N.~R., \& Hambly, N.~C. 2012, \mnras, 426,
 \bibitem[{Boyajian {et~al.}(2013)Boyajian, von Braun, van Belle, Farrington,
   Schaefer, Jones, White, McAlister, ten Brummelaar, Ridgway, Gies, Sturmann,
   Sturmann, Turner, Goldfinger, \& Vargas}]{boyajian_stellar_2013}
-Boyajian, T.~S., von Braun, K., van Belle, G., {et~al.} 2013, The Astrophysical
-  Journal, 771, 40
+Boyajian, T.~S., von Braun, K., van Belle, G., {et~al.} 2013, \apj, 771, 40
 
 \bibitem[{{Bragaglia} {et~al.}(2018){Bragaglia}, {Fu}, {Mucciarelli},
   {Andreuzzi}, \& {Donati}}]{bragaglia2018}
@@ -166,7 +169,7 @@ Candelaresi, S., Hillier, A., Maehara, H., Brandenburg, A., \& Shibata, K.
   A93
 
 \bibitem[{Carpenter(2001)}]{carpenter_color_2001}
-Carpenter, J.~M. 2001, The Astronomical Journal, 121, 2851
+Carpenter, J.~M. 2001, \aj, 121, 2851
 
 \bibitem[{Chambers {et~al.}(2016)Chambers, Magnier, Metcalfe, Flewelling,
   Huber, Waters, Denneau, Draper, Farrow, Finkbeiner, Holmberg, Koppenhoefer,
@@ -804,7 +807,7 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2015,
 \bibitem[{Mann {et~al.}(2016)Mann, Feiden, Gaidos, Boyajian, \& von
   Braun}]{mann_erratum_2016}
 Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
-  The Astrophysical Journal, 819, 87
+  \apj, 819, 87
 
 \bibitem[{{Maschberger} \& {Kroupa}(2009)}]{maschberger2009}
 {Maschberger}, T. \& {Kroupa}, P. 2009, \mnras, 395, 931
@@ -816,7 +819,7 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
 \bibitem[{{Melis} {et~al.}(2014){Melis}, {Reid}, {Mioduszewski}, {Stauffer}, \&
   {Bower}}]{melis2014}
 {Melis}, C., {Reid}, M.~J., {Mioduszewski}, A.~J., {Stauffer}, J.~R., \&
-  {Bower}, G.~C. 2014, Science, 345, 1029
+  {Bower}, G.~C. 2014, \sci, 345, 1029
 
 \bibitem[{{Mirzoyan}(1993)}]{mirzoyan1993}
 {Mirzoyan}, A.~V. 1993, Astrophysics, 36, 170
@@ -872,7 +875,7 @@ Pecaut, M.~J. \& Mamajek, E.~E. 2013, \apjs, 208, 9
 \bibitem[{Perryman {et~al.}(1998)Perryman, Brown, Lebreton, Gomez, Turon,
   {Cayrel de Strobel}, Mermilliod, Robichon, Kovalevsky, \&
   Crifo}]{perryman1998}
-Perryman, M.~A.~C., Brown, A.~G.~A., Lebreton, Y., {et~al.} 1998, aap, 331, 81
+Perryman, M.~A.~C., Brown, A.~G.~A., Lebreton, Y., {et~al.} 1998, \aap, 331, 81
 
 \bibitem[{Priest \& Forbes(2002)}]{priest_magnetic_2002}
 Priest, E. \& Forbes, T. 2002, \aapr, 10, 313
@@ -1002,8 +1005,8 @@ Soderblom, D.~R., Duncan, D.~K., \& Johnson, D. R.~H. 1991, \apj, 375, 722
 
 \bibitem[{Szab{\'{o}} {et~al.}(2015)Szab{\'{o}}, S{\'{a}}rneczky, Szab{\'{o}},
   P{\'{a}}l, Kiss, Cs{\'{a}}k, Ill{\'{e}}s, R{\'{a}}cz, \& Kiss}]{szabo2015}
-Szab{\'{o}}, R., S{\'{a}}rneczky, K., Szab{\'{o}}, G.~M., {et~al.} 2015, The
-  Astronomical Journal, 149, 112
+Szab{\'{o}}, R., S{\'{a}}rneczky, K., Szab{\'{o}}, G.~M., {et~al.} 2015, \aj,
+  149, 112
 
 \bibitem[{{Taylor} \& {Joner}(2005)}]{taylor2005}
 {Taylor}, B.~J. \& {Joner}, M.~D. 2005, \apjs, 159, 100
@@ -1034,8 +1037,7 @@ Van~Cleve, J.~E., Howell, S.~B., Smith, J.~C., {et~al.} 2016, \pasp, 128,
   Science Engineering, 13, 22
 
 \bibitem[{{Vanderburg} \& {Johnson}(2014)}]{vanderburg_k2sff_2014}
-{Vanderburg}, A. \& {Johnson}, J.~A. 2014, Publications of the Astronomical
-  Society of the Pacific, 126, 948
+{Vanderburg}, A. \& {Johnson}, J.~A. 2014, \pasp, 126, 948
 
 \bibitem[{{Vanderplas} {et~al.}(2012){Vanderplas}, {Connolly}, {Ivezi{\'c}}, \&
   {Gray}}]{astroML2012}
