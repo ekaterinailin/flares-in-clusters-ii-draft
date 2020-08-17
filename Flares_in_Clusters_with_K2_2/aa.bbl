@@ -1,4 +1,4 @@
-\begin{thebibliography}{177}
+\begin{thebibliography}{173}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -156,11 +156,6 @@ Boyajian, T.~S., von Braun, K., van Belle, G., {et~al.} 2013, \apj, 771, 40
 {Burgasser}, A.~J., {McElwain}, M.~W., {Kirkpatrick}, J.~D., {et~al.} 2004,
   \aj, 127, 2856
 
-\bibitem[{Candelaresi {et~al.}(2014)Candelaresi, Hillier, Maehara, Brandenburg,
-  \& Shibata}]{candelaresi_superflare_2014}
-Candelaresi, S., Hillier, A., Maehara, H., Brandenburg, A., \& Shibata, K.
-  2014, \apj, 792, 67
-
 \bibitem[{{Cantat-Gaudin} {et~al.}(2018){Cantat-Gaudin}, {Jordi}, {Vallenari},
   {Bragaglia}, {Balaguer-N{\'u}{\~n}ez}, {Soubiran}, {Bossini}, {Moitinho},
   {Castro-Ginard}, {Krone-Martins}, {Casamiquela}, {Sordo}, \&
@@ -223,11 +218,6 @@ Clarke, R.~W., Davenport, J. R.~A., Covey, K.~R., \& Baranec, C. 2018, \apj,
 \bibitem[{{Curtis}(2016)}]{curtis2016}
 {Curtis}, J.~L. 2016, PhD thesis, Penn State University
 
-\bibitem[{{Curtis} {et~al.}(2019){Curtis}, {Ag{\"u}eros}, {Douglas}, \&
-  {Meibom}}]{curtis2019}
-{Curtis}, J.~L., {Ag{\"u}eros}, M.~A., {Douglas}, S.~T., \& {Meibom}, S. 2019,
-  \apj, 879, 49
-
 \bibitem[{{Curtis} {et~al.}(2013){Curtis}, {Wolfgang}, {Wright}, {Brewer}, \&
   {Johnson}}]{curtis2013}
 {Curtis}, J.~L., {Wolfgang}, A., {Wright}, J.~T., {Brewer}, J.~M., \&
@@ -271,10 +261,6 @@ Dias, W.~S., Monteiro, H., Caetano, T.~C., \& Oliveira, A.~F. 2012, \aap, 539,
   {Ivezi{\'c}}, {Brinkmann}, {de Haars}, {Kleinman}, {Krzesinski}, \& {French
   Leger}}]{Doi2010}
 {Doi}, M., {Tanaka}, M., {Fukugita}, M., {et~al.} 2010, \aj, 139, 1628
-
-\bibitem[{Doorsselaere {et~al.}(2017)Doorsselaere, Shariati, \&
-  Debosscher}]{doorsselaere_stellar_2017}
-Doorsselaere, T.~V., Shariati, H., \& Debosscher, J. 2017, \apjs, 232, 26
 
 \bibitem[{{Douglas} {et~al.}(2014){Douglas}, {Ag{\"u}eros}, {Covey}, {Bowsher},
   {Bochanski}, {Cargile}, {Kraus}, {Law}, {Lemonias}, {Arce}, {Fierroz}, \&
@@ -819,7 +805,7 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
 \bibitem[{{Melis} {et~al.}(2014){Melis}, {Reid}, {Mioduszewski}, {Stauffer}, \&
   {Bower}}]{melis2014}
 {Melis}, C., {Reid}, M.~J., {Mioduszewski}, A.~J., {Stauffer}, J.~R., \&
-  {Bower}, G.~C. 2014, \sci, 345, 1029
+  {Bower}, G.~C. 2014, Science, 345, 1029
 
 \bibitem[{{Mirzoyan}(1993)}]{mirzoyan1993}
 {Mirzoyan}, A.~V. 1993, Astrophysics, 36, 170
@@ -985,9 +971,6 @@ Shibayama, T., Maehara, H., Notsu, S., {et~al.} 2013, \apjs, 209, 5
   Fowler, Fullmer, Hurt, Light, Kopan, Marsh, McCallon, Tam, Van~Dyk, \&
   Wheelock}]{skrutskie_two_2006}
 Skrutskie, M.~F., Cutri, R.~M., Stiening, R., {et~al.} 2006, \aj, 131, 1163
-
-\bibitem[{Skumanich(1972)}]{skumanich1972}
-Skumanich, A. 1972, \apj, 171, 565
 
 \bibitem[{Soderblom {et~al.}(1991)Soderblom, Duncan, \&
   Johnson}]{soderblom_chromospheric_1991}
