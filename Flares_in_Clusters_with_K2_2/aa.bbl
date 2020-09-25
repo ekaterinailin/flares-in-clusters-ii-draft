@@ -1,4 +1,4 @@
-\begin{thebibliography}{173}
+\begin{thebibliography}{179}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -677,6 +677,11 @@ Howell, S.~B., Sobeck, C., Haas, M., {et~al.} 2014, \pasp, 126, 398
 {Jackman}, J. A.~G., {Wheatley}, P.~J., {Bayliss}, D., {et~al.} 2019, \mnras,
   485, L136
 
+\bibitem[{{Johnstone} {et~al.}(2020){Johnstone}, {Bartel}, \&
+  {G{\"u}del}}]{johnstone2020}
+{Johnstone}, C.~P., {Bartel}, M., \& {G{\"u}del}, M. 2020, arXiv e-prints,
+  arXiv:2009.07695
+
 \bibitem[{{Kerr} \& {Fletcher}(2014)}]{kerr_solarstellarwlf_2014}
 {Kerr}, G.~S. \& {Fletcher}, L. 2014, \apj, 783, 98
 
@@ -825,6 +830,10 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
 {Netopil}, M., {Paunzen}, E., {Heiter}, U., \& {Soubiran}, C. 2016, \aap, 585,
   A150
 
+\bibitem[{{Newton} {et~al.}(2017){Newton}, {Irwin}, {Charbonneau}, {Berlind},
+  {Calkins}, \& {Mink}}]{newton2017}
+{Newton}, E.~R., {Irwin}, J., {Charbonneau}, D., {et~al.} 2017, \apj, 834, 85
+
 \bibitem[{Odert {et~al.}(2017)Odert, Leitzinger, Hanslmeier, \&
   Lammer}]{odert2017}
 Odert, P., Leitzinger, M., Hanslmeier, A., \& Lammer, H. 2017, \mnras, 472, 876
@@ -862,6 +871,11 @@ Pecaut, M.~J. \& Mamajek, E.~E. 2013, \apjs, 208, 9
   {Cayrel de Strobel}, Mermilliod, Robichon, Kovalevsky, \&
   Crifo}]{perryman1998}
 Perryman, M.~A.~C., Brown, A.~G.~A., Lebreton, Y., {et~al.} 1998, \aap, 331, 81
+
+\bibitem[{{Pizzolato} {et~al.}(2003){Pizzolato}, {Maggio}, {Micela},
+  {Sciortino}, \& {Ventura}}]{pizzolato2003}
+{Pizzolato}, N., {Maggio}, A., {Micela}, G., {Sciortino}, S., \& {Ventura}, P.
+  2003, \aap, 397, 147
 
 \bibitem[{Priest \& Forbes(2002)}]{priest_magnetic_2002}
 Priest, E. \& Forbes, T. 2002, \aapr, 10, 313
@@ -1027,6 +1041,11 @@ Van~Cleve, J.~E., Howell, S.~B., Smith, J.~C., {et~al.} 2016, \pasp, 128,
 {Vanderplas}, J., {Connolly}, A., {Ivezi{\'c}}, {\v Z}., \& {Gray}, A. 2012, in
   Conference on Intelligent Data Understanding (CIDU), 47 --54
 
+\bibitem[{Vidotto {et~al.}(2014)Vidotto, Gregory, Jardine, Donati, Petit,
+  Morin, Folsom, Bouvier, Cameron, Hussain, Marsden, Waite, Fares, Jeffers, \&
+  {do Nascimento}}]{vidotto2014}
+Vidotto, A.~A., Gregory, S.~G., Jardine, M., {et~al.} 2014, \mnras, 441, 2361
+
 \bibitem[{Walkowicz {et~al.}(2011)Walkowicz, Basri, Batalha, Gilliland,
   Jenkins, Borucki, Koch, Caldwell, Dupree, Latham, Meibom, Howell, Brown, \&
   Bryson}]{walkowicz2011}
@@ -1047,12 +1066,21 @@ Walkowicz, L.~M., Basri, G., Batalha, N., {et~al.} 2011, \aj, 141, 50
   {Dhital}, {Pineda}, \& {Jones}}]{West2011}
 {West}, A.~A., {Morgan}, D.~P., {Bochanski}, J.~J., {et~al.} 2011, \aj, 141, 97
 
+\bibitem[{{West} {et~al.}(2015){West}, {Weisenburger}, {Irwin},
+  {Berta-Thompson}, {Charbonneau}, {Dittmann}, \& {Pineda}}]{west2015}
+{West}, A.~A., {Weisenburger}, K.~L., {Irwin}, J., {et~al.} 2015, \apj, 812, 3
+
 \bibitem[{{Wheatland}(2004)}]{wheatland_flaresbayes_2004}
 {Wheatland}, M.~S. 2004, \apj, 609, 1134
 
 \bibitem[{{Winters} {et~al.}(2019){Winters}, {Henry}, {Jao}, {Subasavage},
   {Chatelain}, {Slatten}, {Riedel}, {Silverstein}, \& {Payne}}]{winters2019}
 {Winters}, J.~G., {Henry}, T.~J., {Jao}, W.-C., {et~al.} 2019, \aj, 157, 216
+
+\bibitem[{{Wright} {et~al.}(2011){Wright}, {Drake}, {Mamajek}, \&
+  {Henry}}]{wright2011}
+{Wright}, N.~J., {Drake}, J.~J., {Mamajek}, E.~E., \& {Henry}, G.~W. 2011,
+  \apj, 743, 48
 
 \bibitem[{{Wu} {et~al.}(2015){Wu}, {Ip}, \& {Huang}}]{wu2015}
 {Wu}, C.-J., {Ip}, W.-H., \& {Huang}, L.-C. 2015, \apj, 798, 92
