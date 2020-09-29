@@ -331,39 +331,14 @@ Energies of flares found in Kepler 30 minute cadence light curves are underestim
 \end{table*}
 %----------------------------------------
 
-%----------------------------------------
-\begin{figure*}[ht!]
-    \centering
-    \includegraphics[width=0.49\hsize]{pics/FFDs/full_sample_ffd_ED_wheatland.png}
-    \hspace{.01cm}
-    \includegraphics[width=0.49\hsize]{pics/FFDs/full_sample_ffd_energy_wheatland.png}
-    \caption{Cumulative flare frequency distributions (FFD, grey stars) in $ED$ (left panel) and $E_\mathrm{Kp}$ (right panel) with respective power law fits (red lines) to the full sample of confirmed flare candidates. The complete distribution (light grey stars) is larger than the portion used for the fit (dark grey stars) because we omitted the incomplete low energy tail. The red shade consists of a randomly drawn sample from the posterior distribution. $\alpha$ and $\beta$ are the best fit power law parameters as defined in Eq. \ref{eqn:cumdist}. The posterior distributions were fitted with Gaussian functions that we then used as priors for the FFD fits in the $T_\mathrm{eff}$ bins in Figs. \ref{fig:powerlawfits_s} and \ref{fig:powerlawfits_erg}.}
-    \label{fig:powerlawfit_full}
-\end{figure*}
-%----------------------------------------
+
 The core objective of this work was to quantify how the previously noted decline in flaring activity with age would unfold for different spectral types. To this end, we searched the long cadence light curves of stars across a broad range of spectral types in five different open clusters for flares, and measured their energies and occurrence rates. We found \input{values/total_number_of_flares.txt}\unskip\;flares on \input{values/total_number_of_stars.txt}\unskip\;stars in five open clusters for $T_\mathrm{eff}$ between 2500 K and 6000 K. The flares' amplitudes $a$, start and end cadence numbers $c_0$ and $c_1$, $ED$, energies $E_\mathrm{Kp}$, along with the stars' EPIC ID, $T_\mathrm{eff}$, and projected bolometric and Kepler band luminosities $L_\mathrm{bol,*}$ and $L_\mathrm{Kp,*}$ are listed in Table \ref{tab:flares}. We fitted power law relations to the flare frequency distributions (FFD) of stars binned by age, and $T_\mathrm{eff}$~(Figs. \ref{fig:powerlawfits_s}, \ref{fig:powerlawfits_erg} and Table \ref{tab:powerlawtable_spt}). We found that flaring activity decreased with increasing age from ZAMS to 3.6 Gyr, and from mid-M to G dwarfs. Except for the stars in the coolest temperature bin (M5.5-M8, 2\,500-3\,000 K), stellar flaring activity at a given age was higher for cooler stars.
 %------------------------------------------------
 \subsection{Flare frequency distributions}
-We fitted power law parameters $\alpha$ and $\beta$ (Eq.~\ref{eqn:cumdist}) to the full sample FFDs in $E_\mathrm{Kp}$ and $ED$ space by sampling from the joint posterior distibution (Eq. \ref{joint_posterior}), where we chose uninformative priors for both $\alpha$ and $\epsilon$. Our FFDs combine the flare rates found in multiple stars with different observation times and detection thresholds that cause deviations from a powerlaw distribution at the high and low energy ends of the FFDs, respectively.
-\\
-The detection threshold in any FFD was not a unique function of $E_\mathrm{Kp}$ or $ED$, but depended on the flares' amplitudes and durations. Since it was computationally not feasible to perform the injection and recovery of synthetic flares to determine the effect of \texttt{K2SC} de-trending, we could not correct for the incompleteness of flare detection at the low energy end~(see Section \ref{sec:sec:injrec}). For the power law fit, our approximation to the detection threshold was the highest minimum detected energy from all FFDs of individual stars. This was equivalent to using only the part of the FFD that was above the detection threshold for all stars in the sample. In the full sample~(Fig.~\ref{fig:powerlawfit_full}), the number of flares was large enough to allow us to double this energy threshold. This mitigated but did not solve the problem of a detection probability $<1$ that still affected the shape of the FFDs at the lower energy end. We did not exclude even more flares on the low-energy end because it would have given increasing weight to the high-energy tail which steepened due to the effects of limited observation times of the flaring stars. The co-adding of flare samples from stars of different activity levels aggravated the high-energy incompleteness. Consequently the high-energy tail of the FFD was also incomplete. 
-%To arrive at consistency with a powerlaw at a 5\% significance level using a Kolmogorov-Smirnov as suggested by~\citet{wheatland_flaresbayes_2004} by choosing ever higher low-energy cutoffs, we would have had to exclude the majority of flares. The power law exponent in these cases would have approached $\alpha\sim 2.4$ (using only about 320 flares out of \input{values/total_number_of_flares.txt}). 
-The absolute value of $\alpha$ obtained in this study should be interpreted in light of these limitations. It remained useful as a relative anchor for the comparison within the sample assuming that similar caveats applied to all our age- and $T_\mathrm{eff}$-binned FFDs.
-\\
-We fitted a Gaussian distribution to the posterior distribution for $\alpha$ from the full sample. The values for the full sample FFDs in $E_\mathrm{Kp}$ and $ED$ space~(Fig. \ref{fig:powerlawfit_full}) are summarized in Table \ref{tab:powerlawtable_fullsample}. In the table, $\alpha$ and $\beta$ are the power law parameters from Eq.~\ref{eqn:cumdist}. The number of flares $n_\mathrm{tot}$ in the distribution is higher than the number $n_\mathrm{fit}$ of flares used to fit the power law because we omitted the low-energy tail of the distribution.
-\\
-The aim of this work was to investigate the effects of age on the flaring activity for low mass stars. We therefore split up the full sample into $T_\mathrm{eff}$ bins and constructed the FFDs cluster by cluster~(Figs. \ref{fig:powerlawfits_s} and \ref{fig:powerlawfits_erg}). The full sample posteriors for $\alpha$ were then used as priors for the power law fits to the FFDs in the individual bins. The power law fit parameters to these FFDs, broken down by cluster and $T_\mathrm{eff}$, are summarized in Table \ref{tab:powerlawtable_spt}. The indices s and erg to $\alpha$ and $\beta$ indicate the fits to the FFDs in $ED$ and $E_\mathrm{Kp}$, respectively. $n$ is the number of flares detected in each $T_\mathrm{eff}$ bin. We provide Table \ref{tab:powerlawtable_spt} to enable future science to build a comprehensive flare rate evolution model.
+\textbf{The aim of this work was to investigate the effects of age on the flaring activity for low mass stars. We therefore split up the full sample into $T_\mathrm{eff}$ bins and constructed the FFDs cluster by cluster~(Figs. \ref{fig:powerlawfits_s} and \ref{fig:powerlawfits_erg}). We used a broad Gaussian prior for $\alpha$ with mean 1.9 and standard deviation .4 that covers the range of $\alpha$ values obtained in past studies~(see Fig.~\ref{fig:powerlaw_literature} in the discussion). The power law fit parameters to these FFDs, broken down by cluster and $T_\mathrm{eff}$, are summarized in Table~\ref{tab:powerlawtable_spt}. In the table, $\alpha$ and $\beta$ are the power law parameters from Eq.~\ref{eqn:cumdist}. The number of flares $n_\mathrm{tot}$ in the distribution is higher than the number $n_\mathrm{fit}$ of flares used to fit the power law because we omitted the low-energy tail of the distribution where the detection probability decreases. The indices s and erg to $\alpha$ and $\beta$ indicate the fits to the FFDs in $ED$ and $E_\mathrm{Kp}$, respectively. $n$ is the number of flares detected in each $T_\mathrm{eff}$ bin. We provide Table \ref{tab:powerlawtable_spt} to enable future science to build a comprehensive flare rate evolution model.}
 %-------------------------------------------
 
-%-------------------------------------------
-\begin{table}
-\caption{FFD and power law fit parameters to the full flare sample in $E_\mathrm{Kp}$ and $ED$ (Fig. \ref{fig:powerlawfit_full}).}
-\label{tab:powerlawtable_fullsample}
-\centering
-\input{tables/powerlaw_fullsample_wheatland.tex}
-\tablefoot{Uncertainties are given in parentheses. min. and max. are minimum and maximum detected flare $ED$/energy, $n_\mathrm{tot}$ is the total number of flares in the sample. $n_\mathrm{fit}$ is the number of flares used for the power law fit.}
-\end{table}
-%-------------------------------------------
+
 %----------------------------------------
 \begin{figure*}[Ht!]
     \centering
@@ -395,12 +370,12 @@ The aim of this work was to investigate the effects of age on the flaring activi
 
 
 %-------------------------------------------
-\begin{figure*}[ht!]
+\begin{figure}[ht!]
     \centering
-    \includegraphics[width=15.5cm]{pics/FFDs/beta_T_age_ED_wheatland.png}
+    \includegraphics[width=\hsize]{pics/FFDs/beta_T_age_ED_wheatland.png}
     \caption{The power law fit intercept $\beta_\mathrm{s}$ for the flare frequency distributions in Fig.~\ref{fig:powerlawfits_s} as a function of age. The values are grouped by $T_\mathrm{eff}$ (different colors and symbols in the legend), and presented on a log-log scale. $\beta_\mathrm{s}$ indicates the occurrence rate of flares with $ED=1$ s~(see Eq. \ref{eqn:cumdist}). It is controlled for stellar luminosity, so that we can compare flaring activity across both age, and $T_\mathrm{eff}$, at the same time. The age labels correspond to the open cluster ages in Table \ref{tab:data_clusters}.}    	
     \label{fig:beta_T_age}
-\end{figure*}
+\end{figure}
 %-------------------------------------------
 %-------------------------------------------
 \begin{figure}[ht!]
@@ -410,10 +385,10 @@ The aim of this work was to investigate the effects of age on the flaring activi
     \label{fig:FA}
 \end{figure}
 %---------------------------------------------
-\subsection{Power law intercept $\beta_\mathrm{s}$}
-Relative flaring activity levels are best described by $\beta_s$, the power law fit intercept for the FFDs in $ED$ space  ($R_\mathrm{1s}$ in \citealt{davenport2019}). Because of the definition of $ED$ as relative to the quiescent flux of the star (Eq. \ref{eq:ED}) $\beta_s$ is a measure of flaring activity in which the different energy budgets of stars are controlled for. We could therefore use $\beta_\mathrm{s}$ to compare across both $T_\mathrm{eff}$ and age at the same time. Fig. \ref{fig:beta_T_age} can also be interpreted as a synthesis of the FFDs presented in Fig. \ref{fig:powerlawfits_s}. Overall, $\beta_\mathrm{s}$ declined with age in all investigated $T_\mathrm{eff}$ bins but the $2500-3000$ K bin, where it increased from ZAMS to Hyades age. This reverse was also present in a K2 short cadence K7-M6 dwarf flaring study~\citep{raetz2020}. In the lowest mass bin (M5-M6) the authors measured higher flaring activity for relatively slow rotators ($P_\mathrm{rot} > 2\,$d) than for their fast counterparts ($P_\mathrm{rot} < 2\,$d).  
+\subsection{\textbf{Flaring activity measure $\beta_\mathrm{100s}$}}
+Relative flaring activity levels are best described by $\beta_s$, the power law fit intercept for the FFDs in $ED$ space  ($R_\mathrm{1s}$ in \citealt{davenport2019}). Because of the definition of $ED$ as relative to the quiescent flux of the star (Eq. \ref{eq:ED}) $\beta_s$ is a measure of flaring activity in which the different energy budgets of stars are controlled for. \textbf{However $\beta_s$ is defined as the flaring rate at $ED>1$\,s which is below the detection threshold for most $T_\mathrm{eff}$-age bins. We therefore chose $\beta_\mathrm{100s}$, that is Eq.~\ref{eqn:cumdist} evaluated at $ED=100\,$s where most FFDs overlap to reduce errors arising from extrapolation} to compare across both $T_\mathrm{eff}$ and age at the same time. Fig. \ref{fig:beta_T_age} can also be interpreted as a synthesis of the FFDs presented in Fig. \ref{fig:powerlawfits_s}. Overall, \textbf{$\beta_\mathrm{100s}$} declined with age in all investigated $T_\mathrm{eff}$ bins but the $2500-3000$ K bin, where it \textbf{marginally} increased from ZAMS to Hyades age. This reverse was also present in a K2 short cadence K7-M6 dwarf flaring study~\citep{raetz2020}. In the lowest mass bin (M5-M6) the authors measured higher flaring activity for relatively slow rotators ($P_\mathrm{rot} > 2\,$d) than for their fast counterparts ($P_\mathrm{rot} < 2\,$d).  
 \\
-\citet{mondrik2019} found evidence of increased flaring activity at intermediate rotation rates between fast and slow sequence~\citep{barnes_rotational_2003}. This finding could not be reproduced in the data obtained from the all-sky EvryFlare survey~\citep{howard2020}. We found $\beta_\mathrm{s}$ to decrease with age from ZAMS to 700\,Myr for all stars except those with spectral types later than M5~(Fig. \ref{fig:beta_T_age}\,a.). But this does not exclude that $\beta_\mathrm{s}$ in fact increased between these two ages before decreasing relatively rapidly within a short period of time.
+\citet{mondrik2019} found evidence of increased flaring activity at intermediate rotation rates between fast and slow sequence~\citep{barnes_rotational_2003}. This finding could not be reproduced in the data obtained from the all-sky EvryFlare survey~\citep{howard2020}. We found \textbf{$\beta_\mathrm{100s}$} to decrease with age from ZAMS to 700\,Myr for all stars except those with spectral types later than M5~(Fig. \ref{fig:beta_T_age}\,a.). But this does not exclude that \textbf{$\beta_\mathrm{100s}$} in fact increased between these two ages before decreasing relatively rapidly within a short period of time.
 %-------------------------------------------
 \subsection{Flaring luminosity $FA$}
 
@@ -435,7 +410,7 @@ We determined $L_\mathrm{bol,*}$ from $R_*$ and $T_\mathrm{eff}$, as described i
           \label{fig:rotation_histogram}
    \end{figure*}
 %-------------------------------------------------------------------
-We expected the flaring activity in the Hyades and Praesepe to be very similar because they are nearly coeval clusters with ages around 700 Myr, and comparable metallicities ([Fe/H](Praesepe)\,$=0.16$, [Fe/H](Hyades)\,$=0.13$,~\citealt{netopil_metallicities_2016}). We found this reflected in all our FFDs, except for the $3500-3750$\,K temperature bin, where the Hyades appeared almost as active as the Pleiades (135 Myr), while Praesepe showed flare frequencies about ten times lower than the Pleiades. This discrepancy could be explained by the rotation period distribution in that bin. 
+We expected the flaring activity in the Hyades and Praesepe to be very similar because they are nearly coeval clusters with ages around 700 Myr, and comparable metallicities ([Fe/H](Praesepe)\,$=0.16$, [Fe/H](Hyades)\,$=0.13$,~\citealt{netopil_metallicities_2016}). We found this reflected in all our FFDs, except for the $3500-3750$\,K temperature bin, where the Hyades appeared almost as active as the Pleiades (135 Myr), while Praesepe showed flare frequencies about ten times lower than the Pleiades. \textbf{This is also contrary to the~\citet{davenport2019} model that predicts consistent flaring rates in all mass bins for Hyades and Praesepe~(Fig.~\ref{fig:powerlawfits_erg})}. This discrepancy could be explained by the rotation period distribution in that bin. 
 \\
 %More energetic flares can be expected from faster rotating stars~\citep{candelaresi_superflare_2014, doorsselaere_stellar_2017, yang_flaring_2017}. However, the famous $~\mathrm{age}^{-1/2}$ Skumanich spin-down law for rotation braking and Ca II depletion as a proxy to magnetic activity~\citep{skumanich1972} was only ever true to a first approximation.
 %\\
