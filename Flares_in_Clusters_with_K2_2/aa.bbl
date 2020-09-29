@@ -1,4 +1,4 @@
-\begin{thebibliography}{179}
+\begin{thebibliography}{180}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -289,6 +289,11 @@ Douglas, S.~T., Ag{\"u}eros, M.~A., Covey, K.~R., \& Kraus, A. 2017, \apj, 842,
   {Ali{\c{c}}avu{\textcommabelow s}}, {Aslan}, \& {Alpsoy}}]{eker2018}
 {Eker}, Z., {Bak{\i}{\textcommabelow s}}, V., {Bilir}, S., {et~al.} 2018,
   \mnras, 479, 5491
+
+\bibitem[{{Feinstein} {et~al.}(2020){Feinstein}, {Montet}, {Ansdell}, {Nord},
+  {Bean}, {G{\"u}nther}, {Gully-Santiago}, \& {Schlieder}}]{feinstein2020}
+{Feinstein}, A.~D., {Montet}, B.~T., {Ansdell}, M., {et~al.} 2020, arXiv
+  e-prints, arXiv:2005.07710
 
 \bibitem[{{Filippazzo} {et~al.}(2015){Filippazzo}, {Rice}, {Faherty}, {Cruz},
   {Van Gordon}, \& {Looper}}]{Filippazzo2015}

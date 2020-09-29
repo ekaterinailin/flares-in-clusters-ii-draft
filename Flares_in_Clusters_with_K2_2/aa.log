@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.18)  29 SEP 2020 10:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.5.18)  29 SEP 2020 15:57
 entering extended mode
 **./aa.tex
 (aa.tex
@@ -1226,7 +1226,12 @@ Underfull \hbox (badness 1092) in paragraph at lines 389--393
 \T1/txr/m/n/10 Mondrik et al. (2019) found evidence of increased flaring
  []
 
-<pics/rotation/SpT_wise_rotation.png, id=52, 903.375pt x 1336.995pt>
+[9] [10 <./pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>] [11 <./pics/FFDs/Sp
+T_wise_sample_ffd_energy_wheatland.png>]
+
+LaTeX Warning: Text page 12 contains only floats.
+
+<pics/rotation/SpT_wise_rotation.png, id=65, 903.375pt x 1336.995pt>
 File: pics/rotation/SpT_wise_rotation.png Graphic file (type png)
 <use pics/rotation/SpT_wise_rotation.png>
 Package pdftex.def Info: pics/rotation/SpT_wise_rotation.png  used on input lin
@@ -1241,16 +1246,7 @@ Underfull \hbox (badness 2556) in paragraph at lines 413--422
  []
 
 
-Underfull \vbox (badness 2573) has occurred while \output is active []
-
- [9]
-[10 <./pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>] [11 <./pics/FFDs/SpT_wi
-se_sample_ffd_energy_wheatland.png>]
-
-LaTeX Warning: Text page 12 contains only floats.
-
-
-Underfull \vbox (badness 2443) has occurred while \output is active []
+Underfull \vbox (badness 5893) has occurred while \output is active []
 
  [12 <./pics/FFDs/beta_T_age_ED_wheatland.png>] [13]
 <pics/FFDs/beta_T_age_rotation_full.png, id=74, 794.97pt x 505.89pt>
@@ -1298,7 +1294,8 @@ Underfull \hbox (badness 2846) in paragraph at lines 463--468
 \T1/txr/m/n/10 After the manual inspection of the younger clusters we
  []
 
-
+[14 <./pics/FA/FA_T_age_Ethresh.png>] [15 <./pics/rotation/SpT_wise_rotation.pn
+g>]
 Underfull \hbox (badness 1152) in paragraph at lines 471--472
 \T1/txr/m/n/10 Survey Satellite will continue and expand. Comparing our
  []
@@ -1343,11 +1340,6 @@ Underfull \hbox (badness 2809) in paragraph at lines 471--472
 \T1/txr/m/n/10 limitations of the representation of FFDs by power law
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./pics/FA/FA_T_age_Ethresh.png>] [15 <./pics/rotation/SpT_wise_rotation.p
-ng>]
 <pics/FFDs/discussion_FFDs.png, id=84, 722.7pt x 650.43pt>
 File: pics/FFDs/discussion_FFDs.png Graphic file (type png)
 <use pics/FFDs/discussion_FFDs.png>
@@ -1362,9 +1354,12 @@ png)
 Package pdftex.def Info: pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png 
  used on input line 486.
 (pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
-
 [16 <./pics/FFDs/beta_T_age_rotation_full.png> <./pics/lcs/m67_flare.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `4dim' on page 17 undefined on input line 510.
 
 
 Underfull \hbox (badness 1158) in paragraph at lines 510--511
@@ -1379,22 +1374,15 @@ Package pdftex.def Info: pics/FFDs/overview_alpha_literature.png  used on input
  line 516.
 (pdftex.def)             Requested size: 256.0748pt x 199.17207pt.
 
-Underfull \hbox (badness 6284) in paragraph at lines 523--536
-\T1/txr/m/n/10 Taking into account uncertainties and systematic errors
- []
-
-
-Underfull \hbox (badness 7685) in paragraph at lines 523--536
-\T1/txr/m/n/10 resulting from the use of different power law fitting
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 523--536
+Underfull \hbox (badness 1147) in paragraph at lines 522--536
 \T1/txr/m/n/10 observations of eight UV Ceti stars. Shakhovskaya (1989)
  []
 
-[18 <./pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png> <./pics/FFDs/over
-view_alpha_literature.png>] (values/total_number_of_lcs.txt)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png> <./pics/FFDs/ove
+rview_alpha_literature.png>] (values/total_number_of_lcs.txt)
 (values/total_number_of_stars.txt) (values/total_number_of_flares.txt)
 Underfull \hbox (badness 1038) in paragraph at lines 543--555
 \T1/txr/m/n/10 Our findings paint a picture of clear trends in the flaring
@@ -1423,20 +1411,24 @@ Underfull \hbox (badness 1158) in paragraph at lines 555--560
 os . esa . int / web / gaia /
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
 (aa.bbl
 Underfull \hbox (badness 3657) in paragraph at lines 51--53
 []\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saunders, N., et al. 2018, arXiv e-p
 rints,
  []
 
-[19]
+
 Underfull \hbox (badness 2753) in paragraph at lines 103--105
 []\T1/txr/m/n/8 Bokeh Development Team. 2019, Bokeh: Python library for interac
 tive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 671--673
+Underfull \hbox (badness 10000) in paragraph at lines 676--678
 []\T1/txr/m/n/8 Jackman, J. A. G., Wheatley, P. J., Acton, J. S., et al. 2020,
  []
 
@@ -1489,13 +1481,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11227 strings out of 482728
- 165519 string characters out of 2948687
- 592056 words of memory out of 3000000
- 26617 multiletter control sequences out of 15000+200000
+ 11230 strings out of 482728
+ 165550 string characters out of 2948687
+ 589562 words of memory out of 3000000
+ 26620 multiletter control sequences out of 15000+200000
  642005 words of font info for 183 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 46i,14n,49p,7194b,783s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,14n,49p,7194b,737s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/ekaterina/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/ek
 aterina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtcxr.pfb></home/ekat
 erina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtxb.pfb></home/ekateri
@@ -1514,7 +1506,7 @@ s/type1/urw/times/utmb8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type
 1/urw/times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type1/urw/
 times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on aa.pdf (25 pages, 5755727 bytes).
+Output written on aa.pdf (25 pages, 5765990 bytes).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
