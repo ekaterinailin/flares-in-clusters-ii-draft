@@ -1,4 +1,4 @@
-\begin{thebibliography}{181}
+\begin{thebibliography}{187}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -696,6 +696,12 @@ Howell, S.~B., Sobeck, C., Haas, M., {et~al.} 2014, \pasp, 126, 398
 \bibitem[{{Kerr} \& {Fletcher}(2014)}]{kerr_solarstellarwlf_2014}
 {Kerr}, G.~S. \& {Fletcher}, L. 2014, \apj, 783, 98
 
+\bibitem[{{Kesseli} {et~al.}(2019){Kesseli}, {Kirkpatrick}, {Fajardo-Acosta},
+  {Penny}, {Gaudi}, {Veyette}, {Boeshaar}, {Henderson}, {Cushing},
+  {Calchi-Novati}, {Shvartzvald}, \& {Muirhead}}]{kesseli2019}
+{Kesseli}, A.~Y., {Kirkpatrick}, J.~D., {Fajardo-Acosta}, S.~B., {et~al.} 2019,
+  \aj, 157, 63
+
 \bibitem[{{Kirkpatrick} {et~al.}(1991){Kirkpatrick}, {Henry}, \&
   {McCarthy}}]{kirkpatrick1991}
 {Kirkpatrick}, J.~D., {Henry}, T.~J., \& {McCarthy}, Donald~W., J. 1991, \apjs,
@@ -730,6 +736,11 @@ Kretzschmar, M. 2011, \aap, 530, A84
 
 \bibitem[{Lacy {et~al.}(1976)Lacy, Moffett, \& Evans}]{lacy_uv_1976}
 Lacy, C.~H., Moffett, T.~J., \& Evans, D.~S. 1976, \apjs, 30, 85
+
+\bibitem[{{Law} {et~al.}(2015){Law}, {Fors}, {Ratzloff}, {Wulfken},
+  {Kavanaugh}, {Sitar}, {Pruett}, {Birchard}, {Barlow}, {Cannon}, {Cenko},
+  {Dunlap}, {Kraus}, \& {Maccarone}}]{law2015}
+{Law}, N.~M., {Fors}, O., {Ratzloff}, J., {et~al.} 2015, \pasp, 127, 234
 
 \bibitem[{{Lecavelier des Etangs} {et~al.}(2012){Lecavelier des Etangs},
   {Bourrier}, {Wheatley}, {Dupuy}, {Ehrenreich}, {Vidal-Madjar}, {H{\'e}brard},
@@ -845,6 +856,11 @@ Mann, A.~W., Feiden, G.~A., Gaidos, E., Boyajian, T., \& von Braun, K. 2016,
   {Calkins}, \& {Mink}}]{newton2017}
 {Newton}, E.~R., {Irwin}, J., {Charbonneau}, D., {et~al.} 2017, \apj, 834, 85
 
+\bibitem[{{Notsu} {et~al.}(2019){Notsu}, {Maehara}, {Honda}, {Hawley},
+  {Davenport}, {Namekata}, {Notsu}, {Ikuta}, {Nogami}, \&
+  {Shibata}}]{notsu2019}
+{Notsu}, Y., {Maehara}, H., {Honda}, S., {et~al.} 2019, \apj, 876, 58
+
 \bibitem[{Odert {et~al.}(2017)Odert, Leitzinger, Hanslmeier, \&
   Lammer}]{odert2017}
 Odert, P., Leitzinger, M., Hanslmeier, A., \& Lammer, H. 2017, \mnras, 472, 876
@@ -866,6 +882,11 @@ Odert, P., Leitzinger, M., Hanslmeier, A., \& Lammer, H. 2017, \mnras, 472, 876
 
 \bibitem[{Pace(2013)}]{pace_chromospheric_2013}
 Pace, G. 2013, \aap, 551, L8
+
+\bibitem[{{Paudel} {et~al.}(2020){Paudel}, {Gizis}, {Mullan}, {Schmidt},
+  {Burgasser}, \& {Williams}}]{paudel2020}
+{Paudel}, R.~R., {Gizis}, J.~E., {Mullan}, D.~J., {et~al.} 2020, \mnras, 494,
+  5751
 
 \bibitem[{Paudel {et~al.}(2018)Paudel, Gizis, Mullan, Schmidt, Burgasser,
   Williams, \& Berger}]{paudel2018}
@@ -937,6 +958,12 @@ Ricker, G.~R., Winn, J.~N., Vanderspek, R., {et~al.} 2014, Journal of
 {Robrade}, J., {Poppenhaeger}, K., \& {Schmitt}, J.~H.~M.~M. 2010, \aap, 513,
   A12
 
+\bibitem[{{Rodr{\'\i}guez Mart{\'\i}nez} {et~al.}(2020){Rodr{\'\i}guez
+  Mart{\'\i}nez}, {Lopez}, {Shappee}, {Schmidt}, {Jayasinghe}, {Kochanek},
+  {Auchettl}, \& {Holoien}}]{rodriguez2020}
+{Rodr{\'\i}guez Mart{\'\i}nez}, R., {Lopez}, L.~A., {Shappee}, B.~J., {et~al.}
+  2020, \apj, 892, 144
+
 \bibitem[{Salaris {et~al.}(2004)Salaris, Weiss, \& Percival}]{salaris_age_2004}
 Salaris, M., Weiss, A., \& Percival, S.~M. 2004, \aap, 414, 163
 
@@ -981,6 +1008,16 @@ Schmidt, S.~J., Shappee, B.~J., Gagn{\'e}, J., {et~al.} 2016, \apj, 828, L22
 
 \bibitem[{Shakhovskaya(1989)}]{shakhovskaya_stellar_1989}
 Shakhovskaya, N. 1989, \solphys, 121, 375
+
+\bibitem[{{Shappee} {et~al.}(2014){Shappee}, {Prieto}, {Grupe}, {Kochanek},
+  {Stanek}, {De Rosa}, {Mathur}, {Zu}, {Peterson}, {Pogge}, {Komossa}, {Im},
+  {Jencson}, {Holoien}, {Basu}, {Beacom}, {Szczygie{\l}}, {Brimacombe},
+  {Adams}, {Campillay}, {Choi}, {Contreras}, {Dietrich}, {Dubberley},
+  {Elphick}, {Foale}, {Giustini}, {Gonzalez}, {Hawkins}, {Howell}, {Hsiao},
+  {Koss}, {Leighly}, {Morrell}, {Mudd}, {Mullins}, {Nugent}, {Parrent},
+  {Phillips}, {Pojmanski}, {Rosing}, {Ross}, {Sand}, {Terndrup}, {Valenti},
+  {Walker}, \& {Yoon}}]{shappee2014}
+{Shappee}, B.~J., {Prieto}, J.~L., {Grupe}, D., {et~al.} 2014, \apj, 788, 48
 
 \bibitem[{Shibayama {et~al.}(2013)Shibayama, Maehara, Notsu, Notsu, Nagao,
   Honda, Ishii, Nogami, \& Shibata}]{shibayama2013}

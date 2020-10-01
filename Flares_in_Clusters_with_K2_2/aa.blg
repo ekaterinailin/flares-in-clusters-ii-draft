@@ -3,120 +3,120 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: aa.aux
 The style file: aa.bst
 Database file #1: MyLibrary.bib
-You're missing a field name---line 2452 of file MyLibrary.bib
+You're missing a field name---line 2478 of file MyLibrary.bib
  :   
  :   %number = {1}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 3648 of file MyLibrary.bib
+You're missing a field name---line 3674 of file MyLibrary.bib
  :   
  :   %month = {sep},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 4092 of file MyLibrary.bib
+You're missing a field name---line 4197 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5315 of file MyLibrary.bib
+Reallocating 'str_pool' (item size: 1) to 130000 items.
+You're missing a field name---line 5420 of file MyLibrary.bib
  :   
  :   %month = {mar},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 5870 of file MyLibrary.bib
+You're missing a field name---line 5999 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 6211 of file MyLibrary.bib
+You're missing a field name---line 6340 of file MyLibrary.bib
  :   
  :   %pages = {77355B--77355B}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Reallocating 'str_pool' (item size: 1) to 130000 items.
-You're missing a field name---line 6956 of file MyLibrary.bib
+You're missing a field name---line 7085 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7563 of file MyLibrary.bib
+You're missing a field name---line 7692 of file MyLibrary.bib
  :   
  :   %number = {825},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 7660 of file MyLibrary.bib
+You're missing a field name---line 7789 of file MyLibrary.bib
  :   
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 9540 of file MyLibrary.bib
+Unbalanced braces---line 9669 of file MyLibrary.bib
  :         epoch lasts longer for lower-mass stars.
  :                                                 }",
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9786 of file MyLibrary.bib
+You're missing a field name---line 9915 of file MyLibrary.bib
  :   
  :   %number = {5987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 10220 of file MyLibrary.bib
+You're missing a field name---line 10349 of file MyLibrary.bib
  :   
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 11326 of file MyLibrary.bib
+You're missing a field name---line 11476 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 11414 of file MyLibrary.bib
+You're missing a field name---line 11564 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 13251 of file MyLibrary.bib
+Repeated entry---line 13401 of file MyLibrary.bib
  : @article{Schmidt2015
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-You've used 181 entries,
+You've used 187 entries,
             3039 wiz_defined-function locations,
-            1684 strings with 85646 characters,
-and the built_in function-call counts, 201293 in all, are:
-= -- 14546
-> -- 28617
+            1715 strings with 88443 characters,
+and the built_in function-call counts, 207612 in all, are:
+= -- 15009
+> -- 29502
 < -- 39
-+ -- 9579
-- -- 9363
-* -- 19611
-:= -- 38061
-add.period$ -- 181
-call.type$ -- 181
-change.case$ -- 3843
-chr.to.int$ -- 176
-cite$ -- 181
-duplicate$ -- 3341
-empty$ -- 4753
-format.name$ -- 9816
-if$ -- 38957
++ -- 9876
+- -- 9654
+* -- 20226
+:= -- 39262
+add.period$ -- 187
+call.type$ -- 187
+change.case$ -- 3964
+chr.to.int$ -- 182
+cite$ -- 187
+duplicate$ -- 3449
+empty$ -- 4907
+format.name$ -- 10119
+if$ -- 40178
 int.to.chr$ -- 6
 int.to.str$ -- 1
-missing$ -- 173
-newline$ -- 547
-num.names$ -- 726
-pop$ -- 3816
+missing$ -- 179
+newline$ -- 565
+num.names$ -- 750
+pop$ -- 3932
 preamble$ -- 1
-purify$ -- 3843
+purify$ -- 3964
 quote$ -- 0
-skip$ -- 2892
+skip$ -- 2985
 stack$ -- 0
-substring$ -- 3852
+substring$ -- 3972
 swap$ -- 36
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1626
+type$ -- 1680
 warning$ -- 0
-while$ -- 720
+while$ -- 744
 width$ -- 0
-write$ -- 1808
+write$ -- 1868
 (There were 15 error messages)
