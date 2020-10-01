@@ -1,9 +1,21 @@
-\begin{thebibliography}{180}
+\begin{thebibliography}{181}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
   Pope}]{aigrain_k2sc_2016}
 Aigrain, S., Parviainen, H., \& Pope, B. J.~S. 2016, \mnras, 459, 2408
+
+\bibitem[{{Airapetian} {et~al.}(2020){Airapetian}, {Barnes}, {Cohen},
+  {Collinson}, {Danchi}, {Dong}, {Del Genio}, {France}, {Garcia-Sage},
+  {Glocer}, {Gopalswamy}, {Grenfell}, {Gronoff}, {G{\"u}del}, {Herbst},
+  {Henning}, {Jackman}, {Jin}, {Johnstone}, {Kaltenegger}, {Kay}, {Kobayashi},
+  {Kuang}, {Li}, {Lynch}, {L{\"u}ftinger}, {Luhmann}, {Maehara}, {Mlynczak},
+  {Notsu}, {Osten}, {Ramirez}, {Rugheimer}, {Scheucher}, {Schlieder},
+  {Shibata}, {Sousa-Silva}, {Stamenkovi{\'c}}, {Strangeway}, {Usmanov},
+  {Vergados}, {Verkhoglyadova}, {Vidotto}, {Voytek}, {Way}, {Zank}, \&
+  {Yamashiki}}]{airapetian2020}
+{Airapetian}, V.~S., {Barnes}, R., {Cohen}, O., {et~al.} 2020, International
+  Journal of Astrobiology, 19, 136
 
 \bibitem[{{Anders} {et~al.}(2019){Anders}, {Khalatyan}, {Chiappini}, {Queiroz},
   {Santiago}, {Jordi}, {Girardi}, {Brown}, {Matijevi{\v{c}}}, {Monari},
@@ -676,12 +688,6 @@ Howell, S.~B., Sobeck, C., Haas, M., {et~al.} 2014, \pasp, 126, 398
 {Jackman}, J. A.~G., {Wheatley}, P.~J., {Acton}, J.~S., {et~al.} 2020, \mnras
   [\eprint[arXiv]{2007.01553}]
 
-\bibitem[{{Jackman} {et~al.}(2019){Jackman}, {Wheatley}, {Bayliss}, {Burleigh},
-  {Casewell}, {Eigm{\"u}ller}, {Goad}, {Pollacco}, {Raynard}, {Watson}, \&
-  {West}}]{jackman2019}
-{Jackman}, J. A.~G., {Wheatley}, P.~J., {Bayliss}, D., {et~al.} 2019, \mnras,
-  485, L136
-
 \bibitem[{{Johnstone} {et~al.}(2020){Johnstone}, {Bartel}, \&
   {G{\"u}del}}]{johnstone2020}
 {Johnstone}, C.~P., {Bartel}, M., \& {G{\"u}del}, M. 2020, arXiv e-prints,
@@ -861,10 +867,6 @@ Odert, P., Leitzinger, M., Hanslmeier, A., \& Lammer, H. 2017, \mnras, 472, 876
 \bibitem[{Pace(2013)}]{pace_chromospheric_2013}
 Pace, G. 2013, \aap, 551, L8
 
-\bibitem[{{Paudel} {et~al.}(2018){Paudel}, {Gizis}, {Mullan}, {Schmidt},
-  {Burgasser}, {Williams}, \& {Berger}}]{paudel_monsterucdflare_2018}
-{Paudel}, R.~R., {Gizis}, J.~E., {Mullan}, D.~J., {et~al.} 2018, \apj, 861, 76
-
 \bibitem[{Paudel {et~al.}(2018)Paudel, Gizis, Mullan, Schmidt, Burgasser,
   Williams, \& Berger}]{paudel2018}
 Paudel, R.~R., Gizis, J.~E., Mullan, D.~J., {et~al.} 2018, \apj, 858, 55
@@ -984,6 +986,11 @@ Shakhovskaya, N. 1989, \solphys, 121, 375
   Honda, Ishii, Nogami, \& Shibata}]{shibayama2013}
 Shibayama, T., Maehara, H., Notsu, S., {et~al.} 2013, \apjs, 209, 5
 
+\bibitem[{{Shields} {et~al.}(2016){Shields}, {Ballard}, \&
+  {Johnson}}]{shields2016}
+{Shields}, A.~L., {Ballard}, S., \& {Johnson}, J.~A. 2016, Physics Reports,
+  663, 1
+
 \bibitem[{Skrutskie {et~al.}(2006)Skrutskie, Cutri, Stiening, Weinberg,
   Schneider, Carpenter, Beichman, Capps, Chester, Elias, Huchra, Liebert,
   Lonsdale, Monet, Price, Seitzer, Jarrett, Kirkpatrick, Gizis, Howard, Evans,
@@ -1013,10 +1020,15 @@ Szab{\'{o}}, R., S{\'{a}}rneczky, K., Szab{\'{o}}, G.~M., {et~al.} 2015, \aj,
 \bibitem[{{Taylor} \& {Joner}(2005)}]{taylor2005}
 {Taylor}, B.~J. \& {Joner}, M.~D. 2005, \apjs, 159, 100
 
-\bibitem[{{Tilley} {et~al.}(2019){Tilley}, {Segura}, {Meadows}, {Hawley}, \&
-  {Davenport}}]{tilley_repeated_flare_2019}
+\bibitem[{{Tilley} {et~al.}(2019{\natexlab{a}}){Tilley}, {Segura}, {Meadows},
+  {Hawley}, \& {Davenport}}]{tilley_repeated_flare_2019}
 {Tilley}, M.~A., {Segura}, A., {Meadows}, V., {Hawley}, S., \& {Davenport}, J.
-  2019, Astrobiology, 19, 64
+  2019{\natexlab{a}}, Astrobiology, 19, 64
+
+\bibitem[{{Tilley} {et~al.}(2019{\natexlab{b}}){Tilley}, {Segura}, {Meadows},
+  {Hawley}, \& {Davenport}}]{tilley2019}
+{Tilley}, M.~A., {Segura}, A., {Meadows}, V., {Hawley}, S., \& {Davenport}, J.
+  2019{\natexlab{b}}, Astrobiology, 19, 64
 
 \bibitem[{{Toriumi} {et~al.}(2017){Toriumi}, {Schrijver}, {Harra}, {Hudson}, \&
   {Nagashima}}]{toriumi_flaresspotssun_2017}
