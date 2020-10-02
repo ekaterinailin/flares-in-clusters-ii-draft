@@ -63,60 +63,60 @@ You're missing a field name---line 10349 of file MyLibrary.bib
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 11476 of file MyLibrary.bib
+You're missing a field name---line 11489 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 11564 of file MyLibrary.bib
+You're missing a field name---line 11577 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 13401 of file MyLibrary.bib
+Repeated entry---line 13414 of file MyLibrary.bib
  : @article{Schmidt2015
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-You've used 187 entries,
+You've used 188 entries,
             3039 wiz_defined-function locations,
-            1715 strings with 88443 characters,
-and the built_in function-call counts, 207612 in all, are:
-= -- 15009
-> -- 29502
-< -- 39
-+ -- 9876
-- -- 9654
-* -- 20226
-:= -- 39262
-add.period$ -- 187
-call.type$ -- 187
-change.case$ -- 3964
-chr.to.int$ -- 182
-cite$ -- 187
-duplicate$ -- 3449
-empty$ -- 4907
-format.name$ -- 10119
-if$ -- 40178
+            1719 strings with 88571 characters,
+and the built_in function-call counts, 207963 in all, are:
+= -- 15042
+> -- 29524
+< -- 40
++ -- 9883
+- -- 9660
+* -- 20251
+:= -- 39329
+add.period$ -- 188
+call.type$ -- 188
+change.case$ -- 3970
+chr.to.int$ -- 183
+cite$ -- 188
+duplicate$ -- 3466
+empty$ -- 4927
+format.name$ -- 10130
+if$ -- 40245
 int.to.chr$ -- 6
 int.to.str$ -- 1
 missing$ -- 179
-newline$ -- 565
-num.names$ -- 750
-pop$ -- 3932
+newline$ -- 568
+num.names$ -- 754
+pop$ -- 3938
 preamble$ -- 1
-purify$ -- 3964
+purify$ -- 3970
 quote$ -- 0
-skip$ -- 2985
+skip$ -- 2998
 stack$ -- 0
-substring$ -- 3972
+substring$ -- 3983
 swap$ -- 36
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1680
+type$ -- 1689
 warning$ -- 0
-while$ -- 744
+while$ -- 747
 width$ -- 0
-write$ -- 1868
+write$ -- 1878
 (There were 15 error messages)

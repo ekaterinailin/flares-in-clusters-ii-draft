@@ -1,4 +1,4 @@
-\begin{thebibliography}{187}
+\begin{thebibliography}{188}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Aigrain {et~al.}(2016)Aigrain, Parviainen, \&
@@ -1076,6 +1076,10 @@ Szab{\'{o}}, R., S{\'{a}}rneczky, K., Szab{\'{o}}, G.~M., {et~al.} 2015, \aj,
   {Rizzuto}}]{torres2018}
 {Torres}, G., {Curtis}, J.~L., {Vanderburg}, A., {Kraus}, A.~L., \& {Rizzuto},
   A. 2018, \apj, 866, 67
+
+\bibitem[{{Van Cleve} \& {Caldwell}(2016)}]{vancleve2016}
+{Van Cleve}, J.~E. \& {Caldwell}, D.~A. 2016, {Kepler Instrument Handbook},
+  Kepler Science Document KSCI-19033-002
 
 \bibitem[{Van~Cleve {et~al.}(2016)Van~Cleve, Howell, Smith, Clarke, Thompson,
   Bryson, Lund, Handberg, \& Chaplin}]{van_cleve_thats_2016}
