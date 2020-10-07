@@ -1,7 +1,9 @@
-This is BibTeX, Version 0.99d (MiKTeX 2.9.7400)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: aa.aux
+Reallocating 'name_of_file' (item size: 1) to 3 items.
 The style file: aa.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: MyLibrary.bib
 You're missing a field name---line 2478 of file MyLibrary.bib
  :   
@@ -49,74 +51,74 @@ You're missing a field name---line 7789 of file MyLibrary.bib
  :   %issn = {00046280, 15383873},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 9669 of file MyLibrary.bib
+Unbalanced braces---line 9662 of file MyLibrary.bib
  :         epoch lasts longer for lower-mass stars.
  :                                                 }",
 I'm skipping whatever remains of this entry
-You're missing a field name---line 9915 of file MyLibrary.bib
+You're missing a field name---line 9908 of file MyLibrary.bib
  :   
  :   %number = {5987},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 10349 of file MyLibrary.bib
+You're missing a field name---line 10342 of file MyLibrary.bib
  :   
  :   %doi = {10.1051/0004-6361/201424204},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 11489 of file MyLibrary.bib
+You're missing a field name---line 11482 of file MyLibrary.bib
  :   
  :   %number = {A13},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 11577 of file MyLibrary.bib
+You're missing a field name---line 11570 of file MyLibrary.bib
  :   
  :   %number = {1},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 13414 of file MyLibrary.bib
+Repeated entry---line 13407 of file MyLibrary.bib
  : @article{Schmidt2015
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 You've used 188 entries,
             3039 wiz_defined-function locations,
-            1719 strings with 88571 characters,
-and the built_in function-call counts, 207963 in all, are:
-= -- 15042
+            1721 strings with 88581 characters,
+and the built_in function-call counts, 207994 in all, are:
+= -- 15046
 > -- 29524
 < -- 40
 + -- 9883
 - -- 9660
-* -- 20251
-:= -- 39329
+* -- 20250
+:= -- 39333
 add.period$ -- 188
 call.type$ -- 188
 change.case$ -- 3970
 chr.to.int$ -- 183
 cite$ -- 188
-duplicate$ -- 3466
-empty$ -- 4927
+duplicate$ -- 3465
+empty$ -- 4929
 format.name$ -- 10130
-if$ -- 40245
+if$ -- 40255
 int.to.chr$ -- 6
 int.to.str$ -- 1
 missing$ -- 179
 newline$ -- 568
 num.names$ -- 754
-pop$ -- 3938
+pop$ -- 3937
 preamble$ -- 1
 purify$ -- 3970
 quote$ -- 0
-skip$ -- 2998
+skip$ -- 3002
 stack$ -- 0
-substring$ -- 3983
-swap$ -- 36
+substring$ -- 3993
+swap$ -- 35
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1689
 warning$ -- 0
-while$ -- 747
+while$ -- 748
 width$ -- 0
 write$ -- 1878
 (There were 15 error messages)
