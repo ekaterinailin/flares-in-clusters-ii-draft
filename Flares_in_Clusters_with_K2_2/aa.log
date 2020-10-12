@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.5.18)  12 OCT 2020 10:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.5.18)  12 OCT 2020 11:17
 entering extended mode
 **./aa.tex
 (aa.tex
@@ -718,28 +718,14 @@ LaTeX Info: Redefining \ref on input line 43.
 LaTeX Info: Redefining \pageref on input line 43.
 LaTeX Info: Redefining \nameref on input line 43.
 
-! Argument of \reserved@a has an extra }.
-<inserted text> 
-                \par 
-l.76 ...tional constraints from stellar activity.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
 
-Runaway argument?
-{\@iinput }\def \reserved@b {\@@input }\futurelet \@let@token \@ifnch \ETC.
-! Paragraph ended before \reserved@a was complete.
-<to be read again> 
-                   \par 
-l.76 ...tional constraints from stellar activity.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+
+IMPORTANT
+
+Class aa Warning: Around 370 words in the abstract instead of 300 (max). You sh
+ould rewrite your abstract on input line 76.
+
+IMPORTANT 
 
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 8
 2.
@@ -810,9 +796,6 @@ LaTeX Font Info:    Font shape `T1/txss/m/it' in size <9> not available
 (Font)              Font shape `T1/txss/m/sl' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 8.54997pt on input line 82.
-
-(values/total_number_of_lcs.txt) (values/total_number_of_stars.txt)
-(values/total_number_of_flares.txt)
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 84.
 LaTeX Font Info:    Font shape `T1/txss/b/n' in size <10.95> not available
@@ -1102,17 +1085,6 @@ Underfull \hbox (badness 1067) in paragraph at lines 294--296
 \T1/txr/m/n/10 The core objective of this work was to quantify how the
  []
 
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.304 \begin{figure*}[Ht!]
-                          
-Option `H' ignored and `p' used.
-
 <pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png, id=48, 903.375pt x 1409.265pt>
 
 File: pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png Graphic file (type png)
@@ -1120,17 +1092,6 @@ File: pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png Graphic file (type png)
 Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png  used o
 n input line 306.
 (pdftex.def)             Requested size: 398.33858pt x 621.41176pt.
-
-! LaTeX Error: Unknown float option `H'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.312 \begin{figure*}[Ht!]
-                          
-Option `H' ignored and `p' used.
-
 <pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png, id=49, 903.375pt x 1409.26
 5pt>
 File: pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png Graphic file (type png
@@ -1152,30 +1113,6 @@ File: pics/FA/FA_T_age_Ethresh.png Graphic file (type png)
 Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 344.
 (pdftex.def)             Requested size: 256.0748pt x 224.05893pt.
 
-! Argument of \Hy@tempa has an extra }.
-<inserted text> 
-                \par 
-l.345 ...across age than across $T_\mathrm{eff}$.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@captype {\@iinput }\def \reserved@b {\@@input }\futurelet \@let@token \ETC.
-! Paragraph ended before \Hy@tempa was complete.
-<to be read again> 
-                   \par 
-l.345 ...across age than across $T_\mathrm{eff}$.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-(values/FA_energy_thesh.txt)
 Underfull \hbox (badness 1092) in paragraph at lines 351--357
 \T1/txr/m/n/10 Mondrik et al. (2019) found evidence of increased flaring
  []
@@ -1184,9 +1121,7 @@ Underfull \hbox (badness 1092) in paragraph at lines 351--357
 Underfull \vbox (badness 1521) has occurred while \output is active []
 
  [9]
-[10 <./pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>] [11 <./pics/FFDs/SpT_wi
-se_sample_ffd_energy_wheatland.png>]
-<pics/rotation/SpT_wise_rotation.png, id=63, 903.375pt x 1336.995pt>
+<pics/rotation/SpT_wise_rotation.png, id=55, 903.375pt x 1336.995pt>
 File: pics/rotation/SpT_wise_rotation.png Graphic file (type png)
 <use pics/rotation/SpT_wise_rotation.png>
 Package pdftex.def Info: pics/rotation/SpT_wise_rotation.png  used on input lin
@@ -1204,11 +1139,49 @@ Underfull \hbox (badness 2556) in paragraph at lines 378--383
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-[13]
-Underfull \vbox (badness 1132) has occurred while \output is active []
+ [10]
+[11]
 
-<pics/FFDs/beta_T_age_rotation_full.png, id=71, 794.97pt x 578.16pt>
+LaTeX Warning: Text page 12 contains only floats.
+
+
+Overfull \vbox (21.36026pt too high) has occurred while \output is active []
+
+
+
+LaTeX Warning: Text page 12 contains only floats.
+
+
+Overfull \vbox (21.36026pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (7.36028pt too high) has occurred while \output is active []
+
+
+[12 <./pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>]
+
+LaTeX Warning: Text page 13 contains only floats.
+
+
+Overfull \vbox (11.71149pt too high) has occurred while \output is active []
+
+
+
+LaTeX Warning: Text page 13 contains only floats.
+
+
+Overfull \vbox (11.71149pt too high) has occurred while \output is active []
+
+
+[13 <./pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./pics/FFDs/beta_T_age_ED_wheatland.png> <./pics/FA/FA_T_age_Ethresh.png>
+] [15 <./pics/rotation/SpT_wise_rotation.png>]
+<pics/FFDs/beta_T_age_rotation_full.png, id=80, 794.97pt x 578.16pt>
 File: pics/FFDs/beta_T_age_rotation_full.png Graphic file (type png)
 <use pics/FFDs/beta_T_age_rotation_full.png>
 Package pdftex.def Info: pics/FFDs/beta_T_age_rotation_full.png  used on input 
@@ -1219,49 +1192,17 @@ Underfull \hbox (badness 1281) in paragraph at lines 393--397
 \T1/txr/m/n/10 To further explore the dependence of the flaring-age-mass
  []
 
-[14 <./pics/FFDs/beta_T_age_ED_wheatland.png> <./pics/FA/FA_T_age_Ethresh.png>]
-[15 <./pics/rotation/SpT_wise_rotation.png>]
 <pics/lcs/m67_flare.png, id=81, 505.89pt x 361.35pt>
 File: pics/lcs/m67_flare.png Graphic file (type png)
 <use pics/lcs/m67_flare.png>
 Package pdftex.def Info: pics/lcs/m67_flare.png  used on input line 420.
 (pdftex.def)             Requested size: 256.0748pt x 182.91313pt.
 
-! Argument of \Hy@tempa has an extra }.
-<inserted text> 
-                \par 
-l.421 ...he low time sampling of the light curve.}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\@captype {\@iinput }\def \reserved@b {\@@input }\futurelet \@let@token \ETC.
-! Paragraph ended before \Hy@tempa was complete.
-<to be read again> 
-                   \par 
-l.421 ...he low time sampling of the light curve.}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-(values/m67flare_amplitude_perc.txt) (values/m67flare_energy.txt)
 Underfull \hbox (badness 2846) in paragraph at lines 425--428
 \T1/txr/m/n/10 After the manual inspection of the younger clusters we
  []
 
 
-Underfull \vbox (badness 3838) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16 <./pics/FFDs/beta_T_age_rotation_full.png>]
 Underfull \hbox (badness 2961) in paragraph at lines 431--432
 \T1/txr/m/n/10 et al. 2013; Lurie et al. 2015; Lin et al. 2019; Raetz
  []
@@ -1271,13 +1212,17 @@ Underfull \hbox (badness 2809) in paragraph at lines 431--432
 \T1/txr/m/n/10 limitations of the representation of FFDs by power law
  []
 
-<pics/FFDs/discussion_FFDs.png, id=87, 722.7pt x 650.43pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+<pics/FFDs/discussion_FFDs.png, id=85, 722.7pt x 650.43pt>
 File: pics/FFDs/discussion_FFDs.png Graphic file (type png)
 <use pics/FFDs/discussion_FFDs.png>
 Package pdftex.def Info: pics/FFDs/discussion_FFDs.png  used on input line 437.
 
 (pdftex.def)             Requested size: 384.1122pt x 345.69888pt.
-<pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png, id=88, 578.16pt x 433.6
+<pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png, id=86, 578.16pt x 433.6
 2pt>
 File: pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png Graphic file (type 
 png)
@@ -1288,27 +1233,32 @@ Package pdftex.def Info: pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./pics/lcs/m67_flare.png>]
+ [17 <./pics/FFDs/beta_T_age_rotation_full.png>]
 Underfull \hbox (badness 1237) in paragraph at lines 470--471
 \T1/txr/m/n/10 et al. (2013) and more resembled the rate for their most
  []
 
-<pics/FFDs/overview_alpha_literature.png, id=93, 650.43pt x 505.89pt>
+<pics/FFDs/overview_alpha_literature.png, id=92, 650.43pt x 505.89pt>
 File: pics/FFDs/overview_alpha_literature.png Graphic file (type png)
 <use pics/FFDs/overview_alpha_literature.png>
 Package pdftex.def Info: pics/FFDs/overview_alpha_literature.png  used on input
  line 476.
 (pdftex.def)             Requested size: 256.0748pt x 199.17207pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18 <./pics/FFDs/discussion_FFDs.png>]
 Underfull \hbox (badness 1147) in paragraph at lines 482--490
 \T1/txr/m/n/10 observations of eight UV Ceti stars. Shakhovskaya (1989)
  []
 
-[19 <./pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png> <./pics/FFDs/over
-view_alpha_literature.png>] (values/total_number_of_lcs.txt)
+
+Underfull \vbox (badness 1521) has occurred while \output is active []
+
+ [18 <./pics/lcs/m67_flare.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <./pics/FFDs/discussion_FFDs.png>] (values/total_number_of_lcs.txt)
 (values/total_number_of_stars.txt) (values/total_number_of_flares.txt)
 Underfull \hbox (badness 1038) in paragraph at lines 496--509
 \T1/txr/m/n/10 Our findings paint a picture of clear trends in the flaring
@@ -1319,7 +1269,8 @@ Underfull \hbox (badness 1092) in paragraph at lines 496--509
 \T1/txr/m/n/10 Although Kepler and K2 data were already used in more
  []
 
-
+[20 <./pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png> <./pics/FFDs/over
+view_alpha_literature.png>]
 Underfull \hbox (badness 1490) in paragraph at lines 509--514
 \T1/txr/m/n/8 of the University of Hawaii, the Pan-STARRS Project Office, the M
 ax-
@@ -1332,10 +1283,9 @@ os . esa . int / web / gaia /
  []
 
 
-Underfull \vbox (badness 7667) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-(aa.bbl
+ (aa.bbl
 Underfull \hbox (badness 3657) in paragraph at lines 63--65
 []\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saunders, N., et al. 2018, arXiv e-p
 rints,
@@ -1347,7 +1297,9 @@ Underfull \hbox (badness 2753) in paragraph at lines 115--117
 tive
  []
 
-[21]) [22]
+[21] [22]) [23
+
+]
 Underfull \hbox (badness 2809) in paragraph at lines 521--525
 \T1/txr/m/n/10 To match catalogs on RA and declination we used the
  []
@@ -1357,7 +1309,7 @@ Underfull \hbox (badness 2846) in paragraph at lines 521--525
 \T1/txr/m/n/10 For the studies with classifiers we assigned membership
  []
 
-<pics/appendix/membership_histograms.png, id=113, 1156.32pt x 1300.86pt>
+<pics/appendix/membership_histograms.png, id=116, 1156.32pt x 1300.86pt>
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
@@ -1383,23 +1335,27 @@ Underfull \hbox (badness 1688) in paragraph at lines 601--602
  []
 
 (values/mmle_alpha_energy.txt) (values/mmle_alpha_ed.txt)
-(values/MCMC_alpha_energy.txt) (values/MCMC_alpha_ed.txt) [23
+(values/MCMC_alpha_energy.txt) (values/MCMC_alpha_ed.txt) [24
 
-] [24] [25 <./pics/appendix/membership_histograms.png>] [26]
+] [25] [26 <./pics/appendix/membership_histograms.png>] [27]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
  (aa.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 614.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 11030 strings out of 482728
- 162503 string characters out of 2948687
- 592449 words of memory out of 3000000
- 26427 multiletter control sequences out of 15000+200000
+ 11012 strings out of 482728
+ 161432 string characters out of 2948687
+ 592293 words of memory out of 3000000
+ 26424 multiletter control sequences out of 15000+200000
  638912 words of font info for 180 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 46i,14n,49p,7194b,717s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,14n,49p,7194b,827s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/ekaterina/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/ek
 aterina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtcxr.pfb></home/ekat
 erina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtxmi.pfb></home/ekater
@@ -1416,9 +1372,9 @@ l/fonts/type1/urw/times/utmb8a.pfb></home/ekaterina/.miktex/texmfs/install/font
 s/type1/urw/times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type
 1/urw/times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on aa.pdf (26 pages, 5772542 bytes).
+Output written on aa.pdf (27 pages, 5772844 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 179 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
