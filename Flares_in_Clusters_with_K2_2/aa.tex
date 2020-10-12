@@ -35,14 +35,6 @@
 \defcitealias{ilin2019}{Paper~I}
 
 
-
-% REMOVE AFTER FINISHING DRAFT:
-
-\usepackage{lineno}
-%\linenumbers
-
-% FINISH REMOVE AFTER FINISHING DRAFT
-
 %---------------------------------
 %\usepackage{natbib}
 % To add links in your PDF file, use the package "hyperref"
@@ -78,7 +70,7 @@
              %        accept e-mails}
              }
 
-   \date{Received XXX; accepted XXX}
+   \date{Received August 17, 2020; accepted October 9, 2020}
 
 % \abstract{}{}{}{}{}
 % 5 {} token are mandatory
@@ -103,21 +95,19 @@
    
 
 \section{Introduction}
-%The impressive morphology of flares has incited our curiosity for decades. Yet the underlying physical processes are still not fully understood on the Sun, and even less so on other stars.
 Flares are explosions that occur on the surfaces of practically all low mass stars down to the very bottom of the main sequence. We know that flares are magnetic re-connection events that lead to a change in field line topology and subsequent energy release~\citep{priest_magnetic_2002}. We can observe flares in nearly all electromagnetic bands, from radio
 to X-ray, and on all stars that possess a convection zone, from late F type stars to ultracool dwarfs~\citep{schaefer2000,benz2010,gizis2013}. 
 \\
 Stellar flares on cool stars can enhance the optical flux by multiple orders of magnitude within minutes or seconds~\citep{haisch1991, schmidt2019}, and release energies up to \mbox{$\sim10^{37}$ erg}~\citep{maehara2012, davenport_kepler_2016}. They typically exhibit blackbody emission at about 10\,000 K~\citep{hawley1992, kowalski2013}, which is significantly hotter than the photospheres of these stars (2500 $-$ 6500 K). The high intensity, strong contrast, and broad energy distributions allow us to measure magnetic activity as traced by flares for a great variety of time resolved observations.
 \\
-%With the evidence that the physical processes that cause flares on the Sun and other stars are the same~\citep{karoff_observational_2016}, solar and stellar flares can inform each other~\citep{shibayama_2013}. Inconsistencies in extrapolations from solar to stellar conditions~\citep{Aarnio2011, aarnio_masslosscme_2012, drake_cmemassloss_2013} provide valuable clues to the differences in magnetic properties between Sun and M dwarfs, too~\citep{alvaradogomez_cme_2018}. 
-Statistical flare studies were pioneered from the ground~\citep{lacy_uv_1976}, but it was not until space missions like Kepler~\citep{koch2010} that investigating stellar ensembles that were not pre-selected for their activity was possible~\citep{walkowicz2011}. Today, the ground based all-sky surveys ASAS-SN~\citep{shappee2014} and Evryscope~\citep{law2015}, and also the Transiting Exoplanet Survey Satellite~(TESS,~\citealt{ricker2014}) are following in the footsteps of Kepler~(see works by~\citealt{schmidt2019,rodriguez2020,howard2019, howard2020, guenther2020, feinstein2020}). Statistical studies of stellar flaring activity can help us understand the underlying physical processes of flares~\citep{benz2010}, the nature and strength of stellar magnetic fields~\citep{berger2006, odert2017}, starspots~\citep{davenport_flaresandspots_2015, notsu2019, howard2020}, how flares relate to stellar angular momentum evolution~\citep{mondrik2019, howard2020}, and how they affect the atmospheres of exoplanets~\citep{lecavelier_flareescape_2012, loyd_mflaresplanetsfuv_2018, tilley_repeated_flare_2019, howard2019}.%, and inform galactic archaeology~\citep{hilton2010,howard2019}. %But we also must scrutinize the assumption, and clarify the circumstances under which solar and stellar flares can be related. From G to L
+Statistical flare studies were pioneered from the ground~\citep{lacy_uv_1976}, but it was not until space missions like Kepler~\citep{koch2010} that investigating stellar ensembles that were not pre-selected for their activity was possible~\citep{walkowicz2011}. Today, the ground based all-sky surveys ASAS-SN~\citep{shappee2014} and Evryscope~\citep{law2015}, and also the Transiting Exoplanet Survey Satellite~(TESS,~\citealt{ricker2014}) are following in the footsteps of Kepler~(see works by~\citealt{schmidt2019,rodriguez2020,howard2019, howard2020, guenther2020, feinstein2020}). Statistical studies of stellar flaring activity can help us understand the underlying physical processes of flares~\citep{benz2010}, the nature and strength of stellar magnetic fields~\citep{berger2006, odert2017}, starspots~\citep{davenport_flaresandspots_2015, notsu2019, howard2020}, how flares relate to stellar angular momentum evolution~\citep{mondrik2019, howard2020}, and how they affect the atmospheres of exoplanets~\citep{lecavelier_flareescape_2012, loyd_mflaresplanetsfuv_2018, tilley_repeated_flare_2019, howard2019}.
 \\
 The present study has a focus on the relation between flares and the age of low mass stars on the main sequence. To this end, we set out to quantify how flaring activity changes as a function stellar mass and age. 
 \\
-In cool main sequence stars, the fraction of stars found flaring in the optical is known to increase down to spectral type M5~\citep{yang_flaring_2017, chang2020}. Even beyond M5, and down to L dwarfs, flaring is ubiquitous~\citep{stelzer2006, robrade2010, gizis2013, schmidt2015, schmidt2016, paudel2018, paudel2020}. In fact, the prototype flare star, UV Ceti, is an M6 dwarf~\citep{kirkpatrick1991}. %schmidt2015, 
+In cool main sequence stars, the fraction of stars found flaring in the optical is known to increase down to spectral type M5~\citep{yang_flaring_2017, chang2020}. Even beyond M5, and down to L dwarfs, flaring is ubiquitous~\citep{stelzer2006, robrade2010, gizis2013, schmidt2015, schmidt2016, paudel2018, paudel2020}. In fact, the prototype flare star, UV Ceti, is an M6 dwarf~\citep{kirkpatrick1991}.  
 Flaring activity also decays with age, but stellar ages can only be determined indirectly. Using galactic latitute as a proxy for age, flaring activity appeared to decline with higher galactic latitude, that is, older age, for M dwarfs~\citep{hilton2010, walkowicz2011, howard2019}. In gyrochronology, fast rotation indicates young age~\citep{barnes_rotational_2003}, and slows down as the star ages. So the relation between rotation and flaring can be used to calibrate a flaring-age relation~\citep{davenport2019}. 
 \\
-In M dwarfs, the fraction of stellar luminosity emitted in flares is correlated with the fraction emitted in H$\alpha$ in quiescence~\citep{yang_flaring_2017}. Quiescent H$\alpha$ emission was also explored as an age tracer in the past~\citep{soderblom_chromospheric_1991, pace_chromospheric_2013, lorenzo-oliveira_age-mass-metallicity-activity_2016}. More recent work focused on stars older than a gigayear, and calibrated the H$\alpha$-age relation using isochronal~\citep{lorenzooliveira2018}, and asteroseismic ages~\citep{booth2017, booth2020}, suggesting that an age calibration of flaring activity is possible.%, not least because a significant portion of flaring energy is emitted in H$\alpha$~\citep{kowalski2013}. % Similarly, as flare blackbody emission peaks around 10 000 K, Far Ultraviolet  %Short rotation periods and high magnetic activity measured in H$\alpha$ are strongly correlated~\citep{west_magneticrotationage_2015}. 
+In M dwarfs, the fraction of stellar luminosity emitted in flares is correlated with the fraction emitted in H$\alpha$ in quiescence~\citep{yang_flaring_2017}. Quiescent H$\alpha$ emission was also explored as an age tracer in the past~\citep{soderblom_chromospheric_1991, pace_chromospheric_2013, lorenzo-oliveira_age-mass-metallicity-activity_2016}. More recent work focused on stars older than a gigayear, and calibrated the H$\alpha$-age relation using isochronal~\citep{lorenzooliveira2018}, and asteroseismic ages~\citep{booth2017, booth2020}, suggesting that an age calibration of flaring activity is possible.
 \\
 While absolute stellar ages are difficult to assess, they can be differentially controlled for in coeval groups of stars. Flaring-age studies in binaries showed consistent activity for both components in the majority of targets~\citep{lurie2015, clarke_flare_2018}. Open clusters are also coeval groups of stars with well-determined isochronal ages that have been used as a laboratory for flare studies on stars with a fixed age~\citep{mirzoyan1993, chang2015}. \citet{ilin2019}~(hereafter \citetalias{ilin2019}) investigated the flaring activity of late-K to mid-M dwarfs in three open clusters, the Pleiades, Praesepe, and M67, using K2 time domain photometry. We analyzed flare frequency distributions (FFDs) broken down by the stars' effective temperatures $T_\mathrm{eff}$ and ages. We found that flaring activity declined both with increasing mass and age, and that the trend was more pronounced for higher mass stars. 
 \\
@@ -155,7 +145,6 @@ All in all, we identified \input{values/total_number_of_stars.txt}low mass stars
 \end{table*}
 %---------------------------------------------------------------
 \subsubsection{Pleiades}
-%age distance citation?
 The Pleiades, a nearby ZAMS cluster with age estimates ranging from 87~Myr to 141~Myr~\citep{bell_pre-main-sequence_2012, scholz2015, dahm_reexamining_2015, yen2018, gossage2018, bossini2019}, was observed in Campaign 4, and treated in \citetalias{ilin2019}. Here, we used 741 reprocessed K2 light curves from this open cluster, and our methodological improvements to \citetalias{ilin2019} to repeat the analysis. We revisited the members from~\citet{rebull_pleiadesrot_2016}, which were used in \citetalias{ilin2019}, and merged the catalog with lists of members determined by~\citet{olivares_pleiades_2018, gaia_dr2_2018_hrd}; and~\citet{cantat_gaudin_2018}.
 \subsubsection{Hyades}
 The Hyades are a $625-690$~Myr old open cluster~\citep{perryman1998,salaris_age_2004, gossage2018, gaia_dr2_2018_hrd} that was observed during Campaigns 4 and 13 with K2.  We merged membership tables obtained from \citet{douglas_praesepe_hyades_2014, reino_hyades_2018}; and \citet{gaia_dr2_2018_hrd} to select 170 high confidence members, of which 9 were observed in both K2 campaigns. 
@@ -180,7 +169,7 @@ To determine robust $T_\mathrm{eff}$~(Fig. \ref{fig:teff_spread}), we used CTRs 
 \\
 \citet{boyajian_stellar_2013} determined CTRs from a range of interferometrically characterized stars using $g-r$, $g-i$, $g-z$, $g-J$, $g-H$, and $g-K$ colors from SDSS and Johnson magnitudes for A to K stars. Their sample was centered on solar metallicity, so we constained the use of these CTRs to stars with $-0.25<$\,[Fe/H]$\,<0.25$. Following \citet{boyajian_stellar_2013}, we transformed 2MASS $JHK$ to $J-H$, $H-K$, and $J-K$ in the Johnson system from 2MASS to the Bessell-Brett sytem~\citep{carpenter_color_2001}, and from Bessell-Brett to Johnson using the relations in~\citet{bessell_brett_1988}. 
 \\
-\citet{mann_how_2015} derived CTRs from absolutely calibrated spectra to which they fitted atmospheric models to obtain $T_\mathrm{eff}$. %Alternatively, they determined $T_\mathrm{eff}$ from long-baseline optical interferometry measurements using the bolometric flux. 
+\citet{mann_how_2015} derived CTRs from absolutely calibrated spectra to which they fitted atmospheric models to obtain $T_\mathrm{eff}$. 
 They provided transformations for SDSS/2MASS $r-z$ and $r-J$, or Gaia $BP-RP$ where extra information could be added from metallicity or 2MASS $J-H$. The relations in \citet{mann_how_2015} were only valid if metallicity was sufficiently close to solar, which was satisfied for the open clusters in this paper~(see Table \ref{tab:data_clusters}). 
 \\
 We supplemented our estimates with $T_\mathrm{eff}$ estimates from \citet{anders_starhorse_2019} who determined distances, extinctions, and various stellar parameters for 137 million stars in Gaia DR2 using the StarHorse pipeline~\citep{queiroz_starhorse_2018}.
@@ -252,10 +241,9 @@ $ED$ is a quantity independent of stellar calibration and distance that is suite
 %------------------------------------------
 \subsection{Kepler flare energy $E_\mathrm{Kp}$}
 \label{sec:en}
-Multiband time-resolved observations of active M dwarfs have shown that thermal continuum flux accounts for the majority  of the energy radiated by flares at optical wavelengths~\citep{kowalski2013}. %also Halwey+2003,  Osten/Wolk2015 (see Loyd+2018, 4.1)
+Multiband time-resolved observations of active M dwarfs have shown that thermal continuum flux accounts for the majority  of the energy radiated by flares at optical wavelengths~\citep{kowalski2013}.
 The effective temperature of this blackbody varies:
 While solar flares are relatively cool, with \mbox{$T_\mathrm{eff}\approx5\,000-7\,000 $\;K}~\citep{kleint_solarstellarwlf_2016, kerr_solarstellarwlf_2014, watanabe_solarstellarwlf_2013, namekata_solarstellarwlf_2017}, most stellar events emit in the blue, and exhibit temperatures of about $9\,000-10\,000$\;K~\citep{1992ApJS...78..565H, kretzschmar_sun_2011, davenport_multi-wavelength_2012, shibayama2013}. However, in ultraviolet time resolved spectral observations, one superflare was reported at a blackbody temperature of $15\,500$ K~\citep{loyd2018}, and another could even be fit with a single $40\,000$\;K spectral energy distribution~\citep{froning_40000_2019}.
-%What will be the effect of Tflare on the Kepler band? (calculated in Cluster Analysis notebook 21)
 A dependence of flare temperature on stellar age, or mass, or both, would additionally bias our analysis. For example, at about $6\,200$\;K, the Kepler pass band captures the largest flux fraction, at $10\,000$\;K $72\,\%$, at $40\,000$\,K only $4\%$ of this value is transmitted. 
 Given the uncertainties on stellar luminosity in the Kepler band (see Section \ref{sec:lum}) and on equivalent duration, the flare energies
 \begin{equation}
@@ -389,8 +377,7 @@ FA&=\dfrac{E_\mathrm{Kp,flare,tot,}}{t\cdot L_{\mathrm{bol,*,}}}
 $E_\mathrm{Kp,flare,tot,}$ is the total energy released in flares, and $t$ is the total observing time of the star.
 We determined $L_\mathrm{bol,*}$ from $R_*$ and $T_\mathrm{eff}$, as described in Section~\ref{TeffRL}. The energy released in flares was inferred using our derived stellar luminosities. By definition, $FA$ is a useful measure of relative stellar activity as long as the flux portion of the quiescent star in the Kepler band is roughly constant. One can compare $FA$ across age, but comparisons across $T_\mathrm{eff}$ bins should be interpreted with caution. $FA$ declines with age for every $T_\mathrm{eff}$ bin considered for both the total luminosity and relative to the quiescent flux~(Fig. \ref{fig:FA}). However, we found that $FA$ remained high ($>10^{-5}$) in early to mid M dwarfs for several hundred Myr after Pleiades age. 
 \\ 
-\citet{lurie2015} analysed the flares on GJ 1245 A and B, two M5 dwarfs in a triple system with another M8 dwarf, that were observed in 1 minute cadence during the original Kepler mission. GJ 1245 A and B both fall roughly into the $3000-3250\,$K bin, and rotate at periode $<1$\,d. The authors calculated $FA\approx 10^{-4}$ for both components, consistent with the $FA$ value in the 135 Myr old Pleiades in this $T_\mathrm{eff}$. But as the activity remains high at least up to the ages of Hyades and Praesepe, GJ 1245 could also be older. %From their FFDs and fitted values for $\alpha$ for each component we inferred $\beta_\mathrm{s,A}\approx 1900\,\mathrm{yr}^{-1}$  and $\beta_\mathrm{s,B}\approx 2200\,\mathrm{yr}^{-1}$, consistent with $\beta_\mathrm{s}$ for the Pleiades, or Hyades/Praesepe within uncertainties.
-
+\citet{lurie2015} analysed the flares on GJ 1245 A and B, two M5 dwarfs in a triple system with another M8 dwarf, that were observed in 1 minute cadence during the original Kepler mission. GJ 1245 A and B both fall roughly into the $3000-3250\,$K bin, and rotate at periode $<1$\,d. The authors calculated $FA\approx 10^{-4}$ for both components, consistent with the $FA$ value in the 135 Myr old Pleiades in this $T_\mathrm{eff}$. But as the activity remains high at least up to the ages of Hyades and Praesepe, GJ 1245 could also be older.
 \subsection{Hyades and Praesepe: Rotating differently}
 \label{sec:hyaprarot}
 %--------------------------------------------------------------------
@@ -432,9 +419,7 @@ In the highest mass bin ($5000-6000$\,K) the stars in Praesepe remained at simil
 \hline\hline
  cluster & EPIC & median SpT &     binary \\
 \hline
- %    M67 &  211420952 &         K9 &  K6.5 + M5.5 \\
      M67 &  211434440 &         K1 &    K2 + M5.5 \\
-%     M67 &  211419613 &         G3 &      K0 + M6 \\
  Ruprecht 147 &  219601739 &         G8 &      K1 + M6 \\
  Ruprecht 147 &  219610232 &       K0.5 &    K2 + M5.5 \\
  Ruprecht 147 &  219591752 &         M3 &  M3.5 + M3.5 \\
@@ -453,8 +438,6 @@ In the highest mass bin ($5000-6000$\,K) the stars in Praesepe remained at simil
 We found 8 and 4 flaring members in M67 and Ruprecht 147, respectively. Upon close inspection the majority were false positives, or occurred on multiple systems or evolved stars that were not properly filtered out. Most flares in these old clusters were detected on RS CVn binaries, cataclysmic binaries, spectroscopic binaries, and red giant stars. Excluding all these, we were left with one flare in M67 on an early K dwarf~(Fig. \ref{fig:m67}). In Ruprecht~147, we excluded EPIC 219426848, a double-lined spectroscopic binary~\citep{curtis2013}, and so narrowed down the list to a flare on a G8 star in Ruprecht~147, and four flares each on a K0.5 and an M3 star. For these stars, the multiplicity status was unknown. The uncertainty about the stellar properties suggests a range of possible masses of the system. The mass budget could be calculated from the uncertainties on their radii $R_*$ using the relations from \citet{eker2018}. In all cases, it was large enough that the stars in question could in principle be binary stars with mid-M dwarf companions that were too faint to be detected. We calculated hypothetic binary pairs for the cases where the primary mass was the smallest possible within $1\sigma$ on $R_*$. We give the median spectral type (SpT) of the target if it was a single star, and the spectral types of the possible binaries in Table~\ref{tab:m67_rup147_binaries}.
 \\
 After the manual inspection of the younger clusters we concluded that, while binaries and false positives were present in these clusters also, they were not the dominating source of flares. As multiplicity rates for low mass stars decrease from about 50\% for F type stars~\citep{raghavan2010} to 22\% for L and T dwarfs~\citep{duchene2013}, with M dwarfs showing somewhat higher multiplicity rates at about 27\%~\citep{winters2019}, we expect that the error introduced by unresolved binaries on our results was smaller for the cooler $T_\mathrm{eff}$ bins.
-% Kouwenhoven et al. (2009):  $30-40\,\%$ of M dwarfs are members of a binary system. For late M dwarfs and brown dwarfs this drops to $10 - 30\,\%$.
-%ChangQing Luo+19 inspect an interacting M dwarf (M1+M3.5, BX Tri) eclipsing binary that exhibits superflares and strong hydrogen emission (semi-detached system, references to other observations of BX Tri)
 \section{Discussion}
 \label{sec:discussion}
 %-------------------------------------------
@@ -512,8 +495,7 @@ Finally, we note that the difference in time sampling between our study (30 minu
 We found values for $\alpha$ to range from 1.84 to 2.39~(Table~\ref{tab:powerlawtable_spt}), with smaller numbers of flares in a FFD usually leading to values closer to the margins of this range, and FFDs that consisted of more than 50 flares being better constrained with $\alpha\sim 1.89-2.11$.
 Taking into account uncertainties and systematic errors resulting from the use of different power law fitting methods~\citep{maschberger2009}, the power law exponent $\alpha\sim 2$ appears to be similar for the majority of studies on flare statistics in the literature so far, irrespective of spectral type or age. To illustrate this, we searched the literature for studies where power laws were fitted to FFDs of flares in the optical regime using different methods~(Fig.~\ref{fig:powerlaw_literature}). 
 \\
- \citet{lacy_uv_1976} pioneered in statistical flare studies using observations of eight UV Ceti stars. \citet{shakhovskaya_stellar_1989} analyzed monitoring data from several dozen active early K to late M dwarfs in the solar vicinity, the Orion, the Pleiades, the Hyades, and the Praesepe cluster. A number of studies focused on solar-type and G dwarfs stars in Kepler~\citep{shibayama2013,wu2015}. \citet{hilton2011} derived $\alpha$ from ground-based observations of M dwarfs. \citet{lurie2015} determined $\alpha$ from Kepler short cadence light curves of two active M5 dwarfs in Kepler. %\citet{davenport_kepler_2016} searched the entire Kepler catalog for flares. 
-       \citet{yang_flaring_2017} followed up on \citet{davenport_kepler_2016} in searching the entire Kepler catalog for flares. \citet{lin2019} (M) and (K) were based on nearby M and K dwarf flares in K2 long cadence light curves. \citet{raetz2020} studied short cadence M dwarfs with rotation periods in K2. \citet{gizis_k2_2017-1} constructed an FFD for 22 flares on an M7 dwarf. \citet{paudel2018} studied M6-L0 dwarfs in K2 short cadence data. \citet{howard2019} found over 500 superflares on 284 stars in the framework of the Evryscope all-sky survey. Photometric flares were observed by the MMT 6.5 telescope~\citep{hartman2008} in the $\sim550$ Myr old M37 open cluster~\citep{chang2015}. \citet{guenther2020} took a first look to $\alpha$ as derived from stars observed during TESS Cycle 1. From their work we only use $\alpha$ derived from stars with 20 or more flare detections in Fig.~\ref{fig:powerlaw_literature}. Finally, \citet{feinstein2020} used a convolutional neural network setup to detect flares in nearby young moving groups, open clusters, OB associations, and star forming regions with ages between 1 and 800 Myr in TESS, finding relatively flat FFDs compared to~\citet{guenther2020}.
+ \citet{lacy_uv_1976} pioneered in statistical flare studies using observations of eight UV Ceti stars. \citet{shakhovskaya_stellar_1989} analyzed monitoring data from several dozen active early K to late M dwarfs in the solar vicinity, the Orion, the Pleiades, the Hyades, and the Praesepe cluster. A number of studies focused on solar-type and G dwarfs stars in Kepler~\citep{shibayama2013,wu2015}. \citet{hilton2011} derived $\alpha$ from ground-based observations of M dwarfs. \citet{lurie2015} determined $\alpha$ from Kepler short cadence light curves of two active M5 dwarfs in Kepler. \citet{yang_flaring_2017} followed up on \citet{davenport_kepler_2016} in searching the entire Kepler catalog for flares. \citet{lin2019} (M) and (K) were based on nearby M and K dwarf flares in K2 long cadence light curves. \citet{raetz2020} studied short cadence M dwarfs with rotation periods in K2. \citet{gizis_k2_2017-1} constructed an FFD for 22 flares on an M7 dwarf. \citet{paudel2018} studied M6-L0 dwarfs in K2 short cadence data. \citet{howard2019} found over 500 superflares on 284 stars in the framework of the Evryscope all-sky survey. Photometric flares were observed by the MMT 6.5 telescope~\citep{hartman2008} in the $\sim550$ Myr old M37 open cluster~\citep{chang2015}. \citet{guenther2020} took a first look to $\alpha$ as derived from stars observed during TESS Cycle 1. From their work we only use $\alpha$ derived from stars with 20 or more flare detections in Fig.~\ref{fig:powerlaw_literature}. Finally, \citet{feinstein2020} used a convolutional neural network setup to detect flares in nearby young moving groups, open clusters, OB associations, and star forming regions with ages between 1 and 800 Myr in TESS, finding relatively flat FFDs compared to~\citet{guenther2020}.
        \\
 While most studies consistently found values somewhat above or below $\alpha\approx2$, the comparison would reveal unresolved systematic errors in all these studies, including our own, if $\alpha$ was truly universal for all FFDs. The determination of $\alpha$ using different methods without reliable uncertainty estimates across different studies makes it difficult to assess whether the spread in $\alpha$ from about $1.4$ to $2.5$ is physically motivated or not. 
 \\
@@ -530,7 +512,6 @@ Using multiple cluster membership studies we selected for high-probability membe
 \\
 We fitted power law functions to the flare frequency distributions of flares from stars in different age and $T_\mathrm{eff}$ bins. We found that the power law exponent $\alpha$ was consistent with previous work, and caution against interpreting apparent trends, especially when comparing across different studies.
 \\
-%We noticed that our results showed lower activity than predicted by a gyrochronological FFD parametrization as a function of mass and age~\citep{davenport2019}, and that the model did not always match the differential decline in age within individual $T_\mathrm{eff}$ bins. 
 Our results indicated that flaring activity declined with age, and did so faster for higher mass stars. We provide the measured flaring rates in Table~\ref{tab:powerlawtable_spt} as a contribution to the endeavor of mapping the flaring-age-mass relation from pre-main sequence to main sequence turn-off, and from the onset of an outer convection zone in F-type stars to the coolest brown dwarfs.
 \\
 Our findings paint a picture of clear trends in the flaring evolution of GKM dwarfs on the main sequence. Regardless of varying methods employed for flare search and FFD analysis in previous studies we found encouraging consistency in flaring rates with both Kepler and K2 based work, and ground-based surveys. We noticed some differences, which we could not always resolve as being either systematic or astrophysical. We suggest that discrepancies between our results and flare studies that used rotation periods for their age estimates~\citep{davenport2019, raetz2020} could be explained by sample selection bias but may also point to limitations of rotation periods as an age indicator. Noteably, we found the flaring activity in M1-M2 dwarfs in Hyades and Praesepe to differ significantly despite their similar ages, while it was consistent for the two clusters for both higher and lower mass stars. We interpret this as a sign of a mass and rotation dependent transition from saturated to unsaturated activity levels: The flaring rates of higher mass stars at somewhat lower rotation periods had already declined substantially, while lower mass stars still resided in the saturated activity regime, and were spinning faster. We conclude that some discrepancies between our results and flare studies that used rotation periods for their age estimates could be explained by sample selection bias toward more active stars, but others may hint at limitations to using rotation as an age indicator without additional constraints from stellar activity. 
@@ -577,7 +558,7 @@ p((\text{else}))=0.1.
 \end{eqnarray*}
 Members from \citet{rebull_pleiadesrot_2016, douglas_poking_2017}; and ~\citet{gaia_dr2_2018_hrd} were assigned $p=0.9$ if they appeared in the final catalog.
 \\
-Table \ref{tab:app:memberships} gives an overview over different membership catalogs. Figure \ref{fig:app:memberships} shows membership probability histograms of the final sample broken down by membership source.% Detailed intructions on how to reproduce the final sample of members in each cluster, and corresponding tables, Python scripts, and Jupyter notebooks can be found online\footnote{\url{https://github.com/ekaterinailin/flares-in-clusters-with-k2-ii}}
+Table \ref{tab:app:memberships} gives an overview over different membership catalogs. Figure \ref{fig:app:memberships} shows membership probability histograms of the final sample broken down by membership source.
 
 %--------------------------------------------------------------------
 
@@ -591,15 +572,14 @@ Table \ref{tab:app:memberships} gives an overview over different membership cata
 \hline
    \citet{curtis2013} & classifier & Ruprecht 147 & \\
    \citet{douglas_praesepe_hyades_2014} & probability & Hyades, Praesepe & meta study \\
-  % \citet{bouy_messier_2015} & probability & M35 & DANCe\\
    \citet{gonzalez_m67mem_2016} & classifier & M67 & \\
    \citet{rebull_pleiadesrot_2016} & members list & Pleiades & meta study\\
    \citet{rebull_praesepe_2017} & classifier & Praesepe & meta study\\
    \citet{douglas_poking_2017} & members list & Praesepe & meta study\\
-   \citet{gaia_dr2_2018_hrd} & members list & Hyades$^{\dagger}$,   & Gaia DR2\\%M35,
+   \citet{gaia_dr2_2018_hrd} & members list & Hyades$^{\dagger}$,   & Gaia DR2\\
    &&Ruprecht 147, Pleiades, &\\
    &&Praesepe&\\
-   \citet{cantat_gaudin_2018} & probability & Ruprecht 147, & Gaia DR2\\%M35, 
+   \citet{cantat_gaudin_2018} & probability & Ruprecht 147, & Gaia DR2\\
    && Pleiades, Praesepe&\\
    \citet{gao_m67mem_2018} & probability & M67 & Gaia DR2\\
    \citet{reino_hyades_2018} & probability & Hyades$^{\dagger}$ & Gaia DR1\\
@@ -616,7 +596,7 @@ Table \ref{tab:app:memberships} gives an overview over different membership cata
             \includegraphics[width=\hsize]{pics/appendix/membership_histograms.png}
          \caption{Open cluster membership histograms and selected targets. Each panel corresponds to the distribution of candidate members of the cluster indicated in the panel title. Membership catalogs are shown as step histograms (different colors). The mean membership probability distribution is a filled histogram (gray). For our study, we selected only stars with membership probabilities above 80\% that were observed by K2 in long cadence mode (black filled histogram).}
           \label{fig:app:memberships}
-         % X panel: Power law exponent $\alpha_\mathrm{MK}$, fitting procedure follows Bauke (2007).
+
    \end{figure*}
 
 %--------------------------------------------------------------------
