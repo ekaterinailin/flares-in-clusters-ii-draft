@@ -520,16 +520,16 @@ In~\citet{gonzalez_m67mem_2016}:
 \begin{eqnarray*}
 p(M (\text{member}))&=&0.9,\\
 p(BM(\text{binary member}))&=&0.9,\\
-p(N (\text{non-member}))&=&0.1,\\
-p(SN(\text{single non-member}))&=&0.1,\\
-p(BN (\text{binary non-member}))&=&0.1,\\
+p(N (\text{nonmember}))&=&0.1,\\
+p(SN(\text{single nonmember}))&=&0.1,\\
+p(BN (\text{binary nonmember}))&=&0.1,\\
 p(U (\text{unknown member}))&=&0.5.
 \end{eqnarray*}
 In~\citet{curtis2013}:
 \begin{eqnarray*}
 p(Y (\text{highest confidence member}))=0.9,\\
 p(P (\text{possible/probable member}))=0.7,\\
-p(N (\text{not likely/non-member}))=0.7,\\
+p(N (\text{not likely/nonmember}))=0.7,\\
 p(B (\text{photometry consistent with blue stragglers}))=0.0.\\
 \end{eqnarray*}
 In~\citet{rebull_praesepe_2017}:
@@ -590,12 +590,12 @@ We compiled various age, distance, and metallicity values from the literature fo
 %-------------------------------------------------------------------
 \section{Solar system object detection with SkyBot}
 \label{app:skybot}
-K2 photometry was heavily affected by crossings of Solar System Objects (SSO), which consequently produced mimicking flare profiles in the light curves~\citep{szabo2015}. Independently, two of us visually verified the SSO-nature of 42 flaring light curve events by inspecting their corresponding TargetPixelFiles (TPF) using \texttt{lightkurve}~\citep{lightkurve2018}. Except for one occasion, we found all events to be known SSOs, both in the visual survey and automatically using SkyBot~\citep{berthier2016}. Subsequently, we ran SkyBot on the remaining catalog of flares to remove other false positive events caused by known SSOs. Visual inspections of TPFs were carried out for any SSO detected within 30'' of its target star at mid-event time. This yielded additional 103 contaminated signals distributed among three subgroups, (i) 77 unambiguous SSO-contaminants verified through \texttt{lightkurve} (ii) 18 faint SkyBot-detections ($V\approx 20.4-23.8$) within $\sim3$ pixels from the respective target star but visually unresolvable in the TPF, (iii) 8 occurrences in which both flare and SSO-crossing occurred during the given flare duration stated in the catalog. The latter should be dealt with caution due to a high risk of inaccurate catalog information altered by the presence of SSOs. Despite of discarding a total of 144 flare events, we expect additional contaminants by unknown SSOs to hide in the current sample. This issue can partly be resolved by animating each TPF as demonstrated by Kristiansen et al. (in prep.). 
+K2 photometry was heavily affected by crossings of solar system objects (SSOs), which consequently produced mimicking flare profiles in the light curves~\citep{szabo2015}. Independently, two of us visually verified the SSO-nature of 42 flaring light curve events by inspecting their corresponding TargetPixelFiles (TPF) using \texttt{lightkurve}~\citep{lightkurve2018}. Except for one occasion, we found all events to be known SSOs, both in the visual survey and automatically using SkyBot~\citep{berthier2016}. Subsequently, we ran SkyBot on the remaining catalog of flares to remove other false positive events caused by known SSOs. Visual inspections of TPFs were carried out for any SSO detected within 30'' of its target star at mid-event time. This yielded additional 103 contaminated signals distributed among three subgroups, (i) 77 unambiguous SSO-contaminants verified through \texttt{lightkurve} (ii) 18 faint SkyBot-detections ($V\approx 20.4-23.8$) within $\sim3$ pixels from the respective target star but visually unresolvable in the TPF, (iii) 8 occurrences in which both flare and SSO-crossing occurred during the given flare duration stated in the catalog. The latter should be dealt with caution due to a high risk of inaccurate catalog information altered by the presence of SSOs. Despite of discarding a total of 144 flare events, we expect additional contaminants by unknown SSOs to hide in the current sample. This issue can partly be resolved by animating each TPF as demonstrated by Kristiansen et al. (in prep.). 
 \section{Modified maximum likelihood estimatator}
 \label{sec:app:MMLE}
 As a means to arrive at results efficiently, and as consistency check to the method derived from~\citet{wheatland_flaresbayes_2004} we fit $\alpha$ to the FFDs in $ED$ and $E_\mathrm{Kp}$ space using a modified maximum likelihood estimatator (MMLE,~ \citealt{maschberger2009}). The logarithm of the likelihood function $\mathcal{L}$ that had to be maximized was given by the authors in Eq. (8) in their manuscript:
 \begin{equation}
-\log \mathcal{L} = n \log (1-\hat{\alpha})-n \log\left(x_\mathrm{max}^{1-\hat{\alpha}}-x_\mathrm{min}^{1-\hat{\alpha}}\right) - \hat{\alpha} \displaystyle\sum_{i=1}^{n}\log x_i
+\log \mathcal{L} = n \log (1-\hat{\alpha})-n \log\left(x_\mathrm{max}^{1-\hat{\alpha}}-x_\mathrm{min}^{1-\hat{\alpha}}\right) - \hat{\alpha} \displaystyle\sum_{i=1}^{n}\log x_i,
 \label{eqn:MLE}
 \end{equation}
 where $x_i$, $x_\mathrm{max}$, and $x_\mathrm{min}$ were the detected flare energies, and the upper and lower limits for detection, respectively. $n$ was the total number of flares. The estimate for $\alpha$ would be biased in practice because the value used for $x_\mathrm{max}$ would be the maximum energy that was measured, and not the underlying upper limit. The stabilization transformation suggested by the authors (Eq. (12) in \citealt{maschberger2009}) was then applied to the solution for $\alpha$ to account for this bias:
