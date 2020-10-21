@@ -1,15 +1,18 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.5.18)  12 OCT 2020 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.4.20)  21 OCT 2020 09:19
 entering extended mode
-**./aa.tex
-(aa.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-05-15> (aa.cls
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**aa.tex
+(./aa.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 10 language(s) loaded.
+(./aa.cls
 Document Class: aa 2016/09/01{} v9.1{} Class for AA journal
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/base/fleqn.clo
-File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
-\mathindent=\dimen134
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2a Standard LaTeX option (flush left equations)
+\mathindent=\dimen102
 Applying: [2015/01/01] Make \[ robust on input line 50.
 LaTeX Info: Redefining \[ on input line 51.
 Already applied: [0000/00/00] Make \[ robust on input line 62.
@@ -17,361 +20,675 @@ Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen135
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
 )
-\aa@fullwidth=\skip49
-\aa@fullheight=\skip50
+\aa@fullwidth=\skip43
+\aa@fullheight=\skip44
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count175
-\calc@Bcount=\count176
-\calc@Adimen=\dimen136
-\calc@Bdimen=\dimen137
-\calc@Askip=\skip51
-\calc@Bskip=\skip52
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count87
+\calc@Bcount=\count88
+\calc@Adimen=\dimen104
+\calc@Bdimen=\dimen105
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count177
-\calc@Cskip=\skip53
+\calc@Ccount=\count89
+\calc@Cskip=\skip47
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/etex-pkg/etex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
-\et@xins=\count178
+\et@xins=\count90
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/base/fontenc.sty
-Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
-)
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
-)
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-)
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-\Gm@cnth=\count179
-\Gm@cntv=\count180
-\c@Gm@tempcnt=\count181
-\Gm@bindingoffset=\dimen138
-\Gm@wd@mp=\dimen139
-\Gm@odd@mp=\dimen140
-\Gm@even@mp=\dimen141
-\Gm@layoutwidth=\dimen142
-\Gm@layoutheight=\dimen143
-\Gm@layouthoffset=\dimen144
-\Gm@layoutvoffset=\dimen145
-\Gm@dimlist=\toks18
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count91
+\Gm@cntv=\count92
+\c@Gm@tempcnt=\count93
+\Gm@bindingoffset=\dimen106
+\Gm@wd@mp=\dimen107
+\Gm@odd@mp=\dimen108
+\Gm@even@mp=\dimen109
+\Gm@layoutwidth=\dimen110
+\Gm@layoutheight=\dimen111
+\Gm@layouthoffset=\dimen112
+\Gm@layoutvoffset=\dimen113
+\Gm@dimlist=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip54
-\f@nch@O@elh=\skip55
-\f@nch@O@erh=\skip56
-\f@nch@O@olh=\skip57
-\f@nch@O@orh=\skip58
-\f@nch@O@elf=\skip59
-\f@nch@O@erf=\skip60
-\f@nch@O@olf=\skip61
-\f@nch@O@orf=\skip62
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/sttools/cuted.sty
+(/usr/share/texlive/texmf-dist/tex/latex/sttools/cuted.sty
 Package: cuted 2012/10/04 v1.5 Mixing onecolumn and twocolumn modes
-\At@ViperColsBreak=\toks19
-\v@aaa=\box45
-\v@ccc=\box46
-\lastskip@a=\skip63
-\lastskip@b=\skip64
-\lastskip@d=\skip65
-\lastbox@a=\box47
-\stripsep=\skip66
-\@viper=\box48
-\viper@penalty=\count182
-\hold@viper=\box49
-\ht@viper=\dimen146
+\At@ViperColsBreak=\toks18
+\v@aaa=\box26
+\v@ccc=\box27
+\lastskip@a=\skip57
+\lastskip@b=\skip58
+\lastskip@d=\skip59
+\lastbox@a=\box28
+\stripsep=\skip60
+\@viper=\box29
+\viper@penalty=\count94
+\hold@viper=\box30
+\ht@viper=\dimen114
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip67
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen147
+\@emptytoks=\toks19
+\ex@=\dimen115
 ))
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen148
+\pmbraise@=\dimen116
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count183
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count184
-\leftroot@=\count185
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count186
-\DOTSCASE@=\count187
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
-\big@size=\dimen149
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count188
-\c@MaxMatrixCols=\count189
-\dotsspace@=\muskip16
-\c@parentequation=\count190
-\dspbrk@lvl=\count191
-\tag@help=\toks21
-\row@=\count192
-\column@=\count193
-\maxfields@=\count194
-\andhelp@=\toks22
-\eqnshift@=\dimen150
-\alignsep@=\dimen151
-\tagshift@=\dimen152
-\tagwidth@=\dimen153
-\totwidth@=\dimen154
-\lineht@=\dimen155
-\@envbody=\toks23
-\multlinegap=\skip68
-\multlinetaggap=\skip69
-\mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2859.
-LaTeX Info: Redefining \] on input line 2860.
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks20
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks21
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks22
+\multlinegap=\skip62
+\multlinetaggap=\skip63
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/tools/enumerate.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks25
+\@enLab=\toks24
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/tools/longtable.sty
-Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip70
-\LTright=\skip71
-\LTpre=\skip72
-\LTpost=\skip73
-\LTchunksize=\count195
-\LTcapwidth=\dimen156
-\LT@head=\box52
-\LT@firsthead=\box53
-\LT@foot=\box54
-\LT@lastfoot=\box55
-\LT@cols=\count196
-\LT@rows=\count197
-\c@LT@tables=\count198
-\c@LT@chunks=\count199
-\LT@p@ftn=\toks26
-)
-(natbib.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count107
+\LTcapwidth=\dimen124
+\LT@head=\box33
+\LT@firsthead=\box34
+\LT@foot=\box35
+\LT@lastfoot=\box36
+\LT@cols=\count108
+\LT@rows=\count109
+\c@LT@tables=\count110
+\c@LT@chunks=\count111
+\LT@p@ftn=\toks25
+) (./natbib.sty
 Package: natbib 2006/03/22 7.3 (PWD)
-\bibhang=\skip74
-\bibsep=\skip75
+\bibhang=\skip68
+\bibsep=\skip69
 LaTeX Info: Redefining \cite on input line 541.
-Normal \count register pool exhausted, switching to extended pool.
-\c@NAT@ctr=\count277
-) (/home/ekaterina/.miktex/texmfs/install/tex/latex/tools/xspace.sty
+\c@NAT@ctr=\count112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-) (/home/ekaterina/.miktex/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2020/05/13 3.44 The Babel package
-
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/babel/babel.def
-File: babel.def 2020/05/13 3.44 Babel common definitions
-\babel@savecnt=\count278
-\U@D=\dimen157
-\l@babelnohyphens=\language1
-
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
-\bbl@readstream=\read2
 )
-\bbl@dirlevel=\count279
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count113
+\U@D=\dimen125
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count114
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/graphics/rotating.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen158
-\Gin@req@width=\dimen159
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count280
-\rotFPtop=\skip76
-\rotFPbot=\skip77
-\rot@float@box=\box56
-\rot@mess@toks=\toks27
+\c@r@tfl@t=\count115
+\rotFPtop=\skip70
+\rotFPbot=\skip71
+\rot@float@box=\box37
+\rot@mess@toks=\toks26
 )
-\aa@cnta=\count281
-\aa@cntb=\count282
-\aa@nbwords=\count283
-\aa@nbauthors=\count284
-\aa@nbinstitutes=\count285
-\c@aa@institutecnt=\count286
-\aa@savecounter=\count287
-\aa@dima=\skip78
-\aa@dimb=\skip79
-\aa@dimc=\skip80
-\VSpaceBeforeTheorem=\skip81
-\VSpaceAfterTheorem=\skip82
-\HSpaceIndentTheorem=\skip83
-\HVSpaceSepTheorem=\skip84
-\aa@securityheadmargin=\skip85
-\aa@bleedmargin=\skip86
-\aa@voffsetlettername=\skip87
-\aa@hoffsetlettername=\skip88
-\aa@hoffsetgray=\skip89
-\aa@aftercontentsnameskip=\skip90
-\aa@aftercontentsAutnameskip=\skip91
-\aa@beforeheadboxskip=\skip92
-\aa@afterheadboxskip=\skip93
-\aa@beforetopicsskip=\skip94
-\aa@aftertopicsskip=\skip95
-\aa@afterletternameskip=\skip96
-\aa@beforeletternameskip=\skip97
-\aa@beforeheadnoteskip=\skip98
-\aa@afterheadnoteskip=\skip99
-\aa@aftertitleskip=\skip100
-\aa@beforesubtitleskip=\skip101
-\aa@aftersubtitleskip=\skip102
-\aa@afterauthorskip=\skip103
-\aa@beforedefaultheadnoteskip=\skip104
-\aa@headingleftmargin=\skip105
-\aa@headingrightmargin=\skip106
-\aa@afterinstituteskip=\skip107
-\aa@instituteindent=\skip108
-\aa@afterdateskip=\skip109
-\aa@afterdedicationskip=\skip110
-\aa@afterabstractnameskip=\skip111
-\aa@afterabstractskip=\skip112
-\aa@aftersubabstractskip=\skip113
-\aa@afterkeywordsskip=\skip114
-\aa@beforeacknowledgementsskip=\skip115
-\aa@afteracknowledgementsskip=\skip116
-\aa@figgap=\skip117
-\aa@sidecaptionminwidth=\skip118
-\aa@sidecaptionwidth=\skip119
-\VSpaceBeforeFigCaption=\skip120
-\VSpaceAfterTabCaption=\skip121
-\VSpaceBeforeTabBib=\skip122
-\VSpaceBeforeTabFoot=\skip123
-\aftertext=\skip124
-\aa@entryboxwidth=\skip125
-\betweenumberspace=\skip126
-\authorlink=\toks28
-\yearCop=\toks29
-\aa@stripbox=\box57
-\aa@outputbox=\box58
-\c@AAproof=\count288
-\c@AAtheorem=\count289
+\aa@cnta=\count116
+\aa@cntb=\count117
+\aa@nbwords=\count118
+\aa@nbauthors=\count119
+\aa@nbinstitutes=\count120
+\c@aa@institutecnt=\count121
+\aa@savecounter=\count122
+\aa@dima=\skip72
+\aa@dimb=\skip73
+\aa@dimc=\skip74
+\VSpaceBeforeTheorem=\skip75
+\VSpaceAfterTheorem=\skip76
+\HSpaceIndentTheorem=\skip77
+\HVSpaceSepTheorem=\skip78
+\aa@securityheadmargin=\skip79
+\aa@bleedmargin=\skip80
+\aa@voffsetlettername=\skip81
+\aa@hoffsetlettername=\skip82
+\aa@hoffsetgray=\skip83
+\aa@aftercontentsnameskip=\skip84
+\aa@aftercontentsAutnameskip=\skip85
+\aa@beforeheadboxskip=\skip86
+\aa@afterheadboxskip=\skip87
+\aa@beforetopicsskip=\skip88
+\aa@aftertopicsskip=\skip89
+\aa@afterletternameskip=\skip90
+\aa@beforeletternameskip=\skip91
+\aa@beforeheadnoteskip=\skip92
+\aa@afterheadnoteskip=\skip93
+\aa@aftertitleskip=\skip94
+\aa@beforesubtitleskip=\skip95
+\aa@aftersubtitleskip=\skip96
+\aa@afterauthorskip=\skip97
+\aa@beforedefaultheadnoteskip=\skip98
+\aa@headingleftmargin=\skip99
+\aa@headingrightmargin=\skip100
+\aa@afterinstituteskip=\skip101
+\aa@instituteindent=\skip102
+\aa@afterdateskip=\skip103
+\aa@afterdedicationskip=\skip104
+\aa@afterabstractnameskip=\skip105
+\aa@afterabstractskip=\skip106
+\aa@aftersubabstractskip=\skip107
+\aa@afterkeywordsskip=\skip108
+\aa@beforeacknowledgementsskip=\skip109
+\aa@afteracknowledgementsskip=\skip110
+\aa@figgap=\skip111
+\aa@sidecaptionminwidth=\skip112
+\aa@sidecaptionwidth=\skip113
+\VSpaceBeforeFigCaption=\skip114
+\VSpaceAfterTabCaption=\skip115
+\VSpaceBeforeTabBib=\skip116
+\VSpaceBeforeTabFoot=\skip117
+\aftertext=\skip118
+\aa@entryboxwidth=\skip119
+\betweenumberspace=\skip120
+\authorlink=\toks27
+\yearCop=\toks28
+\aa@stripbox=\box38
+\aa@outputbox=\box39
+\c@AAproof=\count123
+\c@AAtheorem=\count124
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen160
-\ar@mcellbox=\box59
-\extrarowheight=\dimen161
-\NC@list=\toks30
-\extratabsurround=\skip127
-\backup@length=\skip128
-\ar@cellbox=\box60
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen128
+\extrarowheight=\dimen129
+\NC@list=\toks29
+\extratabsurround=\skip121
+\backup@length=\skip122
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen162
-\lightrulewidth=\dimen163
-\cmidrulewidth=\dimen164
-\belowrulesep=\dimen165
-\belowbottomsep=\dimen166
-\aboverulesep=\dimen167
-\abovetopsep=\dimen168
-\cmidrulesep=\dimen169
-\cmidrulekern=\dimen170
-\defaultaddspace=\dimen171
-\@cmidla=\count290
-\@cmidlb=\count291
-\@aboverulesep=\dimen172
-\@belowrulesep=\dimen173
-\@thisruleclass=\count292
-\@lastruleclass=\count293
-\@thisrulewidth=\dimen174
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen130
+\lightrulewidth=\dimen131
+\cmidrulewidth=\dimen132
+\belowrulesep=\dimen133
+\belowbottomsep=\dimen134
+\aboverulesep=\dimen135
+\abovetopsep=\dimen136
+\cmidrulesep=\dimen137
+\cmidrulekern=\dimen138
+\defaultaddspace=\dimen139
+\@cmidla=\count125
+\@cmidlb=\count126
+\@aboverulesep=\dimen140
+\@belowrulesep=\dimen141
+\@thisruleclass=\count127
+\@lastruleclass=\count128
+\@thisrulewidth=\dimen142
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/txfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -454,13 +771,12 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \symlargesymbolsA=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
-LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
 LaTeX Info: Redefining \not on input line 1043.
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -474,173 +790,154 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
-)
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
+Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.s
-ty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/home/ekaterina/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (/home/ekaterina/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
-)
-\@linkdim=\dimen175
-\Hy@linkcounter=\count294
-\Hy@pagecounter=\count295
+\@linkdim=\dimen143
+\Hy@linkcounter=\count129
+\Hy@pagecounter=\count130
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+\Hy@SavedSpaceFactor=\count131
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count296
-Package hyperref Info: Option `draft' set `true' on input line 4338.
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Option `draft' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count297
-LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen176
-
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
-))
-\Fld@menulength=\count298
-\Field@Width=\dimen177
-\Fld@charsize=\dimen178
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/atbegshi/atbegshi.sty
-Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
-)
-\Hy@abspage=\count299
-\c@Item=\count300
-\c@Hfootnote=\count301
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count132
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen144
+\Fld@menulength=\count133
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count134
+\c@Item=\count135
+\c@Hfootnote=\count136
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count137
+\c@bookmark@seq@number=\count138
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/atveryend/atveryend.sty
-Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
-)
-\Fld@listcount=\count302
-\c@bookmark@seq@number=\count303
-
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck
-.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter
-.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
+82.
 )
-\Hy@SectionHShift=\skip129
+\Hy@SectionHShift=\skip123
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdfmode.d
-ef
-File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count304
-\l__pdf_internal_box=\box61
-) (aa.aux)
+(./aa.aux)
 \openout1 = `aa.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 43.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-43.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 43.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/omltxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-43.
-
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/omstxsy.fd
-File: omstxsy.fd 2000/12/15 v3.1
-)
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 43.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    ... okay on input line 43.
 LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-43.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 43.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/omxtxex.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 43.
 LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 4
-3.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 43.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/utxexa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 43.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Trying to load font information for T1+txr on input line 43
-.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 43.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/t1txr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
 *geometry* detected driver: pdftex
@@ -676,43 +973,49 @@ File: t1txr.fd 2000/12/15 v3.1
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/home/ekaterina/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen179
-\scratchbox=\box62
-\nofMPsegments=\count306
-\nofMParguments=\count307
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen180
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count139
+\scratchdimen=\dimen147
+\scratchbox=\box40
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count142
+\MPscratchDim=\dimen148
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks31
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.st
-y
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-)
-\AtBeginShipoutBox=\box63
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box41
 
 
 Package hyperref Warning: Draft mode on.
 
 Package hyperref Info: Link coloring OFF on input line 43.
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-(/home/ekaterina/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestri
-ng.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count311
+\c@section@level=\count145
 )
 LaTeX Info: Redefining \ref on input line 43.
 LaTeX Info: Redefining \pageref on input line 43.
@@ -722,74 +1025,62 @@ LaTeX Info: Redefining \nameref on input line 43.
 
 IMPORTANT
 
-Class aa Warning: Around 370 words in the abstract instead of 300 (max). You sh
+Class aa Warning: Around 378 words in the abstract instead of 300 (max). You sh
 ould rewrite your abstract on input line 76.
 
 IMPORTANT 
 
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 8
-2.
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/ts1txr.fd
-File: ts1txr.fd 2000/12/15 v3.1
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 82.
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 8
-2.
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 82.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/ot1txr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 8
-2.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 82.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/utxsya.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 8
-2.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 82.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/utxsyb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 8
-2.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 82.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/utxmia.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 8
-2.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 82.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/utxsyc.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for T1+txss on input line 8
-2.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 82.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/t1txss.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 16.41594pt on input line 82.
-LaTeX Font Info:    Font shape `T1/txss/b/n' in size <17.28> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 16.41594pt on input line 82.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 13.67995pt on input line 82.
-LaTeX Font Info:    Font shape `T1/txss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 13.67995pt on input line 82.
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 8
-2.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 82.
 
-(/home/ekaterina/.miktex/texmfs/install/tex/latex/txfonts/t1txtt.fd
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 8.54997pt on input line 82.
-LaTeX Font Info:    Font shape `T1/txss/b/n' in size <9> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 8.54997pt on input line 82.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <9> not available
@@ -798,44 +1089,16 @@ LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 8.54997pt on input line 82.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 10.40245pt on input line 84.
-LaTeX Font Info:    Font shape `T1/txss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/txss/bx/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 10.40245pt on input line 84.
 
-Underfull \hbox (badness 1248) in paragraph at lines 85--102
-\T1/txr/m/n/10 K2 time domain photometry. We analyzed flare frequency
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 85--102
-\T1/txr/m/n/10 distributions (FFDs) broken down by the stars' effective
- []
-
-
-Underfull \hbox (badness 1308) in paragraph at lines 85--102
-\T1/txr/m/n/10 temperatures $\OML/txmi/m/it/10 T[]$ \T1/txr/m/n/10 and ages. We
- found that flaring activity
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 85--102
-\T1/txr/m/n/10 proposed an empirical parametrization of the flaring-mass-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1{/home/ekaterina/.miktex/texmfs/data/pdftex/config/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 104--105
-\T1/txr/m/n/10 1 and illustrated in Figure 1. To characterize the stars in
- []
 
 <pics/clusters/openclusters_logage_vs_distance.png, id=15, 578.16pt x 433.62pt>
 
@@ -845,252 +1108,102 @@ File: pics/clusters/openclusters_logage_vs_distance.png Graphic file (type png)
 Package pdftex.def Info: pics/clusters/openclusters_logage_vs_distance.png  use
 d on input line 110.
 (pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <9> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 111.
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 115.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10> not available
 (Font)              Font shape `T1/txss/m/sl' tried instead on input line 115.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 115.
-(values/total_number_of_lcs.txt)
+
+(./values/total_number_of_lcs.txt)
 Underfull \hbox (badness 10000) in paragraph at lines 119--119
 [][][]$\T1/txtt/m/n/9 https : / / keplerscience . arc . nasa . gov /
  []
 
-
-Underfull \hbox (badness 5446) in paragraph at lines 117--120
-\T1/txr/m/n/10 it was subjected to substantial drift motion (spacecraft
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 117--120
-\T1/txr/m/n/10 roll, Van Cleve et al. 2016) and had an overall reduced
- []
-
 [2 <./pics/clusters/openclusters_logage_vs_distance.png>]
-(values/total_number_of_stars.txt)
+(./values/total_number_of_stars.txt)
 Underfull \hbox (badness 3701) in paragraph at lines 124--124
 \T1/txtt/m/n/9 com / ekaterinailin / flares-[]in-[]clusters-[]with-[]k2-[]ii$ \
 T1/txr/m/n/9 in the
  []
 
-(tables/table_ocs.tex)
+(./tables/table_ocs.tex)
 Overfull \hbox (2.5pt too wide) in paragraph at lines 131--132
  $[]$\T1/txr/m/n/10 . 
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 122--134
-\T1/txr/m/n/10 ascension and declination within 3 arcsec against the full
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 122--134
-\T1/txr/m/n/10 Collaboration et al. 2018a), or qualitative classifiers were
- []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 137--139
-\T1/txr/m/n/10 Collaboration et al. (2018a) to select 170 high confidence
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 140--142
-\T1/txr/m/n/10 Compared across different studies, Praesepe ($\OT1/txr/m/n/10 59
-0 \OMS/txsy/m/n/10  
+\T1/txr/m/n/10 Compared across dif-fer-ent stud-ies, Prae-sepe ($\OT1/txr/m/n/1
+0 590 \OMS/txsy/m/n/10 ^^@
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5302) has occurred while \output is active []
 
  [3]
-Underfull \hbox (badness 3701) in paragraph at lines 166--166
+Underfull \hbox (badness 3701) in paragraph at lines 163--163
 \T1/txtt/m/n/9 com / ekaterinailin / flares-[]in-[]clusters-[]with-[]k2-[]ii$ \
 T1/txr/m/n/9 in the
- []
-
-
-Underfull \hbox (badness 1303) in paragraph at lines 153--167
-\T1/txr/m/n/10 We determined $\OML/txmi/m/it/10 T[]$ \T1/txr/m/n/10 using broad
-band photometry from the
- []
-
-
-Underfull \hbox (badness 2564) in paragraph at lines 153--167
-\T1/txr/m/n/10 2015), $\OML/txmi/m/it/10 T[]$ \T1/txr/m/n/10 derived from Gaia 
-DR2 using the StarHorse
- []
-
-
-Underfull \hbox (badness 1231) in paragraph at lines 153--167
-\T1/txr/m/n/10 Boyajian et al. (2013) determined CTRs from a range of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--167
-\T1/txr/m/n/10 Finally, we plotted color-magnitude diagrams in all
- []
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 153--167
-\T1/txr/m/n/10 aforementioned colors, and flagged outliers from the main
  []
 
 <pics/clusters/Teff_spread_all.png, id=27, 1922.68312pt x 1619.29968pt>
 File: pics/clusters/Teff_spread_all.png Graphic file (type png)
 <use pics/clusters/Teff_spread_all.png>
 Package pdftex.def Info: pics/clusters/Teff_spread_all.png  used on input line 
-174.
+171.
 (pdftex.def)             Requested size: 1922.67845pt x 1619.29575pt.
 <pics/clusters/teff_R.png, id=28, 1240.635pt x 1436.36626pt>
 File: pics/clusters/teff_R.png Graphic file (type png)
 <use pics/clusters/teff_R.png>
-Package pdftex.def Info: pics/clusters/teff_R.png  used on input line 186.
+Package pdftex.def Info: pics/clusters/teff_R.png  used on input line 183.
 (pdftex.def)             Requested size: 531.38333pt x 615.21457pt.
 
-Overfull \hbox (7.85263pt too wide) in paragraph at lines 186--187
+Overfull \hbox (7.85263pt too wide) in paragraph at lines 183--184
  [][] 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+\T1/txr/m/n/10 We as-signed spec-tra to our tar-gets from the Spec-
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 198--199
+\T1/txr/m/n/10 MatchEmp[] (Yee et al. 2017) and the Flare-SpecPhot[] li-
+ []
+
 [4] [5 <./pics/clusters/Teff_spread_all.png>] [6 <./pics/clusters/teff_R.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-\T1/txr/m/n/10 We assigned spectra to our targets from the
+Underfull \hbox (badness 1038) in paragraph at lines 201--202
+\T1/txr/m/n/10 We de-vel-oped the open source soft-ware \T1/txtt/m/n/10 AltaiPo
+ny[] \T1/txr/m/n/10 as a
+ []
+
+(./values/total_number_of_detections.txt) (./values/sso_fraction.txt)
+(./values/total_number_of_flares.txt) [7]
+Underfull \hbox (badness 2538) in paragraph at lines 228--233
+\T1/txr/m/n/10 Multiband time-resolved ob-ser-va-tions of ac-tive M dwarfs
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 201--202
-\T1/txr/m/n/10 SpecMatchEmp[] (Yee et al. 2017) and the FlareSpecPhot[]
+Underfull \hbox (badness 1394) in paragraph at lines 228--233
+\T1/txr/m/n/10 have shown that ther-mal con-tin-uum flux ac-counts for the
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 201--202
-\T1/txr/m/n/10 mapped spectral type to effective temperature (Pecaut &
+Underfull \hbox (badness 1072) in paragraph at lines 228--233
+\T1/txr/m/n/10 ma-jor-ity of the en-ergy ra-di-ated by flares at op-ti-cal wave
+-
  []
 
-
-Underfull \hbox (badness 1708) in paragraph at lines 201--202
-\T1/txr/m/n/10 Mamajek 2013). We then combined $\OML/txmi/m/it/10 R[]$\T1/txr/m
-/n/10 , $\OML/txmi/m/it/10 T[]$\T1/txr/m/n/10 , and spectra
- []
-
-
-Underfull \hbox (badness 3482) in paragraph at lines 201--202
-\T1/txr/m/n/10 to projected bolometric luminosities $\OML/txmi/m/it/10 L[]$\T1/
-txr/m/n/10 , and projected
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 201--202
-\T1/txr/m/n/10 distribution at $\OML/txmi/m/it/10 T[]$ \T1/txr/m/n/10 over wave
-length to derive the flux per
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 204--205
-\T1/txr/m/n/10 We developed the open source software \T1/txtt/m/n/10 AltaiPony[
-] \T1/txr/m/n/10 as a
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 204--205
-\T1/txr/m/n/10 toolbox for statistical flare studies tailored but not limited
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 204--205
-\T1/txr/m/n/10 to time series observations obtained by Kepler, K2, and
- []
-
-
-Underfull \hbox (badness 2020) in paragraph at lines 204--205
-\T1/txr/m/n/10 analysis of flare samples. We used \T1/txtt/m/n/10 AltaiPony \T1
-/txr/m/n/10 to detect
- []
-
-
-Underfull \hbox (badness 3758) in paragraph at lines 204--205
-\T1/txr/m/n/10 that spans multiple orders of magnitude in energy. We
- []
-
-(values/total_number_of_detections.txt) (values/sso_fraction.txt)
-(values/total_number_of_flares.txt)
-Underfull \hbox (badness 2478) in paragraph at lines 207--219
-\T1/txtt/m/n/10 K2SC[] \T1/txr/m/n/10 (Aigrain et al. 2016) to remove instrumen
-tal and
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 207--219
-\T1/txr/m/n/10 After de-trending, the flare finder algorithm searched for
- []
-
-
-Underfull \hbox (badness 6559) in paragraph at lines 207--219
-\T1/txr/m/n/10 With the automated procedure we detected 6916 flare
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 207--219
-\T1/txr/m/n/10 candidates. However, the Kepler flare sample has shown
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 207--219
-\T1/txr/m/n/10 to be difficult to treat in a fully automated way. Without
- []
-
-
-Underfull \hbox (badness 3386) in paragraph at lines 207--219
-\T1/txr/m/n/10 manual vetting, the event samples remained significantly
- []
-
-
-Underfull \hbox (badness 1147) in paragraph at lines 221--223
-\T1/txr/m/n/10 For each candidate, flaring time, amplitude and equivalent
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Underfull \hbox (badness 2538) in paragraph at lines 231--236
-\T1/txr/m/n/10 Multiband time-resolved observations of active M dwarfs
- []
-
-
-Underfull \hbox (badness 7168) in paragraph at lines 231--236
-\T1/txr/m/n/10 have shown that thermal continuum flux accounts for
- []
-
-
-Underfull \hbox (badness 2913) in paragraph at lines 231--236
-\T1/txr/m/n/10 the majority of the energy radiated by flares at optical
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 247--251
-\T1/txr/m/n/10 and, analogously, for $\OML/txmi/m/it/10 ED$ \T1/txr/m/n/10 (Ger
-shberg 1972). We used and
- []
-
-
-Underfull \hbox (badness 3168) in paragraph at lines 272--276
-\T1/txr/m/n/10 The power law exponent determined for flare frequency
- []
-
-[8] (values/sso_fraction.txt) (tables/flares.tex)
-(values/total_number_of_flares.txt) (values/total_number_of_stars.txt)
-Underfull \hbox (badness 1067) in paragraph at lines 294--296
-\T1/txr/m/n/10 The core objective of this work was to quantify how the
- []
-
+(./values/sso_fraction.txt) [8] (./tables/flares.tex)
+(./values/total_number_of_flares.txt) (./values/total_number_of_stars.txt)
 <pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png, id=48, 903.375pt x 1409.265pt>
 
 File: pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png  used o
-n input line 306.
+n input line 303.
 (pdftex.def)             Requested size: 398.33858pt x 621.41176pt.
 <pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png, id=49, 903.375pt x 1409.26
 5pt>
@@ -1098,283 +1211,159 @@ File: pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png Graphic file (type png
 )
 <use pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png>
 Package pdftex.def Info: pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png  us
-ed on input line 314.
+ed on input line 311.
 (pdftex.def)             Requested size: 412.56496pt x 643.6035pt.
-(tables/powerlaw_SpT_wheatland.tex)
+
+(./tables/powerlaw_SpT_wheatland.tex)
 <pics/FFDs/beta_T_age_ED_wheatland.png, id=50, 578.16pt x 505.89pt>
 File: pics/FFDs/beta_T_age_ED_wheatland.png Graphic file (type png)
 <use pics/FFDs/beta_T_age_ED_wheatland.png>
 Package pdftex.def Info: pics/FFDs/beta_T_age_ED_wheatland.png  used on input l
-ine 336.
+ine 332.
 (pdftex.def)             Requested size: 256.0748pt x 224.05893pt.
-<pics/FA/FA_T_age_Ethresh.png, id=51, 578.16pt x 505.89pt>
-File: pics/FA/FA_T_age_Ethresh.png Graphic file (type png)
-<use pics/FA/FA_T_age_Ethresh.png>
-Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 344.
-(pdftex.def)             Requested size: 256.0748pt x 224.05893pt.
-
-Underfull \hbox (badness 1092) in paragraph at lines 351--357
-\T1/txr/m/n/10 Mondrik et al. (2019) found evidence of increased flaring
- []
-
 
 Underfull \vbox (badness 1521) has occurred while \output is active []
 
  [9]
-<pics/rotation/SpT_wise_rotation.png, id=55, 903.375pt x 1336.995pt>
+[10 <./pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>] [11 <./pics/FFDs/SpT_wi
+se_sample_ffd_energy_wheatland.png>]
+<pics/FA/FA_T_age_Ethresh.png, id=62, 578.16pt x 505.89pt>
+File: pics/FA/FA_T_age_Ethresh.png Graphic file (type png)
+<use pics/FA/FA_T_age_Ethresh.png>
+Package pdftex.def Info: pics/FA/FA_T_age_Ethresh.png  used on input line 352.
+(pdftex.def)             Requested size: 256.0748pt x 224.05893pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./pics/FFDs/beta_T_age_ED_wheatland.png>] [13]
+<pics/rotation/SpT_wise_rotation.png, id=71, 903.375pt x 1336.995pt>
 File: pics/rotation/SpT_wise_rotation.png Graphic file (type png)
 <use pics/rotation/SpT_wise_rotation.png>
 Package pdftex.def Info: pics/rotation/SpT_wise_rotation.png  used on input lin
-e 373.
+e 371.
 (pdftex.def)             Requested size: 445.00429pt x 658.62184pt.
 
 
-LaTeX Warning: Float too large for page by 20.57034pt on input line 376.
+LaTeX Warning: Float too large for page by 20.57034pt on input line 374.
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 378--383
-\T1/txr/m/n/10 with ages around 700 Myr, and comparable metallicities
+Underfull \hbox (badness 1264) in paragraph at lines 376--380
+\T1/txr/m/n/10 We ex-pected the flar-ing ac-tiv-ity in the Hyades and Prae-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-[11]
-
-LaTeX Warning: Text page 12 contains only floats.
-
-
-Overfull \vbox (21.36026pt too high) has occurred while \output is active []
-
-
-
-LaTeX Warning: Text page 12 contains only floats.
-
-
-Overfull \vbox (21.36026pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (7.36028pt too high) has occurred while \output is active []
-
-
-[12 <./pics/FFDs/SpT_wise_sample_ffd_ED_wheatland.png>]
-
-LaTeX Warning: Text page 13 contains only floats.
-
-
-Overfull \vbox (11.71149pt too high) has occurred while \output is active []
-
-
-
-LaTeX Warning: Text page 13 contains only floats.
-
-
-Overfull \vbox (11.71149pt too high) has occurred while \output is active []
-
-
-[13 <./pics/FFDs/SpT_wise_sample_ffd_energy_wheatland.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./pics/FFDs/beta_T_age_ED_wheatland.png> <./pics/FA/FA_T_age_Ethresh.png>
-] [15 <./pics/rotation/SpT_wise_rotation.png>]
-<pics/FFDs/beta_T_age_rotation_full.png, id=80, 794.97pt x 578.16pt>
+<pics/FFDs/beta_T_age_rotation_full.png, id=72, 794.97pt x 578.16pt>
 File: pics/FFDs/beta_T_age_rotation_full.png Graphic file (type png)
 <use pics/FFDs/beta_T_age_rotation_full.png>
 Package pdftex.def Info: pics/FFDs/beta_T_age_rotation_full.png  used on input 
-line 388.
+line 385.
 (pdftex.def)             Requested size: 523.5307pt x 380.7575pt.
-
-Underfull \hbox (badness 1281) in paragraph at lines 393--397
-\T1/txr/m/n/10 To further explore the dependence of the flaring-age-mass
- []
-
-<pics/lcs/m67_flare.png, id=81, 505.89pt x 361.35pt>
-File: pics/lcs/m67_flare.png Graphic file (type png)
-<use pics/lcs/m67_flare.png>
-Package pdftex.def Info: pics/lcs/m67_flare.png  used on input line 420.
-(pdftex.def)             Requested size: 256.0748pt x 182.91313pt.
-
-Underfull \hbox (badness 2846) in paragraph at lines 425--428
-\T1/txr/m/n/10 After the manual inspection of the younger clusters we
- []
-
-
-Underfull \hbox (badness 2961) in paragraph at lines 431--432
-\T1/txr/m/n/10 et al. 2013; Lurie et al. 2015; Lin et al. 2019; Raetz
- []
-
-
-Underfull \hbox (badness 2809) in paragraph at lines 431--432
-\T1/txr/m/n/10 limitations of the representation of FFDs by power law
- []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
-<pics/FFDs/discussion_FFDs.png, id=85, 722.7pt x 650.43pt>
+ [14 <./pics/FA/FA_T_age_Ethresh.png>] [15 <./pics/rotation/SpT_wise_rotation.p
+ng>]
+<pics/lcs/m67_flare.png, id=81, 505.89pt x 361.35pt>
+File: pics/lcs/m67_flare.png Graphic file (type png)
+<use pics/lcs/m67_flare.png>
+Package pdftex.def Info: pics/lcs/m67_flare.png  used on input line 417.
+(pdftex.def)             Requested size: 256.0748pt x 182.91313pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./pics/FFDs/beta_T_age_rotation_full.png>]
+<pics/FFDs/discussion_FFDs.png, id=87, 722.7pt x 650.43pt>
 File: pics/FFDs/discussion_FFDs.png Graphic file (type png)
 <use pics/FFDs/discussion_FFDs.png>
-Package pdftex.def Info: pics/FFDs/discussion_FFDs.png  used on input line 437.
+Package pdftex.def Info: pics/FFDs/discussion_FFDs.png  used on input line 434.
 
 (pdftex.def)             Requested size: 384.1122pt x 345.69888pt.
-<pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png, id=86, 578.16pt x 433.6
+<pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png, id=88, 578.16pt x 433.6
 2pt>
 File: pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png Graphic file (type 
 png)
 <use pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png>
 Package pdftex.def Info: pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png 
- used on input line 446.
+ used on input line 443.
 (pdftex.def)             Requested size: 256.0748pt x 192.05052pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./pics/FFDs/beta_T_age_rotation_full.png>]
-Underfull \hbox (badness 1237) in paragraph at lines 470--471
-\T1/txr/m/n/10 et al. (2013) and more resembled the rate for their most
- []
+ [17 <./pics/lcs/m67_flare.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<pics/FFDs/overview_alpha_literature.png, id=92, 650.43pt x 505.89pt>
+<pics/FFDs/overview_alpha_literature.png, id=93, 650.43pt x 505.89pt>
 File: pics/FFDs/overview_alpha_literature.png Graphic file (type png)
 <use pics/FFDs/overview_alpha_literature.png>
 Package pdftex.def Info: pics/FFDs/overview_alpha_literature.png  used on input
- line 476.
+ line 472.
 (pdftex.def)             Requested size: 256.0748pt x 199.17207pt.
-
-Underfull \hbox (badness 1147) in paragraph at lines 482--490
-\T1/txr/m/n/10 observations of eight UV Ceti stars. Shakhovskaya (1989)
- []
-
-
-Underfull \vbox (badness 1521) has occurred while \output is active []
-
- [18 <./pics/lcs/m67_flare.png>]
+ [18 <./pics/FFDs/discussion_FFDs.png>] (./values/total_number_of_lcs.txt)
+(./values/total_number_of_stars.txt) (./values/total_number_of_flares.txt)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [19 <./pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png> <./pics/FFDs/ove
+rview_alpha_literature.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./pics/FFDs/discussion_FFDs.png>] (values/total_number_of_lcs.txt)
-(values/total_number_of_stars.txt) (values/total_number_of_flares.txt)
-Underfull \hbox (badness 1038) in paragraph at lines 496--509
-\T1/txr/m/n/10 Our findings paint a picture of clear trends in the flaring
- []
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 496--509
-\T1/txr/m/n/10 Although Kepler and K2 data were already used in more
- []
-
-[20 <./pics/FFDs/EPIC211970427_long_vs_short_cadence_ffd.png> <./pics/FFDs/over
-view_alpha_literature.png>]
-Underfull \hbox (badness 1490) in paragraph at lines 509--514
-\T1/txr/m/n/8 of the University of Hawaii, the Pan-STARRS Project Office, the M
-ax-
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 509--514
-\T1/txr/m/n/8 Analysis Consortium (DPAC, $\T1/txtt/m/n/8 https : / / www . cosm
-os . esa . int / web / gaia /
- []
-
-
+ (./aa.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- (aa.bbl
+ [20]
 Underfull \hbox (badness 3657) in paragraph at lines 63--65
-[]\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saunders, N., et al. 2018, arXiv e-p
-rints,
+[]\T1/txr/m/n/8 Barentsen, G., Hedges, C., Saun-ders, N., et al. 2018, arXiv e-
+prints,
  []
 
-
-Underfull \hbox (badness 2753) in paragraph at lines 115--117
-[]\T1/txr/m/n/8 Bokeh Development Team. 2019, Bokeh: Python library for interac
-tive
- []
-
-[21] [22]) [23
+[21]) [22
 
 ]
-Underfull \hbox (badness 2809) in paragraph at lines 521--525
-\T1/txr/m/n/10 To match catalogs on RA and declination we used the
+Underfull \hbox (badness 2809) in paragraph at lines 517--521
+\T1/txr/m/n/10 To match cat-a-logs on RA and dec-li-na-tion we used the
  []
 
-
-Underfull \hbox (badness 2846) in paragraph at lines 521--525
-\T1/txr/m/n/10 For the studies with classifiers we assigned membership
- []
-
-<pics/appendix/membership_histograms.png, id=116, 1156.32pt x 1300.86pt>
+<pics/appendix/membership_histograms.png, id=113, 1156.32pt x 1300.86pt>
 File: pics/appendix/membership_histograms.png Graphic file (type png)
 <use pics/appendix/membership_histograms.png>
 Package pdftex.def Info: pics/appendix/membership_histograms.png  used on input
- line 583.
+ line 579.
 (pdftex.def)             Requested size: 523.5307pt x 588.97437pt.
-(tables/clusterparameters_appendix.tex
-LaTeX Font Info:    Font shape `T1/txr/b/n' in size <10> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 21.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 598--599
-\T1/txr/m/n/10 System Objects (SSO), which consequently produced
- []
+(./tables/clusterparameters_appendix.tex) (./values/mmle_alpha_energy.txt)
+(./values/mmle_alpha_ed.txt) (./values/MCMC_alpha_energy.txt)
+(./values/MCMC_alpha_ed.txt) [23
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 598--599
-\T1/txr/m/n/10 TargetPixelFiles (TPF) using \T1/txtt/m/n/10 lightkurve \T1/txr/
-m/n/10 (Lightkurve
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 601--602
-\T1/txr/m/n/10 maximized was given by the authors in Eq. (8) in their
- []
-
-(values/mmle_alpha_energy.txt) (values/mmle_alpha_ed.txt)
-(values/MCMC_alpha_energy.txt) (values/MCMC_alpha_ed.txt) [24
-
-] [25] [26 <./pics/appendix/membership_histograms.png>] [27]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
- (aa.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 614.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+] [24] [25 <./pics/appendix/membership_histograms.png>] [26]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 610.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 610.
+ (./aa.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 610.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 610.
  ) 
 Here is how much of TeX's memory you used:
- 11012 strings out of 482728
- 161432 string characters out of 2948687
- 592293 words of memory out of 3000000
- 26424 multiletter control sequences out of 15000+200000
- 638912 words of font info for 180 fonts, out of 3000000 for 9000
- 0 hyphenation exceptions out of 8191
- 46i,14n,49p,7194b,827s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/home/ekaterina/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/ek
-aterina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtcxr.pfb></home/ekat
-erina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtxmi.pfb></home/ekater
-ina/.miktex/texmfs/install/fonts/type1/public/txfonts/rtxr.pfb></home/ekaterina
-/.miktex/texmfs/install/fonts/type1/public/txfonts/rtxr.pfb></home/ekaterina/.m
-iktex/texmfs/install/fonts/type1/public/txfonts/t1xtt.pfb></home/ekaterina/.mik
-tex/texmfs/install/fonts/type1/public/txfonts/txex.pfb></home/ekaterina/.miktex
-/texmfs/install/fonts/type1/public/txfonts/txsy.pfb></home/ekaterina/.miktex/te
-xmfs/install/fonts/type1/public/txfonts/txsya.pfb></home/ekaterina/.miktex/texm
-fs/install/fonts/type1/urw/helvetic/uhvb8a.pfb></home/ekaterina/.miktex/texmfs/
-install/fonts/type1/urw/helvetic/uhvr8a.pfb></home/ekaterina/.miktex/texmfs/ins
-tall/fonts/type1/urw/helvetic/uhvr8a.pfb></home/ekaterina/.miktex/texmfs/instal
-l/fonts/type1/urw/times/utmb8a.pfb></home/ekaterina/.miktex/texmfs/install/font
-s/type1/urw/times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type
-1/urw/times/utmr8a.pfb></home/ekaterina/.miktex/texmfs/install/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on aa.pdf (27 pages, 5772844 bytes).
+ 10364 strings out of 494830
+ 143845 string characters out of 6177367
+ 397985 words of memory out of 5000000
+ 13396 multiletter control sequences out of 15000+600000
+ 109553 words of font info for 168 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 39i,14n,47p,7192b,753s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
+onts/t1xtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on aa.pdf (26 pages, 5751337 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
+ 175 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
